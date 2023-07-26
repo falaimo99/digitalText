@@ -1,0 +1,7 @@
+Include/
+Lib/
+Lib\site-packages/
+Scripts/
+share/
+pyvenv.cfg
+data/vite-di-artiste-eccellenti.txt
