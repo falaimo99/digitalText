@@ -1,0 +1,64 @@
+<listPerson type='real'>
+    
+    <!-- base structure for any person
+    
+    <personGrp>
+    
+    </personGrp>
+
+    <person xml:id'#initials of the name or names, surname without special characters (only ASCII)'>
+        <persName>
+            <foreName>
+            
+            </foreName>
+            <surname>
+            
+            </surname>
+            <rolename>
+            
+            </rolename>
+        </persName>
+        <gender>
+        
+        </gender>
+
+            
+
+        <birth></birth>
+        <death></death>
+
+
+        <listRelation>
+            <relation name='' active='' passive='' mutual=''>
+                
+            </relation>
+        </listRelation>
+            
+    </person> -->
+
+    <person xml:id='evigeelebrun'>
+        <persName>
+            <foreName>
+                Élisabeth
+            </foreName>
+            <surname>
+                Vigée Le Brun
+            </surname>
+        </persName>
+        <gender value='W'>
+        </gender>
+
+        <listRelation>
+            <relation name='' active='' passive='' mutual=''>
+                
+            </relation>
+        </listRelation>    
+    </person>
+
+</listPerson>
+
+
+<listPerson type='fictional'>
+
+</listPerson>
+
