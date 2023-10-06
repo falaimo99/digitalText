@@ -63,10 +63,8 @@
     </encodingDesc>
     <revisionDesc>
         <list>
-            <item>
-                <date when="1989-04-12">12 Apr 89</date> Last checked by CAC</item>
-            <item>
-            <date when="1989-03-01">1 Mar 89</date> LB made new file</item>
+            <item> <date when="1989-04-12">12 Apr 89</date> Last checked by CAC</item>
+            <item> <date when="1989-03-01">1 Mar 89</date> LB made new file</item>
         </list>
     </revisionDesc>
 </teiHeader>
