@@ -15,145 +15,141 @@
                                 Già nell’antica Grecia esistevano artiste donne, che hanno decorato palazzi e lasciato tracce del loro lavoro. Durante il Medioevo, per lo più considerato un periodo nel quale le donne non godevano di alcun rilievo nella società, molte opere sono nate grazie alla manualità femminile, che si poteva esprimere soprattutto nei conventi. L’esplosione dell’arte al femminile risale però al Rinascimento, quando alcune artiste sono arrivate a occupare posti di rilievo nelle corti più prestigiose d’Europa godendo di una fama pari ai propri colleghi uomini. Bisogna attendere la fine dell’Ottocento per vedere alcune artiste esporre nelle mostre accanto a pittori uomini: spesso si tratta di compagne di artisti famosi, altre volte di donne capaci di imporre la propria personalità oltre al proprio talento. Sono le apripista di un fenomeno che nel corso del XX secolo diventerà inarrestabile: le artiste firmeranno i manifesti delle avanguardie storiche e saranno sempre più protagoniste, finché nella seconda parte del secolo supereranno i propri colleghi in quanto a fama e quotazioni sul mercato. Le vite de’ più eccellenti pittori, scultori e architettori è il titolo della celeberrima opera di Giorgio Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costantino D’Orazio rende onore alle tante ‘eccellenti artiste’ di cui i canoni si sono troppo spesso dimenticati.
                         </abstract>
                         <particDesc>
-                                <listPerson>
+                                <listPerson type="fictional">
                                         <person xml:id="LindaNoch">
                                                 <persName type="pers_citata" sameAs="https://www.wikidata.org/wiki/Q434478"> Linda Nochlin </persName>
                                         </person>
-                                        <!--Chapter RIvoluzionarie-->
-                                        <person xml:id='RCarriera' sameAs='https://viaf.org/viaf/69054232/#Carriera,_Rosalba,_1675-1757'>
-                                                <persName>
-                                                        <forename>
-                                                                Rosalba            
-                                                        </forename>
-                                                        <surname>
-                                                                Carriera            
-                                                        </surname>
-            
-                                                </persName>
+                                        <!--Chapter Rivoluzionarie-->
+                                        <!--introduzione-->
+                                        <person xml:id="RCarriera">
+                                                <persName>Rosalba Carriera</persName>
                                         </person>
-                                        <person xml:id='AGentileschi' sameAs='https://viaf.org/viaf/309780277/#Artemisia_Gentileschi'>
-                                                <persName>
-                                                        <forename>
-                                                                Artemisia            
-                                                        </forename>
-                                                        <surname>
-                                                                Gentileschi            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="AKauffmann">
+                                                <persName>Angelica Kauffmann</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="AKauffmann">
+                                                <persName>Angelica Kauffmann</persName>
+                                        </person><person xml:id="AGentileschi">
+                                                <persName>Artemisia Gentileschi</persName>
+                                        </person><person xml:id="PdeRossi">
+                                                <persName>Properzia de’ Rossi</persName>
+                                        </person><person xml:id="Caravaggio">
+                                                <persName>Caravaggio</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="MMoser">
+                                                <persName>Mary Moser</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="JHFussli">
+                                                <persName>Johann Heinrich Fussli</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="CofMecklenburgStrelitz">
+                                                <persName>Charlotte of Mecklenburg-Strelitz</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="JReynolds">
+                                                <persName>Joshua Reynolds</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="HLooyd">
+                                                <persName>Hugh Looyd</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="RCosway">
+                                                <persName>Richard Cosway</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <!--Gli abiti di élisabeth Vigéé-Le Brun-->
+                                        <person xml:id="DDiderot">
+                                                <persName>Denis Diderot</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="JleRonddAlembert">
+                                                <persName>Jean-Baptiste le Rond d'Alembert</persName>
                                         </person>
-                                        <person xml:id='AKauffmann' sameAs='https://viaf.org/viaf/95148968/#Kauffmann,_Angelica,_1741-1807'>
-                                                <persName>
-                                                        <forename>
-                                                                Angelica            
-                                                        </forename>
-                                                        <surname>
-                                                                Kauffmann            
-                                                        </surname>
-            
-                                                </persName>
+                                        <person xml:id="EVigeeLeBrun">
+                                                <persName>Èlisabeth Vigée-Le Brun</persName>
+                                        </person>
+                                        <person xml:id="MAntoniette">
+                                                <persName>Marie Antoniette</persName>
+                                        </person>
+                                        <person xml:id="AVallayerCoster">
+                                                <persName>Anne Vallayer-Coster </persName>
+                                        </person>
+                                        <person xml:id="ALabilleGuiard">
+                                                <persName>Adèlaide Labille-Guiard </persName>
+                                        </person>
+                                        <person xml:id="JBMPierre">
+                                                <persName>Jean-Baptiste-Marie Pierre </persName>
+                                        </person>
+                                        <person xml:id="JLeBrun ">
+                                                <persName>Julie Le Brun </persName>
+                                        </person>
+                                        <person xml:id="HRobert">
+                                                <persName>Hubert Robert</persName>
+                                        </person>
+                                        <person xml:id="CAPorporati">
+                                                <persName>Carlo Antonio Porporati</persName>
+                                        </person>
+                                        <person xml:id="CtheGreat">
+                                                <persName>Catherine the Great</persName>
+                                        </person>
+                                        <person xml:id="CBonaparte">
+                                                <persName>Carolina Bonaparte</persName>
                                         </person>
                                         
                                 </listPerson>
+                                <listPlace>
+                                        <!--Chapter Rivoluzionarie-->
+                                        <!--introduzione-->
+                                        <place xml:id="London">
+                                                <placeName>London</placeName>
+                                        </place>
+                                        <place xml:id="GreatBritain">
+                                                <placeName>Great Britain</placeName>
+                                        </place>
+                                        <place xml:id="FrogmoreHouse">
+                                                <placeName>Frogmore House</placeName>
+                                        </place>
+                                        <place xml:id="WindsorCastle">
+                                                <placeName>Windsor Castle</placeName>
+                                        </place>  
+                                        <!--Gli abiti di élisabeth Vigéé-Le Brun-->
+                                        <place xml:id="France">
+                                                <placeName>France</placeName>
+                                        </place> 
+                                        <place xml:id="PalaceofVersailles">
+                                                <placeName>Palace of Versailles</placeName>
+                                        </place> 
+                                        <place xml:id="Italy">
+                                                <placeName>Italy</placeName>
+                                        </place> 
+                                        <place xml:id="Turin">
+                                                <placeName>Turin</placeName>
+                                        </place> 
+                                        <place xml:id="Bologna">
+                                                <placeName>Bologna</placeName>
+                                        </place> 
+                                        <place xml:id="Florence">
+                                                <placeName>Florence</placeName>
+                                        </place> 
+                                        <place xml:id="Naples">
+                                                <placeName>Naples</placeName>
+                                        </place> 
+                                        <place xml:id="Milan">
+                                                <placeName>Milan</placeName>
+                                        </place> 
+                                        <place xml:id="Venice">
+                                                <placeName>Venice</placeName>
+                                        </place> 
+                                        <place xml:id="Vienna">
+                                                <placeName>Vienna</placeName>
+                                        </place>
+                                        <place xml:id="Russia">
+                                                <placeName>Russia</placeName>
+                                        </place>
+                                        <place xml:id="Venice">
+                                                <placeName>Venice</placeName>
+                                        </place>
+                                                                           
+                                </listPlace>
+                                <list type="work">
+                                        <item></item>
+                                </list>
                         </particDesc>
                 </profileDesc>
                 <publicationStmt>

@@ -1,0 +1,20 @@
+<listPerson type='real'>
+    <person xml:id="RCosway">
+        <persName>Richard Cosway</persName>
+    </person>   
+</listPerson>
+
+
+<listPerson type='fictional'>
+
+</listPerson>
+
+<listPlace>
+    <place xml:id="London">
+        <placeName>London</placeName>
+    </place>
+</listPlace>
+
+<list type ="work">
+    <item xml:id=""></item>
+</list>
