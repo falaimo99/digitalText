@@ -29,11 +29,14 @@
                                         </person>
                                         <person xml:id="AKauffmann">
                                                 <persName>Angelica Kauffmann</persName>
-                                        </person><person xml:id="AGentileschi">
+                                        </person>
+                                        <person xml:id="AGentileschi">
                                                 <persName>Artemisia Gentileschi</persName>
-                                        </person><person xml:id="PdeRossi">
+                                        </person>
+                                        <person xml:id="PdeRossi">
                                                 <persName>Properzia de’ Rossi</persName>
-                                        </person><person xml:id="Caravaggio">
+                                        </person>
+                                        <person xml:id="Caravaggio">
                                                 <persName>Caravaggio</persName>
                                         </person>
                                         <person xml:id="MMoser">
@@ -91,7 +94,130 @@
                                         <person xml:id="CBonaparte">
                                                 <persName>Carolina Bonaparte</persName>
                                         </person>
-                                        
+                                        <!-- Le bestie di Rosa Bonheur -->
+                                        <person xml:id="RBonheur">
+                                                <persName>Rose Bonheur</persName>
+                                        </person>
+                                        <person xml:id="OdGouges">
+                                                <persName>Olympe de Gouges</persName>
+                                        </person>
+                                        <person xml:id="RayBonheur">
+                                                <persName>Raymond Bonheur</persName>
+                                        </person>
+                                        <person xml:id="BBill">
+                                                <persName>Buffalo Bill</persName>
+                                        </person>
+                                        <person xml:id="JLDavid">
+                                                <persName>Jacques-Louis David</persName>
+                                        </person>
+                                        <person xml:id="GCourbet">
+                                                <persName>Gustave Courbet</persName>
+                                        </person>
+                                        <!--I capelli di Berthe Morisot -->
+                                        <person xml:id="EMorisot">
+                                                <persName>Edma Morisot</persName>
+                                        </person>
+                                        <person xml:id="PPRubens">
+                                                <persName>Peter Paul Rubens</persName>
+                                        </person>
+                                        <person xml:id="HFantin-Latour">
+                                                <persName>Henri Fantin-Latour </persName>
+                                        </person>
+                                        <person xml:id="EManet">
+                                                <persName>Eduard Manet</persName>
+                                        </person>
+                                        <person xml:id="CBaudelaire">
+                                                <persName>Charles Baudelaire</persName>
+                                        </person>
+                                        <person xml:id="EZola">
+                                                <persName>Emile Zola</persName>
+                                        </person>
+                                        <person xml:id="EGonzales">
+                                                <persName>Eva Gonzalès</persName>
+                                        </person>
+                                        <person xml:id="PARenoir">
+                                                <persName>Pierre-Auguste Renoir</persName>
+                                        </person>
+                                        <person xml:id="EDegas">
+                                                <persName>Edgar Degas</persName>
+                                        </person>
+                                        <person xml:id="EManet">
+                                                <persName>Eugéne Manet</persName>
+                                        </person>
+                                        <person xml:id="Nadar">
+                                                <persName>Nadar</persName>
+                                        </person>
+                                        <person xml:id="CPisarro">
+                                                <persName>Camille Pisarro</persName>
+                                        </person>
+                                        <person xml:id="ASisley">
+                                                <persName>Alfred Sisley</persName>
+                                        </person>
+                                        <person xml:id="PdeChavannes">
+                                                <persName>Puvis de Chavannes</persName>
+                                        </person>
+                                        <person xml:id="SMallarme">
+                                                <persName>Stéphane Mallarmé</persName>
+                                        </person>
+                                        <!--Le carte di Mary Cassat -->
+                                        <person xml:id="MCassat">
+                                                <persName>Mary Cassat</persName>
+                                        </person>
+                                        <person xml:id="TCole">
+                                                <persName>Thomas Cole</persName>
+                                        </person>
+                                        <person xml:id="GInness">
+                                                <persName>George Inness</persName>
+                                        </person>
+                                        <person xml:id="DVelazquez">
+                                                <persName>Diego Velázquez</persName>
+                                        </person>
+                                        <person xml:id="LCassat">
+                                                <persName>Lydia Cassat</persName>
+                                        </person>
+                                        <person xml:id="JADIngres">
+                                                <persName>Jean Auguste Dominique Ingres</persName>
+                                        </person>
+                                        <person xml:id="JSargent">
+                                                <persName>John Sargent</persName>
+                                        </person>
+                                        <person xml:id="LEHavemeyer ">
+                                                <persName>Louis Elder Havemeyer </persName>
+                                        </person>
+                                        <!--La passione di Camille Claudel -->
+                                        <person xml:id="CClaudel">
+                                                <persName>Camille Claudel</persName>
+                                        </person>
+                                        <person xml:id="LACCerveaux"><!--madre di lei-->
+                                                <persName>Louise Athanaïse Cécile Cerveaux</persName>
+                                        </person>
+                                        <person xml:id="FColarossi ">
+                                                <persName>Filippo Colarossi </persName>
+                                        </person>
+                                        <person xml:id="JLipscomb">
+                                                <persName>Jessie Lipscomb</persName>
+                                        </person>
+                                        <person xml:id="ASinger">
+                                                <persName>Amy Singer</persName>
+                                        </person>
+                                        <person xml:id="CMonet">
+                                                <persName>Claude Monet</persName>
+                                        </person>
+                                        <person xml:id="VVanGogh">
+                                                <persName>Vincent Van Gogh</persName>
+                                        </person>
+                                        <person xml:id="HMatisse">
+                                                <persName>Henri Matisse</persName>
+                                        </person>
+                                        <person xml:id="OMirbeau">
+                                                <persName>Octave Mirbeau</persName>
+                                        </person>
+                                        <person xml:id="RBeuret">
+                                                <persName>Rose Beuret</persName>
+                                        </person>
+                                        <person xml:id="PClaudel">
+                                                <persName>Paul Claudel</persName>
+                                        </person>                                        
                                 </listPerson>
                                 <listPlace>
                                         <!--Chapter Rivoluzionarie-->
@@ -145,6 +271,63 @@
                                         <place xml:id="Venice">
                                                 <placeName>Venice</placeName>
                                         </place>
+                                        <!-- Le bestie di Rosa Bonheur -->
+                                        <place xml:id="Bordeux">
+                                                <placeName>Bordeux</placeName>
+                                        </place>
+                                        <place xml:id="LouvreMuseum">
+                                                <placeName>Louvre Museum</placeName>
+                                        </place>
+                                        <place xml:id="Bordeux">
+                                                <placeName>Bordeux</placeName>
+                                        </place>
+                                        <place xml:id="By">
+                                                <placeName>By</placeName>
+                                        </place>
+                                        <!--I capelli di Berthe Morisot -->
+                                        <place xml:id="Batignolles">
+                                                <placeName>Batignolles, Neighbourhood in Paris</placeName>
+                                        </place>
+                                        <place xml:id="Passy">
+                                                <placeName>Passy</placeName>
+                                        </place>
+                                        <!--Le carte di Mary Cassat -->
+                                        <place xml:id="Amrica">
+                                                <placeName>America</placeName>
+                                        </place>
+                                        <place xml:id="Pittsburgh">
+                                                <placeName>Pittsburgh</placeName>
+                                        </place>
+                                        <place xml:id="Hudson River">
+                                                <placeName>Hudson River</placeName>
+                                        </place>
+                                        <place xml:id="Seine">
+                                                <placeName>Seine</placeName>
+                                        </place>
+                                        <place xml:id="BoulevarddesCapucins">
+                                                <placeName>Boulevard des Capucins</placeName>
+                                        </place>
+                                        <place xml:id="New York City">
+                                                <placeName>New York City</placeName>
+                                        </place>                                        
+                                        <place xml:id="Washington">
+                                                <placeName>Washington</placeName>
+                                        </place>
+                                        <place xml:id="Philadelphia">
+                                                <placeName>Philadelphia</placeName>
+                                        </place>
+                                        <place xml:id="Boston">
+                                                <placeName>Boston</placeName>
+                                        </place>
+                                        <!--La passione di Camille Claudel -->
+                                        <place xml:id="Montparnasse ">
+                                                <placeName>Montparnasse, Neighbourhood in Paris </placeName>
+                                        </place>
+                                        <place xml:id="Ville-évrard">
+                                                <placeName>Hôpital Ville-évrard </placeName>
+                                        </place>
+
+
                                                                            
                                 </listPlace>
                                 <list type="work">
