@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:viaf="https://viaf.org/viaf/">
-
+<!--TAGGARE ANCHE GLI EVENTI (EX. SALONI IN CUI ESPONGONO???)-->
+<!--TAGGARE ANCHE MOVIMENTI ARTISTICI??-->
 
 <teiHeader xml:lang="it">
         <fileDesc>
@@ -15,10 +16,12 @@
                                 Già nell’antica Grecia esistevano artiste donne, che hanno decorato palazzi e lasciato tracce del loro lavoro. Durante il Medioevo, per lo più considerato un periodo nel quale le donne non godevano di alcun rilievo nella società, molte opere sono nate grazie alla manualità femminile, che si poteva esprimere soprattutto nei conventi. L’esplosione dell’arte al femminile risale però al Rinascimento, quando alcune artiste sono arrivate a occupare posti di rilievo nelle corti più prestigiose d’Europa godendo di una fama pari ai propri colleghi uomini. Bisogna attendere la fine dell’Ottocento per vedere alcune artiste esporre nelle mostre accanto a pittori uomini: spesso si tratta di compagne di artisti famosi, altre volte di donne capaci di imporre la propria personalità oltre al proprio talento. Sono le apripista di un fenomeno che nel corso del XX secolo diventerà inarrestabile: le artiste firmeranno i manifesti delle avanguardie storiche e saranno sempre più protagoniste, finché nella seconda parte del secolo supereranno i propri colleghi in quanto a fama e quotazioni sul mercato. Le vite de’ più eccellenti pittori, scultori e architettori è il titolo della celeberrima opera di Giorgio Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costantino D’Orazio rende onore alle tante ‘eccellenti artiste’ di cui i canoni si sono troppo spesso dimenticati.
                         </abstract>
                         <particDesc>
-                                <listPerson type="fictional">
+                                <listPerson type="real">
                                         <person xml:id="LindaNoch">
                                                 <persName type="pers_citata" sameAs="https://www.wikidata.org/wiki/Q434478"> Linda Nochlin </persName>
                                         </person>
+
+                                        
                                         <!--Chapter Rivoluzionarie-->
                                         <!--introduzione-->
                                         <person xml:id="RCarriera">
@@ -57,6 +60,7 @@
                                         <person xml:id="RCosway">
                                                 <persName>Richard Cosway</persName>
                                         </person>
+
                                         <!--Gli abiti di élisabeth Vigéé-Le Brun-->
                                         <person xml:id="DDiderot">
                                                 <persName>Denis Diderot</persName>
@@ -113,6 +117,7 @@
                                         <person xml:id="GCourbet">
                                                 <persName>Gustave Courbet</persName>
                                         </person>
+
                                         <!--I capelli di Berthe Morisot -->
                                         <person xml:id="EMorisot">
                                                 <persName>Edma Morisot</persName>
@@ -184,6 +189,7 @@
                                         <person xml:id="LEHavemeyer ">
                                                 <persName>Louis Elder Havemeyer </persName>
                                         </person>
+
                                         <!--La passione di Camille Claudel -->
                                         <person xml:id="CClaudel">
                                                 <persName>Camille Claudel</persName>
@@ -217,7 +223,58 @@
                                         </person>
                                         <person xml:id="PClaudel">
                                                 <persName>Paul Claudel</persName>
-                                        </person>                                        
+                                        </person>  
+
+
+                                        <!--Chapter Libere-->
+                                        <!--Il fascino di Suzanne Valadon-->
+                                        <person xml:id="SValadon">
+                                                <persName>Suzanne Valadon</persName>
+                                        </person> 
+                                        <person xml:id="MUtrillo">
+                                                <persName>Maurice Utrillo</persName>
+                                        </person> 
+                                        <person xml:id="AUtter">
+                                                <persName>André Utter</persName>
+                                        </person> 
+                                        <person xml:id="SValadon">
+                                                <persName>Suzanne Valadon</persName>
+                                        </person> 
+                                        <person xml:id="GBraque">
+                                                <persName>Georges Braque</persName>
+                                        </person> 
+                                        <person xml:id="GSeurat">
+                                                <persName>Georges Seurat</persName>
+                                        </person> 
+                                        <person xml:id="AModigliani">
+                                                <persName>Amedeo Modigliani</persName>
+                                        </person> 
+                                        <person xml:id="GdeChirico">
+                                                <persName>Giorgio de Chirico</persName>
+                                        </person> 
+                                        <person xml:id="HdeToulouse-Lautrec">
+                                                <persName>Henri de Toulouse-Lautrec</persName>
+                                        </person> 
+                                        <person xml:id="ESatie">
+                                                <persName>Erik Satie</persName>
+                                        </person>
+                                        <person xml:id="ESatie">
+                                                <persName>Paul Mousis</persName>
+                                        </person>
+                                        <person xml:id="BWeill">
+                                                <persName>Berthe Weill</persName>
+                                        </person>
+                                        <person xml:id="LValore">
+                                                <persName>Luci Valore</persName>
+                                        </person>
+                                        <person xml:id="PPicasso">
+                                                <persName>Pablo Picasso</persName>
+                                        </person>                                      
+                                </listPerson>
+                                <listPerson type='fictional'>
+                                        <person xml:id="Susanna"> <!--personaggio biblico-->
+                                                <persName>Sussanna, biblic character</persName>
+                                        </person> 
                                 </listPerson>
                                 <listPlace>
                                         <!--Chapter Rivoluzionarie-->
@@ -271,6 +328,7 @@
                                         <place xml:id="Venice">
                                                 <placeName>Venice</placeName>
                                         </place>
+
                                         <!-- Le bestie di Rosa Bonheur -->
                                         <place xml:id="Bordeux">
                                                 <placeName>Bordeux</placeName>
@@ -284,6 +342,7 @@
                                         <place xml:id="By">
                                                 <placeName>By</placeName>
                                         </place>
+
                                         <!--I capelli di Berthe Morisot -->
                                         <place xml:id="Batignolles">
                                                 <placeName>Batignolles, Neighbourhood in Paris</placeName>
@@ -291,6 +350,7 @@
                                         <place xml:id="Passy">
                                                 <placeName>Passy</placeName>
                                         </place>
+
                                         <!--Le carte di Mary Cassat -->
                                         <place xml:id="Amrica">
                                                 <placeName>America</placeName>
@@ -319,6 +379,7 @@
                                         <place xml:id="Boston">
                                                 <placeName>Boston</placeName>
                                         </place>
+
                                         <!--La passione di Camille Claudel -->
                                         <place xml:id="Montparnasse ">
                                                 <placeName>Montparnasse, Neighbourhood in Paris </placeName>
@@ -326,6 +387,39 @@
                                         <place xml:id="Ville-évrard">
                                                 <placeName>Hôpital Ville-évrard </placeName>
                                         </place>
+
+
+                                        <!--Chapter Libere-->
+                                        <!--introduzione-->
+                                        <place xml:id="England">
+                                                <placeName>England</placeName>
+                                        </place>
+                                        <place xml:id="UK">
+                                                <placeName>United Kingdom</placeName>
+                                        </place>
+                                        <place xml:id="USA">
+                                                <placeName>United States of America</placeName>
+                                        </place>
+                                        <place xml:id="SouthAmreica">
+                                                <placeName>South Amreica</placeName>
+                                        </place>
+
+                                        <!--Il fascino di Suzanne Valadon-->
+                                        <place xml:id="RueCortot">
+                                                <placeName>Rue Cortot</placeName>
+                                        </place>
+                                        <place xml:id="Montmartre">
+                                                <placeName>Rue Cortot</placeName>
+                                        </place>
+                                        <place xml:id="SainteAnneHospitalCenter">
+                                                <placeName>Sainte-Anne Hospital Center</placeName>
+                                        </place>
+
+                                        <!--Lo stile di Tamara de Lempicka-->
+
+
+                                        
+
 
 
                                                                            
