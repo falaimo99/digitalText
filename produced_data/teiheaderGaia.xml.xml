@@ -269,7 +269,50 @@
                                         </person>
                                         <person xml:id="PPicasso">
                                                 <persName>Pablo Picasso</persName>
-                                        </person>                                      
+                                        </person>
+
+                                        <!--Lo stile di Tamara de Lempicka-->
+                                        <person xml:id="TdeLempicka">
+                                                <persName>Tamara de Lempicka</persName>
+                                        </person> 
+                                        <person xml:id="GKlimt">
+                                                <persName>Gustav Klimt</persName>
+                                        </person>
+                                        <person xml:id="Pontormo">
+                                                <persName>Pontormo</persName>
+                                        </person>
+                                        <person xml:id="GDAnnunzio">
+                                                <persName>Gabriele D'Annunzio</persName>
+                                        </person>
+                                        <person xml:id="SDali">
+                                                <persName>Salvador Dalí</persName>
+                                        </person>
+                                        <person xml:id="UBoccioni">
+                                                <persName>Umberto Boccioni</persName>
+                                        </person>
+                                        <person xml:id="TLempichi">
+                                                <persName>Tadeusz Lempichi</persName>
+                                        </person>
+                                        <person xml:id="IPerrot">
+                                                <persName>Ira Perrot</persName>
+                                        </person>
+                                        <person xml:id="FTMarinetti">
+                                                <persName>Filippo Tommaso Marinetti</persName>
+                                        </person>
+                                        <person xml:id="BKuffner">
+                                                <persName>Baron Kuffner</persName>
+                                        </person>
+                                        <person xml:id="AHitler">
+                                                <persName>Adolf Hitler</persName>
+                                        </person>
+                                        <person xml:id="ABlondel">
+                                                <persName>Alain Blondel</persName>
+                                        </person>
+                                        <person xml:id="VMContreras">
+                                                <persName>Victor Manuel Contreras</persName>
+                                        </person>
+
+                                            
                                 </listPerson>
                                 <listPerson type='fictional'>
                                         <person xml:id="Susanna"> <!--personaggio biblico-->
@@ -416,6 +459,116 @@
                                         </place>
 
                                         <!--Lo stile di Tamara de Lempicka-->
+                                        <place xml:id="SaintPetersburg">
+                                                <placeName>Saint Petersburg</placeName>
+                                        </place>
+                                        <place xml:id="LakeGarda">
+                                                <placeName>Lake Garda</placeName>
+                                        </place>
+                                        <place xml:id="Vittoriale">
+                                                <placeName>Vittoriale degli Italiani</placeName>
+                                        </place>
+                                        <place xml:id="Brescia">
+                                                <placeName>Brescia</placeName>
+                                        </place>
+                                        <place xml:id="Parma">
+                                                <placeName>Parma</placeName>
+                                        </place>
+                                        <place xml:id="Cuernavaca">
+                                                <placeName>Cuernavaca</placeName>
+                                        </place>
+
+                                        <!--Gli esperimenti di Sonia Terk Delaunay -->
+                                        <place xml:id="Poland">
+                                                <placeName>Poland</placeName>
+                                        </place>  
+                                        <place xml:id="Soviet Union">
+                                                <placeName>Soviet Union</placeName>
+                                        </place>  
+                                        <place xml:id="Kazan">
+                                                <placeName>Soviet Union</placeName>
+                                        </place> 
+                                        <place xml:id="Odessa">
+                                                <placeName>Soviet Union</placeName>
+                                        </place>
+                                        <place xml:id="Kaunas">
+                                                <placeName>Soviet Union</placeName>
+                                        </place>
+                                        <place xml:id="Finland">
+                                                <placeName>Finland</placeName>
+                                        </place>
+                                        <place xml:id="Germany">
+                                                <placeName>Germany</placeName>
+                                        </place>
+                                        <place xml:id="Austria">
+                                                <placeName>Austria</placeName>
+                                        </place>
+                                        <place xml:id="Switzerland">
+                                                <placeName>Switzerland</placeName>
+                                        </place>
+                                        <place xml:id="Karlsruhe">
+                                                <placeName>Karlsruhe</placeName>
+                                        </place>
+                                        <place xml:id="Madrid">
+                                                <placeName>Karlsruhe</placeName>
+                                        </place>
+                                        <place xml:id="BoulevardMalesherbes">
+                                                <placeName>Boulevard Malesherbes</placeName>
+                                        </place>
+                                        <place xml:id="ChampsElysees">
+                                                <placeName>Champs Elysées</placeName>
+                                        </place>
+                                        
+
+
+                                        <!--Gli esperimenti di Sonia Terk Delaunay --> 
+                                        <person xml:id="GDali"><!-- nel testo come gala éluard-->
+                                                <persName>Gala Dalí </persName>
+                                        </person>
+                                        <person xml:id="NGoncharova">
+                                                <persName>Natalia Goncharova</persName> <!--Natal'ja Goncarova-->
+                                        </person>
+                                        <person xml:id="ARaphael">
+                                                <persName>Antonietta Raphaël</persName>
+                                        </person>
+                                        <person xml:id="SDelaunay">
+                                                <persName>Sonia Delaunay</persName> <!--anche sonia Stern-->
+                                        </person>
+                                        <person xml:id="HTerk">
+                                                <persName>Henri Terk</persName>
+                                        </person>
+                                        <person xml:id="RDelaunay">
+                                                <persName>Robert Delaunay</persName>
+                                        </person>
+                                        <person xml:id="MEChevreul">
+                                                <persName>Miche-Eugène Chevreul</persName>
+                                        </person>
+                                        <person xml:id="TTzara">
+                                                <persName>Tristan Tzara</persName>
+                                        </person>
+                                        <person xml:id="PSoupault">
+                                                <persName>Philippe Soupault</persName>
+                                        </person>
+                                        <person xml:id="MMatyushin">
+                                                <persName>Mikhail Matyushin</persName>
+                                        </person>
+                                        <person xml:id="DEllington">
+                                                <persName>Duke Ellington</persName>
+                                        </person>
+                                        <person xml:id="LArmstron">
+                                                <persName>Luis Armstron</persName>
+                                        </person>
+                                        <person xml:id="CChanel">
+                                                <persName>Coco Chanel</persName>
+                                        </person>
+
+                                
+
+                                        
+                                         
+
+                                        
+                                        
 
 
                                         
