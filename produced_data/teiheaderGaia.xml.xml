@@ -312,11 +312,177 @@
                                                 <persName>Victor Manuel Contreras</persName>
                                         </person>
 
+                                        <!--Gli esperimenti di Sonia Terk Delaunay --> 
+                                        <person xml:id="GDali"><!-- nel testo come gala éluard-->
+                                                <persName>Gala Dalí </persName>
+                                        </person>
+                                        <person xml:id="NGoncharova">
+                                                <persName>Natalia Goncharova</persName> <!--Natal'ja Goncarova-->
+                                        </person>
+                                        <person xml:id="ARaphael">
+                                                <persName>Antonietta Raphaël</persName>
+                                        </person>
+                                        <person xml:id="SDelaunay">
+                                                <persName>Sonia Delaunay</persName> <!--anche sonia Stern-->
+                                        </person>
+                                        <person xml:id="HTerk">
+                                                <persName>Henri Terk</persName>
+                                        </person>
+                                        <person xml:id="RDelaunay">
+                                                <persName>Robert Delaunay</persName>
+                                        </person>
+                                        <person xml:id="MEChevreul">
+                                                <persName>Miche-Eugène Chevreul</persName>
+                                        </person>
+                                        <person xml:id="TTzara">
+                                                <persName>Tristan Tzara</persName>
+                                        </person>
+                                        <person xml:id="PSoupault">
+                                                <persName>Philippe Soupault</persName>
+                                        </person>
+                                        <person xml:id="MMatyushin">
+                                                <persName>Mikhail Matyushin</persName>
+                                        </person>
+                                        <person xml:id="DEllington">
+                                                <persName>Duke Ellington</persName>
+                                        </person>
+                                        <person xml:id="LArmstron">
+                                                <persName>Luis Armstron</persName>
+                                        </person>
+                                        <person xml:id="CChanel">
+                                                <persName>Coco Chanel</persName>
+                                        </person>
+
+                                        <!--La follia di Gala éluard-->
+                                        <person xml:id="PEluard"> <!--Nel testo è citato come Eugène émile Paul Grindel-->
+                                                <persName>Paul Éluard</persName>
+                                        </person>
+                                        <person xml:id="CELuard">
+                                                <persName>Cécile Éluard</persName>
+                                        </person>
+                                        <person xml:id="ABreton">
+                                                <persName>André Breton</persName>
+                                        </person>
+                                        <person xml:id="MRay">
+                                                <persName>Man Ray</persName>
+                                        </person>
+                                        <person xml:id="MErnst">
+                                                <persName>Max Ernst</persName>
+                                        </person>
+                                        <person xml:id="RMagritte">
+                                                <persName>René Magritte</persName>
+                                        </person>
+                                        <person xml:id="GBerger">
+                                                <persName>Georgette Berger</persName>
+                                        </person>
+                                        <person xml:id="CGoemans">
+                                                <persName>Camille Goemans</persName>
+                                        </person>
+                                        <person xml:id="WJensen">
+                                                <persName>Wilhelm Jensen</persName>
+                                        </person>
+                                        <person xml:id="SFreud">
+                                                <persName>Sigmund Freud</persName>
+                                        </person>
+                                        <person xml:id="JLdeFaucignyLucinge">
+                                                <persName>Jena-Louis de Faucigny-Lucinge</persName><!--è un principe-->
+                                        </person>
+
+                                        <!--Lo scandalo di Natal'ja Segeevna Goncarova--><!--Ricordati che è già citata prima come Goncharova-->
+                                        <person xml:id="APushkin">
+                                                <persName>Alexander Pushkin</persName>
+                                        </person>
+                                        <person xml:id="MLarionov">
+                                                <persName>Mikhail Larionov</persName>
+                                        </person>
+                                        <person xml:id="PGauguin">
+                                                <persName>Paul Gauguin</persName>
+                                        </person>
+                                        <person xml:id="JRBoronali">
+                                                <persName>Joachim-Raphaël Boronali</persName>
+                                        </person>
+                                        <person xml:id="RDorgelès">
+                                                <persName>Roland Dorgelès</persName>
+                                        </person>
+                                        <person xml:id="SDiaghilev">
+                                                <persName>Sergei Diaghilev</persName>
+                                        </person>
+                                        <person xml:id="KMikhaylova"><!--Nel testo citata come Klawdia Mikhailova-->
+                                                <persName>Klavdiya Mikhaylova</persName>
+                                        </person>
+                                        <person xml:id="MLarionov">
+                                                <persName>Mikhail Larionov</persName>
+                                        </person>
+
+                                        <!--Il coraggio di Frida Kalho-->
+                                        <person xml:id="FKahlo">
+                                                <persName>Frida Kahlo</persName>
+                                        </person>
+                                        <person xml:id="MCyGonzález">
+                                                <persName>Matilde Calderón y González</persName>
+                                        </person>
+                                        <person xml:id="GKahlo">
+                                                <persName>Guillermo Kahlo</persName>
+                                        </person>
+                                        <person xml:id="JVascincelos">
+                                                <persName>José Vascincelos</persName>
+                                        </person>
+                                        <person xml:id="AGomezArias">
+                                                <persName>Alejandro Gómez Arias</persName>
+                                        </person>
+                                        <person xml:id="TModotti">
+                                                <persName>Tina Modotti</persName>
+                                        </person>
+                                        <person xml:id="DRivera">
+                                                <persName>Diego Rivera</persName>
+                                        </person>
+                                        <person xml:id="FDRoosevelt">
+                                                <persName>Franklin Delano Roosevelt</persName>
+                                        </person>
+                                        <person xml:id="CKahlo">
+                                                <persName>Cristina Kahlo</persName>
+                                        </person>
+                                        <person xml:id="LTrotsky"><!--su google si trova Leon. nel testo Trotskij-->
+                                                <persName>LevTrotsky</persName>
+                                        </person>
+                                        <person xml:id="NSedova"> <!--Nel testo Natalia Trotskij-->
+                                                <persName>Natalia Sedova</persName>
+                                        </person>
+
+                                        <!--L'impegno di Tina Modotti-->
+                                        <person xml:id="PModotti">
+                                                <persName>Pietro Modotti</persName>
+                                        </person>
+                                        <person xml:id="RdelAbrieRichey">
+                                                <persName>Roubaix de l'Abrie Richey</persName>
+                                        </person>
+                                        <person xml:id="EWeston">
+                                                <persName>Edward Weston</persName>
+                                        </person>
+                                        <person xml:id="DSiqueiros">
+                                                <persName>David Siqueiros</persName>
+                                        </person>
+                                        <person xml:id="EWeston">
+                                                <persName>Edward Weston</persName>
+                                        </person>
+                                        <person xml:id="PORubio">
+                                                <persName>Pascual Ortiz Rubio</persName>
+                                        </person>
+                                        <person xml:id="EWeston">
+                                                <persName>Edward Weston</persName>
+                                        </person>
+
                                             
                                 </listPerson>
                                 <listPerson type='fictional'>
                                         <person xml:id="Susanna"> <!--personaggio biblico-->
                                                 <persName>Sussanna, biblic character</persName>
+                                        </person> 
+                                        <person xml:id="Gradiva"> <!--Character from the romance by Wilhelm Jensen 1903 Gradiva-->
+                                                <persName>Gradiva</persName>
+                                        </person> 
+                                        <person xml:id="Clotho"> <!--Una delle tre moire, scolpita dalla Claudel, nel testo col nome di Cloto-->
+                                                <persName>Clotho</persName>
                                         </person> 
                                 </listPerson>
                                 <listPlace>
@@ -333,7 +499,8 @@
                                         </place>
                                         <place xml:id="WindsorCastle">
                                                 <placeName>Windsor Castle</placeName>
-                                        </place>  
+                                        </place> 
+                                         
                                         <!--Gli abiti di élisabeth Vigéé-Le Brun-->
                                         <place xml:id="France">
                                                 <placeName>France</placeName>
@@ -371,7 +538,7 @@
                                         <place xml:id="Venice">
                                                 <placeName>Venice</placeName>
                                         </place>
-
+                                        
                                         <!-- Le bestie di Rosa Bonheur -->
                                         <place xml:id="Bordeux">
                                                 <placeName>Bordeux</placeName>
@@ -385,7 +552,7 @@
                                         <place xml:id="By">
                                                 <placeName>By</placeName>
                                         </place>
-
+                                        
                                         <!--I capelli di Berthe Morisot -->
                                         <place xml:id="Batignolles">
                                                 <placeName>Batignolles, Neighbourhood in Paris</placeName>
@@ -393,7 +560,7 @@
                                         <place xml:id="Passy">
                                                 <placeName>Passy</placeName>
                                         </place>
-
+                                        
                                         <!--Le carte di Mary Cassat -->
                                         <place xml:id="Amrica">
                                                 <placeName>America</placeName>
@@ -446,7 +613,7 @@
                                         <place xml:id="SouthAmreica">
                                                 <placeName>South Amreica</placeName>
                                         </place>
-
+                                        
                                         <!--Il fascino di Suzanne Valadon-->
                                         <place xml:id="RueCortot">
                                                 <placeName>Rue Cortot</placeName>
@@ -457,7 +624,7 @@
                                         <place xml:id="SainteAnneHospitalCenter">
                                                 <placeName>Sainte-Anne Hospital Center</placeName>
                                         </place>
-
+                                        
                                         <!--Lo stile di Tamara de Lempicka-->
                                         <place xml:id="SaintPetersburg">
                                                 <placeName>Saint Petersburg</placeName>
@@ -477,6 +644,7 @@
                                         <place xml:id="Cuernavaca">
                                                 <placeName>Cuernavaca</placeName>
                                         </place>
+                                        
 
                                         <!--Gli esperimenti di Sonia Terk Delaunay -->
                                         <place xml:id="Poland">
@@ -519,66 +687,108 @@
                                                 <placeName>Champs Elysées</placeName>
                                         </place>
                                         
+                                        <!--La follia di Gala éluard-->
+                                        <place xml:id="Moscow">
+                                                <placeName>Moscow</placeName>
+                                        </place>
+                                        <place xml:id="Cologne">
+                                                <placeName>Cologne</placeName>
+                                        </place>
+                                        <place xml:id="Indochina">
+                                                <placeName>Indochina</placeName>
+                                        </place>
+                                        <place xml:id="Asia">
+                                                <placeName>Asia</placeName>
+                                        </place>
+                                        <place xml:id="Cadaqués">
+                                                <placeName>Cadaqués</placeName>
+                                        </place>
+                                        <place xml:id="Girona">
+                                                <placeName>Girona</placeName>
+                                        </place>
+                                        <place xml:id="CastleofPubol">
+                                                <placeName>Castle of Púbol</placeName>
+                                        </place>
 
-
-                                        <!--Gli esperimenti di Sonia Terk Delaunay --> 
-                                        <person xml:id="GDali"><!-- nel testo come gala éluard-->
-                                                <persName>Gala Dalí </persName>
-                                        </person>
-                                        <person xml:id="NGoncharova">
-                                                <persName>Natalia Goncharova</persName> <!--Natal'ja Goncarova-->
-                                        </person>
-                                        <person xml:id="ARaphael">
-                                                <persName>Antonietta Raphaël</persName>
-                                        </person>
-                                        <person xml:id="SDelaunay">
-                                                <persName>Sonia Delaunay</persName> <!--anche sonia Stern-->
-                                        </person>
-                                        <person xml:id="HTerk">
-                                                <persName>Henri Terk</persName>
-                                        </person>
-                                        <person xml:id="RDelaunay">
-                                                <persName>Robert Delaunay</persName>
-                                        </person>
-                                        <person xml:id="MEChevreul">
-                                                <persName>Miche-Eugène Chevreul</persName>
-                                        </person>
-                                        <person xml:id="TTzara">
-                                                <persName>Tristan Tzara</persName>
-                                        </person>
-                                        <person xml:id="PSoupault">
-                                                <persName>Philippe Soupault</persName>
-                                        </person>
-                                        <person xml:id="MMatyushin">
-                                                <persName>Mikhail Matyushin</persName>
-                                        </person>
-                                        <person xml:id="DEllington">
-                                                <persName>Duke Ellington</persName>
-                                        </person>
-                                        <person xml:id="LArmstron">
-                                                <persName>Luis Armstron</persName>
-                                        </person>
-                                        <person xml:id="CChanel">
-                                                <persName>Coco Chanel</persName>
-                                        </person>
-
-                                
-
-                                        
-                                         
-
-                                        
-                                        
-
-
-                                        
-
-
+                                        <!--Il coraggio di Frida Kalho-->
+                                        <place xml:id="Coyoacán">
+                                                <placeName>Coyoacán</placeName>
+                                        </place>
+                                        <place xml:id="RockefellerCenter">
+                                                <placeName>Rockefeller Center</placeName>
+                                        </place>
+                                        <place xml:id="SanFrancisco">
+                                                <placeName>San Francisco</placeName>
+                                        </place>
+                                        <place xml:id="MexicoCity">
+                                                <placeName>Mexico City</placeName>
+                                        </place>
+                                        <place xml:id="FriuliVeneziaGiulia">
+                                                <placeName>Friuli Venezia-Giulia</placeName>
+                                        </place>
+                                        <place xml:id="Berlin">
+                                                <placeName>Berlin</placeName>
+                                        </place>
+                                        <place xml:id="Spain">
+                                                <placeName>Spain</placeName>
+                                        </place>
 
                                                                            
                                 </listPlace>
                                 <list type="work">
-                                        <item></item>
+                                
+
+                                        <!--Chapter Rivoluzionarie-->
+                                        <!--Gli abiti di élisabeth Vigéé-Le Brun-->
+                                        <item xml:id="MarieAntoinette">Marie-Antoinette, Queen of France, 1779</item>
+                                        <item xml:id="Selfportrait">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
+                                        <item xml:id="MadonnadellaSeggiola">Madonna della Seggiola, 1514</item>
+                                        <item xml:id="PortraitofMadameDuBarry">Portrait of Madame Du Barry, 1781</item>                                   
+
+                                        <!-- Le bestie di Rosa Bonheur -->
+                                        <item xml:id="Buffalo Bill">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
+                                        <item xml:id="LeMarcheauxchevaux">Le Marché aux chevaux, 1853</item>
+
+                                        <!--I capelli di Berthe Morisot -->
+                                        <item xml:id="TheArrivalofMariedeMediciatMarseilles">The Arrival of Marie de Medici at Marseilles, 1625</item>
+                                        <item xml:id="LeMarcheauxchevaux">Le Marché aux chevaux, 1853</item>
+                                        <item xml:id="LeDejeunersurlherbe">Le Déjeuner sur l'herbe, 1863</item>
+                                        <item xml:id="Olympia">Olympia, 1863</item>
+                                        <item xml:id="TheCradle">The Cradle, 1872</item>
+                                        
+                                        <!--Le carte di Mary Cassat --><!-- tre quadri nelle note 23-23 del testo -->
+                                        <item xml:id="IntheLoge">In the Loge, 1878</item>
+                                        <item xml:id="WomanwithaPearlNecklace">Woman with a Pearl Necklace, 1879</item>
+                                        <item xml:id="MaryCassattSeatedHoldingCards">Mary Cassatt Seated, Holding Cards, 1880-1884</item>
+                                        
+                                        <!--La passione di Camille Claudel -->
+                                        <item xml:id="Clotho">Clotho, 1893</item>
+                                        <item xml:id="TheMatureAge">The Mature Age, 1894-1900</item>
+
+                                        
+                                        <!--Chapter Libere-->
+                                        <!--introduzione-->
+                                        <!--Il fascino di Suzanne Valadon-->
+                                        <!--Lo stile di Tamara de Lempicka-->
+                                        <item xml:id="Self-PortraitintheGreenBugatti">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
+                                        <item xml:id="Ledueamiche"></item>
+                                        <item xml:id="BaronKuffner"></item>
+                                        <item xml:id="TheMusician">The Musician, 1929</item><!--La musicista nel testo-->
+                                        <item xml:id="TheMotherSuperior">The Mother Superior, 1935</item>
+                                        <!--Gli esperimenti di Sonia Terk Delaunay -->
+                                        <item xml:id="Feuillages"></item>
+                                        <item xml:id="LibriNeri"></item>
+
+                                        <!--La follia di Gala éluard-->
+                                        <item xml:id="Aurendezvousdesamis">Au rendez-vous des amis</item>
+
+                                        <!--Lo scandalo di Natal'ja Segeevna Goncarova-->
+
+                                        <!--Il coraggio di Frida Kalho-->
+                                        <item xml:id="SelfPortraits">Self-portraits</item>
+                                        
+
+                                        
                                 </list>
                         </particDesc>
                 </profileDesc>
