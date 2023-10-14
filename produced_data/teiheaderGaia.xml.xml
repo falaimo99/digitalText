@@ -30,9 +30,6 @@
                                         <person xml:id="AKauffmann">
                                                 <persName>Angelica Kauffmann</persName>
                                         </person>
-                                        <person xml:id="AKauffmann">
-                                                <persName>Angelica Kauffmann</persName>
-                                        </person>
                                         <person xml:id="AGentileschi">
                                                 <persName>Artemisia Gentileschi</persName>
                                         </person>
@@ -54,8 +51,8 @@
                                         <person xml:id="JReynolds">
                                                 <persName>Joshua Reynolds</persName>
                                         </person>
-                                        <person xml:id="HLooyd">
-                                                <persName>Hugh Looyd</persName>
+                                        <person xml:id="HLloyd">
+                                                <persName>Hugh Lloyd</persName>
                                         </person>
                                         <person xml:id="RCosway">
                                                 <persName>Richard Cosway</persName>
@@ -75,7 +72,7 @@
                                                 <persName>Marie Antoniette</persName>
                                         </person>
                                         <person xml:id="AVallayerCoster">
-                                                <persName>Anne Vallayer-Coster </persName>
+                                                <persName>Anne Vallayer-Coster</persName>
                                         </person>
                                         <person xml:id="ALabilleGuiard">
                                                 <persName>Adèlaide Labille-Guiard </persName>
@@ -96,7 +93,7 @@
                                                 <persName>Catherine the Great</persName>
                                         </person>
                                         <person xml:id="CBonaparte">
-                                                <persName>Carolina Bonaparte</persName>
+                                                <persName>Caroline Bonaparte</persName><!--nel testo Caroline Murat-->
                                         </person>
                                         <!-- Le bestie di Rosa Bonheur -->
                                         <person xml:id="RBonheur">
@@ -119,14 +116,17 @@
                                         </person>
 
                                         <!--I capelli di Berthe Morisot -->
+                                        <person xml:id="BMorisot">
+                                                <persName>Berthe Morisot</persName>
+                                        </person>
                                         <person xml:id="EMorisot">
                                                 <persName>Edma Morisot</persName>
                                         </person>
                                         <person xml:id="PPRubens">
                                                 <persName>Peter Paul Rubens</persName>
                                         </person>
-                                        <person xml:id="HFantin-Latour">
-                                                <persName>Henri Fantin-Latour </persName>
+                                        <person xml:id="HFantinLatour">
+                                                <persName>Henri Fantin-Latour</persName>
                                         </person>
                                         <person xml:id="EManet">
                                                 <persName>Eduard Manet</persName>
@@ -143,17 +143,20 @@
                                         <person xml:id="PARenoir">
                                                 <persName>Pierre-Auguste Renoir</persName>
                                         </person>
+                                        <person xml:id="CMonet">
+                                                <persName>Claude Monet</persName>
+                                        </person>
                                         <person xml:id="EDegas">
                                                 <persName>Edgar Degas</persName>
                                         </person>
-                                        <person xml:id="EManet">
+                                        <person xml:id="EuManet">
                                                 <persName>Eugéne Manet</persName>
                                         </person>
                                         <person xml:id="Nadar">
                                                 <persName>Nadar</persName>
                                         </person>
-                                        <person xml:id="CPisarro">
-                                                <persName>Camille Pisarro</persName>
+                                        <person xml:id="CPissarro">
+                                                <persName>Camille Pissarro</persName>
                                         </person>
                                         <person xml:id="ASisley">
                                                 <persName>Alfred Sisley</persName>
@@ -187,7 +190,7 @@
                                                 <persName>John Sargent</persName>
                                         </person>
                                         <person xml:id="LEHavemeyer ">
-                                                <persName>Louis Elder Havemeyer </persName>
+                                                <persName>Louisine Elder Havemeyer </persName>
                                         </person>
 
                                         <!--La passione di Camille Claudel -->
@@ -205,9 +208,6 @@
                                         </person>
                                         <person xml:id="ASinger">
                                                 <persName>Amy Singer</persName>
-                                        </person>
-                                        <person xml:id="CMonet">
-                                                <persName>Claude Monet</persName>
                                         </person>
                                         <person xml:id="VVanGogh">
                                                 <persName>Vincent Van Gogh</persName>
