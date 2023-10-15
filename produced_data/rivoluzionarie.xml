@@ -170,19 +170,19 @@
          	</q> 
          			
          	<p>Il suo formidabile successo è così trascinante da procurarle l’invito di <persName ref="MAntoniette">Maria Antonietta</persName>
-            d’Austria. Nel 1779 la regina di <placeName ref="France">Francia</placeName> l’accoglie a <placeName ref="PalaceofVersailles">Versailles</placeName> per affidarle uno
-            dei suoi ritratti più intimi.
+            d’Austria. Nel 1779 la regina di <placeName ref="France">Francia</placeName> l’accoglie a <placeName ref="PalaceofVersailles">Versailles</placeName> per affidarle <item ref="MarieAntoinette">uno
+            dei suoi ritratti più intimi</item>.
          	</p> 
          			
-         	<q>La ritrassi in un abito di raso con due grandi intelaiature laterali sui fianchi e
-            con in mano una rosa<ref target="#note_2" id="noteXref_2">2</ref>.
+         	<q><item xml:id="MarieAntoinette">La ritrassi in un abito di raso con due grandi intelaiature laterali sui fianchi e
+            con in mano una rosa</item><ref target="#note_2" id="noteXref_2">2</ref>.
          	</q> 
          			
          	<p>È probabile che questa effigie risponda al tentativo di scacciare i malumori che i
             suoi comportamenti cominciano a far serpeggiare tra il popolo, favorendo una sua immagine
-            più familiare, lontana dalla pompa dei gioielli e degli abiti da cerimonia. Il dipinto
+            più familiare, lontana dalla pompa dei gioielli e degli abiti da cerimonia. <item ref="MarieAntoinette">Il dipinto</item>
             segna l’inizio di una lunga collaborazione tra la pittrice e la sovrana, da cui scaturiranno
-            più di trenta ritratti della regina. Per ironia della sorte, quel gesto contribuisce
+            <item ref="MarieAntoinette">più di trenta ritratti della regina</item>. Per ironia della sorte, quel gesto contribuisce
             ad avvicinare <persName ref="EVigeeLeBrun">Élisabeth</persName> a <persName ref="MAntoniette">Maria Antonietta</persName>, ma l’allontana dalla comunità artistica
             francese. A pochi giorni dall’esordio presso il Salon des Artistes del 1783, è costretta
             a ritirare il suo quadro. Il mondo dell’arte ufficiale si chiude a qualsiasi tentativo
@@ -194,18 +194,18 @@
             la verità di uno sguardo e di una posa, senza il filtro del protocollo.
          	</p> 
          			
-         	<p>Quello di <persName ref="EVigeeLeBrun">Élisabeth</persName> resterà l’unico ritratto disadorno di <persName ref="MAntoniette">Maria Antonietta</persName>: d’ora
+         	<p><item ref="MarieAntoinette">Quello di <persName ref="EVigeeLeBrun">Élisabeth</persName> resterà l’unico ritratto disadorno di <persName ref="MAntoniette">Maria Antonietta</persName></item>: d’ora
             in avanti la regina apparirà soltanto in abiti sontuosi, circondata dal lusso della
             corte. La pittrice ha aperto un varco nella finzione dei ritratti ufficiali, avventurandosi
             sulla strada delle espressioni e degli atteggiamenti «naturali». Nel 1787 commetterà
-            lo stesso errore. Questa volta la protagonista del dipinto è lei stessa, che si mostra
-            con la figlia tra le braccia. La scena deriva direttamente dalla <hi rend="italic">Madonna della seggiola</hi> di Raffaello. Mentre nel corso dei secoli le pittrici si erano autoritratte con l’obiettivo
+            lo stesso errore. <item ref="Selfportrait">Questa volta la protagonista del dipinto è lei stessa, che si mostra
+            con la figlia tra le braccia. La scena deriva direttamente dalla <hi rend="italic"><item ref="MadonnadellaSeggiola"> Madonna della seggiola</item></hi> di Raffaello. Mentre nel corso dei secoli le pittrici si erano autoritratte con l’obiettivo
             di dimostrare il loro ruolo di donne eleganti e ben educate, di professioniste sedute
             al cavalletto con la tavolozza in mano o alle prese con uno strumento musicale, <persName ref="EVigeeLeBrun">Vigée-Le
             Brun</persName> decide di insistere sul suo ruolo di madre. La paura di non essere presa in seria
             considerazione come artista sembra non sfiorarla affatto. Compone una scena tenera,
             dai forti legami con la tradizione, che però stravolge con un dettaglio inedito: lei,
-            la mamma, sorride mostrando i denti. Un vero affronto al decoro<ref target="#note_3" id="noteXref_3">3</ref>.
+            la mamma, sorride mostrando i denti. Un vero affronto al decoro<ref target="#note_3" id="noteXref_3">3</ref></item>.<!--capire se con item marcare tutto o solo il nome-->
          	</p> 
          			
          	<p>A quel punto si ripete una scena cui abbiamo assistito già tante volte. Dai colleghi
@@ -226,7 +226,7 @@
          	</p> 
          			
          	<p>A metà settembre del 1789 i primi colpi di cannone dentro le mura di <placeName ref="Paris">Parigi</placeName> la colgono
-            mentre sta lavorando al ritratto della celebre Madame Du Barry, l’ultima grande favorita
+            mentre sta lavorando al <item ref="PortraitofMadameDuBarry">ritratto della celebre Madame Du Barry</item>, l’ultima grande favorita
             di re Luigi XV, tessitrice di intrighi e cospirazioni, che pare reagisca alle bombe
             con inconsapevole ironia esclamando: «Se Luigi XV vivesse, certamente tutto ciò non
             accadrebbe»<ref target="#note_4" id="noteXref_4">4</ref>.
@@ -435,7 +435,7 @@
             <persName ref="BBill">Buffalo Bill</persName>. Quando scopre che la sua compagnia sta arrivando in <placeName ref="France">Francia</placeName> per uno
             spettacolo, il <hi rend="italic">Wild West Show</hi>, gli va incontro per disegnare, dal vero, bisonti, cavalli da rodeo e persino indiani
             Lakota. Da parte sua, Bill spera che la pittrice possa dipingere il suo ritratto,
-            cosa che avviene con grande soddisfazione di entrambi. Nonostante un oceano di differenze,
+            <item ref="BuffaloBill">cosa che avviene con grande soddisfazione di entrambi</item>. Nonostante un oceano di differenze,
             l’artista e l’avventuriero del Far West si divertiranno a discutere delle arti e dell’amore
             per la natura, attraverso un dialogo che si trasformerà in una solida amicizia.
          	</p> 
@@ -468,7 +468,7 @@
          	</q> 
          			
          	<p>L’opera che segna la sua definitiva e incontrovertibile affermazione pubblica è proprio
-            <hi rend="italic">Il Mercato dei cavalli</hi><ref target="#note_14" id="noteXref_14">14</ref>,<hi rend="italic"> </hi>che al Salon del 1853 riceve un plauso unanime, riuscendo a lasciare la giuria quasi
+            <hi rend="italic"><item ref="LeMarcheauxchevaux">Il Mercato dei cavalli</item></hi><ref target="#note_14" id="noteXref_14">14</ref>,<hi rend="italic"> </hi>che al Salon del 1853 riceve un plauso unanime, riuscendo a lasciare la giuria quasi
             senza parole per definire la forza di quegli animali che si impongono all’osservatore
             con un’energia potente e un’anatomia realistica. Quel quadro le è costato fatica e
             umiliazioni. Per un anno e mezzo si è dovuta fingere uomo per accedere al mercato
@@ -541,13 +541,13 @@
          			
          	<p>È una mattina come tante, quando la <persName ref="BMorisot">Morisot</persName> siede con sua sorella <persName ref="EMorisot">Edma</persName> in una delle
             sale più affollate di copisti del <placeName ref="LouvreMuseum">Louvre</placeName>, davanti alla grande tela di <persName ref="PPRubens">Rubens</persName> che rappresenta
-            <hi rend="italic">Lo sbarco di Maria de’ Medici a Marsiglia</hi>. È concentrata nella riproduzione di ogni dettaglio e sfumatura, quando il suo sguardo
+            <hi rend="italic"><item ref="TheArrivalofMariedeMediciatMarseilles">Lo sbarco di Maria de’ Medici a Marsiglia</item></hi>. È concentrata nella riproduzione di ogni dettaglio e sfumatura, quando il suo sguardo
             viene attratto da un giovane elegante che avanza verso di lei. Lo conduce verso <persName ref="BMorisot">Berthe</persName>
             un comune amico, il pittore <persName ref="HFantinLatour">Henri Fantin-Latour</persName>, che dimostra una certa affabile attenzione
             nei confronti delle due ragazze. Giacca stretta in vita e pantaloni chiari, l’altro
             emana un fascino cui la donna oppone una inutile resistenza: è il pittore <persName ref="EManet">Édouard
             Manet</persName>, artista molto chiacchierato. Su di lui si concentrano lo scherno e lo scandalo
-            destati dalla <hi rend="italic">Déjeuner sur l’herbe</hi> e dall’<hi rend="italic">Olympia</hi>, frequenta il <hi rend="italic">maudit</hi> <persName ref="CBaudelaire">Charles Baudelaire</persName> e il narratore dei bassifondi <persName ref="EZola">Émile Zola</persName>. Molti dei giovani insofferenti
+            destati dalla <hi rend="italic"><item ref="LeDejeunersurlherbe">Déjeuner sur l’herbe</item></hi> e dall’<hi rend="italic"><item ref="Olympia">Olympia</item></hi>, frequenta il <hi rend="italic">maudit</hi> <persName ref="CBaudelaire">Charles Baudelaire</persName> e il narratore dei bassifondi <persName ref="EZola">Émile Zola</persName>. Molti dei giovani insofferenti
             al Salon lo considerano un maestro e frequentano il suo atelier a <placeName ref="Batignolles">Batignolles</placeName>, un
             quartiere parigino a nord dell’Opéra.
          	</p> 
@@ -582,7 +582,7 @@
             le donne portano abiti alla moda senza particolare euforia, al contrario delle ragazze
             di <persName ref="PARenoir">Renoir</persName> o delle ballerine di <persName ref="EDegas">Degas</persName>. Sono spesso le sue sorelle a finire ritratte
             in questo universo di signorine «perbene», figure familiari, che appartengono al suo
-            ristretto orizzonte privato. Nel suo dipinto più celebre, <hi rend="italic">La culla</hi>, riconosciamo <persName ref="EMorisot">Edma</persName>, che ha deciso molto presto di abbandonare la pittura per sposarsi
+            ristretto orizzonte privato. Nel suo dipinto più celebre, <hi rend="italic"><item ref="TheCradle">La culla</item></hi>, riconosciamo <persName ref="EMorisot">Edma</persName>, che ha deciso molto presto di abbandonare la pittura per sposarsi
             e dedicarsi alla figlia Jeanne.
          	</p> 
          			
@@ -719,10 +719,10 @@
          	<p>Amica e complice della collega <persName ref="BMorisot">Berthe Morisot</persName>, si dedica a ritrarre soprattutto donne
             e bambini. Ma le sue signore non sono soltanto colte nell’intimo della loro serenità
             domestica: sono giovani sofisticate, ragazze alla moda, signore a proprio agio in
-            dimore borghesi o a teatro. Una si sporge dal proprio palco alla Comédie Française,
+            dimore borghesi o a teatro. <item ref="IntheLoge">Una si sporge dal proprio palco alla Comédie Française,
             senza accorgersi che da un altro stallo un gentiluomo ha puntato su di lei il binocolo,
             in un gioco di sguardi che coinvolge anche noi, spettatori affascinati dall’arte del
-            corteggiamento<ref target="#note_23" id="noteXref_23">23</ref>. La <persName ref="MCassat">Mary Cassatt</persName> conferisce alla figura femminile un ruolo molto dinamico: la ragazza,
+            corteggiamento</item><ref target="#note_23" id="noteXref_23">23</ref>. La <persName ref="MCassat">Mary Cassatt</persName> conferisce alla figura femminile un ruolo molto dinamico: la ragazza,
             elegantissima nel suo sobrio abito nero, osserva avidamente attraverso i suoi occhiali
             da teatro la fila di posti di fronte a lei. Sullo sfondo, in alto a sinistra, quell’uomo
             la fissa con lo stesso atteggiamento famelico. Lo spettatore, che li vede entrambi,
@@ -731,9 +731,9 @@
             l’autore. Recupera <persName ref="DVelazquez">Velázquez</persName> e lo tuffa nel colore di <persName ref="CMonet">Monet</persName>.
          	</p> 
          			
-         	<p>Un’altra donna – la sorella <persName ref="LCassat">Lydia</persName> – ci sorride in abito scollato da sera, durante
+         	<p><item ref="WomanwithaPearlNecklace">Un’altra donna – la sorella <persName ref="LCassat">Lydia</persName> – ci sorride in abito scollato da sera, durante
             una pausa dello spettacolo<ref target="#note_24" id="noteXref_24">24</ref>. Sembra stia dando le spalle alla platea, ma soltanto ad uno sguardo attento scopriamo
-            che dietro di lei in realtà si staglia l’immagine del teatro riflessa in uno specchio.
+            che dietro di lei in realtà si staglia l’immagine del teatro riflessa in uno specchio</item>.
             Non è l’unica donna che compare di fronte al suo riflesso: <persName ref="MCassat">Mary</persName> si avventura più volte
             nell’intreccio di piani che fonde le prospettive rovesciate di <persName ref="JADIngres">Ingres</persName> e i tagli fotografici
             di <persName ref="EDegas">Degas</persName>. È una pittrice raffinata e pronta a raccogliere nuove sfide. È una maestra
@@ -742,17 +742,17 @@
          			
          	<p>Non si sposa mai né ha figli, dimostrando un’indipendenza fuori dal comune. È ossessionata
             dai grandi cappelli piumati, che acquista in modo compulsivo e che diventano parte
-            della sua immagine pubblica. Le piume formano una farfalla nel ritratto che le dedica
+            della sua immagine pubblica. Le piume formano una farfalla nel <item ref="MaryCassattSeatedHoldingCards">ritratto che le dedica
             <persName ref="EDegas">Edgar Degas</persName><ref target="#note_25" id="noteXref_25">25</ref>: Mary siede poggiando i gomiti sulle ginocchia, quasi in attesa di una risposta da
             parte del pittore. Forse vuole che l’amico scelga una delle carte che la donna stringe
             tra le dita. Lo osserva con occhi di sfida, la bocca serrata e le gambe strette. È
             lei che impone la scelta, lei che distribuisce le carte: solo un momento di relax
-            tra amici o una metafora della vita?
+            tra amici o una metafora della vita?</item>
          	</p> 
          			
-         	<p><persName ref="EDegas">Degas</persName> riesce a cogliere in pochi tratti veloci il carattere volitivo della pittrice,
+         	<p><item ref="MaryCassattSeatedHoldingCards"><persName ref="EDegas">Degas</persName> riesce a cogliere in pochi tratti veloci il carattere volitivo della pittrice,
             la sua eleganza innata e quello sguardo attento e magnetico, che sa esercitare una
-            forte persuasione in chi lo affronta. 
+            forte persuasione in chi lo affronta</item>. 
          	</p> 
          			
          	<p>Mentre imbastisce un fertile scambio di vedute e un continuo rimando di riferimenti
@@ -922,7 +922,7 @@
             dei Simbolisti, senza aver ancora maturato una coscienza precisa di cosa possa significare
             un simbolo. Non c’è donna che lavori come lei. Le sue colleghe insistono nel produrre
             immagini che non vanno oltre un atteggiamento consolatorio, decorativo ed elegante.
-            Lei, invece, nel 1893 scolpisce l’impressionante delirio di <hi rend="italic"><persName ref="Clotho">Cloto</persName></hi>, la parca che ha il compito di recidere il filo della vita, tessuto dalle sue sorelle.
+            Lei, invece, nel 1893 scolpisce l’impressionante delirio di <hi rend="italic"><item ref="Clotho"><persName ref="Clotho">Cloto</persName></item></hi>, la parca che ha il compito di recidere il filo della vita, tessuto dalle sue sorelle.
          	</p> 
          			
          	<p>Ma Rodin le fa progressivamente terra bruciata intorno. Non sopporta l’idea che a
@@ -946,8 +946,8 @@
          			
          	<p>Eppure, una commissione arriva: complice il giornalista <persName ref="OMirbeau">Octave Mirbeau</persName> – e forse anche
             lo stesso Rodin che cerca segretamente di aiutarla – nel 1895 il ministero dell’istruzione
-            pubblica le ordina <hi rend="italic">L’Âge mûr</hi> (<hi rend="italic">L’Età matura</hi>), un gruppo di figure in cui un uomo esita tra la Vecchiaia e la Giovinezza, finendo
-            irretito dalla prima. Pur avendo ricevuto grandi apprezzamenti in fase di bozzetto,
+            pubblica le ordina <hi rend="italic">L’Âge mûr</hi> (<hi rend="italic"><item ref="TheMatureAge">L’Età matura</item></hi>), <item ref="TheMatureAge">un gruppo di figure in cui un uomo esita tra la Vecchiaia e la Giovinezza, finendo
+            irretito dalla prima</item>. Pur avendo ricevuto grandi apprezzamenti in fase di bozzetto,
             quando tutto sembra andare per il meglio e la fusione in bronzo è alle porte, lo Stato
             decide di ritirare la commessa, malgrado abbia già versato la somma pattuita.
          	</p> 

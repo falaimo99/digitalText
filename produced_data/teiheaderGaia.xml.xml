@@ -80,7 +80,7 @@
                                         <person xml:id="JBMPierre">
                                                 <persName>Jean-Baptiste-Marie Pierre </persName>
                                         </person>
-                                        <person xml:id="JLeBrun ">
+                                        <person xml:id="JLeBrun">
                                                 <persName>Julie Le Brun </persName>
                                         </person>
                                         <person xml:id="HRobert">
@@ -233,12 +233,12 @@
                                         </person> 
                                         <person xml:id="MUtrillo">
                                                 <persName>Maurice Utrillo</persName>
+                                        </person>
+                                        <person xml:id="MiUtrillo">
+                                                <persName>Miguel Utrillo</persName>
                                         </person> 
                                         <person xml:id="AUtter">
                                                 <persName>André Utter</persName>
-                                        </person> 
-                                        <person xml:id="SValadon">
-                                                <persName>Suzanne Valadon</persName>
                                         </person> 
                                         <person xml:id="GBraque">
                                                 <persName>Georges Braque</persName>
@@ -251,8 +251,12 @@
                                         </person> 
                                         <person xml:id="GdeChirico">
                                                 <persName>Giorgio de Chirico</persName>
-                                        </person> 
-                                        <person xml:id="HdeToulouse-Lautrec">
+                                        </person>
+                                        <person xml:id="FZandomeneghi">
+                                                <persName>Federico Zandomeneghi</persName>
+                                        </person>
+                                        
+                                        <person xml:id="HdeToulouseLautrec">
                                                 <persName>Henri de Toulouse-Lautrec</persName>
                                         </person> 
                                         <person xml:id="ESatie">
@@ -265,7 +269,7 @@
                                                 <persName>Berthe Weill</persName>
                                         </person>
                                         <person xml:id="LValore">
-                                                <persName>Luci Valore</persName>
+                                                <persName>Lucie Valore</persName>
                                         </person>
                                         <person xml:id="PPicasso">
                                                 <persName>Pablo Picasso</persName>
@@ -332,7 +336,7 @@
                                                 <persName>Robert Delaunay</persName>
                                         </person>
                                         <person xml:id="MEChevreul">
-                                                <persName>Miche-Eugène Chevreul</persName>
+                                                <persName>Michel-Eugène Chevreul</persName>
                                         </person>
                                         <person xml:id="TTzara">
                                                 <persName>Tristan Tzara</persName>
@@ -346,8 +350,8 @@
                                         <person xml:id="DEllington">
                                                 <persName>Duke Ellington</persName>
                                         </person>
-                                        <person xml:id="LArmstron">
-                                                <persName>Luis Armstron</persName>
+                                        <person xml:id="LArmstrong">
+                                                <persName>Luis Armstrong</persName>
                                         </person>
                                         <person xml:id="CChanel">
                                                 <persName>Coco Chanel</persName>
@@ -401,17 +405,14 @@
                                         <person xml:id="JRBoronali">
                                                 <persName>Joachim-Raphaël Boronali</persName>
                                         </person>
-                                        <person xml:id="RDorgelès">
+                                        <person xml:id="RDorgeles">
                                                 <persName>Roland Dorgelès</persName>
                                         </person>
                                         <person xml:id="SDiaghilev">
                                                 <persName>Sergei Diaghilev</persName>
                                         </person>
-                                        <person xml:id="KMikhaylova"><!--Nel testo citata come Klawdia Mikhailova-->
+                                        <person xml:id="KMikhaylova"><!--Nel testo citata come Klavdia Mikhailova-->
                                                 <persName>Klavdiya Mikhaylova</persName>
-                                        </person>
-                                        <person xml:id="MLarionov">
-                                                <persName>Mikhail Larionov</persName>
                                         </person>
 
                                         <!--Il coraggio di Frida Kalho-->
@@ -424,8 +425,8 @@
                                         <person xml:id="GKahlo">
                                                 <persName>Guillermo Kahlo</persName>
                                         </person>
-                                        <person xml:id="JVascincelos">
-                                                <persName>José Vascincelos</persName>
+                                        <person xml:id="JVascncelos">
+                                                <persName>José Vasconcelos</persName>
                                         </person>
                                         <person xml:id="AGomezArias">
                                                 <persName>Alejandro Gómez Arias</persName>
@@ -442,10 +443,10 @@
                                         <person xml:id="CKahlo">
                                                 <persName>Cristina Kahlo</persName>
                                         </person>
-                                        <person xml:id="LTrotsky"><!--su google si trova Leon. nel testo Trotskij-->
+                                        <person xml:id="LTrotsky"><!--su google si trova Leon. nel testo Trotskij--><!--Caso particolare di indentazione-->
                                                 <persName>LevTrotsky</persName>
                                         </person>
-                                        <person xml:id="NSedova"> <!--Nel testo Natalia Trotskij-->
+                                        <person xml:id="NSedova"> <!--Nel testo Natalja Trotskij-->
                                                 <persName>Natalia Sedova</persName>
                                         </person>
 
@@ -462,16 +463,9 @@
                                         <person xml:id="DSiqueiros">
                                                 <persName>David Siqueiros</persName>
                                         </person>
-                                        <person xml:id="EWeston">
-                                                <persName>Edward Weston</persName>
-                                        </person>
                                         <person xml:id="PORubio">
                                                 <persName>Pascual Ortiz Rubio</persName>
                                         </person>
-                                        <person xml:id="EWeston">
-                                                <persName>Edward Weston</persName>
-                                        </person>
-
                                             
                                 </listPerson>
                                 <listPerson type='fictional'>
@@ -502,6 +496,9 @@
                                         </place> 
                                          
                                         <!--Gli abiti di élisabeth Vigéé-Le Brun-->
+                                        <place xml:id="Paris">
+                                                <placeName>Paris</placeName>
+                                        </place> 
                                         <place xml:id="France">
                                                 <placeName>France</placeName>
                                         </place> 
@@ -523,6 +520,9 @@
                                         <place xml:id="Naples">
                                                 <placeName>Naples</placeName>
                                         </place> 
+                                        <place xml:id="Rome">
+                                                <placeName>Rome</placeName>
+                                        </place>
                                         <place xml:id="Milan">
                                                 <placeName>Milan</placeName>
                                         </place> 
@@ -535,19 +535,13 @@
                                         <place xml:id="Russia">
                                                 <placeName>Russia</placeName>
                                         </place>
-                                        <place xml:id="Venice">
-                                                <placeName>Venice</placeName>
-                                        </place>
                                         
                                         <!-- Le bestie di Rosa Bonheur -->
-                                        <place xml:id="Bordeux">
-                                                <placeName>Bordeux</placeName>
+                                        <place xml:id="Bordeaux">
+                                                <placeName>Bordeaux</placeName>
                                         </place>
                                         <place xml:id="LouvreMuseum">
                                                 <placeName>Louvre Museum</placeName>
-                                        </place>
-                                        <place xml:id="Bordeux">
-                                                <placeName>Bordeux</placeName>
                                         </place>
                                         <place xml:id="By">
                                                 <placeName>By</placeName>
@@ -568,7 +562,7 @@
                                         <place xml:id="Pittsburgh">
                                                 <placeName>Pittsburgh</placeName>
                                         </place>
-                                        <place xml:id="Hudson River">
+                                        <place xml:id="HudsonRiver">
                                                 <placeName>Hudson River</placeName>
                                         </place>
                                         <place xml:id="Seine">
@@ -577,7 +571,7 @@
                                         <place xml:id="BoulevarddesCapucins">
                                                 <placeName>Boulevard des Capucins</placeName>
                                         </place>
-                                        <place xml:id="New York City">
+                                        <place xml:id="NewYorkCity">
                                                 <placeName>New York City</placeName>
                                         </place>                                        
                                         <place xml:id="Washington">
@@ -594,7 +588,7 @@
                                         <place xml:id="Montparnasse ">
                                                 <placeName>Montparnasse, Neighbourhood in Paris </placeName>
                                         </place>
-                                        <place xml:id="Ville-évrard">
+                                        <place xml:id="Villeevrard">
                                                 <placeName>Hôpital Ville-évrard </placeName>
                                         </place>
 
@@ -619,7 +613,7 @@
                                                 <placeName>Rue Cortot</placeName>
                                         </place>
                                         <place xml:id="Montmartre">
-                                                <placeName>Rue Cortot</placeName>
+                                                <placeName>Montmartre</placeName>
                                         </place>
                                         <place xml:id="SainteAnneHospitalCenter">
                                                 <placeName>Sainte-Anne Hospital Center</placeName>
@@ -644,23 +638,27 @@
                                         <place xml:id="Cuernavaca">
                                                 <placeName>Cuernavaca</placeName>
                                         </place>
+                                        <place xml:id="Mexico">
+                                                <placeName>Mexico</placeName>
+                                        </place>
+
                                         
 
                                         <!--Gli esperimenti di Sonia Terk Delaunay -->
                                         <place xml:id="Poland">
                                                 <placeName>Poland</placeName>
                                         </place>  
-                                        <place xml:id="Soviet Union">
+                                        <place xml:id="SovietUnion">
                                                 <placeName>Soviet Union</placeName>
                                         </place>  
                                         <place xml:id="Kazan">
-                                                <placeName>Soviet Union</placeName>
+                                                <placeName>Kazan</placeName>
                                         </place> 
                                         <place xml:id="Odessa">
-                                                <placeName>Soviet Union</placeName>
+                                                <placeName>Odessa</placeName>
                                         </place>
                                         <place xml:id="Kaunas">
-                                                <placeName>Soviet Union</placeName>
+                                                <placeName>Kaunas</placeName>
                                         </place>
                                         <place xml:id="Finland">
                                                 <placeName>Finland</placeName>
@@ -678,7 +676,7 @@
                                                 <placeName>Karlsruhe</placeName>
                                         </place>
                                         <place xml:id="Madrid">
-                                                <placeName>Karlsruhe</placeName>
+                                                <placeName>Madrid</placeName>
                                         </place>
                                         <place xml:id="BoulevardMalesherbes">
                                                 <placeName>Boulevard Malesherbes</placeName>
@@ -711,7 +709,7 @@
                                         </place>
 
                                         <!--Il coraggio di Frida Kalho-->
-                                        <place xml:id="Coyoacán">
+                                        <place xml:id="Coyoacan">
                                                 <placeName>Coyoacán</placeName>
                                         </place>
                                         <place xml:id="RockefellerCenter">
@@ -732,26 +730,30 @@
                                         <place xml:id="Spain">
                                                 <placeName>Spain</placeName>
                                         </place>
+                                        <place xml:id="LosAngeles">
+                                                <placeName>LosAngeles</placeName>
+                                        </place>
 
                                                                            
                                 </listPlace>
                                 <list type="work">
+                                <!--i titoli delle opere personalmente li ho messi come si trovano su google-->
                                 
 
                                         <!--Chapter Rivoluzionarie-->
                                         <!--Gli abiti di élisabeth Vigéé-Le Brun-->
                                         <item xml:id="MarieAntoinette">Marie-Antoinette, Queen of France, 1779</item>
+                                        <item xml:id="MarieAntoinetteportraits">Marie-Antoinette, Queen of France, portraits</item>
                                         <item xml:id="Selfportrait">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
                                         <item xml:id="MadonnadellaSeggiola">Madonna della Seggiola, 1514</item>
                                         <item xml:id="PortraitofMadameDuBarry">Portrait of Madame Du Barry, 1781</item>                                   
 
                                         <!-- Le bestie di Rosa Bonheur -->
-                                        <item xml:id="Buffalo Bill">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
+                                        <item xml:id="BuffaloBill">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
                                         <item xml:id="LeMarcheauxchevaux">Le Marché aux chevaux, 1853</item>
 
                                         <!--I capelli di Berthe Morisot -->
                                         <item xml:id="TheArrivalofMariedeMediciatMarseilles">The Arrival of Marie de Medici at Marseilles, 1625</item>
-                                        <item xml:id="LeMarcheauxchevaux">Le Marché aux chevaux, 1853</item>
                                         <item xml:id="LeDejeunersurlherbe">Le Déjeuner sur l'herbe, 1863</item>
                                         <item xml:id="Olympia">Olympia, 1863</item>
                                         <item xml:id="TheCradle">The Cradle, 1872</item>
@@ -770,7 +772,7 @@
                                         <!--introduzione-->
                                         <!--Il fascino di Suzanne Valadon-->
                                         <!--Lo stile di Tamara de Lempicka-->
-                                        <item xml:id="Self-PortraitintheGreenBugatti">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
+                                        <item xml:id="SelfPortraitintheGreenBugatti">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
                                         <item xml:id="Ledueamiche"></item>
                                         <item xml:id="BaronKuffner"></item>
                                         <item xml:id="TheMusician">The Musician, 1929</item><!--La musicista nel testo-->
