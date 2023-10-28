@@ -1626,10 +1626,10 @@ XIX secolo
 
 
 
-Gli abiti di <persName id=>Élisabeth Vigée-Le Brun</persName> (1755-1842)
+Gli abiti di <persName id='evigeelebrun'>Élisabeth Vigée-Le Brun</persName> (1755-1842)
 
 
-			 <place id=>Spostiamoci</place> in <place id=>Francia</place>, per analizzare come cambiano qui le sorti delle artiste tra la fine del Settecento e l’<place id=>Ottocento</place>. È un periodo estremamente fertile per la nazione, che gradualmente sottrarrà all’<place id=>Italia</place> il primato di centro culturale d’<place id=>Europa</place>. Da <place id=>Parigi</place> prendono l’avvio alcune tra le rivoluzioni intellettuali più profonde della storia, dall’esordio dell’Illuminismo con l’Encyclopédie di <persName id=>Diderot</persName> e d’<persName id=>Alembert</persName> alle conseguenze della caduta dell’<persName id=>Ancien Régime</persName> nel 1789.
+			 Spostiamoci in <place id=>Francia</place>, per analizzare come cambiano qui le sorti delle artiste tra la fine del Settecento e l’Ottocento. È un periodo estremamente fertile per la nazione, che gradualmente sottrarrà all’<place id=>Italia</place> il primato di centro culturale d’<place id=>Europa</place>. Da <place id=>Parigi</place> prendono l’avvio alcune tra le rivoluzioni intellettuali più profonde della storia, dall’esordio dell’Illuminismo con l’Encyclopédie di <persName id=>Diderot</persName> e <persName id=>d’Alembert</persName> alle conseguenze della caduta dell’Ancien Régime nel 1789.
 
 			 C’è una donna che attraversa questo controverso periodo, affermandosi prima come ritrattista di corte per poi assistere alla caduta di un intero sistema sociale e riemergere indenne dall’abisso della Rivoluzione francese dopo aver percorso il continente da pittrice affermata. Un’artista dalla mano raffinata, che produce i ritratti più realistici mai visti fino ad allora, oggetti del desiderio di nobili e borghesi: <persName id=>Élisabeth Vigée-Le Brun</persName>:
 
