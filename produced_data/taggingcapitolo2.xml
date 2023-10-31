@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   	
+   <body xml:lang="it-IT">
+      		
+      <div type="chapter" n="4">
+         			
+         <head class="Titolo_1">Autorevoli. XVII-XVIII secolo</head>
+
+		   <div type="paragraph" n="1"> 
+
+           <p>[Tra le artiste del XVII secolo c’è una grande assente: <persName ref="PBricci">Plautilla Bricci</persName>, l’architettrice. La scelta di
+non parlarne è dovuta al fatto che nel 2019 è stata pubblicata una biografia romanzata dell’artista,
+uno dei testi più belli per scoprire la vita di un’architetta del Seicento. La sua mancanza in questo
+libro è un invito a leggere <item ref="architettrice" type="text">L’architettrice</item> di <persName ref="MMazzucco">Melania Mazzucco</persName>, Einaudi, Torino 2019.]
+Per comprendere meglio il contesto nel quale si delinea la condizione
+femminile nel XVII secolo, è utile partire da un dibattito innescato da
+una donna fuori del comune ben due secoli prima. Un’italiana alla corte
+di <placeName ref="Francia">Francia</placeName>.</p>
+<p><q>Sono sola, e sola voglio rimanere.
+Sono sola, mi ha lasciato il mio dolce amico;
+sono sola, senza compagno né maestro<ref target="#note_1" id="noteXref_1_autorevoli">1</ref>.</q></p>
+<p>Siamo alla fine del Trecento. Alla morte del suo adorato marito,
+<persName ref="CdePizan">Christine de Pizan</persName> (1365-1430) si lascia andare ad un amaro lamento in
+versi che descrivono il profondo scoramento di una donna alle prese con
+una condizione sociale complicata da gestire – tra il XIV e il XV secolo –
+senza un compagno accanto. A dispetto del nome con cui la identifica la
+tradizione, <persName ref="CdePizan">Christine</persName> è nata a <placeName ref="Venezia">Venezia</placeName> da una famiglia originaria di
+Pizzano, borgo sull’Appennino bolognese. Il padre <persName ref="TdePizan">Thomas</persName>, laureato
+all’Università di Bologna, è medico, astrologo e consigliere personale di
+<persName ref="CarloV">re Carlo V</persName>, da cui riceve rendite e doni che gli permettono di garantire
+alla figlia un agiato tenore di vita alla corte di <placeName ref="Francia">Francia</placeName>. Proprio in quegli
+anni si sta sviluppando la Biblioteca del Louvre, dove <persName ref="CdePizan">Christine</persName> ha libero
+accesso. Lì vive un’infanzia gioiosa, divora libri e, malgrado il parere
+contrario della madre che da piccola le suggerisce di dedicarsi ad «ago e
+filo», apprende il mestiere di copista, che le sarà molto utile quando, a
+distanza di poco tempo l’uno dall’altro, perderà sia suo padre che suo
+marito<ref target="#note_2" id="noteXref_2_autorevoli">2</ref>.</p>
+<p>A quel punto, la vita luminosa di <persName ref="CdePizan">Christine</persName> sprofonda nell’abisso della
+solitudine, che descrive con grande trasporto nella lirica <ref target="#note_3" id="noteXref_3_autorevoli">3</ref>inserita
+all’interno della <item ref="città-delle-dame" type="text">Città delle Dame</item>, un testo piuttosto insolito per l’epoca.
+Grazie al successo di questo testo diventa una delle prime scrittrici in
+lingua francese in grado di vivere grazie ad una propria opera letteraria.
+Nel volume racconta di aver ricevuto la visita di tre signore – Ragione,
+Rettitudine e Giustizia – che la invitano a costruire una fortezza per
+difendere le donne dalle maldicenze e dai pregiudizi avversi. La nuova
+cittadella è abitata da regine, sante, guerriere, poetesse, scienziate,
+indovine e dee, che dimostrano come uomini e donne siano uguali «per
+natura».</p>
+<p>Solo osservando l’esempio di quelle grandi dame, <persName ref="CdePizan">Christine</persName> riesce a
+superare la sua disperazione.</p>
+<p><q>Io <persName ref="CdePizan">Christine</persName> per la prima volta dopo tanto tempo comincio a ridere [...]
+per lungo tempo ho vissuto triste come in gabbia [...]
+nel dolore, ma la stagione è cambiata</q><ref target="#note_4" id="noteXref_4_autorevoli">4</ref></p>
+<p>Il coraggio con cui affronta il destino le fa prendere coscienza del fatto
+che esista una sola soluzione alle difficoltà che le si presentano.</p>
+<p><q>Mi ritrovai con un animo forte e ardito,
+di cui mi stupivo, ma capii
+di essere diventato un vero uomo.
+Ed ancora: Allora diventai un vero uomo, non è una favola,
+capace di condurre le navi,
+Fortuna mi insegnò questo mestiere</q><ref target="#note_5" id="noteXref_5_autorevoli">5</ref></p>
+<p>C’è una certa malcelata ironia in queste parole, che di pagina in pagina
+diventano sempre più feroci nei confronti della disparità sociale tra uomo
+e donna. Mentre la condizione femminile è ancora determinata dai
+pregiudizi maschili, che impongono alle ragazze di restare ai margini del
+mondo, a parte alcuni rari casi, la voce di <persName ref="CdePizan">Christine</persName> diventa un grido
+controcorrente che per la prima volta rende manifesto l’orgoglio
+femminile e ribalta le convinzioni del tempo, attaccando con decisione il
+monopolio maschile in ogni settore, soprattutto quello culturale.</p>
+<p><q>Ahimè, mio Dio, perché non mi hai fatta nascere maschio? Tutte le mie capacità sarebbero state
+al tuo servizio, non mi sbaglierei in nulla e sarei perfetta in tutto, come gli uomini dicono di
+essere</q><ref target="#note_6" id="noteXref_6_autorevoli">6</ref></p>
+<p>Quando si imbatte nel <item ref="roman-rose" type="text">Roman de la Rose</item>-, arriva ad indignarsi per la
+conclusione misogina aggiunta da <persName ref="JdeMeung">Jean de Meung</persName> al testo originale di
+<persName ref="GdeLorris">Guillaume de Lorris</persName>: non accetta l’idea che uno dei testi più diffusi
+dell’epoca si scagli contro le donne e il matrimonio. Decide allora di
+prendere la parola pubblicamente e di opporsi ad alcune argomentazioni
+che denigrano il suo sesso. <q>«<persName ref="CdePizan">Christine</persName> osò dunque attaccare un testo
+notissimo lamentando la denigrazione delle donne e criticando la
+promiscuità fra donne e uomini auspicata da <persName ref="JdeMeung">Jean de Meung</persName> [...]. Si
+innescò una controversia che produsse in tre anni una ventina di scritti fra
+trattati e lettere. Il coraggio dimostrato da <persName ref="CdePizan">Christine</persName> fu davvero notevole,
+considerata l’importanza del testo preso di mira e la rilevanza del suo
+autore, potente professore dell’Università di Parigi»</q><ref target="#note_7" id="noteXref_7_autorevoli">7</ref></p>
+<p>Come è facile aspettarsi in un contesto così misogino come la Francia
+del XV secolo, la posizione espressa da <persName ref="CdePizan">Christine</persName> diventa oggetto di
+insulti che arrivano anche a mettere in discussione la sanità mentale di
+<persName ref="CdePizan">Christine</persName>. Pierre Col, segretario del re, non usa mezzi termini per
+mettere a tacere le opinioni della donna:</p>
+<p><q>O folle arroganza. O parola uscita troppo in fretta e senza saggezza dalla bocca di una donna, che
+condanna un uomo di così straordinaria capacità intellettuale, di cultura così vasta, che con grande
+fatica e pura determinazione ha scritto un così nobile libro</q><ref target="#note_8" id="noteXref_8_autorevoli">8</ref></p>
+<p>Ma <persName ref="CdePizan">Christine</persName> non si scoraggia e raccoglie tutte le lettere che ha ricevuto
+e scritto in merito alla discussione, ne prepara due copie e le spedisce a
+<persName ref="IdiBaviera">Isabella di Baviera</persName>, regina di <placeName ref="Francia">Francia</placeName>, e a <persName ref="GTignonville">Guillaume Tignonville</persName>, vescovo
+di <placeName ref="Parigi">Parigi</placeName>, chiedendo il loro intervento. Tra le pareti del suo studiolo
+elabora una strategia che coinvolge i maggiori poteri di <placeName ref="Parigi">Parigi</placeName>, l’autorità
+civile e quella religiosa, trasformando il dibattito in una questione
+pubblica e chiamando a testimone l’intera corte.</p>
+<p>Senza prendere mai di petto i suoi nemici uomini, <persName ref="CdePizan">Christine</persName> diventa
+l’intelligente pioniera di una questione che quasi due secoli dopo vedrà
+allargarsi la partecipazione femminile e l’inevitabile recessione delle
+posizioni misogine: la cosiddetta Querelle des femmes.</p>
+<p>Dalla <placeName ref="Francia">Francia</placeName> (Querelle des femmes) alla <placeName ref="Spagna">Spagna</placeName> (Contienda de mujeres),
+dall’<placeName ref="UK">Inghilterra</placeName> (Cause of women) all’<placeName ref="Italia">Italia</placeName> (Causa delle donne), a fine
+Cinquecento la discussione sul valore dei sessi si allarga a macchia d’olio,
+coinvolgendo donne e uomini che discutono nella propria lingua volgare,
+accendendo il dibattito nei salotti e nei contesti più vari.</p>
+<p>Partendo dalle antesignane riflessioni di <persName ref="CdePizan">Christine de Pizan</persName>, le donne
+elaborano un discorso polemico in prima persona, prendendo la parola in
+pubblico. La loro posizione non ha bisogno di avvalersi della mediazione
+di testi scritti da uomini, come è accaduto nel caso di <persName ref="GBoccaccio">Boccaccio</persName>. Nel
+corso di pochi decenni assistiamo ad un punto di svolta, potente e
+fondamentale, che alcuni storici hanno voluto descrivere come l’esordio
+di quella difesa dei diritti delle donne che condurrà al femminismo
+moderno. Se la discussione finora è stata condotta prevalentemente da
+autori che hanno vituperato o elogiato il genere femminile, dal XVII
+secolo entra in gioco in modo prepotente e sagace il parere delle donne
+stesse, che scendono in campo per la difesa della propria identità<ref target="#note_9" id="noteXref_9_autorevoli">9</ref></p>
+</div>
+<div type="paragraph" n="2">
+			<head  class="Titolo_2"><hi rend="italic">Il merito delle donne</hi></head>
+
+<p>Il XVII secolo esordisce con la pubblicazione di un volume che si impone
+come cardine della posizione filogina nella <hi rend="italic">Causa delle donne</hi>: per i tipi di
+Domenico Imberti, a <placeName ref="Venezia">Venezia</placeName> esce <hi rend="italic"><item ref="merito-delle-donne" type="text">Il merito delle donne. Ove chiaramente si
+scuopre quanto sieno elle degne e più perfette de gli huomini.</item></hi> La penna, che non
+risparmia parole forti e adirate, è quella di <persName ref="MFonte">Moderata Fonte</persName>, pseudonimo
+di <persName ref="MFonte">Modesta dal Pozzo</persName> (1555-1592). Veneziana, l’autrice rimane orfana
+all’età di un anno e passa l’infanzia contesa da vari parenti, che sperano di
+mettere le mani sul suo patrimonio. Dotata di straordinaria memoria e
+interesse per lo studio, riesce ad ottenere una buona educazione, che si
+esprime in testi poetici e nel trattato sulla condizione delle donne, che
+sarà pubblicato postumo dai suoi figli.</p>
+<p>Il merito delle donne, che <persName ref="MFonte">Moderata</persName> termina di scrivere il giorno in cui
+muore dando alla luce una «fanciullina»<ref target="#note_10" id="noteXref_10_autorevoli">10</ref>
+, si presenta come un dialogo, la
+forma letteraria più frequentata dai trattati rinascimentali. Protagoniste
+sono sette donne veneziane, che si ritrovano in una casa circondata da un
+bellissimo giardino per condurre «donneschi lavori» e «onesti spassi»:</p>
+<p><q>la prima di esse avea nome Adriana, che era vecchia e vedova; la seconda era una sua figliola da
+marito nominata Virginia; la terza era una vedova giovene, che si nomava Leonora; la quarta era
+detta Lucrezia, donna maritata di assai tempo; la quinta Cornelia giovene congiunta a marito; la
+sesta Corinna giovene dimmessa<ref target="#note_11" id="noteXref_11_autorevoli">11</ref></q></p>
+<p>Dove «dimmessa» sta ad indicare la sfortunata condizione di una ragazza
+che non può permettersi il matrimonio per mancanza di dote.</p>
+<p>La settima è Elena, «di fresco maritata». In sostanza, il gruppo è ben
+composto dall’autrice individuando quasi tutte le situazioni femminili
+disponibili nella società del tempo, per attribuire alla conversazione
+maggiore vivacità e credibilità<ref target="#note_12" id="noteXref_12_autorevoli">12</ref></p>
+<p>Tutte loro sono entusiaste all’idea di poter conversare «senza haver
+rispetto di uomini che le notassero o le impedissero»: da quelle bocche
+escono parole inaudite.</p>
+<p><q>Se noi vogliamo poi dire il vero – disse allora Lucrezia – noi non stiamo mai bene se non sole e
+beata veramente quella donna che può vivere senza la compagnia de verun’uomo.
+[...]
+La infinita speranza occide altrui – disse Corinna – ma non inganna già me questa vostra
+speranza, che più tosto morrei che sottopormi ad uomo alcuno; troppo beata vita è quella che io
+passo così con voi senza temer di barba d’uomo che possa commandarmi.
+[...]
+Sono nati inanzi di noi – rispose Corinna – non per dignità loro, ma per dignità nostra; poiché
+essi nacquero dell’insensata terra perché noi poi nascessimo della viva carne e poi, che rileva quel
+nascer inanzi? Prima si gettano le fondamenta in terra di niun valore o vaghezza, e sopra vi
+s’ergono poi le sontuose fabriche, con gli adorni palagi; in terra si nutriscono prima vili semente,
+donde poi s’aprono i soavissimi fiori ed apparono le vaghe rose e gli odorati narcisi<ref target="#note_13" id="noteXref_13_autorevoli">13</ref></q></p>
+<p>Non c’è molto da aggiungere per capire la rivincita che l’autrice si sta
+prendendo attraverso le parole delle sue protagoniste.</p>
+<p>Le donne si stanno scoprendo complici e alleate in una battaglia contro
+gli uomini. Da questo momento in poi, per gli uomini parlare e scrivere
+del genere femminile a ruota libera diventa un’operazione a rischio,
+perché non si può più contare sulla certezza di non essere contraddetti.</p>
+<p>Pochi mesi dopo l’uscita del <hi rend="italic"><item ref="merito-delle-donne" type="text">Merito delle donne</item></hi>, a <placeName ref="Venezia">Venezia</placeName> viene alla luce
+un altro testo che arricchisce la difesa dell’identità femminile a discapito
+di quella maschile. Come riferiscono molti testimoni diretti, è l’editore
+Giovan Battista Ciotti a commissionare a <persName ref="LMarinelli">Lucrezia Marinelli</persName> (1571-1653)
+il trattato <hi rend="italic"><item ref="nobiltà-delle-donne" type="text">Le nobiltà et eccellenze delle donne et i difetti degli huomini</item></hi>,
+imponendole un tempo di soli due mesi per portarne a termine la stesura.
+Il tema, evidentemente, è caldissimo e l’uscita del dialogo di <persName ref="MFonte">Moderata</persName>
+ha riacceso il dibattito, che va cavalcato con ogni mezzo. La sollevazione
+del pubblico femminile è stata sollecitata anche dalla recente
+pubblicazione del violento libro misogino di <persName ref="GPassi">Giuseppe Passi</persName> <item ref="donneschi-difetti" type="text">I donneschi
+difetti</item>, la cui comparsa nel 1595 ha dato luogo ad un vero e proprio
+incidente letterario del quale le lettrici diventano la cassa di risonanza,
+con un’accoglienza tanto scandalizzata quanto polemica da raggiungere
+dimensioni mai viste prima.</p>
+<p>Passi, spinto da motivi personali, come egli stesso ammette, ha attinto
+alla facile e corrente galleria di opinioni di uomini autorevoli – da
+<persName ref="Aristotele">Aristotele</persName> a <persName ref="GBoccaccio">Boccaccio</persName> – per esporre un campionario di tutte le più
+tradizionali posizioni misogine, caricandole di una tale veemenza da
+lasciar trapelare chiaramente un forte risentimento verso l’altro sesso.
+Nel suo trattato afferma che le donne parlano anche troppo o, piuttosto,
+fanno «chiacchiere», «pettegolezzi», «ciance», «cicalecci», «cicalate»,
+«sproloqui», «vaniloqui», perché sono <q>«linguacciute, ciarliere, maldicenti,
+mordaci, simulatrici e bugiarde»<ref target="#note_14" id="noteXref_14_autorevoli">14</ref></q></p>
+<p>La reazione immediata delle dame, che rappresentano una grande fetta
+di lettori forti già all’epoca, costringono il <persName ref="GPassi">Passi</persName> a dare alle stampe La
+monstruosa fucina delle sordidezze de gl’huomini, un testo col quale spera di
+controbilanciare gli effetti devastanti della sua prima opera. Ciò
+nonostante <item ref="donneschi-difetti" type="text">I donneschi difetti</item> avranno in 23 anni ben quattro edizioni, man
+mano sempre più ampliate, fino a raggiungere un totale di 428 pagine<ref target="#note_15" id="noteXref_15_autorevoli">15</ref></p>
+<p>L’autore si illude, perché ormai è destinato a diventare il bersaglio della
+polemica femminile:</p>
+<p><q>Odio me, overo sdegno non move, et meno invidia; anzi da me se ne sta lontanissima; percioche
+io non hò desiderato, né desidero, né mai desiderò, anchor ch’io vivessi più tempo di Nestore, di
+essere maschio; ma credo ben io, che ò sdegno, ò odio, ò invidia movesse Aristotile in diversi libri
+a dir male, et à vituperare il sesso Donnesco; sì come anco biasimò in molti luoghi il suo Maestro
+Platone. Et similmente io penso, che si sia mossi a scrivere un libro intitolato i Donneschi diffetti
+Giuseppe Passi Ravennate Academico informe. Se invidia, o sdegno, od altro lo habbia mosso, io
+non lo saprei ben dire; ma Dio gli perdoni<ref target="#note_16" id="noteXref_16_autorevoli">16</ref></q></p>
+<p>L’astio nei confronti del genere maschile assume contorni ancora più
+violenti e categorici quando entra nel dibattito suor <persName ref="ATarabotti">Arcangela Tarabotti</persName>
+(1604-1652). La monaca prende spunto dalla sua vita per condannare
+l’intero sistema sociale, che costringe alcune donne a prendere i voti
+anche contro la loro volontà. Il suo testo postumo, <hi rend="italic"><item ref="tirannia-paterna" type="text">Tirannia paterna</item></hi>
+(1654), è un vero e proprio j’accuse che mette alla sbarra la Repubblica di
+<placeName ref="Venezia">Venezia</placeName>, colpevole di gettare le proprie giovani in un «inferno monacale»
+senza via d’uscita.</p>
+<p><q>Ben si conviene in dono la Tirannia Paterna a quella Republica nella quale, più frequentamente
+che in qual altra si sia parte del mondo, viene abusato di monacar le figliole sforzatamente. Non
+merita d’esser presentata ad altri principi per non apportar loro scandoli eccessivi: proporcionata è
+la mia dedicatione al vostro gran Senato, che, con incarcerar le figliole vergini, acciò si maccerino,
+salmeggino et orino in cambio loro, spera d’etternar voi, Vergine belissima, Regina dell’Adria.
+Scandalizzata sempre,
+più che Angela della Madre della Donzella<ref target="#note_17" id="noteXref_17_autorevoli">17</ref></q></p>
+<p>Mai una donna si è rivolta in modo così risoluto e severo ad una
+istituzione pubblica. Soltanto a <placeName ref="Venezia">Venezia</placeName> sarebbe potuto accadere un fatto
+così rivoluzionario. Nella città dove da oltre un secolo la vita culturale
+deve fare i conti con i versi di <persName ref="GStampa">Gaspara Stampa</persName>, gli scritti di <persName ref="TdAragona">Tullia
+d’Aragona</persName> o i dialoghi di <persName ref="VColonna">Vittoria Colonna</persName>, era solo una questione di
+tempo perché la voce delle autrici si scagliasse contro la prepotenza
+maschile.</p>
+<p>È in questo clima così rovente che prende avvio l’attività professionale di
+una delle pittrici più rispettate d’Europa, la cui reputazione si è
+sicuramente giovata del terreno favorevole seminato dalla Querelle des
+femmes: <persName ref="RCarriera">Rosalba Carriera</persName>.</p>
+</div>
+<div type="paragraph" n="7">
+			<head  class="Titolo_7"><hi rend="italic">Gli sguardi di <persName ref="RCarriera">Rosalba Carriera</persName> (1675-1757)</hi></head>
+
+<p><q>Voi, che spregiate il gentil sesso, voi
+D’Angela, di Rosalba, e di Giovanna
+Venite a mirar l’opre, e dite poi.
+Dite pur s’io mentisco; e se m’inganna
+La passione, e dite pur se noi
+Donne all’ago, ed al fuso il Ciel condanna<ref target="#note_18" id="noteXref_18_autorevoli">18</ref></q></p>
+<p>Oltre un secolo dopo i trattati che hanno rinfocolato la polemica uomo
+vs donna, la poetessa <persName ref="Lbergalli">Luisa Bergalli</persName> pubblica un testo che si rivolge a
+coloro che «spregiano il gentil sesso» per affermare con ancor più intensità
+la qualità delle opere delle sorelle Carriera: Angela, Giovanna e
+soprattutto <persName ref="RCarriera">Rosalba</persName>, che guida una bottega tutta al femminile con il suo
+talento, la sua intelligenza e tenace ambizione, ben dissimulata dietro un
+atteggiamento docile e uno sguardo delicato.</p>
+<p>È quello che traspare dagli autoritratti, che segnano l’intera sua vita.
+Dopo essersi dedicata da bambina ai disegni per i merletti veneziani,
+assorbe dal suo maestro <persName ref="ABalestra">Antonio Balestra</persName> la scrupolosa attenzione al
+dettaglio e la precisione del disegno, elementi che si rivelano
+fondamentali nella composizione delle opere che le procureranno un
+apprezzamento unanime: i ritratti in miniatura su tabacchiere, accessori
+molto di moda all’epoca. Quello che fino ad allora era stato considerato
+un genere minore, grazie alla maestria della <persName ref="RCarriera">Carriera</persName> si afferma come un
+prodotto molto richiesto dalla nobiltà imprenditoriale veneziana, per poi
+diffondersi in tutta <placeName ref="Europa">Europa</placeName>.</p>
+<p>È proprio uno di questi «fondelli», come lei usa chiamarli dimostrando
+una malcelata modestia, a permetterle quel salto di qualità nella carriera
+che le offrirà la possibilità di aprire una bottega tutta sua. Il 27 settembre
+del 1705 la commissione incaricata di decidere le nuove ammissioni
+all’<placeName ref="accademia-san-luca-roma">Accademia di San Luca</placeName> resta di stucco di fronte alla <hi rend="italic"><item ref="fanciulla-carriera" type="painting">Fanciulla con
+colomba</item></hi>, miniata dalla <persName ref="RCarriera">Carriera</persName> su avorio. «Applaudita dappertutto e
+veramente virtuosa per fama e virtù», sono le parole con cui <persName ref="GGhezzi">Giuseppe
+Ghezzi</persName> accoglie la candidatura della pittrice.<ref target="#note_19" id="noteXref_19_autorevoli">19</ref>È il primo vero trionfo
+professionale dell’artista, che ha saputo prepararsi il terreno con
+attenzione, contando sul sostegno di <persName ref="CCole">Christian Cole</persName>, segretario di Lord
+Manchester, figura preminente del collezionismo europeo. Pare che la
+nomina sia avvenuta ancor prima che l’opera giungesse a <placeName ref="Roma">Roma</placeName>: la
+pittrice la invia accompagnandola con una lettera di scuse per il ritardo,
+dovuto alla mole di lavoro che la occupa.</p>
+<p><q>Lei intanto si prepari a veder la peggior cosa ch’io habbi mai fatto ai miei giorni, poiché fui sì
+sgratiata di non poter come bramavo far più di un fondello e poi mandar il meglio<ref target="#note_20" id="noteXref_20_autorevoli">20</ref>.</q></p>
+<p>È così <persName ref="RCarriera">Rosalba</persName>: ha imparato bene sui testi di <persName ref="BCastiglione">Baldassarre Castiglione</persName>
+l’arte della sprezzatura. Ma la verità è che sa benissimo di aver inviato a
+<placeName ref="Roma">Roma</placeName> un piccolo gioiello, che ben pochi saprebbero imitare per
+raffinatezza e precisione. Una giovane ragazza trattiene il volo di una
+colomba sul grembo e si gira quasi colta all’improvviso dall’osservatore,
+accennando un timido sorriso. È l’istantanea di un momento, un guizzo
+immortalato prima del compimento. Pare che <persName ref="CMaratta">Carlo Maratta</persName>, principe
+dell’Accademia, <q>«la teneva più de meza hora in mano et diceva che V.
+Signora haveva chiesto un sugetto dificile, bianco sopera bianco, che
+havete fatto da maestra grande che Guide Rheni non poteva fare più»</q><ref target="#note_21" id="noteXref_21_autorevoli">21</ref>
+scrive Ghezzi alla Carriera nella comunicazione dell’avvenuta
+ammissione.</p>
+<p>Una volta ottenuta la «patente» da pittrice, <persName ref="RCarriera">Rosalba</persName> si dedica anche ad
+un altro genere, che si rivelerà il viatico verso i riconoscimenti
+internazionali: la pittura a pastello, utilizzata soprattutto per dipingere
+ritratti.</p>
+<p>Incuranti delle difficoltà che presenta questa tecnica, nella quale non è
+possibile coprire eventuali errori attraverso velature sovrapposte, <persName ref="RCarriera">Rosalba</persName>
+e le sue sorelle – cui è spesso affidata la realizzazione di copie – riescono a
+soddisfare molto velocemente le richieste sempre più pressanti dei loro
+clienti, soprattutto stranieri impegnati nel Grand Tour. Con tratti rapidi,
+sanno rendere i colori dell’incarnato, la lucentezza dei capelli e la
+raffinatezza delle stoffe con notevole efficacia.</p>
+<p>Interrompendo una secolare tradizione, che vede gli artisti custodire i
+segreti della propria tecnica all’interno delle mura della bottega, la
+<persName ref="RCarriera">Carriera</persName> svela i trucchi del suo mestiere in un trattatello, che organizza
+come un vero e proprio ricettario. <hi rend="italic"> <item ref="trattato-colori-carriera" type="text">Le Maniere diverse per formare i colori in
+pittura</item></hi> consente a chiunque voglia avvicinarsi – anche da dilettante – alla
+pittura di ottenere quegli effetti di vivacità, grazia ed espressione che
+fanno impazzire nobili e borghesi.</p>
+<p><q>OCCHI AZZURRI E BRUNI. Nel punto della luce si metta un punto di bianco, e sulla pupilla
+un punto nero, il contorno dell’occhio si carica con una tinta bruna, ed il resto di tinta celeste,
+composta da una piccola punta di blu nella biacca. Per far li occhi bruni si fa nel punto della luce
+come negli azzurri. Il contorno si empie di una tinta bruna, ed il resto della luce con una piccola
+punta di nero alla sesta tinta de’ chiari<ref target="#note_22" id="noteXref_22_autorevoli">22</ref></q></p>
+<p>Da vera maestra, <persName ref="RCarriera">Rosalba</persName> non lascia alcun dettaglio al caso, attribuendo
+all’incarnato una straordinaria importanza:</p>
+<p><q>la carnagione tenera sia di donne, ragazzi o piccoli geni si fanno macinando una piccola punta di
+cinabro nella biacca; locchè serve per i chiari più grandi delle carni. La tinta di carnagioni di
+donne, e di bambini si compone come la precedente di biacca, e di un ottavo di gialolino,
+eccettuato però che della quantità di carminio che vi entra vi sostituisce il doppio di cinabro, e per
+gradazione si aumenta il cinabro più alla sesta tinta<ref target="#note_23" id="noteXref_23_autorevoli">23</ref></q></p>
+<p>L’urina dei bambini occupa un posto di rilievo nel suo ricettario: viene
+utilizzata per la preparazione di delicati pastelli, che consentono di
+produrre una gamma cromatica intermedia rispetto ai colori
+fondamentali importati da <placeName ref="Parigi">Parigi</placeName>. È grazie a questo ingrediente se gli abiti
+risultano così preziosi, i volti così soavi e l’intero ritratto sembra
+dissolversi come vapore nell’aria.</p>
+<p>Per la preparazione del colore oro</p>
+<p><q>bisogna prendere una libra di terra oriana soda, la quale farete stemperare in 18 libre d’orina. Fate
+bollire questo miscuglio in un calzerotto di rame per un’ora e dopo vi getterete dentro una mezza
+libra di allume di feccia. Osservate bene che il calzerotto di rame sia grande abbastanza, poiché il
+colore darà all’aria, e potrebbe versarsi. Lasciatelo bollire ancora per una mezz’ora, cavatelo poi dal
+fuoco, e lasciatelo riposare, e deporre. [...] Questo colore dipingendo sulla seta fa lo stesso effetto
+che l’ocra nella pittura ad olio; essa però è più bella, ed ha più durata<ref target="#note_24" id="noteXref_24_autorevoli">24</ref></q></p>
+<p>Per il giallo limone</p>
+<p><q>si strittola bene la grana di Avignone, si mette in un vaso, e si empie con dell’orina chiarificata,
+nella quale sia stata sciolta avanti mezza libra d’allume in polvere. Dopo averlo ben bene turato
+mettetelo al sole o al caldo di un forno un mese. Questo colore si gomma colla gomma arabica, e
+ve ne va molta<ref target="#note_25" id="noteXref_25_autorevoli">25</ref></q></p>
+<p>Sembra di immaginarsela <persName ref="RCarriera">Rosalba</persName>, impegnata nella preparazione di
+questi pigmenti, quasi fosse una maga alle prese con pozioni magiche.
+Sono questi intrugli favolosi, oltre alla sua capacità di tessere e coltivare
+relazioni con i personaggi più influenti che varcano la porta del suo
+atelier, a permetterle di ricevere un invito alla corte di <placeName ref="Francia">Francia</placeName>, dove
+resterà per circa un anno. Sarà un periodo particolarmente ricco per la sua
+produzione: si conta che a <placeName ref="Parigi">Parigi</placeName> realizzi oltre venti pastelli e altrettante
+miniature, ma resista alle lusinghe della corte reale. Dipinge il <item ref="luigixv-ritratto-carriera" type="painting">ritratto del
+<persName ref="LuigiXV">re Luigi XV</persName></item> a soli dieci anni, pochi mesi prima della sua incoronazione e
+dell’inizio di quel governo che gli conferirà il soprannome di Re Sole;
+intrattiene una bella amicizia col pittore <persName ref="AWatteau">Antoine Watteau</persName>: «Quella
+signorina Rosalba, che può discutere d’arte come un maestro», avrà a dire
+l’artista, dopo aver avuto occasione di visitarla nel suo studio parigino. I
+due colleghi si scambiano i ritratti: lui la dipingerà con due rose bianche
+in grembo, evocazione del suo nome – rosa alba –, lei ne coglierà il
+fremito intelligente nelle labbra carnose e nell’occhio attento.</p>
+<p>È così diversa dai pittori della sua epoca, inclini a migliorare le figure e
+l’aspetto dei committenti. Non risparmia alcun difetto, lei. Se sotto
+l’occhio di un’anziana signora spunta un porro, <persName ref="RCarriera">Rosalba</persName> non trova alcuna
+ragione per non dipingerlo. Nel suo ritratto, quel difetto non
+compromette l’eleganza della dama. La <persName ref="RCarriera">Carriera</persName> ha il talento di discostarsi
+dallo stereotipo delle damine settecentesche, tutte crinoline e colori
+accesi, per inaugurare un modello più realistico e, allo stesso tempo,
+raffinato.</p>
+<p>Sarà forse per questo suo gentile realismo che, ovunque si trovi, la
+<persName ref="RCarriera">Carriera</persName> raccoglie attestati di stima: Carlo VI d’Austria, presso il quale
+soggiorna per sei mesi a <placeName ref="Vienna">Vienna</placeName>, la definisce «pittrice eccellente», anche se
+«bruttina», mentre l’amico <persName ref="CCole">Cole</persName> ne restituisce l’elogio che sancisce la sua
+definitiva affermazione internazionale: «Ornamento d’Italia e prima
+pittrice de l’Europa». Eppure gli autoritratti di <persName ref="RCarriera">Rosalba</persName> ci mostrano una
+donna all’apparenza inconsapevole del suo prestigio. Quando il duca
+<persName ref="FerdeMedici">Ferdinando de’ Medici</persName> le ordina una sua propria effigie da destinare alla
+celebre galleria degli autoritratti d’artista, <persName ref="RCarriera">Rosalba</persName> si raffigura infagottata
+nel giubbone da lavoro, gli inserti di pizzo che spuntano dall’abito: tiene
+in mano il ritratto della sorella Giovanna, la sua principale collaboratrice,
+con cui vuole condividere la fama di grande pittrice ammessa nella
+ristretta cerchia dei preferiti dai Medici. La sua espressione, un misto di
+timidezza e orgoglio, è ben diversa da quella che trent’anni dopo compare
+sul suo viso nell’ultimo autoritratto<ref target="#note_26" id="noteXref_26_autorevoli">26</ref>.</p>
+<p>Nel 1746 i suoi occhi cominciano a darle problemi: scopre di essere
+affetta da una malattia degenerativa che la porterà alla cecità nel giro di
+pochi anni. Una vera «tragedia», come la chiama nel suo diario. Ma
+<persName ref="RCarriera">Rosalba</persName> non si ferma. Continua a dipingere finché la vista glielo
+permette. Sa cosa significa rimanere sola, come aveva scritto con orgoglio
+<persName ref="CdePizan">Christine de Pizan</persName>.</p>
+<p>A questo periodo risale il suo autoritratto definitivo, il più commovente.
+Incoronata di alloro, da maestra riconosciuta, si ritrae impietosamente
+anziana, con i capelli grigi, radi e spettinati, lo sguardo malinconico, la
+bocca serrata in un’espressione quasi corrucciata, l’occhio destro
+appannato, a indicare gli inesorabili problemi alla vista.</p>
+<p>È una donna che ha sempre guardato in faccia la realtà, senza fare sconti
+a nessuno.</p>
+<p>Richiesta dai collezionisti più prestigiosi d’<placeName ref="Europa">Europa</placeName>, non abdica al
+controllo della sua carriera: rifiuta di legarsi per un periodo troppo lungo
+ad un solo mecenate – come hanno fatto tutte le sue illustri colleghe nei
+secoli precedenti – e si prende il rischio di mantenere la più completa
+autonomia. Sa di poter contare su un talento impareggiabile, ma
+soprattutto su una straordinaria capacità di relazione, che sa gestire al pari
+di un pittore maschio.</p>
+<p>Con <persName ref="RCarriera">Rosalba Carriera</persName>, in effetti, sembrano saltare tutti gli stereotipi
+sull’inferiorità femminile nell’arte. È una maestra capace di ottenere un
+esito indiscusso, che sarà superato soltanto dalla fulminante carriera di
+<persName ref="AKauffmann">Angelica Kauffmann</persName>, cui passerà il testimone della bandiera italiana della
+pittura al femminile in <placeName ref="Europa">Europa</placeName>.</p>
+</div>
+<div type="paragraph" n="3">
+			<head  class="Titolo_3"><hi rend="italic">Il salotto di <persName ref="AKauffmann">Angelica Kauffman</persName> (1741-1807)</hi></head>
+
+<p>Nata a <placeName ref="Coira">Coira</placeName>, in Svizzera, <persName ref="AKauffmann">Angelica</persName> non è italiana di nascita, ma lo è di
+formazione.</p>
+<p>Ha circa vent’anni quando il padre le propone un viaggio in <placeName ref="Italia">Italia</placeName>, dove
+rimane soprattutto affascinata dalle opere dei pittori dell’area bolognese
+come <persName ref="AAllegri">Correggio</persName>, i Carracci, <persName ref="GReni">Guido Reni</persName>, <persName ref="GFBarbieri">Guercino</persName>. Ovunque si rechi, il
+suo talento le apre le porte dei consessi accademici, ormai pronti ad
+accogliere le donne, anche per non finire sotto la scure delle accuse di
+misoginia che infuocano il dibattito intellettuale. <persName ref="AKauffmann">Angelica</persName> ottiene il
+diploma dell’<placeName ref="accademia-belle-arti-firenze">Accademia di Belle Arti di Firenze</placeName> e quello di Membro
+d’onore dall’Accademia Clementina di Bologna.</p>
+<p>Nel Settecento le accademie sono i nuovi luoghi dove si produce
+cultura. Sono il fulcro dell’attività intellettuale, ristretti club che
+ammettono soltanto chi dimostra di esprimere un pensiero valente.
+Celebri sono quelle rivolte allo studio e alla creazione in ambito letterario,
+come l’Accademia degli Arcadi che si ritrova nel giardino di Palazzo
+Salviati a Roma, ma su tutto il territorio sono diffusi consessi che
+affrontano gli argomenti più disparati, dalle attività economiche a quelle
+produttive, dalla giurisprudenza ai costumi del vivere quotidiano, sempre
+improntati alla rievocazione dei grandi maestri dell’antichità. Esistono poi
+le accademie professionali, che di fatto sostituiscono le corporazioni
+medievali nell’ambito dei mestieri artistici: esservi ammessi significa poter
+ricevere commissioni pubbliche e organizzare una propria bottega. Si
+dividono tra centri dediti allo scambio di idee, col faro degli antichi
+sempre di fronte, e consorterie che esercitano la propria influenza sulla
+scelta dei soggetti e dei linguaggi cui gli artisti devono adeguarsi.
+Rappresentano anche un punto di riferimento per gli artisti stranieri, che
+sempre più numerosi frequentano l’<placeName ref="Italia">Italia</placeName>.</p>
+<p>Proprio grazie alle sue affiliazioni con le accademie, nel suo Grand Tour
+tra <placeName ref="Napoli">Napoli</placeName> e <placeName ref="Roma">Roma</placeName> <persName ref="AKauffmann">Angelica</persName> incontra alcuni tra i pittori più celebri del
+momento, come lo scozzese Gavin Hamilton e l’americano Benjamin
+West, e si muove con disinvoltura nei contesti cosmopoliti dei salotti
+romani, frequentati dal tedesco Raphael Mengs, da <persName ref="GPiranesi">Giovanbattista
+Piranesi</persName>, <persName ref="PBatoni">Pompeo Batoni</persName> e Johann Joachim Winckelmann.</p>
+<p><q>La giovinetta di cui parlo è nata a Coira, ma fu condotta per tempo in Italia da suo padre, che è
+pure pittore; parla assai bene l’italiano e il tedesco [...]. Parla inoltre correntemente il francese e
+l’inglese [...]. Si può chiamare bella e gareggia nel canto con le nostre migliori virtuose. Il suo
+nome è <persName ref="AKauffmann">Angelica Kauffman</persName><ref target="#note_27" id="noteXref_27_autorevoli">27</ref></q></p>
+<p><persName ref="Goethe">Goethe</persName> rimane estasiato dalla pittrice e arriva quasi ad innamorarsene:</p>
+<p><q>Guardar quadri con lei è assai piacevole; tanto educato è il suo occhio ed estese le sue cognizioni
+di tecnica pittorica<ref target="#note_28" id="noteXref_28_autorevoli">28</ref></q></p>
+<p>Tra i due nasce un’affinità elettiva che secondo alcuni storici sfocia in
+una relazione segreta, suggellata da un <item ref="ritratto-goethe-kauffman" type="painting">ritratto che la pittrice dedica allo
+scrittore tedesco</item>. All’epoca, l’artista è sposata con il collega <persName ref="AZucchi">Antonio
+Zucchi</persName>, dal quale si allontana sovente per incontrare l’amico
+nell’appartamento che ha affittato a <placeName ref="Roma">Roma</placeName>, in via del Corso.</p>
+<p>Il 15 febbraio 1787 <persName ref="Goethe">Goethe</persName>, poco prima della sua partenza per <placeName ref="Napoli">Napoli</placeName>,
+accenna ad un disegno che <persName ref="AKauffmann">Angelica</persName> gli ha promesso in dono, frutto
+dell’emozione che la donna ha provato all’ascolto della sua <hi rend="italic"><item ref="ifigenia-goethe" type="text">Ifigenia in
+Tauride.</item></hi></p>
+<p><q>Quell’anima sensibile di <persName ref="AKauffmann">Angelica</persName> ha accolto con incredibile commozione il mio lavoro; e mi ha
+promesso di farne un disegno, che io terrò per suo ricordo. Proprio ora, che m’accingo a lasciare
+<placeName ref="Roma">Roma</placeName>, mi sento teneramente legato a queste brave persone; e provo un sentimento piacevole e
+doloroso ad un tempo nel vedere che loro non mi lasciano partire senza rincrescimento<ref target="#note_29" id="noteXref_29_autorevoli">29</ref></q></p>
+<p>Sulla nostalgia che prova nel distacco da <persName ref="AKauffmann">Angelica</persName>, si è voluto ricamare
+una storia d’amore che prosegue anche a distanza. A <placeName ref="Napoli">Napoli</placeName>, circa un
+mese dopo, <persName ref="Goethe">Goethe</persName> rivela di essere ancora in contatto con la <persName ref="AKauffmann">Kauffmann</persName>,
+che ha deciso di dipingere anche un quadro «in maniera stupenda»
+ispirato alla sua tragedia<ref target="#note_30" id="noteXref_30_autorevoli">30</ref>. La pittrice si muove tra la realizzazione di
+ritratti e quadri mitologici, che diventano ben presto oggetto di
+venerazione. Il suo lavoro è la perfetta espressione di quello sguardo
+rivolto verso l’antico, che viene riportato in vita con eleganza, senza
+incedere nell’affettato romanticismo che si sta facendo strada nella
+letteratura europea. La mitologia e la storia costituiscono il filtro con cui
+affrontare gli incidenti sentimentali che la vita le mette di fronte.</p>
+<p>La partenza di <persName ref="Goethe">Goethe</persName> precipita la donna in una disperazione che può
+confessare soltanto al proprio diario:</p>
+<p><q>Il suo commiato mi ha trafitto l’anima. Il giorno della sua partenza è stato tra i giorni più tristi
+della mia vita<ref target="#note_31" id="noteXref_31_autorevoli">31</ref></q></p>
+<p>È chiaro che ci troviamo di fronte ad una donna molto diversa da quelle
+che finora si sono dedicate al mestiere della pittura. Il filosofo <persName ref="JGHerder">Herder</persName>-
+arriva a definirla «la donna più colta d’<placeName ref="Europa">Europa</placeName>». L’educazione della
+<persName ref="AKauffmann">Kauffmann</persName> non le ha fornito soltanto l’abilità nel canto e nel pianoforte,
+non è soltanto in grado di discettare di filosofia e letteratura. Parla quattro
+lingue e, in un mondo dove gli scambi internazionali sono lo strumento
+fondamentale per costruire illustri carriere, lei ha tutte le carte in regola
+per ottenere un grande successo.</p>
+<p>In un celebre autoritratto, si raffigura incerta tra Musica e Pittura, come
+un Ercole al bivio che è attratto da due scelte molto diverse. Già a dodici
+anni la sua voce è sensazionale: il padre pensa ad un futuro come soprano
+professionista, ma il canto resterà confinato all’ambito dei passatempi. Il
+pennello, invece, diventerà la sua professione.</p>
+<p>Il suo carattere affabile e deciso si rivela il grimaldello per costruire una
+rete di relazioni che le permetterà di aggiudicarsi committenze raramente
+affidate ad una donna. Esordisce a <placeName ref="Roma">Roma</placeName> nel 1763 con un <hi rend="italic"><item ref="nudo-virile" type="painting">Nudo virile</item></hi> che
+compone a memoria, facendo affidamento sui gessi e sulle stampe che ha
+potuto studiare da giovane nell’atelier di suo padre, anch’egli pittore.
+Nell’<placeName ref="Roma">Urbe</placeName>, grazie alle sue influenti amicizie, riesce ad arricchire il suo
+repertorio visitando le collezioni più prestigiose, da quella del cardinal
+Albani a quella dei Borghese. Ne scaturiscono una <hi rend="italic"><item ref="penelope-telaio" type="painting">Penelope al telaio</item></hi> e un
+<hi rend="italic"><item ref="bacco-arianna" type="painting">Bacco e Arianna</item></hi>, che dimostrano quanto sia capace di costruire scene con
+dialoghi tra più figure, un territorio fino ad allora assai poco frequentato
+dalle artiste. Ma <persName ref="AKauffmann">Angelica</persName> mette subito le cose in chiaro: non ha alcuna
+intenzione di comportarsi come una brava e diligente pittrice, che se ne
+sta al suo posto, senza invadere gli ambiti dei colleghi maschi.</p>
+<p>Le viene riconosciuto un talento molto ricercato all’epoca: quello di
+riuscire a trattenere le emozioni dei suoi personaggi, un’abilità così poco
+legata alla sfera sentimentale femminile. In alcuni suoi autoritratti sembra
+fissarci manifestando una tranquillità quasi glaciale, ma, a ben guardare,
+una lacrima spesso resta trattenuta al lato degli occhi. <persName ref="AKauffmann">Angelica</persName> conquista
+il mondo dell’arte grazie alla sua capacità di non piangere.</p>
+<p>Solo grazie a questa attitudine riesce a superare i terribili pettegolezzi
+che offuscano la sua reputazione quando si reca a <placeName ref="Londra">Londra</placeName>. È il primo
+viaggio che affronta senza il padre. La sua unica arma è il pennello, che fa
+lavorare assai bene.</p>
+<p>Come è sua abitudine, entra in contatto con i pittori più attivi sulla
+scena cittadina, come <persName ref="HFussli">Heinrich Füssli</persName>, suo coetaneo, o <persName ref="JReynolds">Joshua Reynolds</persName>,
+vent’anni più grande di lei. Si vocifera che i rapporti con questi colleghi
+non si limitino allo scambio di vedute, ma celino comportamenti molto
+più scandalosi. È una vecchia storia: è la tattica per screditare un’artista
+pericolosamente brava.</p>
+<p>L’episodio più emblematico risale al 1775, quando il pittore irlandese
+<persName ref="NHone">Nathaniel Hone</persName> realizza un dipinto intitolandolo <item ref="congiurato" type="painting">Il congiurato</item>, dove in un
+angolo raffigura una caricatura della pittrice mostrandola discinta: le
+proteste pubbliche di <persName ref="AKauffmann">Angelica</persName> lo costringono a rimuovere il particolare,
+ma ormai l’immagine è sulla bocca di tutti. I rumors sono talmente crudeli
+che anche le due figure principali del dipinto, un anziano e una ragazzina
+appoggiata sulle sue ginocchia, vengono interpretate come un attacco
+malevolo al legame tra il maturo<persName ref="JReynolds">Reynolds</persName> e la più giovane <persName ref="AKauffmann">Kauffman</persName>.</p>
+<p>I suoi detrattori si muovono con sempre maggiore ferocia, ma non
+riescono ad evitare che <persName ref="AKauffmann">Angelica</persName> diventi una delle protagoniste della
+fondazione della <placeName ref="royal-academy-of-arts">Royal Academy of Arts</placeName>, l’istituzione artistica più
+prestigiosa del regno. Sono solo due le donne ammesse in quel
+ristrettissimo collegio che definirà d’ora in avanti le sorti della pittura
+ufficiale: la <persName ref="AKauffmann">Kauffman</persName> e <persName ref="MMoser">Mary Moser</persName>, nota per le sue nature morte. La
+loro presenza è talmente innovativa che nel quadro dove sono celebrati
+tutti i fondatori, riuniti intorno ad un modello vivente nudo, le due
+pittrici vengono citate attraverso due ritratti appesi alle pareti<ref target="#note_32" id="noteXref_32_autorevoli">32</ref></p>
+<p>Ammetterle al cospetto di un uomo senza veli sarebbe stato troppo
+disdicevole.</p>
+<p>È questa la società europea del Settecento: una trama di consuetudini e
+non detti nei quali <persName ref="AKauffmann">Angelica</persName> si muove a suo agio, riuscendo ad aprire
+varchi per la sua professione in settori mai esplorati prima da una donna.
+È abile a scansare pregiudizi e false accuse, di cui diventa facile bersaglio.
+A <placeName ref="Londra">Londra</placeName>, dove vive in Suffolk Street, decide di mettere a tacere
+definitivamente le maldicenze sul suo conto accettando un frettoloso
+matrimonio combinato da suo padre, che nel frattempo l’ha raggiunta.
+Sposa il sedicente conte svedese <persName ref="FdeHorn">Frederick de Horn</persName>, che si rivela presto
+un impostore. L’uomo fugge con i risparmi dell’artista, trasformando il
+fatto in un ulteriore argomento di conversazione per la perbenista società
+londinese.</p>
+<p>Ma la pittrice ha capito che non può lavorare senza un uomo accanto.
+Dovrà attendere il pronunciamento della Chiesa anglicana prima di
+convolare a nuove nozze. Questa volta il prescelto è una vecchia
+conoscenza di suo padre, il pittore veneziano <persName ref="AZucchi">Antonio Zucchi</persName>, circa
+quindici anni più anziano di lei. Più che una relazione sentimentale, la
+loro diventa una collaborazione professionale: il marito si occuperà di
+organizzare il lavoro di <persName ref="AKauffmann">Angelica</persName>, orchestrare i rapporti con i clienti,
+amministrare la gestione finanziaria e la programmazione delle
+committenze, sempre più affollate. Con <persName ref="AZucchi">Antonio</persName>, la <persName ref="AKauffmann">Kauffman</persName> lascia
+l’<placeName ref="UK">Inghilterra</placeName> – con cui continuerà a intrattenere rapporti per tutta la vita –
+e rientra in <placeName ref="Italia">Italia</placeName> passando per Venezia, Ferrara e <placeName ref="Loreto">Loreto</placeName>. Qui realizza una
+delle sue opere più impegnative, l’affresco con <hi rend="italic"><item ref="educazione-kauffman" type="painting">L’educazione della Vergine</item></hi>
+all’interno del santuario della <placeName ref="santa-casa-di-maria">Santa Casa di Maria</placeName>.</p>
+<p>La sua fama la precede quando torna a Roma, dove acquista in <placeName ref="via-sistina">via
+Sistina</placeName> la casa che era stata di Raphael Mengs. C’è chi è pronto a
+scommettere che questa scelta sia parte di una strategia autopromozionale
+studiata a tavolino. In effetti, <placeName ref="via-sistina">via
+Sistina</placeName> è una delle arterie più raffinate
+della città, quella su cui si aprono le botteghe più ricercate e in cui abita la
+migliore società altoborghese. Il suo atelier diventa un punto di
+riferimento nella scena culturale dell’Urbe. Una visita a casa della
+<persName ref="AKauffmann">Kauffman</persName> era inclusa nel programma dei turisti «bene» che venivano a
+Roma a vedere il papa. Tommaso Puccini, futuro direttore della Galleria
+degli Uffizi e dell’Accademia di Belle Arti fiorentina, allora figura di
+spicco nell’ambito dei conoscitori e dei salotti romani, in una lettera
+all’amico Ignazio De Giovanni del luglio 1783 scrive: <q>«Angelika
+Kauffmann celebre pittrice si è stabilita in Roma questa settimana, e ha
+dato scacco alla maggior parte dei pittori. Io frequento la sua compagnia,
+e la frequentereste anche voi, se foste in Roma».<ref target="#note_33" id="noteXref_33_autorevoli">33</ref></q></p>
+<p>Nella sua dimora raccoglie una piccola ma pregevole collezione di
+dipinti, estremamente selezionati, in cui è annoverata anche la <item ref="san-girolamo" type="painting">pala del
+San Girolamo di Leonardo da Vinci</item>, che poi finirà in Vaticano. La sua
+reputazione non si limita alla raffinatezza del suo pennello: è anche
+considerata una pregevole conoscitrice, capace di valutare l’importanza di
+pezzi dell’antichità come la riuscita di un’opera contemporanea. <persName ref="AKauffmann">Angelica</persName>
+è il punto di riferimento di una intera comunità di collezionisti,
+monsignori, viaggiatori e artisti – donne e uomini, cantanti e poetesse,
+scrittrici e architetti – che gravitano attorno al suo salotto. Non è più
+un’artista che deve lottare per affermarsi, ma un mentore che può favorire
+la carriera dei colleghi, uno dei pennelli più ricercati dalle corti d’<placeName ref="Europa">Europa</placeName>.
+Dipinge il ritratto della famiglia reale di <placeName ref="Napoli">Napoli</placeName>, l’imperatore <persName ref="GiuseppeII">Giuseppe II</persName>
+le fa visita e le commissiona due dipinti di soggetto storico, lasciando a lei
+la scelta. Nasceranno così <hi rend="italic"><item ref="ermanno-tusnelda" type="painting">Ermanno e Tusnelda</item></hi> e <hi rend="italic"><item ref="enea-pallante" type="painting">Enea piange la morte di
+Pallante</item></hi>, non prima del completamento dell’ordine giunto dalla <placeName ref="Russia">Russia</placeName>:
+un <hi rend="italic"><item ref="serviotullio" type="painting">Servio Tullio</item></hi> e un <hi rend="italic"><item ref="achille-licomede" type="painting">Achille tra le figlie di Licomede</item></hi> per <persName ref="CaterinalaGrande">Caterina la Grande</persName>.
+<persName ref="AKauffmann">Angelica</persName> si muove a suo completo agio tra volti e storie dell’antichità,
+per le quali diventa un punto di riferimento assoluto. La grande
+viaggiatrice irlandese Catherine Wilmot, che ci ha lasciato un bel diario
+dei suoi viaggi nel periodo napoleonico, va a trovarla a <placeName ref="Roma">Roma</placeName> e diviene
+sua amica. Elisabeth Vigée-Lebrun si reca appositamente a <placeName ref="Firenze">Firenze</placeName> per
+ammirare un suo autoritratto agli Uffizi: lei, pittrice alla corte di Francia,
+cerca ispirazione nel lavoro di una maestra, nel mare di maestri che offre
+la storia dell’arte italiana. In una lettera dell’ottobre 1781, l’ambasciatore e
+poeta Friedric Gottlieb Klopstock, alle cui opere la stessa <persName ref="AKauffmann">Kauffman</persName> più
+volte si ispirerà nei suoi lavori, afferma: «The whole world is angelicamad»
+(«Tutto il mondo è pazzo di Angelica»)<ref target="#note_34" id="noteXref_34_autorevoli">34</ref></p>
+<p>Le riviste si riempiono di panegirici come quello steso dal critico
+<persName ref="GGdeRossi">Giovanni Gherardo De Rossi</persName>.</p>
+<p><q>Le opere della Signora <persName ref="AKauffmann">Kauffman</persName> hanno una certa universalità di bellezza, dalle quali si deduce,
+che questa donna oltre un impegno vasto e fertile, ha avuto dalla Natura il dono rarissimo delle
+Grazie. Di queste essa adorna ogni parte delle sue pitture, nelle quali perciò si veggono fisionomie
+tanto eleganti, espressioni così vere, e felici, atteggiamenti tanto gentili, ed effetto, ed accordo così
+grande nel chiaroscuro, e nel colorito. Il suo gusto nel comporre è vaghissimo, giacché accoppia ad
+un certo lampo di antica semplicità, quella feconda chiarezza d’invenzione, di cui andrebbero più
+gloriose le scuole veneziana, e fiamminga, se non ne avessero fatto abuso. Noi non aduliamo la sig.
+<persName ref="AKauffmann">Angelica</persName> chiamandola la Pittrice delle Grazie, e qual raro merito siano queste in un Artista lo
+dimostra il vedere, che per questo pregio le tele di Antonio Allegri emulano quelle di Raffaello, e
+bel lo conobbe Carlo Maratta, quando nel suo disegno della Scuola della Pittura rappresentò le
+Grazie, che scendono dal Cielo, e scrisse sotto di esse: Senza le Grazie indarno è ogni fatica.<ref target="#note_35" id="noteXref_35_autorevoli">35</ref></q></p>
+<p>Negli ultimi anni di carriera, possiamo dire che si prenda tutte le
+rivincite che le spettano, dopo il fango che ha lordato la sua immagine.
+Eppure, proprio in punto di morte, a sessantasei anni, compie un gesto
+che rivela quanto in fondo la sua qualità più profonda sia stata l’umiltà.
+Il 7 novembre 1807 con una solenne cerimonia funebre, organizzata e
+diretta da <persName ref="ACanova">Antonio Canova</persName>, si conclude la parabola terrena della pittrice.
+L’artista viene sepolta nella chiesa romana di <placeName ref="chiesa-andrea-fratte">Sant’Andrea delle Fratte</placeName>, di
+fianco al consorte secondo la sua precisa disposizione testamentaria.</p>
+<p>Nel gioco della dissimulazione a cui ci hanno abituato tanti suoi
+colleghi, ordina per la sua tomba questo epitaffio:</p>
+<p><q>ANGELICA IOANNIS IOSEPHI F(ILIA) KAUFFMANN
+DOMO SCHWARZENBERG
+CUI SUMMA PICTURAE LAUS CENOTAPHIUM IN AEDE
+PANTHEI PROMERUIT SED IPSA SE IN HOC MONUMENTUM
+QUOD ANTONIO ZUCCHIO POSUERAT INFERRI IUSSIT UT
+CUM VIRO CONCORDISSIMO POST EUNUS ETIAM HABITARET
+ANNOS NATA LXVI DIES VI OBIIT ROMAE NON NOV MCICCCVII
+AVE MULIER OPTIMA ET VALE IN PACE.<ref target="#note_36" id="noteXref_36_autorevoli">36</ref></q></p>
+<p><persName ref="AKauffmann">Angelica</persName> rinuncia per amore ad una prestigiosa sepoltura nel <placeName ref="Pantheon">Pantheon</placeName>,
+accanto a <persName ref="RSanzio">Raffaello</persName>, posto che le verrà comunque riconosciuto dalla
+comunità artistica romana, perché un anno dopo la sua morte alla
+Rotonda verrà comunque collocato un suo busto.</p>
+<p>Prima donna nella storia dell’arte ad aver creato un vero e proprio culto
+della sua persona, ai suoi funerali partecipano gli accademici di San Luca e
+i più famosi artisti e letterati di <placeName ref="Roma">Roma</placeName>. Due sue opere sono portate in
+processione, assieme al calco della sua mano. Anche se non è una
+canonizzazione, siamo comunque molto vicini alla celebrazione di un
+mito.</p>
+</div>
+<div type="paragraph" n="4">
+			<head  class="Titolo_4"><hi rend="italic">Altre colleghe del tempo</hi></head>
+
+Se la <persName ref="RCarriera">Carriera</persName> e la <persName ref="AKauffmann">Kauffman</persName> possono essere considerate le uniche due
+artiste che abbiano lasciato un segno determinante nella storia dell’arte
+italiana del Settecento, vale la pena citare anche altri nomi di colleghe che
+sono riuscite a ritagliarsi un piccolo mercato nella medesima epoca.
+A <placeName ref="Venezia">Venezia</placeName> spicca <persName ref="MCarlevarijs">Marianna Carlevarijs</persName> (1703-1750), figlia del celebre
+vedutista udinese Luca, che purtroppo rimane ancora quasi del tutto
+sconosciuta perché non sono ancora state individuate opere che portino la
+sua firma e le notizie biografiche sul suo conto sono molto scarse.
+La friulana <persName ref="FSartori">Felicita Sartori</persName> (1714 ca.-1760), che si dedica
+prevalentemente all’incisione, come conferma la sua iscrizione all’Arte
+degli intagliatori di rame, è una delle allieve predilette di <persName ref="RCarriera">Rosalba Carriera</persName>
+e viene introdotta dalla maestra anche alla tecnica del pastello. Anche sua
+sorella Angioletta si muove nell’ambito della bottega della <persName ref="RCarriera">Carriera</persName> e la
+sostituisce nella realizzazione delle miniature quando <persName ref="RCarriera">Rosalba</persName> deve
+rinunciare a lavorare per i disturbi alla vista.
+<persName ref="LBergalli">Luisa Bergalli</persName> (1703-1779) invia alla grande pittrice veneziana dei
+pastelli, di cui risulta in una lettera, ma non si trovano ulteriori conferme
+sul lavoro di questa artista, che potrebbe aver anche dipinto un ritratto del
+doge e della dogaressa, scomparso chissà dove. La <persName ref="RCarriera">Carriera</persName> deve aver
+proprio reso il pastello un genere alla moda, se intorno al suo atelier
+fioriscono imitatrici del calibro di Maria Molin, che pare però non poter
+essere riconosciuta come una sua allieva. Stessa sorte tocca a Margherita
+Terzi, citata in una lettera scritta da <persName ref="RCarriera">Rosalba</persName>, che le esprime elogi per il
+suo lavoro – pastelli di nature morte – e si offre di fornirle più carta per
+dipingere.
+Piuttosto difficile da catalogare è invece il lavoro di <persName ref="GLama">Giulia Lama</persName> (1681-
+1747), che opera accanto al pittore veneziano <persName ref="GBPiazzetta">Giovan Battista Piazzetta</persName>,
+dal quale assorbe l’insistenza nel chiaroscuro e un certo gusto per le
+deformazioni anatomiche. Le sono attribuiti alcuni soggetti sacri, come
+un commovente e ruvido <item ref="giuditta-oloferne-lama" type="painting">Giuditta e Oloferne</item>, oltre ad alcune cosiddette
+«teste di carattere» (Busto di vecchio con libro, Busto di donna con zendado, Busto
+di vecchio con rosario), che dimostrano come intorno a lei si muovesse un
+certo mercato di commissioni. Peccato che a tutt’oggi notizie sulla sua
+vita siano ancora sepolte negli archivi della <placeName ref="Venezia">Serenissima</placeName>, in attesa di essere
+scovati da qualche paziente ricercatore.
+Rientrati sulla terraferma, vale la pena citare il caso rarissimo di <persName ref="AMManzolini">Anna
+Morandi Manzolini</persName> (1714-1774). In un mondo in cui le donne non sono
+libere di affrontare il nudo maschile e devono fare i conti con la censura
+di quello femminile, <persName ref="AMManzolini">Anna</persName> si specializza nella realizzazione di modelli
+anatomici di donne, che fornisce alle classi dell’<placeName ref="archiginnasio">Archiginnasio di Bologna</placeName>.
+È passata alla storia per la sua straordinaria capacità di plasmare la cera,
+con la quale raggiunge un invidiabile livello di dettaglio nella descrizione
+dei corpi e della loro morfologia interiore.
+La <persName ref="RCarriera">Carriera</persName> e la <persName ref="AKauffmann">Kauffman</persName> rappresentano casi luminosi, ma ancora
+troppo rari: il secolo successivo vedrà crescere sempre di più il numero
+delle protagoniste, autrici di un successo che diventa inarrestabile.</div>
+<div>
+<p class="note"><ref class="sc-note-num" target="#noteXref_1_autorevoli" id="note_1">1</ref> Cit. in Maria Giuseppina Muzzarelli, Un’italiana alla corte di Francia. Christine de Pizan,
+intellettuale e donna, Il Mulino, Bologna 2017, p. 21.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_2_autorevoli" id="note_2">2</ref>
+Ibid.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_3_autorevoli" id="note_3">3</ref>
+«Sono sola, e sola voglio rimanere. / Sono sola, mi ha lasciata il mio dolce amico; / sono
+sola, senza compagno né maestro, / sono sola, dolente e triste, / sono sola, a languire
+sofferente, / sono sola, smarrita come nessuna, / sono sola, rimasta senz’amico. / Sono sola,
+alla porta o alla finestra, / sono sola, nascosta in un angolo, / sono sola, mi nutro di lacrime,
+/ sono sola, dolente o quieta, / sono sola, non c’è nulla di più triste, / sono sola, chiusa nella
+mia stanza, / sono sola, rimasta senz’amico. / Sono sola, dovunque e ovunque io sia; / sono
+sola, che io vada o che rimanga, / sono sola, più di ogni altra creatura della terra, / sono sola,
+abbandonata da tutti, / sono sola, più di ogni altra creatura, / sono sola, abbandonata da
+tutti, / sono sola, duramente umiliata, / sono sola, sovente tutta in lacrime, / sono sola, senza
+più amico. / Principi, iniziata è ora la mia pena: / sono sola, minacciata dal dolore, / sono
+sola, più nera del nero, / sono sola, senza più amico, abbandonata» (ibid.). </p>
+
+<p class="note"><ref class="sc-note-num" target="#noteXref_4_autorevoli" id="note_4">4</ref> Cit. in ivi, p. 132.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_5_autorevoli" id="note_5">5</ref>
+Ivi, p. 133.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_6_autorevoli" id="note_6">6</ref>
+Ivi, p. 5.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_7_autorevoli" id="note_7">7</ref>
+Ivi, p. 39.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_8_autorevoli" id="note_8">8</ref> Pierre Col, Trattato in difesa del Romanzo della Rosa, p. 87, cit. in Muzzarelli, Un’italiana alla
+corte di Francia cit., p. 39.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_9_autorevoli" id="note_9">9</ref> Gisela Bock, Le donne nella storia europea. Dal Medioevo ai nostri giorni, Laterza, Roma-Bari
+2006.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_10_autorevoli" id="note_10">10</ref> Vita della Sig.ra Modesta Pozzo de Zorzi nominata Moderata Fonte descritta da Gio. Nicolo
+Doglioni l’anno MDXCIII, in Moderata Fonte, Il merito delle donne, a cura di Anna Morena
+Mozzillo, s.e., Salerno 2018.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_11_autorevoli" id="note_11">11</ref>
+Ibid.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_12_autorevoli" id="note_12">12</ref> Moderata Fonte, Il merito delle donne. Ove chiaramente si scuopre quanto siano elle degne e più
+perfette de gli uomini, a cura di Adriana Chemello, Eidos, Milano 1988, p. 16.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_13_autorevoli" id="note_13">13</ref>
+Ibid.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_14_autorevoli" id="note_14">14</ref> Fabio Boni, «VII: foetorem in lecto». Una lettura de I donneschi difetti di Giuseppe Passi
+Ravennate, in «Studia Litteraria Universitatis Iagellonicae Cracoviensis», 5, 2010.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_15_autorevoli" id="note_15">15</ref> Beatrice Collina, Moderata Fonte e il merito delle donne, in «Annali d’Italianistica», 7, 1989.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_16_autorevoli" id="note_16">16</ref> Lucretia Marinelli, Le nobiltà, et eccellenze delle donne: et i diffetti, e mancamenti de gli huomini.
+Discorso di Lucretia Marinella. In due parti diuiso, Giouan Battista Ciotti Senese, Venetia 1600.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_17_autorevoli" id="note_17">17</ref> Francesca Medioli, L’«Inferno monacale» di Arcangela Tarabotti, Rosenberg  Sellier, Torino
+1990.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_18_autorevoli" id="note_18">18</ref> Componimenti poetici delle più illustri rimatrici d’ogni secolo, raccolti da Luisa Bergalli. Parte prima,
+che contiene le Rimatrici Antiche fino all’Anno 1575 e Parte seconda, che contiene le Rimatrici
+dell’Anno 1575 fino al Presente, appresso Antonio Mora, Venezia 1726.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_19_autorevoli" id="note_19">19</ref> Valentina Casarotto, Il segreto nello sguardo. Memorie di Rosalba Carriera prima pittrice d’Europa,
+Angelo Colla, Vicenza 2012, p. 113.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_20_autorevoli" id="note_20">20</ref> Bernardina Sani (a cura di), Rosalba Carriera. Lettere, diari, frammenti, Leo S. Olschki,
+Firenze 1985, p. 342.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_21_autorevoli" id="note_21">21</ref>
+Ibid.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_22_autorevoli" id="note_22">22</ref> Rosalba Carriera, Maniere diverse per formare i colori, a cura di Manlio Brusadin, Vittorio
+Mandelli, Abscondita, Milano 2005, pp. 24-25.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_23_autorevoli" id="note_23">23</ref>
+Ivi, p. 8.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_24_autorevoli" id="note_24">24</ref>
+Ivi, p. 37.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_25_autorevoli" id="note_25">25</ref>
+Ibid.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_26_autorevoli" id="note_26">26</ref> Giuseppe Pavanello (a cura di), Rosalba Carriera “prima pittrice de l’Europa”, Marsilio,
+Venezia 2007, schede di catalogo a cura di Alessio Pasian, pp. 82-165.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_27_autorevoli" id="note_27">27</ref>
+Johann Joachim Winckelmann, Lettere, a cura di Maria Fancelli, Joselita Raspi Serra,
+Istituto di Studi Germanici, Roma 2016, vol. I, p. 136.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_28_autorevoli" id="note_28">28</ref>
+Johann Wolfgang Goethe, Viaggio in Italia, trad. it. di Eugenio Zaniboni, Bur, Milano
+1991, p. 172.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_29_autorevoli" id="note_29">29</ref>
+Ibid.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_30_autorevoli" id="note_30">30</ref>
+Ivi, p. 210.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_31_autorevoli" id="note_31">31</ref> Angelica Kauffmann, La “Memoria delle piture”, a cura di Carlo Knight, De Luca, Roma
+1998, p. 41.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_32_autorevoli" id="note_32">32</ref>
+Johan Joseph Zoffany, Gli Accademici della Royal Academy, 1771-1772, olio su tela, 50,5 x
+66 cm, London, Royal Academy of Arts.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_33_autorevoli" id="note_33">33</ref> Laura Facchin, Angelica Kauffmann a Roma: l’attività per una clientela cosmopolita, in Giorgio
+Mollisi (a cura di), Svizzeri a Roma nella storia, nell’arte, nella cultura, nell’economia dal
+Cinquecento ad oggi, in «Arte e Storia», 35, settembre-ottobre 2007, p. 12.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_34_autorevoli" id="note_34">34</ref> Wolfgang Savelsberg, Mad about Angelica Kauffmann, in «The Burlington Magazine»,
+CLXII, settembre 2020, 1410, p. 13.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_35_autorevoli" id="note_35">35</ref> Giovanni Gherardo De Rossi, Memorie delle Belle Arti, tomo I, 1785, p. LIV, cit. in Facchin,
+Angelica Kauffmann a Roma cit., p. 13.</p>
+<p class="note"><ref class="sc-note-num" target="#noteXref_36_autorevoli" id="note_36">36</ref>
+«Angelica, figlia di Giovanni Giuseppe Kauffmann, originario di Schwarzenberg alla
+quale la somma lode della pittura meritò un cenotafio nel Pantheon ma lei stessa ordinò di
+essere portata in questo monumento che aveva posto per Antonio Zucchi affinché abitasse
+con l’uomo in perfetta armonia anche dopo la morte.Nata da 66 anni e 6 giorni, morì a
+Roma nel novembre 1807 addio magnifica donna, riposa in pace» (trad. dell’autore).</p>
+
+
+</div>
+</div>
+</body>
+</TEI>

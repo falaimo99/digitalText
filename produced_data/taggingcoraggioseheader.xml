@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="it">
+<fileDesc>
+<titleStmt><title> "Vite di artiste eccellenti"</title>
+<author xml:id="C.D.O">Costantino D'Orazio</author>
+</titleStmt>
+<profileDesc> <keywords> Storia dell'arte, Attualità culturale e di costume </keywords>
+              <abstract> Dall’antica Grecia a oggi sono moltissime le donne che hanno dipinto, scolpito, decorato. Tanti dei loro nomi 
+              sono finiti – ingiustamente – nell’oblio. È arrivato il momento di raccontare un’altra storia dell’arte.
+              Già nell’antica Grecia esistevano artiste donne, che hanno decorato palazzi e lasciato tracce del loro lavoro. Durante il 
+              Medioevo, per lo più considerato un periodo nel quale le donne non godevano di alcun rilievo nella società, molte opere 
+              sono nate grazie alla manualità femminile, che si poteva esprimere soprattutto nei conventi. L’esplosione dell’arte al 
+              femminile risale però al Rinascimento, quando alcune artiste sono arrivate a occupare posti di rilievo nelle corti più 
+              prestigiose d’Europa godendo di una fama pari ai propri colleghi uomini. Bisogna attendere la fine dell’Ottocento per 
+              vedere alcune artiste esporre nelle mostre accanto a pittori uomini: spesso si tratta di compagne di artisti famosi, 
+              altre volte di donne capaci di imporre la propria personalità oltre al proprio talento. Sono le apripista di un fenomeno 
+              che nel corso del XX secolo diventerà inarrestabile: le artiste firmeranno i manifesti delle avanguardie storiche e saranno 
+              sempre più protagoniste, finché nella seconda parte del secolo supereranno i propri colleghi in quanto a fama e quotazioni 
+              sul mercato. Le vite de’ più eccellenti pittori, scultori e architettori è il titolo della celeberrima opera di Giorgio 
+              Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costantino D’Orazio rende onore alle tante 
+              ‘eccellenti artiste’ di cui i canoni si sono troppo spesso dimenticati.</abstract>
+<particDesc>
+<listPerson type="real">
+<person xml:id="GdaMontefeltro"> <persName>Guidobaldo Da Montefeltro</persName></person>
+<person xml:id="EGonzaga"> <persName>Elisabetta Gonzaga</persName></person>
+<person xml:id="FdaMontefeltro"> <persName>Federico Da Montefeltro</persName></person>
+<person xml:id="FdiGiorgioMartini"> <persName>Federico Di Giorgio Martini</persName></person>
+<person xml:id="GGenga"> <persName>Girolamo Genga</persName></person>
+<person xml:id="PdellaFrancesca"> <persName>Piero della Francesca</persName></person>
+<person xml:id="GSanti"> <persName>Giovanni Santi</persName></person>
+<person xml:id="LPacioli"> <persName>Luca Pacioli</persName></person>
+<person xml:id="LdiCanossa"> <persName>Ludovico Di Canossa</persName></person>
+<person xml:id="OFregoso"> <persName>Ottaviano Fregoso</persName></person>
+<person xml:id="GdeMedici"> <persName> Giuliano de' Medici</persName></person>
+<person xml:id="FFregoso"> <persName>Federico Fregoso</persName></person>
+<person xml:id="LdeMedici"> <persName>Lorenzo de' Medici</persName></person>
+<person xml:id="CGonzaga"> <persName>Cesare Gonzaga</persName></person>
+<person xml:id="BDdaBibbiena"> <persName>Bernardo Dovizi da Bibbiena</persName></person>
+<person xml:id="PBembo"> <persName>Pietro Bembo</persName></person>
+<person xml:id="GdiMontefeltro"> <persName>Guidobaldo di Montefeltro</persName></person>
+<person xml:id="Platone"> <persName>Platone</persName></person>
+<person xml:id="Senofonte"> <persName>Senofonte</persName></person>
+<person xml:id="IdEste>"> <persName>Isabella d'Este</persName></person>
+<person xml:id="FAsolano"> <persName>Francesco Asolano</persName></person>
+<person xml:id="PdeRossi"> <persName>Properzia de' Rossi</persName></person>
+<person xml:id="MEquicola"> <persName>Mario Equicola</persName></person>
+<person xml:id="GFCapella"> <persName>Galeazzo Flavio Capella</persName></person>
+<person xml:id="Temistoclea"> <persName>Temistoclea</persName></person>
+<person xml:id="Pitagora"> <persName>Pitagora</persName></person>
+<person xml:id="LCrasso"> <persName>Lucio Crasso</persName></person>
+<person xml:id="Lelia"> <persName>Lelia</persName></person>
+<person xml:id="APiccolomini"> <persName>Alessandro Piccolomini</persName></person>
+<person xml:id="SSperoni"> <persName>Sperone Speroni</persName></person>
+<person xml:id="LDolce"> <persName>Ludovico Dolce</persName></person>
+<person xml:id="JVives"> <persName>Juan Vives</persName></person>
+<person xml:id="GVasari"> <persName>Giorgio Vasari</persName></person>
+<person xml:id="AGMalvasia"> <persName>Antonio Galeazzo Malvasia</persName></person>
+<person xml:id="GPepoli"> <persName>Conte Guido Pepoli</persName></person>
+<person xml:id="JDQuercia"> <persName>Jacopo della Quercia</persName></person>
+<person xml:id="GDRovere"> <persName>Giuliano della Rovere (papa Giulio II)</persName></person>
+<person xml:id="MBuonarroti"> <persName>Michelangelo Buonarroti</persName></person>
+<person xml:id="AAspertini"> <persName>Amico Aspertini</persName></person>
+<person xml:id="NTribolo"> <persName>Niccolò Tribolo</persName></person>
+<person xml:id="ALombardi"> <persName>Alfonso Lombardi</persName></person>
+<person xml:id="GdaTreviso"> <persName>Girolamo da Treviso</persName></person>
+<person xml:id="DFrancia"> <persName>Domenico Francia</persName></person>
+<person xml:id="FFrancia"> <persName>Francesco Francia</persName></person>
+<person xml:id="VMiola"> <persName>Vincenzo Miola</persName></person>
+<person xml:id="SAnguissola"> <persName>Sofonisba Anguissola</persName></person>
+<person xml:id="TVecellio"> <persName>Tiziano Vecellio</persName></person>
+<person xml:id="PVeronese"> <persName>Paolo Veronese</persName></person>
+<person xml:id="AAnguissola"> <persName>Amilcare Anguissola</persName></person>
+<person xml:id="BCampi"> <persName>Bernardino Campi</persName></person>
+<person xml:id="EAnguissola"> <persName>Elena Anguissola</persName></person>
+<person xml:id="EuropaAnguissola"> <persName>Europa Anguissola</persName></person>
+<person xml:id="AMAnguissola"> <persName>Anna Maria Anguissola</persName></person>
+<person xml:id="MAnguissola"> <persName>Minerva Anguissola</persName></person>
+<person xml:id="LAnguissola"> <persName>Lucia Anguissola</persName></person>
+<person xml:id="AMantegna"> <persName>Andrea Mantegna</persName></person>
+<person xml:id="FPetrarca"> <persName>Francesco Petrarca</persName></person>
+<person xml:id="ACaro"> <persName>Annibale Caro</persName></person>
+<person xml:id="AFarnese"> <persName>Alessandro Farnese</persName></person>
+<person xml:id="AsdrubaleAnguissola"> <persName>Asdrubale Anguissola</persName></person>
+<person xml:id="LdaVinci"> <persName>Leonardo da Vinci</persName></person>
+<person xml:id="CdeMedici"> <persName>Cosimo de' Medici</persName></person>
+<person xml:id="TdeCavalieri"> <persName>Tommaso de' Cavalieri</persName></person>
+<person xml:id="ASerristori"> <persName>Averardo Serristori</persName></person>
+<person xml:id="FilippoII"> <persName>Filippo II di Spagna</persName></person>
+<person xml:id="GAMdiMarignano"> <persName>Giovanni Angelo Medici di Marignano (papa Pio IV)</persName></person>
+<person xml:id="FMPignatelli"> <persName>Fabrizio Moncada Pignatelli</persName></person>
+<person xml:id="RSanzio"> <persName>Raffaello Sanzio</persName></person>
+<person xml:id="OLomellini"> <persName>Orazio Lomellini</persName></person>
+<person xml:id="AVDyck"> <persName>Antoon Van Dyck</persName></person>
+<person xml:id="LFontana"> <persName>Lavinia Fontana</persName></person>
+<person xml:id="PFontana"> <persName>Prospero Fontana</persName></person>
+<person xml:id="ACarracci"> <persName>Annibale Carracci</persName></person>
+<person xml:id="LCarracci"> <persName></persName>Ludovico Carracci</person>
+<person xml:id="AGentileschi"> <persName>Artemisia Gentileschi</persName></person>
+<person xml:id="SZappi"> <persName>Severo Zappi</persName></person>
+<person xml:id="GPZappi"> <persName>Gian Paolo Zappi</persName></person>
+<person xml:id="CIAlisodi"> <persName>Costanza Isolani Alidosi</persName></person>
+<person xml:id="IRuini"> <persName>Isabella Ruini</persName></person>
+<person xml:id="EldeMedici"> <persName>Eleonora de' Medici</persName></person>
+<person xml:id="UAldovrandi"> <persName>Ulisse Aldovrandi</persName></person>
+<person xml:id="AGonzales"> <persName>Antonietta Gonzales</persName></person>
+<person xml:id="CatdeMedici"> <persName>Caterina de Medici</persName></person>
+<person xml:id="IAldobrandini"> <persName>Ippolito Aldobrandini (papa Clemente VIII)</persName></person>
+<person xml:id="GBaglione"> <persName>Giovanni Baglione</persName></person>
+<person xml:id="SBorghese"> <persName>Scipione Borghese</persName></person>
+<person xml:id="MMerisi"> <persName>Michelangelo Merisi (Caravaggio)</persName></person>
+<person xml:id="GLBernini"> <persName>Gian Lorenzo Bernini</persName></person>
+<person xml:id="DZampieri"> <persName>Domenico Zampieri (Domenichino)</persName></person>
+<person xml:id="FMCasoni"> <persName>Felice Maria Casoni</persName></person>
+<person xml:id="CRipa"> <persName>Cesare Ripa</persName></person>
+<person xml:id="OGentileschi"> <persName>Orazio Gentileschi</persName></person>
+<person xml:id="PMontone"> <persName>Prudenzia Montone</persName></person>
+<person xml:id="CBorghese"> <persName>Camillo Borghese (Paolo V)</persName></person>
+<person xml:id="CSaraceni"> <persName>Carlo Saraceni</persName></person>
+<person xml:id="ATassi"> <persName>Agostino Tassi</persName></person>
+<person xml:id="VdeBoulogne"> <persName>Valentin de Boulogne</persName></person>
+<person xml:id="RTomassoni"> <persName>Ranuccio Tomassoni</persName></person>
+<person xml:id="PAStiattesi"> <persName>Pietro Antonio Stiattesi</persName></person>
+<person xml:id="CIIdeMedici"> <persName>Cosimo II de' Medici</persName></person>
+<person xml:id="AurelioGentileschi"> <persName>Aurelio Lomi Gentileschi</persName></person>
+<person xml:id="GReni"> <persName>Guido Reni</persName></person>
+<person xml:id="ESirani"> <persName>Elisabetta Sirani</persName></person>
+<person xml:id="GASirani"> <persName>Giovanni Andrea Sirani</persName></person>
+<person xml:id="VFRanuzzi"> <persName></persName>Vincenzo Ferdinando Ranuzzi</person>
+<person xml:id="OLCordini"> <persName></persName>Ortensia Leoni Cordini</person>
+<person xml:id="CCMalvasia"> <persName>Carlo Cesare Malvasia</persName></person>
+<person xml:id="EMPanzacchi"> <persName>Elena Maria Panzacchi</persName></person>
+<person xml:id="VFontana"> <persName></persName>Veronica Fontana</person>
+<person xml:id="LScarfaglia"> <persName></persName>Lucrezia Scarfaglia</person>
+<person xml:id="TCoriolano"> <persName></persName>Teresa Coriolano</person>
+<person xml:id="ATMuratori"> <persName></persName>Angela Teresa Muratori</person>
+<person xml:id="BGozzardini"> <persName>Bettisia Gozzardini</persName></person>
+<person xml:id="NDAndrea"> <persName>Novella D'Andrea</persName></person>
+<person xml:id="EASavoia"> <persName></persName>Enrichetta Adelaide di Savoia</person>
+<person xml:id="GCantofoli"> <persName>Ginevra Cantofoli</persName></person>
+<person xml:id="LTolomelli"> <persName>Lucia Tolomelli</persName></person>
+<person xml:id="FGalizia"> <persName>Fede Galizia</persName></person>
+<person xml:id="GGarzoni"> <persName>Giovanna Garzoni</persName></person>
+<person xml:id="MRobusti"> <persName>Marietta Robusti (Tintoretta)</persName></person>
+<person xml:id="PMorigia"> <persName>Paola Morigia</persName></person>
+<person xml:id="VinGonzaga"> <persName>Vincenzo Gonzaga</persName></person>
+<person xml:id="FerdeMedici"> <persName>Ferdinando de' Medici</persName></person>
+<person xml:id="JFernandez"> <persName>Juan Fernandez</persName></person>
+<person xml:id="GArcimboldi"> <persName>Giuseppe Arcimboldi</persName></person>
+<person xml:id="RodolfoII"> <persName>Rodolfo II d'Asburgo</persName></person>
+<person xml:id="JVdeVelde"> <persName>Jan van de Velde</persName></person>
+<person xml:id="CdalPozzo"> <persName>Cassiano dal Pozzo</persName></person>
+<person xml:id="NPoussin"> <persName>Nicolas Poussin</persName></person>
+<person xml:id="FBarberini"> <persName>Francesco Barberini</persName></person>
+<person xml:id="ADurer"> <persName>Albrecht Dürer</persName></person>
+<person xml:id="FCesi"> <persName>Federico Cesi</persName></person>
+<person xml:id="Richelieu"> <persName>Armand-Jean du Plessis</persName></person>
+<person xml:id="PBricci"> <persName>Plautilla Bricci</persName></person>
+<person xml:id="MMazzucco"> <persName>Melania Mazzucco</persName></person>
+<person xml:id="CdePizan"> <persName>Christine de Pizan</persName></person>
+<person xml:id="CarloV"> <persName>Carlo V d'Asburgo</persName></person>
+<person xml:id="JdeMeung"> <persName>Jean de Meung</persName></person>
+<person xml:id="GdeLorris"> <persName>Guillaume de Lorris</persName></person>
+<person xml:id="IdiBaviera"> <persName>Isabella di Baviera-Ingolstadt</persName></person>
+<person xml:id="GTignonville"> <persName>Guillaume de Tignonville</persName></person>
+<person xml:id="MFonte"> <persName>Moderata Fonte (pseudonimo di Modesta dal Pozzo)</persName></person>
+<person xml:id="LMarinelli"> <persName>çucrezia Marinelli</persName></person>
+<person xml:id="GPassi"> <persName>Giuseppe Passi</persName></person>
+<person xml:id="GBoccaccio"> <persName>Giovanni Boccaccio</persName></person>
+<person xml:id="Aristotele"> <persName>Aristotele</persName></person>
+<person xml:id="ATarabotti"> <persName>Angela Tarabotti</persName></person>
+<person xml:id="RCarriera"> <persName>Rosalba Carriera</persName></person>
+<person xml:id="GStampa"> <persName>Gaspara Stampa</persName></person>
+<person xml:id="TdAragona"> <persName>Tullia d’Aragona</persName></person>
+<person xml:id="VColonna"> <persName>Vittoria Colonna</persName></person>
+<person xml:id="LBergalli"> <persName>Luisa Bergalli</persName></person>
+<person xml:id="ABalestra"> <persName>Antonio Balestra</persName></person>
+<person xml:id="CCole"> <persName>Christian Cole</persName></person>
+<person xml:id="GGhezzi"> <persName>Giuseppe Ghezzi</persName></person>
+<person xml:id="BCastiglione"> <persName>Baldassarre Castiglione</persName></person>
+<person xml:id="CMaratta"> <persName>Carlo Maratta</persName></person>
+<person xml:id="LuigiXV"> <persName>Luigi XV di Borbone</persName></person>
+<person xml:id="AWatteau"> <persName>Antoine Watteau</persName></person>
+<person xml:id="AKauffman"> <persName>Angelica Kauffmann</persName></person>
+<person xml:id="AAllegri"> <persName>Antonio Allegri (Correggio)</persName></person>
+<person xml:id="GFBarbieri"> <persName>Giovanni Francesco Barbieri (Guercino)</persName></person>
+<person xml:id="GPiranesi"> <persName>Giovanbattista Piranesi</persName></person>
+<person xml:id="PBatoni"> <persName>Pompeo Batoni</persName></person>
+<person xml:id="Goethe"> <persName>Johann Wolfgang von Goethe</persName></person>
+<person xml:id="AZucchi"> <persName>Antonio Zucchi</persName></person>
+<person xml:id="JGHerder"> <persName>Johann Gottfried Herder</persName></person>
+<person xml:id="HFussli"> <persName>Heinrich Füssli</persName></person>
+<person xml:id="JReynolds"> <persName>Joshua Reynolds</persName></person>
+<person xml:id="NHone"> <persName>Nathaniel Hone</persName></person>
+<person xml:id="MMoser"> <persName>Mary Moser</persName></person>
+<person xml:id="FdeHorn"> <persName>Frederick de Horn</persName></person>
+<person xml:id="GiuseppeII"> <persName>Giuseppe II</persName></person>
+<person xml:id="CaterinalaGrande"> <persName>Caterina la Grande</persName></person>
+<person xml:id="GGdeRossi"> <persName>Giovanni Gherardo De Rossi</persName></person>
+<person xml:id="ACanova"> <persName>Antonio Canova</persName></person>
+<person xml:id="MCarlevarijs"> <persName>Marianna Carlevarijs</persName></person>
+<person xml:id="FSartori"> <persName>Felicita Sartori</persName></person>
+<person xml:id="LBergalli"> <persName>Luisa Bergalli</persName></person>
+<person xml:id="GBPiazzetta"> <persName>Giovan Battista Piazzetta</persName></person>
+<person xml:id="GLama"> <persName>Giulia Lama</persName></person>
+<person xml:id="AMManzolini"> <persName>Anna Morandi Manzolini</persName></person>
+</listPerson>
+<listPerson type="fictional">
+<person xml:id="Giuseppe"> <persName>Giuseppe</persName></person>
+<person xml:id="Saffira"> <persName>Saffira</persName></person>
+<person xml:id="Putifarre"> <persName>Putifarre</persName></person>
+<person xml:id="santa-margherita"> <persName>Santa Margherita</persName></person>
+<person xml:id="Minerva"> <persName>Minerva</persName></person>
+<person xml:id="Tiresia"> <persName>Tiresia</persName></person>
+<person xml:id="Venere"> <persName>Venere</persName></person>
+<person xml:id="Giuditta"> <persName>Giuditta</persName></person>
+<person xml:id="Oloferne"> <persName>Oloferne</persName></person>
+</listPerson>
+<listPlace>
+<place xml:id="Urbino"><placeName>Urbino</placeName></place>
+<place xml:id="Europa"><placeName>Europa</placeName></place>
+<place xml:id="Genova"><placeName>Genova</placeName></place>
+<place xml:id="Nemours"><placeName>Nemours</placeName></place>
+<place xml:id="Grecia"><placeName>Grecia</placeName></place>
+<place xml:id="Venezia"><placeName>Venezia</placeName></place>
+<place xml:id="Napoli"><placeName>Napoli</placeName></place>
+<place xml:id="Bologna"><placeName>Bologna</placeName></place>
+<place xml:id="MCMBologna"><placeName>Museo Civico Medievale di Bologna</placeName></place>
+<place xml:id="Uffizi"><placeName>Uffizi</placeName></place>
+<place xml:id="BSanPetronio"><placeName>Basilica di San Petronio</placeName></place>
+<place xml:id="Egitto"><placeName>Egitto</placeName></place>
+<place xml:id="palazzo-salina-amorini"><placeName>Palazzo Salina-Amorini</placeName></place>
+<place xml:id="Italia"><placeName>Italia</placeName></place>
+<place xml:id="Cremona"><placeName>Cremona</placeName></place>
+<place xml:id="NGLondra"><placeName>National Gallery di Londra</placeName></place>
+<place xml:id="Roma"><placeName>Roma</placeName></place>
+<place xml:id="MuseiVaticani"><placeName>Musei Vaticani</placeName></place>
+<place xml:id="Madrid"><placeName>Madrid</placeName></place>
+<place xml:id="Prado"><placeName>Museo del Prado</placeName></place>
+<place xml:id="Palermo"><placeName>Palermo</placeName></place>
+<place xml:id="Sicilia"><placeName>Sicilia</placeName></place>
+<place xml:id="Capri"><placeName>Capri</placeName></place>
+<place xml:id="Annunziata-Paternò"><placeName>Chiesa dell'Annunziata a Paternò</placeName></place>
+<place xml:id="Genova"><placeName>Genova</placeName></place>
+<place xml:id="Imola"><placeName>Imola</placeName></place>
+<place xml:id="Parigi"><placeName>Parigi</placeName></place>
+<place xml:id="Francia"><placeName>Francia</placeName></place>
+<place xml:id="Pisa"><placeName>Pisa</placeName></place>
+<place xml:id="Firenze"><placeName>Firenze</placeName></place>
+<place xml:id="UK"><placeName>Inghilterra</placeName></place>
+<place xml:id="HCourt"><placeName>Hampton Court</placeName></place>
+<place xml:id="sanlinfonte"><placeName>Chiesa San Lorenzo in Fonte, Roma</placeName></place>
+<place xml:id="accademia-san-luca-roma"><placeName>Accademia San Luca, Roma</placeName></place>
+<place xml:id="san-domenico-bologna"><placeName>Basilica di San Domenico, Bologna</placeName></place>
+<place xml:id="Milano"><placeName>Milano</placeName></place>
+<place xml:id="Ascoli"><placeName>Ascoli</placeName></place>
+<place xml:id="Spagna"><placeName>Spagna</placeName></place>
+<place xml:id="accademia-lincei"><placeName>Accademia dei Lincei</placeName></place>
+<place xml:id="Toscana"><placeName>Toscana</placeName></place>
+<place xml:id="Torino"><placeName>Torino</placeName></place>
+<place xml:id="Vienna"><placeName>Vienna</placeName></place>
+<place xml:id="Coira"><placeName>Coira</placeName></place>
+<place xml:id="accademia-belle-arti-firenze"><placeName>Accademia di Belle Arti di Firenze</placeName></place>
+<place xml:id="Londra"><placeName>Londra</placeName></place>
+<place xml:id="royal-academy-of-arts"><placeName>Royal Academy of Arts, Londra</placeName></place>
+<place xml:id="Loreto"><placeName>Loreto</placeName></place>
+<place xml:id="santa-casa-di-maria"><placeName>Santa Casa di Maria, Loreto</placeName></place>
+<place xml:id="via-sistina"><placeName>via Sistina, Roma</placeName></place>
+<place xml:id="Russia"><placeName>Russia</placeName></place>
+<place xml:id="chiesa-andrea-fratte"><placeName>Chiesa di Sant'Andrea delle Fratte, Roma</placeName></place>
+<place xml:id="pantheon"><placeName>Pantheon, Roma</placeName></place>
+<place xml:id="archiginnasio"><placeName>Archiginnasio, Bologna</placeName></place>
+</listPlace>
+<list type="work">
+<item xml:id="Cortegiano" type="text">Libro del Cortegiano, Castiglione, 1528</item>
+<item xml:id="Dialoghi" type="text">Dialoghi di Platone</item>
+<item xml:id="Apologia-di-Socrate" type="text">Apologia di Socrate, Senofonte</item>
+<item xml:id="de-natura-de-amore" type="text">Libro de Natura de Amore, Mario Equicola</item>
+<item xml:id="della-eccellenza-e-dignità" type="text">Della eccellenza e dignità delle donne, Galeazzo Flavio Capella</item>
+<item xml:id="iconologia-ripa" type="text">Iconologia, Cesare Ripa</item>
+<item xml:id="raffaella" type="text">La Raffaella, ovvero Dialogo de la bella Creanza de le Donne, Alessandro Piccolomini</item>
+<item xml:id="Vite" type="text">Le vite de' più eccellenti pittori, scultori e architettori, Vasari, 1550</item>
+<item xml:id="dialogo-dignità-donne" type="text">Dialogo della dignità delle donne, Sperone Speroni</item>
+<item xml:id="dialogo-institution-donne" type="text">Dialogo della institution delle donne, Ludovico Dolce</item>
+<item xml:id="femina-christiana-vives" type="text">De l’istituzione de la femina christiana, vergine, maritata e vedova, Juan Vives</item>
+<item xml:id="aquila-bicipite" type="sculpture">aquila bicipite</item> 
+<item xml:id="pendente-properzia" type="sculpture">pendente di De Rossi Properzia - bottega italiana (sec. XVI)</item>
+<item xml:id="portaMagna" type="sculpture">Porta Magna, Della Quercia, 1425</item>
+<item xml:id="bassorilievi" type="sculpture">Giuseppe e la moglie di Putifarre, De' Rossi, 1526</item>
+<item xml:id="capitelli" type="sculpture">capitelli portico palazzo Salina-Amorini</item>
+<item xml:id="Sofonisba-Mantegna" type="painting">Sofonisba, Mantegna</item>
+<item xml:id="chessgame" type="painting">Partita a schacchi, Sofonisba Anguissola, 1555</item>
+<item xml:id="Gioconda" type="painting">Gioconda, Leonardo da Vinci, 1506</item>
+<item xml:id="ignudi" type="painting">Ignudi, Michelangelo Buonarroti</item>
+<item xml:id="ritratti" type="painting">ritratti di Filippo II di Spagna e consorte, Sofonisba Anguissola</item>
+<item xml:id="fanciullo-morso-da-un-gambero" type="drawing">Fanciullo morso da un gambero, Sofonisba Anguissola, 1554</item>
+<item xml:id="testa-di-cleopatra" type="drawing">La testa di Cleopatra, Michelangelo Buonarroti, 1535</item>
+<item xml:id="Madonna-Itria" type="painting">Madonna dell'Itria, Sofonisba Anguissola</item>
+<item xml:id="autoritratto-lavinia-fontana" type="painting">Autoritratto Lavinia Fontana</item>
+<item xml:id="autoritratto2-lavinia-fontana" type="painting">Autoritratto Lavinia Zappi</item>
+<item xml:id="sacra-famiglia" type="painting">Pala Sacra Famiglia con santi Francesco e Margherita</item>
+<item xml:id="venere-ruini" type="painting">Ritratto Isabella Ruini</item>
+<item xml:id="saba-medici">Ritratto Eleonora de' Medici</item>
+<item xml:id="oloferne-fontana" type="painting">Giuditta con la testa di Oloferne, Lavinia Fontana</item>
+<item xml:id="ritratto-gonzales-fontana" type="painting">Ritratto di Antonietta Gonzales, Lavinia Fontana</item>
+<item xml:id="minerva-fontana" type="painting">Minerva in atto di abbigliarsi, Lavinia Fontana, </item>
+<item xml:id="medaglia-casoni-fontana">Ritratto di Lavinia Fontana, Allegoria della pittura, Casoni Antonio Felice </item>
+<item xml:id="giuditta-gentileschi" type="painting">Giuditta che decapita Oloferne, Artemisia Gentileschi</item>
+<item xml:id="autoritratto-pittura-gentileschi" type="painting">Autoritratto in veste di pittura, Artemisia Gentileschi</item>
+<item xml:id="battesimo-sirani" type="painting">Battesimo di Cristo, Elisabetta Sirani</item>
+<item xml:id="madonna-sirani" type="painting">Madonna col Bambino, Santa Elisabetta e Santa Margherita, Elisabetta Sirani</item>
+<item xml:id="amorino-trionfante-sirani" type="painting">Amorino trionfante, Elisabetta Sirani</item>
+<item xml:id="cupido-sirani" type="painting">Ritratto di Vincenzo Ferdinando Ranuzzi in veste di Cupido, Elisabetta Sirani</item>
+<item xml:id="dorotea-sirani" type="painting">Ritratto di Ortensia Leoni Cordini in veste di santa Dorotea, Elisabetta Sirani</item>
+<item xml:id="giuditta-sirani" type="painting">Giuditta con la testa di Oloferne, Elisabetta Sirani</item>
+<item xml:id="circe-sirani" type="painting">Circe, Elisabetta Sirani</item>
+<item xml:id="cleopatra-sirani" type="painting">Cleopatra, Elisabetta Sirani</item>
+<item xml:id="madonna-cuscino-sirani" type="painting">Madonna col cuscino, Elisabetta Sirani</item>
+<item xml:id="giuditta-galizia" type="painting">Giuditta con la testa di Oloferne, Fede Galizia</item>
+<item xml:id="ritratto-morigia-galizia" type="painting">Ritratto di Paolo Morigia, Fede Galizia</item>
+<item xml:id="text-garzoni" type="drawing">Libro de' caratteri cancellereschi corsivi, Giovanna Garzoni</item>
+<item xml:id="plantaria" type="text">Syntaxis Plantaria, Federico Cesi</item>
+<item xml:id="architettrice" type="text">L'Architettrice, Melania Mazzucco</item>
+<item xml:id="città-delle-dame" type="text">La città delle dame, Christine de Pizan</item>
+<item xml:id="roman-rose" type="text">Roman de la rose, poema di Guillaume de Lorris e Jean de Meung</item>
+<item xml:id="merito-delle-donne" type="text">Il merito delle donne. Ove chiaramente si scuopre quanto sieno elle degne e più perfette de gli huomini, Moderata Fonte</item>
+<item xml:id="nobiltà-delle-donne" type="text">Le nobiltà et eccellenze delle donne et i difetti degli huomini, Lucrezia Marinelli</item>
+<item xml:id="donneschi-difetti" type="text">I donneschi difetti, Giuseppe Passi</item>
+<item xml:id="tirannia-paterna" type="text">Tirannia Paterna, Angela Tarabotti</item>
+<item xml:id="fanciulla-carriera" type="painting">Fanciulla con colomba, Rosalba Carriera</item>
+<item xml:id="trattato-colori-carriera" type="text">Le Maniere diverse per formare i colori in pittura, Rosalba Carriera</item>
+<item xml:id="luigixv-ritratto-carriera" type="painting">Luigi XV di Francia, Rosalba Carriera</item>
+<item xml:id="ritratto-goethe-kauffman" type="painting">Ritratto di Goethe, Angelica Kauffman</item>
+<item xml:id="ifigenia-goethe" type="text">Ifigenia in Tauride, Goethe</item>
+<item xml:id="penelope-telaio" type="painting">Penelope al telaio, Angelica Kauffman</item>
+<item xml:id="bacco-arianna" type="painting">Bacco e Arianna, Angelica Kauffman</item>
+<item xml:id="nudo-virile" type="painting">Nudo virile, Angelica Kauffman</item>
+<item xml:id="congiurato" type="painting">Il congiurato, Nathaniel Hone</item>
+<item xml:id="educazione-kauffman" type="painting">L'educazione della vergine, Angelica Kauffman</item>
+<item xml:id="san-girolamo" type="painting">Pala di San Girolamo, Leonardo da Vinci</item>
+<item xml:id="enea-pallante" type="painting">Ermanno e Tusnelda, Angelica Kauffman</item>
+<item xml:id="ermanno-tusnelda" type="painting">Enea piange la morte di Pallante, Angelica Kauffman</item>
+<item xml:id="serviotullio" type="painting">Servio Tullio, Angelica Kauffman</item>
+<item xml:id="achille-licomede" type="painting">Achille tra le figlie di Licomede, Angelica Kauffman</item>
+<item xml:id="giuditta-oloferne-lama" type="painting">Giuditta e Oloferne, Giulia Lama</item>
+</list>
+</particDesc>
+</profileDesc>
+<publicationStmt><publisher>Editori Laterza</publisher>
+                 <pubPlace>Bari</pubPlace>
+                 <address>
+                 <addrLine>piazza Umberto I 54, 70121 Bari, Italy</addrLine>
+                 </address>
+                 <date>2021</date>
+                 <availability><p> E' vietata la riproduzione, anche parziale, con qualsiasi mezzo effettuata</p></availability>
+</publicationStmt>
+<sourceDesc>
+<biblStruct> <title>"Vite di artiste eccellenti"</title>
+       <author>Costantino D'Orazio</author>
+       <publisher>Editori Laterza</publisher>
+       <series> I Robinson/Letture</series>
+       <pubPlace>Bari</pubPlace>
+       <date>2021</date> 
+       <idno type="ISBN">9788858141359</idno>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+<xenodata>
+</xenodata>
+</teiHeader>
+</TEI>
