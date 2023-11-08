@@ -379,42 +379,37 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 
 <!--persName visionarie-->
 
-<person xml:id='fkalo'><persName>Frida</persName></person>
 <person xml:id='bcappa'><persName>Benedetta Cappa</persName></person>
 <person xml:id='gballa'><persName>Giacomo Balla</persName></person>
 <person xml:id='eprampolini'><persName>Enrico Prampolini</persName></person>
-<person xml:id='uboccioni'><persName>Boccioni</persName></person>
 <person xml:id='mmafai'><persName>Mario Mafai</persName></person>
 <person xml:id='mrmafai'><persName>Maria Raffaella</persName></person>
-<person xml:id='smafaidepasquale'><persName>Simona</persName></person>
+<person xml:id='smafaidepasquale'><persName>Simona</persName></person><!---->
 <person xml:id='gungaretti'><persName>Giuseppe Ungaretti</persName></person>
 <person xml:id='ldelibero'><persName>Libero de Libero</persName></person>
-<person xml:id='gbonichi'><persName>Scipione</persName></person>
+<person xml:id='gbonichi'><persName>Scipione</persName></person><!---->
 <person xml:id='ccagli'><persName>Corrado Cagli</persName></person>
 <person xml:id='rlonghi'><persName>Roberto Longhi</persName></person>
-<person xml:id='msironi'><persName>Sironi</persName></person>
-<person xml:id='afuni'><persName>Funi</persName></person>
-<person xml:id=''><persName>Salus</persName></person>
+<person xml:id='msironi'><persName>Mario Sironi</persName></person>
+<person xml:id='afuni'><persName>Achille Funi</persName></person>
+<person xml:id=''><persName>Salus</persName></person><!---->
 <person xml:id='ecolla'><persName>Ettore Colla</persName></person>
 <person xml:id='mmarini'><persName>Marino Marini</persName></person>
 <person xml:id='rmazzacurati'><persName>Renato Mazzacurati</persName></person>
 <person xml:id='gmanzu'><persName>Giacomo Manzù</persName></person>
 <person xml:id='amartini'><persName>Arturo Martini</persName></person>
 <person xml:id='salome'><persName>Salomè</persName></person>
-<person xml:id='gbattista'><persName>Battista</persName></person>
+<person xml:id='gbattista'><persName>Giovanni Battista</persName></person>
 <person xml:id='tmaselli'><persName>Titina Maselli</persName></person>
-<person xml:id='emaselli'><persName>Enrico</persName></person>
+<person xml:id='emaselli'><persName>Enrico Maselli</persName></person>
 <person xml:id='asavinio'><persName>Alberto Savinio</persName></person>
 <person xml:id='mbontempelli'><persName>Massimo Bontempelli</persName></person>
 <person xml:id='amoravia'><persName>Alberto Moravia</persName></person>
 <person xml:id='emorante'><persName>Elsa Morante</persName></person>
-<person xml:id='rguttuso'><persName>Guttuso</persName></person>
-<person xml:id='rvespignani'><persName>Vespignani</persName></person>
+<person xml:id='rguttuso'><persName>Renato Guttuso</persName></person>
+<person xml:id='rvespignani'><persName>Renzo Vespignani</persName></person>
 <person xml:id='lpirandello'><persName>Luigi Pirandello</persName></person>
-<person xml:id='emanet'><persName>Manet</persName></person>
 <person xml:id='rgualino'><persName>Riccardo Gualino</persName></person>
-<person xml:id='amodigliani'><persName>Modigliani</persName></person>
-<person xml:id='fcasorati'><persName>Casorati</persName></person>
 <person xml:id='ddbuoninsegna'><persName>Duccio di Buoninsegna</persName></person>
 <person xml:id='tscialoja'><persName>Toti Scialoja</persName></person>
 <person xml:id='gturcato'><persName>Giulio Turcato</persName></person>
@@ -425,18 +420,16 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='mschifano'><persName>Mario Schifano</persName></person>
 <person xml:id='fangeli'><persName>Franco Angeli</persName></person>
 <person xml:id='pdmartiis'><persName>Plinio De Martiis</persName></person>
-<person xml:id='newyork'><persName>Neova York</persName></person>
-<person xml:id='amagnani'><persName>Magnani</persName></person>
+<person xml:id='amagnani'><persName>Anna Magnani</persName></person>
 <person xml:id='ccecchi'><persName>Carlo Cecchi</persName></person>
-<person xml:id='sbeckett'><persName>Beckett</persName></person>
+<person xml:id='sbeckett'><persName>Samuel Beckett</persName></person>
 <person xml:id='caccardi'><persName>Carla Accardi</persName></person>
 <person xml:id='gmorandi'><persName>Giorgio Morandi</persName></person>
 <person xml:id='orosai'><persName>Ottone Rosai</persName></person>
 <person xml:id='asanfilippo'><persName>Antonio Sanfilippo</persName></person>
 <person xml:id='bangelico'><persName>Beato Angelico</persName></person>
-<person xml:id='vkandinsky'><persName>Kandinsky</persName></person>
-<person xml:id='pklee'><persName>Klee</persName></person>
-<person xml:id='jpollock'><persName>Pollock</persName></person>
+<person xml:id='wkandinsky'><persName>Wassily Kandinsky</persName></person>
+<person xml:id='jpollock'><persName>Jackson Pollock</persName></person>
 <person xml:id='pconsagra'><persName>Pietro Consagra</persName></person>
 <person xml:id='pfazzini'><persName>Pericle Fazzini</persName></person>
 <person xml:id='icalvino'><persName>Italo Calvino</persName></person>
@@ -449,20 +442,19 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='ptogliatti'><persName>Palmiro Togliatti</persName></person>
 <person xml:id='clonzi'><persName>Carla Lonzi</persName></person>
 <person xml:id='ebanotti'><persName>Elvira Banotti</persName></person>
-<person xml:id='gwfhegel'><persName>Hegel</persName></person>
+<person xml:id='gwfhegel'><persName>Georg Wilhelm Friedrich Hegel</persName></person>
 <person xml:id='gcarandente'><persName>Giovanni Carandente</persName></person>
 <person xml:id='gcelant'><persName>Germano Celant</persName></person>
 <person xml:id='cchristovbakargiev'><persName>Carolyn Christov-Bakargiev</persName></person>
 <person xml:id='huobrist'><persName>Hans Ulrich Obrist</persName></person>
 <person xml:id='blazzari'><persName>Bice Lazzari</persName></person>
 <person xml:id='bmarcello'><persName>Benedetto Marcello</persName></person>
-<person xml:id='leferro'><persName>Ferro</persName></person>
-<person xml:id='asezanne'><persName>Sezanne</persName></person>
-<person xml:id='cmonet'><persName>Monet</persName></person>
-<person xml:id='jfmillet'><persName>Millet</persName></person>
+<person xml:id='leferro'><persName>Ferro</persName></person><!---->
+<person xml:id='asezanne'><persName>Sezanne</persName></person><!---->
+<person xml:id='jfmillet'><persName>Jean-François Millet</persName></person>
 <person xml:id='psemeghini'><persName>Pio Semeghini</persName></person>
 <person xml:id='cscarpa'><persName>Carlo Scarpa</persName></person>
-<person xml:id='gnpasinetti'><persName>Nei Pasinetti</persName></person>
+<person xml:id='gnpasinetti'><persName>Giovanni Nei Pasinetti</persName></person>
 <person xml:id='drosa'><persName>Diego Rosa</persName></person>
 <person xml:id='aburri'><persName>Alberto Burri</persName></person>
 <person xml:id='abasaldella'><persName>Afro Basaldella</persName></person>
@@ -475,10 +467,10 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='fmasson'><persName>Françoise Masson</persName></person>
 <person xml:id='srosa'><persName>Salvator Rosa</persName></person>
 <person xml:id='puccello'><persName>Paolo Uccello</persName></person>
-<person xml:id='hmemling'><persName>Memling</persName></person>
+<person xml:id='hmemling'><persName>Hans Memling</persName></person>
 <person xml:id='flippi'><persName>Filippino Lippi</persName></person>
-<person xml:id='francescodassisi'><persName>san Francesco</persName></person>
-<person xml:id='jesus'><persName>Cristo sulla Croce</persName></person>
+<person xml:id='francescodassisi'><persName>San Francesco</persName></person>
+<person xml:id='jesus'><persName>Cristo sulla Croce</persName></person><!---->
 <person xml:id='giotto'><persName>Giotto</persName></person>
 <person xml:id='klrocca'><persName>Ketty La Rocca</persName></person>
 
@@ -501,9 +493,8 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='dseyrig'><persName>Delphine Seyrig</persName></person>
 <person xml:id='jrosenquist'><persName>James Rosenquist</persName></person>
 <person xml:id='chinman'><persName>Charles Hinman</persName></person>
-<person xml:id='mernst'><persName>Ernst</persName></person>
-<person xml:id='okokoschka'><persName>Kokoschka</persName></person>
-<person xml:id='wamozart'><persName>Mozart</persName></person>
+<person xml:id='okokoschka'><persName>Oskar Kokoschka</persName></person>
+<person xml:id='wamozart'><persName>Wolfgang Amadeus Mozart</persName></person>
 <person xml:id='mrothko'><persName>Mark Rothko</persName></person>
 <person xml:id='slewitt'><persName>Sol LeWitt</persName></person>
 <person xml:id='rryman'><persName>Robert Ryman</persName></person>
@@ -511,22 +502,21 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='areinhardt'><persName>Ad Reinhardt</persName></person>
 <person xml:id='dhopper'><persName>Dennis Hopper</persName></person>
 <person xml:id='mmerz'><persName>Marisa Merz</persName></person>
-<person xml:id='mmerz2'><persName>Mario</persName></person>
+<person xml:id='mmerz2'><persName>Mario Merz</persName></person><!---->
 <person xml:id='fcasorati'><persName>Felice Casorati</persName></person>
 <person xml:id='cabate'><persName>Claudio Abate</persName></person>
 <person xml:id='fsargentini'><persName>Fabio Sargentini</persName></person>
 <person xml:id='ndesaintphalle'><persName>Niki de Saint Phalle</persName></person>
 <person xml:id='jtinguely'><persName>Jean Tinguely</persName></person>
 <person xml:id='pklee'><persName>Paul Klee</persName></person>
-<person xml:id='hmatisse'><persName>Matisse</persName></person>
 <person xml:id='ulinde'><persName>Ulf Linde</persName></person>
 <person xml:id='ggarbo'><persName>Greta Garbo</persName></person>
 <person xml:id='polofultved'><persName>Per Olof Ultvedt</persName></person>
 <person xml:id='mcaraccioloagnelli'><persName>Marella Caracciolo Agnelli</persName></person>
 <person xml:id='ecatalano'><persName>Elisabetta Catalano</persName></person>
 <person xml:id='ffellini'><persName>Federico Fellini</persName></person>
-<person xml:id='Matilde'><persName>Matilde</persName></person>
-<person xml:id='Guido'><persName>Guido</persName></person>
+<person xml:id='Matilde'><persName>Matilde</persName></person><!---->
+<person xml:id='Guido'><persName>Guido</persName></person><!---->
 <person xml:id='mmastroianni'><persName>Marcello Mastroianni</persName></person>
 <person xml:id='lvisconti'><persName>Luisella Visconti</persName></person>
 <person xml:id='abonitooliva'><persName>Achille Bonito Oliva</persName></person>
@@ -542,10 +532,10 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='ctacchi'><persName>Cesare Tacchi</persName></person>
 <person xml:id='vpisani'><persName>Vettor Pisani</persName></person>
 <person xml:id='fmauri'><persName>Fabio Mauri</persName></person>
-<person xml:id='danka'><persName>Danka</persName></person>
+<person xml:id='danka'><persName>Danka</persName></person><!---->
 <person xml:id='fwoodman'><persName>Francesca Woodman</persName></person>
 <person xml:id='gcasetti'><persName>Giuseppe Casetti</persName></person>
-<person xml:id='maldororrome'><persName>Maldoror</persName></person>
+<person xml:id='maldororrome'><persName>Maldoror</persName></person><!---->
 <person xml:id='smirri'><persName>Sabina Mirri</persName></person>
 <person xml:id='ggallo'><persName>Giuseppe Gallo</persName></person>
 <person xml:id='csherman'><persName>Cindy Sherman</persName></person>
@@ -556,7 +546,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='tbrowning'><persName>Tod Browning</persName></person>
 <person xml:id='cleopatra'><persName>Cleopatra</persName></person>
 <person xml:id='hercules'><persName>Ercole</persName></person>
-<person xml:id='wshakespeare'><persName>Shakespeare</persName></person>
+<person xml:id='wshakespeare'><persName>William Shakespeare</persName></person>
 <person xml:id='crama'><persName>Carol Rama</persName></person>
 <person xml:id='gvercelli'><persName>Gemma Vercelli</persName></person>
 <person xml:id='esanguineti'><persName>Edoardo Sanguineti</persName></person>
@@ -571,7 +561,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='tdoyle'><persName>Tom Doyle</persName></person>
 <person xml:id='adanto'><persName>Arthur Danto</persName></person>
 <person xml:id='bschwabsky'><persName>Barry Schwabsky</persName></person>
-<person xml:id='zhadid'><persName>Hadid</persName></person>
+<person xml:id='zhadid'><persName>Zaha Hadid</persName></person>
 <person xml:id='rkoolhaas'><persName>Rem Koolhaas</persName></person>
 <person xml:id='wfehlbaum'><persName>Willi Fehlbaum</persName></person>
 <person xml:id='tando'><persName>Tadao Ando</persName></person>
@@ -580,11 +570,11 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='gponti'><persName>Gio Ponti</persName></person>
 <person xml:id='gropius'><persName>Gropius</persName></person>
 <person xml:id='lecorbusier'><persName>Le Corbusier</persName></person>
-<person xml:id='lwright'><persName>Wright</persName></person>
+<person xml:id='flwright'><persName>Frank Lloyd Wright</persName></person>
 <person xml:id='enrogers'><persName>Ernesto Nathan Rogers</persName></person>
 <person xml:id='aolivetti'><persName>Adriano Olivetti</persName></person>
 <person xml:id='lnissimmomigliano'><persName>Luciana Nissim Momigliano</persName></person>
-<person xml:id='fmomigliano'><persName>Franco</persName></person>
+<person xml:id='fmomigliano'><persName>Franco Momigliano</persName></person>
 <person xml:id='gsoavi'><persName>Giorgio Soavi</persName></person>
 <person xml:id='rzorzi'><persName>Renzo Zorzi</persName></person>
 <person xml:id='gagnelli'><persName>Gianni Agnelli</persName></person>
@@ -594,17 +584,18 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='gpalomba'><persName>Giuseppe Palomba</persName></person>
 <person xml:id='coldenburg'><persName>Claes Oldenburg</persName></person>
 <person xml:id='cvanbruggen'><persName>Coosje van Bruggen</persName></person>
-<person xml:id='emaino'><persName>Dadamaino</persName></person>
+<person xml:id='emaino'><persName>Dadamaino</persName></person><!---->
 <person xml:id='lfontana'><persName>Lucio Fontana</persName></person>
 <person xml:id='lbourgeois'><persName>Louise Bourgeois</persName></person>
 <person xml:id='lbourgeois2'><persName>Papà Louis</persName></person>
 <person xml:id='fleger'><persName>Fernand Léger</persName></person>
 <person xml:id='rgoldwater'><persName>Robert Goldwater</persName></person>
-<person xml:id='mduchamp'><persName>Duchamp</persName></person>
+<person xml:id='mduchamp'><persName>Marcel Duchamp</persName></person>
 <person xml:id='jmccarthy'><persName>Joseph McCarthy</persName></person>
 <person xml:id='abarr'><persName>Alfred Barr</persName></person>
 <person xml:id='rmapplethorpe'><persName>Robert Mapplethorpe</persName></person>
 </listPerson>
+
 <listPerson type="fictional">
 
 <person xml:id="Giuseppe"> <persName>Giuseppe</persName></person>
@@ -653,7 +644,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="France"><placeName>Francia</placeName></place>
 <place xml:id="Pisa"><placeName>Pisa</placeName></place>
 <place xml:id="Florence"><placeName>Firenze</placeName></place>
-<place xml:id="UK"><placeName>Inghilterra</placeName></place>
 <place xml:id="HCourt"><placeName>Hampton Court</placeName></place>
 <place xml:id="sanlinfonte"><placeName>Chiesa San Lorenzo in Fonte, Roma</placeName></place>
 <place xml:id="accademia-san-luca-roma"><placeName>Accademia San Luca, Roma</placeName></place>
@@ -664,7 +654,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="accademia-lincei"><placeName>Accademia dei Lincei</placeName></place>
 <place xml:id="Tuscany"><placeName>Toscana</placeName></place>
 <place xml:id="Turin"><placeName>Torino</placeName></place>
-<place xml:id="Vienna"><placeName>Vienna</placeName></place>
 <place xml:id="Coira"><placeName>Coira</placeName></place>
 <place xml:id="accademia-belle-arti-firenze"><placeName>Accademia di Belle Arti di Firenze</placeName></place>
 <place xml:id="London"><placeName>Londra</placeName></place>
@@ -679,24 +668,13 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 
 <!--Chapter Rivoluzionarie-->
 <!--introduzione-->
-<place xml:id="London"><placeName>Londra</placeName></place>
 <place xml:id="GreatBritain"><placeName>Gran Bretagna</placeName></place>
 <place xml:id="FrogmoreHouse"><placeName>Casa Frogmore</placeName></place>
 <place xml:id="WindsorCastle"><placeName>Castello di Windsor</placeName></place> 
  
 <!--Gli abiti di élisabeth Vigéé-Le Brun-->
-<place xml:id="Paris"><placeName>Parigi</placeName></place> 
-<place xml:id="France"><placeName>Francia</placeName></place> 
 <place xml:id="PalaceofVersailles"><placeName>Reggia di Versailles</placeName></place> 
-<place xml:id="Italy"><placeName>Italia</placeName></place> 
-<place xml:id="Turin"><placeName>Torino</placeName></place> 
 <place xml:id="Bologna"><placeName>Bologna</placeName></place> 
-<place xml:id="Florence"><placeName>Firenze</placeName></place> 
-<place xml:id="Naples"><placeName>Napoli</placeName></place> 
-<place xml:id="Rome"><placeName>Roma</placeName></place>
-<place xml:id="Milan"><placeName>Milano</placeName></place> 
-<place xml:id="Venice"><placeName>Venezia</placeName></place> 
-<place xml:id="Vienna"><placeName>Vienna</placeName></place>
 <place xml:id="Russia"><placeName>Russia</placeName></place>
 
 <!-- Le bestie di Rosa Bonheur -->
@@ -758,7 +736,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Austria"><placeName>Austria</placeName></place>
 <place xml:id="Switzerland"><placeName>Svizzera</placeName></place>
 <place xml:id="Karlsruhe"><placeName>Karlsruhe</placeName></place>
-<place xml:id="Madrid"><placeName>Madrid</placeName></place>
 <place xml:id="BoulevardMalesherbes"><placeName>Boulevard Malesherbes</placeName></place>
 <place xml:id="ChampsElysees"><placeName>Champs Elysées</placeName></place>
 
@@ -778,31 +755,21 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="MexicoCity"><placeName>Mexico City</placeName></place>
 <place xml:id="FriuliVeneziaGiulia"><placeName>Friuli Venezia-Giulia</placeName></place>
 <place xml:id="Berlin"><placeName>Berlino</placeName></place>
-<place xml:id="Spain"><placeName>Spagna</placeName></place>
 <place xml:id="LosAngeles"><placeName>Los Angeles</placeName></place>
 
 <!--place visionarie-->
 
-<place xml:id='paris'><placeName>Parigi</placeName></place>
-<place xml:id='villaborghese'><placeName>Villa Borghese</placeName></place>
 <place xml:id='etna'><placeName>Etna</placeName></place>
 <place xml:id='carso'><placeName>Carso</placeName></place>
 <place xml:id='piave'><placeName>Piave</placeName></place>
-<place xml:id='italy'><placeName>Italia</placeName></place>
 <place xml:id='palazzodellepostepalermo'><placeName>Palazzo delle Poste</placeName></place>
-<place xml:id='palermo'><placeName>Palermo</placeName></place>
 <place xml:id='bcappa'><placeName>Cappa</placeName></place>
-<place xml:id='rome'><placeName>Roma</placeName></place>
-<place xml:id='kaunas'><placeName>Kaunas</placeName></place>
 <place xml:id='lithuania'><placeName>Lituania</placeName></place>
-<place xml:id='london'><placeName>Londra</placeName></place>
 <place xml:id='royalacademy'><placeName>Royal Academy</placeName></place>
 <place xml:id='eastend'><placeName>East End</placeName></place>
 <place xml:id='england'><placeName>Inghilterra</placeName></place>
-<place xml:id='greece'><placeName>Grecia</placeName></place>
 <place xml:id=''><placeName>Accademia di Belle arti</placeName></place>
 <place xml:id='325viacavourrome'><placeName>325 di via Cavour</placeName></place>
-<place xml:id='genoa'><placeName>Genova</placeName></place>
 <place xml:id='pescolanciano'><placeName>Pescolanciano</placeName></place>
 <place xml:id='provdiisernia'><placeName>provincia di Isernia</placeName></place>
 <place xml:id='casteldisangro'><placeName>Castel di Sangro</placeName></place>
@@ -811,16 +778,11 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='muraaureliane'><placeName>Mura Aureliane</placeName></place>
 <place xml:id='piazzafiume'><placeName>piazza Fiume</placeName></place>
 <place xml:id='portapia'><placeName>Porta Pia</placeName></place>
-<place xml:id='unitedstates'><placeName>Stati Uniti</placeName></place>
-<place xml:id='newyork'><placeName>New York</placeName></place>
-<place xml:id='florence'><placeName>Firenze</placeName></place>
-<place xml:id='venice'><placeName>Venezia</placeName></place>
 <place xml:id='bronx'><placeName>Bronx</placeName></place>
 <place xml:id='gallerialatartaruga'><placeName>Galleria La Tartaruga</placeName></place>
 <place xml:id='klagenfurt'><placeName>Klagenfurt</placeName></place>
-<place xml:id='cmaselli'><placeName>Citto</placeName></place>
+<place xml:id='cmaselli'><placeName>Citto Maselli</placeName></place>
 <place xml:id='saintgermain'><placeName>Saint-Germain</placeName></place>
-<place xml:id='sicily'><placeName>Sicilia</placeName></place>
 <place xml:id='trapani'><placeName>Trapani</placeName></place>
 <place xml:id='erice'><placeName>Erice</placeName></place>
 <place xml:id='montesangiuliano'><placeName>Monte San Giuliano</placeName></place>
@@ -839,14 +801,11 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='accademiadibelleartivenezia'><placeName>Accademia di Belle Arti</placeName></place>
 <place xml:id='brenta'><placeName>Brenta</placeName></place>
 <place xml:id='chiesadeigesuati'><placeName>chiesa dei Gesuati</placeName></place>
-<place xml:id='milan'><placeName>Milano</placeName></place>
 <place xml:id='gorizia'><placeName>Gorizia</placeName></place>
 <place xml:id='monza'><placeName>Monza</placeName></place>
-<place xml:id='turin'><placeName>Torino</placeName></place>
 <place xml:id='barcelona'><placeName>Barcellona</placeName></place>
 <place xml:id='venicelido'><placeName>Lido di Venezia</placeName></place>
 <place xml:id='viasannicolodatolentino'><placeName>via San Nicolò da Tolentino</placeName></place>
-<place xml:id='naples'><placeName>Napoli</placeName></place>
 <place xml:id='caffearagno'><placeName>Caffè Aragno</placeName></place>
 <place xml:id='ulassai'><placeName>Ulassai</placeName></place>
 <place xml:id='ogliastra'><placeName>Ogliastra</placeName></place>
@@ -854,7 +813,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='sardinia'><placeName>Sardegna</placeName></place>
 <place xml:id='verona'><placeName>Verona</placeName></place>
 <place xml:id='accademiadibelleartiverona'><placeName>Accademia di Belle Arti</placeName></place>
-<place xml:id='portofnaples'><placeName>porto di Napoli</placeName></place>
 <place xml:id='cagliari'><placeName>Cagliari</placeName></place>
 <place xml:id='gschneider'><placeName>Galleria Schneider</placeName></place>
 <place xml:id='montegedili'><placeName>monte Gedili</placeName></place>
@@ -869,19 +827,14 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 
 <place xml:id='ruedesgrandsaugustins'><placeName>rue des Grands-Augustins</placeName></place>
 <place xml:id='guernica'><placeName>Guernica</placeName></place>
-<place xml:id='spain'><placeName>Spagna</placeName></place>
 <place xml:id='cafelesdeuxmagots'><placeName>Café Les Deux Magots</placeName></place>
 <place xml:id='bosniaandherzegovina'><placeName>Bosnia Erzegovina</placeName></place>
-<place xml:id='paris'><placeName>Parigi</placeName></place>
 <place xml:id='buenosaires'><placeName>Buenos Aires</placeName></place>
 <place xml:id='ecoledelaphotographiedelavilledeparis'><placeName>École de la Photographie de la Ville de Paris</placeName></place>
 <place xml:id='europe'><placeName>Europa</placeName></place>
 <place xml:id='southamerica'><placeName>Sudamerica</placeName></place>
-<place xml:id='london'><placeName>Londra</placeName></place>
 <place xml:id='washingtonstate'><placeName>Stato di Washington</placeName></place>
 <place xml:id='newmexico'><placeName>New Mexico</placeName></place>
-<place xml:id='newyork'><placeName>New York</placeName></place>
-<place xml:id='unitedstates'><placeName>Stati Uniti</placeName></place>
 <place xml:id='manhattan'><placeName>Manhattan</placeName></place>
 <place xml:id='teacherscollege'><placeName>Teachers College</placeName></place>
 <place xml:id='columbiauniversity'><placeName>Columbia</placeName></place>
@@ -894,9 +847,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='bowerystreetnewyork'><placeName>Bowery Street</placeName></place>
 <place xml:id='soho'><placeName>SoHo</placeName></place>
 <place xml:id='taos'><placeName>Taos</placeName></place>
-<place xml:id='milan'><placeName>Milano</placeName></place>
 <place xml:id='arcodellapace'><placeName>Arco della Pace</placeName></place>
-<place xml:id='turin'><placeName>Torino</placeName></place>
 <place xml:id='portapalazzo'><placeName>Porta Palazzo</placeName></place>
 <place xml:id='arsenaliamalfi'><placeName>Arsenali di Amalfi</placeName></place>
 <place xml:id='gallerialattico'><placeName>Galleria L’Attico</placeName></place>
@@ -904,26 +855,21 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='ciampino'><placeName>Ciampino</placeName></place>
 <place xml:id='mmerz'><placeName>Merz</placeName></place>
 <place xml:id='neuillysurseine'><placeName>Neuilly-sur-Seine</placeName></place>
-<place xml:id='france'><placeName>Francia</placeName></place>
 <place xml:id='modernamuseet'><placeName>Moderna Museet di</placeName></place>
 <place xml:id='stockholm'><placeName>Stoccolma</placeName></place>
 <place xml:id='geneva'><placeName>Ginevra</placeName></place>
 <place xml:id='jerusalem'><placeName>Gerusalemme</placeName></place>
-<place xml:id='tuscany'><placeName>Toscana</placeName></place>
 <place xml:id='parcguell'><placeName>Parc Güell di Gaudí</placeName></place>
 <place xml:id='garavicchio'><placeName>Garavicchio</placeName></place>
 <place xml:id='maremma'><placeName>Maremma</placeName></place>
 <place xml:id='centrepompidou'><placeName>Centre Pompidou –</placeName></place>
-<place xml:id='rome'><placeName>Roma</placeName></place>
 <place xml:id='palazzodelleesposizioni'><placeName>Palazzo delle Esposizioni</placeName></place>
 <place xml:id='villaborghese'><placeName>Villa Borghese</placeName></place>
 <place xml:id='viabeccariarome'><placeName>via Beccaria</placeName></place>
 <place xml:id='chiesadisantaluciabologna'><placeName>Santa Lucia</placeName></place>
 <place xml:id='bologna'><placeName>Bologna</placeName></place>
 <place xml:id='rhodeislandschoolofdesign'><placeName>Rhode Island School of Design</placeName></place>
-<place xml:id='italy'><placeName>Italia</placeName></place>
 <place xml:id='galleriaugoferranti'><placeName>Galleria Ugo Ferranti</placeName></place>
-<place xml:id='england'><placeName>Inghilterra</placeName></place>
 <place xml:id='club82newyork'><placeName>Club 82 di Lower Manhattan</placeName></place>
 <place xml:id='hubertsmuseum'><placeName>Hubert’s Museum</placeName></place>
 <place xml:id='timessquare'><placeName>Times Square</placeName></place>
@@ -935,7 +881,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='stedelijkmuseumamsterdam'><placeName>Stedelijk Museum di Amsterdam</placeName></place>
 <place xml:id='hamburg'><placeName>Amburgo</placeName></place>
 <place xml:id='netherlands'><placeName>Olanda</placeName></place>
-<place xml:id='germany'><placeName>Germania</placeName></place>
 <place xml:id='ruhr'><placeName>Ruhr</placeName></place>
 <place xml:id='camdenartscentre'><placeName>Camden Arts Centre di Londra</placeName></place>
 <place xml:id='guggenheimmuseumbilbao'><placeName>Guggenheim di Bilbao</placeName></place>
@@ -944,28 +889,19 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id='biella'><placeName>Biella</placeName></place>
 <place xml:id='trani'><placeName>Trani</placeName></place>
 <place xml:id='apulia'><placeName>Puglia</placeName></place>
-<place xml:id='palermo'><placeName>Palermo</placeName></place>
 <place xml:id='calabria'><placeName>Calabria</placeName></place>
-<place xml:id='naples'><placeName>Napoli</placeName></place>
 <place xml:id='vesuvius'><placeName>Vesuvio</placeName></place>
-<place xml:id='florence'><placeName>Firenze</placeName></place>
 <place xml:id='politecnicomilan'><placeName>Politecnico</placeName></place>
 <place xml:id='ivrea'><placeName>Ivrea</placeName></place>
 <place xml:id='brera'><placeName>Brera</placeName></place>
-<place xml:id='pisa'><placeName>Pisa</placeName></place>
-<place xml:id='parma'><placeName>Parma</placeName></place>
 <place xml:id='teatromediterraneonaples'><placeName>Teatro Mediterraneo di Napoli</placeName></place>
 <place xml:id='teatroallascalamilan'><placeName>Scala di Milano</placeName></place>
 <place xml:id='teatroargentinarome'><placeName>Teatro Argentina di Roma</placeName></place>
-<place xml:id='sein'><placeName>Senna</placeName></place>
 <place xml:id='palazzograssi'><placeName>Palazzo Grassi</placeName></place>
-<place xml:id='venice'><placeName>Venezia</placeName></place>
 <place xml:id='egypt'><placeName>Egitto</placeName></place>
 <place xml:id='None'><placeName>piazza Dante a Napoli</placeName></place>
 <place xml:id='museoarcheologiconaples'><placeName>Museo Archeologico</placeName></place>
 <place xml:id='piazzalecadornamilan'><placeName>piazzale Cadorna</placeName></place>
-<place xml:id='leftbanksein'><placeName>Senna sulla Rive Gauche</placeName></place>
-<place xml:id='montmartre'><placeName>Montmartre</placeName></place>
 <place xml:id='montparnasse'><placeName>Montparnasse</placeName></place>
 
 </listPlace>
