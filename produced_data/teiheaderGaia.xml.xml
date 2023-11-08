@@ -483,51 +483,51 @@
                                         <!--Chapter Rivoluzionarie-->
                                         <!--introduzione-->
                                         <place xml:id="London">
-                                                <placeName>London</placeName>
+                                                <placeName>Londra</placeName>
                                         </place>
                                         <place xml:id="GreatBritain">
-                                                <placeName>Great Britain</placeName>
+                                                <placeName>Gran Bretagna</placeName>
                                         </place>
                                         <place xml:id="FrogmoreHouse">
-                                                <placeName>Frogmore House</placeName>
+                                                <placeName>Casa Frogmore</placeName>
                                         </place>
                                         <place xml:id="WindsorCastle">
-                                                <placeName>Windsor Castle</placeName>
+                                                <placeName>Castello di Windsor</placeName>
                                         </place> 
                                          
                                         <!--Gli abiti di élisabeth Vigéé-Le Brun-->
                                         <place xml:id="Paris">
-                                                <placeName>Paris</placeName>
+                                                <placeName>Parigi</placeName>
                                         </place> 
                                         <place xml:id="France">
-                                                <placeName>France</placeName>
+                                                <placeName>Francia</placeName>
                                         </place> 
                                         <place xml:id="PalaceofVersailles">
-                                                <placeName>Palace of Versailles</placeName>
+                                                <placeName>Reggia di Versailles</placeName>
                                         </place> 
                                         <place xml:id="Italy">
-                                                <placeName>Italy</placeName>
+                                                <placeName>Italia</placeName>
                                         </place> 
                                         <place xml:id="Turin">
-                                                <placeName>Turin</placeName>
+                                                <placeName>Torino</placeName>
                                         </place> 
                                         <place xml:id="Bologna">
                                                 <placeName>Bologna</placeName>
                                         </place> 
                                         <place xml:id="Florence">
-                                                <placeName>Florence</placeName>
+                                                <placeName>Firenze</placeName>
                                         </place> 
                                         <place xml:id="Naples">
-                                                <placeName>Naples</placeName>
+                                                <placeName>Napoli</placeName>
                                         </place> 
                                         <place xml:id="Rome">
-                                                <placeName>Rome</placeName>
+                                                <placeName>Roma</placeName>
                                         </place>
                                         <place xml:id="Milan">
-                                                <placeName>Milan</placeName>
+                                                <placeName>Milano</placeName>
                                         </place> 
                                         <place xml:id="Venice">
-                                                <placeName>Venice</placeName>
+                                                <placeName>Venezia</placeName>
                                         </place> 
                                         <place xml:id="Vienna">
                                                 <placeName>Vienna</placeName>
@@ -541,7 +541,7 @@
                                                 <placeName>Bordeaux</placeName>
                                         </place>
                                         <place xml:id="LouvreMuseum">
-                                                <placeName>Louvre Museum</placeName>
+                                                <placeName>Museo del Louvre</placeName>
                                         </place>
                                         <place xml:id="By">
                                                 <placeName>By</placeName>
@@ -549,7 +549,7 @@
                                         
                                         <!--I capelli di Berthe Morisot -->
                                         <place xml:id="Batignolles">
-                                                <placeName>Batignolles, Neighbourhood in Paris</placeName>
+                                                <placeName>Batignolles, quartiere di Parigi</placeName>
                                         </place>
                                         <place xml:id="Passy">
                                                 <placeName>Passy</placeName>
@@ -563,10 +563,10 @@
                                                 <placeName>Pittsburgh</placeName>
                                         </place>
                                         <place xml:id="HudsonRiver">
-                                                <placeName>Hudson River</placeName>
+                                                <placeName>Fiume Hudson</placeName>
                                         </place>
                                         <place xml:id="Seine">
-                                                <placeName>Seine</placeName>
+                                                <placeName>Senna</placeName>
                                         </place>
                                         <place xml:id="BoulevarddesCapucins">
                                                 <placeName>Boulevard des Capucins</placeName>
@@ -599,13 +599,13 @@
                                                 <placeName>England</placeName>
                                         </place>
                                         <place xml:id="UK">
-                                                <placeName>United Kingdom</placeName>
+                                                <placeName>Regno Unito</placeName>
                                         </place>
                                         <place xml:id="USA">
-                                                <placeName>United States of America</placeName>
+                                                <placeName>Stati Uniti d'America</placeName>
                                         </place>
                                         <place xml:id="SouthAmreica">
-                                                <placeName>South Amreica</placeName>
+                                                <placeName>Sud Amreica</placeName>
                                         </place>
                                         
                                         <!--Il fascino di Suzanne Valadon-->
@@ -616,15 +616,15 @@
                                                 <placeName>Montmartre</placeName>
                                         </place>
                                         <place xml:id="SainteAnneHospitalCenter">
-                                                <placeName>Sainte-Anne Hospital Center</placeName>
+                                                <placeName>Ospedale Sainte-Anne</placeName>
                                         </place>
                                         
                                         <!--Lo stile di Tamara de Lempicka-->
                                         <place xml:id="SaintPetersburg">
-                                                <placeName>Saint Petersburg</placeName>
+                                                <placeName>San Pietroburgo</placeName>
                                         </place>
                                         <place xml:id="LakeGarda">
-                                                <placeName>Lake Garda</placeName>
+                                                <placeName>Lago di Garda</placeName>
                                         </place>
                                         <place xml:id="Vittoriale">
                                                 <placeName>Vittoriale degli Italiani</placeName>
@@ -639,17 +639,17 @@
                                                 <placeName>Cuernavaca</placeName>
                                         </place>
                                         <place xml:id="Mexico">
-                                                <placeName>Mexico</placeName>
+                                                <placeName>Messico</placeName>
                                         </place>
 
                                         
 
                                         <!--Gli esperimenti di Sonia Terk Delaunay -->
                                         <place xml:id="Poland">
-                                                <placeName>Poland</placeName>
+                                                <placeName>Polonia</placeName>
                                         </place>  
                                         <place xml:id="SovietUnion">
-                                                <placeName>Soviet Union</placeName>
+                                                <placeName>Unione Sovietica</placeName>
                                         </place>  
                                         <place xml:id="Kazan">
                                                 <placeName>Kazan</placeName>
@@ -661,16 +661,16 @@
                                                 <placeName>Kaunas</placeName>
                                         </place>
                                         <place xml:id="Finland">
-                                                <placeName>Finland</placeName>
+                                                <placeName>Fillandia</placeName>
                                         </place>
                                         <place xml:id="Germany">
-                                                <placeName>Germany</placeName>
+                                                <placeName>Germania</placeName>
                                         </place>
                                         <place xml:id="Austria">
                                                 <placeName>Austria</placeName>
                                         </place>
                                         <place xml:id="Switzerland">
-                                                <placeName>Switzerland</placeName>
+                                                <placeName>Svizzera</placeName>
                                         </place>
                                         <place xml:id="Karlsruhe">
                                                 <placeName>Karlsruhe</placeName>
@@ -687,13 +687,13 @@
                                         
                                         <!--La follia di Gala éluard-->
                                         <place xml:id="Moscow">
-                                                <placeName>Moscow</placeName>
+                                                <placeName>Mosca</placeName>
                                         </place>
                                         <place xml:id="Cologne">
-                                                <placeName>Cologne</placeName>
+                                                <placeName>Colonia</placeName>
                                         </place>
                                         <place xml:id="Indochina">
-                                                <placeName>Indochina</placeName>
+                                                <placeName>Indocina</placeName>
                                         </place>
                                         <place xml:id="Asia">
                                                 <placeName>Asia</placeName>
@@ -705,7 +705,7 @@
                                                 <placeName>Girona</placeName>
                                         </place>
                                         <place xml:id="CastleofPubol">
-                                                <placeName>Castle of Púbol</placeName>
+                                                <placeName>Castello di Púbol</placeName>
                                         </place>
 
                                         <!--Il coraggio di Frida Kalho-->
@@ -725,13 +725,13 @@
                                                 <placeName>Friuli Venezia-Giulia</placeName>
                                         </place>
                                         <place xml:id="Berlin">
-                                                <placeName>Berlin</placeName>
+                                                <placeName>Berlino</placeName>
                                         </place>
                                         <place xml:id="Spain">
-                                                <placeName>Spain</placeName>
+                                                <placeName>Spagna</placeName>
                                         </place>
                                         <place xml:id="LosAngeles">
-                                                <placeName>LosAngeles</placeName>
+                                                <placeName>Los Angeles</placeName>
                                         </place>                                         
                                 </listPlace>
 
@@ -769,9 +769,7 @@
 
                                         
                                         <!--Chapter Libere-->
-                                        Atto per la custodia dei minori 1839
-                                        Atto di causa matrimoniale 1857
-
+                                        
                                         <!--Il fascino di Suzanne Valadon-->
                                         <!--Lo stile di Tamara de Lempicka-->
                                         <item xml:id="SelfPortraitintheGreenBugatti" type="painting">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
