@@ -732,62 +732,69 @@
                                         </place>
                                         <place xml:id="LosAngeles">
                                                 <placeName>LosAngeles</placeName>
-                                        </place>
-
-                                                                           
+                                        </place>                                         
                                 </listPlace>
+
                                 <list type="work">
                                 <!--i titoli delle opere personalmente li ho messi come si trovano su google-->
                                 
 
                                         <!--Chapter Rivoluzionarie-->
+                                        <item xml:id="Encyclopedie" type="text">Encyclopédie</item>
                                         <!--Gli abiti di élisabeth Vigéé-Le Brun-->
-                                        <item xml:id="MarieAntoinette">Marie-Antoinette, Queen of France, 1779</item>
-                                        <item xml:id="MarieAntoinetteportraits">Marie-Antoinette, Queen of France, portraits</item>
-                                        <item xml:id="Selfportrait">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
-                                        <item xml:id="MadonnadellaSeggiola">Madonna della Seggiola, 1514</item>
-                                        <item xml:id="PortraitofMadameDuBarry">Portrait of Madame Du Barry, 1781</item>                                   
+                                        <item xml:id="MarieAntoinette" type="painting">Marie-Antoinette, Queen of France, 1779</item>
+                                        <item xml:id="MarieAntoinetteportraits" type="painting">Marie-Antoinette, Queen of France, portraits</item>
+                                        <item xml:id="Selfportrait" type="painting">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
+                                        <item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, 1514</item>
+                                        <item xml:id="PortraitofMadameDuBarry" type="painting">Portrait of Madame Du Barry, 1781</item>                                   
 
                                         <!-- Le bestie di Rosa Bonheur -->
-                                        <item xml:id="BuffaloBill">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
-                                        <item xml:id="LeMarcheauxchevaux">Le Marché aux chevaux, 1853</item>
+                                        <item xml:id="BuffaloBill" type="painting">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
+                                        <item xml:id="LeMarcheauxchevaux" type="painting">Le Marché aux chevaux, 1853</item>
 
                                         <!--I capelli di Berthe Morisot -->
-                                        <item xml:id="TheArrivalofMariedeMediciatMarseilles">The Arrival of Marie de Medici at Marseilles, 1625</item>
-                                        <item xml:id="LeDejeunersurlherbe">Le Déjeuner sur l'herbe, 1863</item>
-                                        <item xml:id="Olympia">Olympia, 1863</item>
-                                        <item xml:id="TheCradle">The Cradle, 1872</item>
+                                        <item xml:id="TheArrivalofMariedeMediciatMarseilles" type="painting">The Arrival of Marie de Medici at Marseilles, 1625</item>
+                                        <item xml:id="LeDejeunersurlherbe" type="painting">Le Déjeuner sur l'herbe, 1863</item>
+                                        <item xml:id="Olympia" type="painting">Olympia, 1863</item>
+                                        <item xml:id="TheCradle" type="painting">The Cradle, 1872</item>
                                         
                                         <!--Le carte di Mary Cassat --><!-- tre quadri nelle note 23-23 del testo -->
-                                        <item xml:id="IntheLoge">In the Loge, 1878</item>
-                                        <item xml:id="WomanwithaPearlNecklace">Woman with a Pearl Necklace, 1879</item>
-                                        <item xml:id="MaryCassattSeatedHoldingCards">Mary Cassatt Seated, Holding Cards, 1880-1884</item>
+                                        <item xml:id="IntheLoge" type="painting">In the Loge, 1878</item>
+                                        <item xml:id="WomanwithaPearlNecklace" type="painting">Woman with a Pearl Necklace, 1879</item>
+                                        <item xml:id="MaryCassattSeatedHoldingCards" type="painting">Mary Cassatt Seated, Holding Cards, 1880-1884</item>
                                         
                                         <!--La passione di Camille Claudel -->
-                                        <item xml:id="Clotho">Clotho, 1893</item>
-                                        <item xml:id="TheMatureAge">The Mature Age, 1894-1900</item>
+                                        <item xml:id="Clotho" type="sculpture">Clotho, 1893</item>
+                                        <item xml:id="TheMatureAge" type="sculpture">The Mature Age, 1894-1900</item>
 
                                         
                                         <!--Chapter Libere-->
-                                        <!--introduzione-->
+                                        Atto per la custodia dei minori 1839
+                                        Atto di causa matrimoniale 1857
+
                                         <!--Il fascino di Suzanne Valadon-->
                                         <!--Lo stile di Tamara de Lempicka-->
-                                        <item xml:id="SelfPortraitintheGreenBugatti">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
-                                        <item xml:id="Ledueamiche"></item>
-                                        <item xml:id="BaronKuffner"></item>
-                                        <item xml:id="TheMusician">The Musician, 1929</item><!--La musicista nel testo-->
-                                        <item xml:id="TheMotherSuperior">The Mother Superior, 1935</item>
+                                        <item xml:id="SelfPortraitintheGreenBugatti" type="painting">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
+                                        <item xml:id="Ledueamiche" type="painting"></item>
+                                        <item xml:id="BaronKuffner" type="painting"></item>
+                                        <item xml:id="TheMusician" type="painting">The Musician, 1929</item><!--La musicista nel testo-->
+                                        <item xml:id="TheMotherSuperior" type="painting">The Mother Superior, 1935</item>
                                         <!--Gli esperimenti di Sonia Terk Delaunay -->
                                         <item xml:id="Feuillages"></item>
                                         <item xml:id="LibriNeri"></item>
 
                                         <!--La follia di Gala éluard-->
-                                        <item xml:id="Aurendezvousdesamis">Au rendez-vous des amis</item>
+                                        <item xml:id="Aurendezvousdesamis" type="painting">Au rendez-vous des amis</item>
+                                        <item xml:id="Aurendezvousdesamis" type="text">Dialogue des inutiles</item>
+                                        <item xml:id="Aurendezvousdesamis" type="text">Au défaut du silence</item>
 
                                         <!--Lo scandalo di Natal'ja Segeevna Goncarova-->
 
                                         <!--Il coraggio di Frida Kalho-->
-                                        <item xml:id="SelfPortraits">Self-portraits</item>
+                                        <item xml:id="SelfPortraits" type="painting">Self-portraits</item>
+
+                                        <!--L’impegno civile di Tina Modotti-->
+                                        <item xml:id="TheTigersCoat" type="movie">The Tiger’s Coat</item>
                                         
 
                                         
