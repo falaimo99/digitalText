@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader xml:lang="it"><fileDesc>
+<titleStmt><title> "Vite di artiste eccellenti"</title>
+<author xml:id="C.D.O">Costantino D'Orazio</author>
+</titleStmt>
+<profileDesc> <keywords> Storia dell'arte, Attualità culturale e di costume </keywords>
+<abstract> Dall’antica Grecia a oggi sono moltissime le donne che hanno dipinto, scolpito, decorato. Tanti dei loro nomi 
+sono finiti – ingiustamente – nell’oblio. È arrivato il momento di raccontare un’altra storia dell’arte.
+Già nell’antica Grecia esistevano artiste donne, che hanno decorato palazzi e lasciato tracce del loro lavoro. Durante il 
+Medioevo, per lo più considerato un periodo nel quale le donne non godevano di alcun rilievo nella società, molte opere 
+sono nate grazie alla manualità femminile, che si poteva esprimere soprattutto nei conventi. L’esplosione dell’arte al 
+femminile risale però al Rinascimento, quando alcune artiste sono arrivate a occupare posti di rilievo nelle corti più 
+prestigiose d’Europa godendo di una fama pari ai propri colleghi uomini. Bisogna attendere la fine dell’Ottocento per 
+vedere alcune artiste esporre nelle mostre accanto a pittori uomini: spesso si tratta di compagne di artisti famosi, 
+altre volte di donne capaci di imporre la propria personalità oltre al proprio talento. Sono le apripista di un fenomeno 
+che nel corso del XX secolo diventerà inarrestabile: le artiste firmeranno i manifesti delle avanguardie storiche e saranno 
+sempre più protagoniste, finché nella seconda parte del secolo supereranno i propri colleghi in quanto a fama e quotazioni 
+sul mercato. Le vite de’ più eccellenti pittori, scultori e architettori è il titolo della celeberrima opera di Giorgio 
+Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costantino D’Orazio rende onore alle tante 
+‘eccellenti artiste’ di cui i canoni si sono troppo spesso dimenticati.</abstract>
+<particDesc>
+
+
+<listPerson type="real">
+
+<person xml:id="GdaMontefeltro"> <persName>Guidobaldo Da Montefeltro</persName></person>
+<person xml:id="EGonzaga"> <persName>Elisabetta Gonzaga</persName></person>
+<person xml:id="FdaMontefeltro"> <persName>Federico Da Montefeltro</persName></person>
+<person xml:id="FdiGiorgioMartini"> <persName>Federico Di Giorgio Martini</persName></person>
+<person xml:id="GGenga"> <persName>Girolamo Genga</persName></person>
+<person xml:id="PdellaFrancesca"> <persName>Piero della Francesca</persName></person>
+<person xml:id="GSanti"> <persName>Giovanni Santi</persName></person>
+<person xml:id="LPacioli"> <persName>Luca Pacioli</persName></person>
+<person xml:id="LdiCanossa"> <persName>Ludovico Di Canossa</persName></person>
+<person xml:id="OFregoso"> <persName>Ottaviano Fregoso</persName></person>
+<person xml:id="GdeMedici"> <persName> Giuliano de' Medici</persName></person>
+<person xml:id="FFregoso"> <persName>Federico Fregoso</persName></person>
+<person xml:id="LdeMedici"> <persName>Lorenzo de' Medici</persName></person>
+<person xml:id="CGonzaga"> <persName>Cesare Gonzaga</persName></person>
+<person xml:id="BDdaBibbiena"> <persName>Bernardo Dovizi da Bibbiena</persName></person>
+<person xml:id="PBembo"> <persName>Pietro Bembo</persName></person>
+<person xml:id="GdiMontefeltro"> <persName>Guidobaldo di Montefeltro</persName></person>
+<person xml:id="Platone"> <persName>Platone</persName></person>
+<person xml:id="Senofonte"> <persName>Senofonte</persName></person>
+<person xml:id="IdEste>"> <persName>Isabella d'Este</persName></person>
+<person xml:id="FAsolano"> <persName>Francesco Asolano</persName></person>
+<person xml:id="PdeRossi"> <persName>Properzia de' Rossi</persName></person>
+<person xml:id="MEquicola"> <persName>Mario Equicola</persName></person>
+<person xml:id="GFCapella"> <persName>Galeazzo Flavio Capella</persName></person>
+<person xml:id="Temistoclea"> <persName>Temistoclea</persName></person>
+<person xml:id="Pitagora"> <persName>Pitagora</persName></person>
+<person xml:id="LCrasso"> <persName>Lucio Crasso</persName></person>
+<person xml:id="Lelia"> <persName>Lelia</persName></person>
+<person xml:id="APiccolomini"> <persName>Alessandro Piccolomini</persName></person>
+<person xml:id="SSperoni"> <persName>Sperone Speroni</persName></person>
+<person xml:id="LDolce"> <persName>Ludovico Dolce</persName></person>
+<person xml:id="JVives"> <persName>Juan Vives</persName></person>
+<person xml:id="GVasari"> <persName>Giorgio Vasari</persName></person>
+<person xml:id="AGMalvasia"> <persName>Antonio Galeazzo Malvasia</persName></person>
+<person xml:id="GPepoli"> <persName>Conte Guido Pepoli</persName></person>
+<person xml:id="JDQuercia"> <persName>Jacopo della Quercia</persName></person>
+<person xml:id="GDRovere"> <persName>Giuliano della Rovere (papa Giulio II)</persName></person>
+<person xml:id="MBuonarroti"> <persName>Michelangelo Buonarroti</persName></person>
+<person xml:id="AAspertini"> <persName>Amico Aspertini</persName></person>
+<person xml:id="NTribolo"> <persName>Niccolò Tribolo</persName></person>
+<person xml:id="ALombardi"> <persName>Alfonso Lombardi</persName></person>
+<person xml:id="GdaTreviso"> <persName>Girolamo da Treviso</persName></person>
+<person xml:id="DFrancia"> <persName>Domenico Francia</persName></person>
+<person xml:id="FFrancia"> <persName>Francesco Francia</persName></person>
+<person xml:id="VMiola"> <persName>Vincenzo Miola</persName></person>
+<person xml:id="SAnguissola"> <persName>Sofonisba Anguissola</persName></person>
+<person xml:id="TVecellio"> <persName>Tiziano Vecellio</persName></person>
+<person xml:id="PVeronese"> <persName>Paolo Veronese</persName></person>
+<person xml:id="AAnguissola"> <persName>Amilcare Anguissola</persName></person>
+<person xml:id="BCampi"> <persName>Bernardino Campi</persName></person>
+<person xml:id="EAnguissola"> <persName>Elena Anguissola</persName></person>
+<person xml:id="EuropaAnguissola"> <persName>Europa Anguissola</persName></person>
+<person xml:id="AMAnguissola"> <persName>Anna Maria Anguissola</persName></person>
+<person xml:id="MAnguissola"> <persName>Minerva Anguissola</persName></person>
+<person xml:id="LAnguissola"> <persName>Lucia Anguissola</persName></person>
+<person xml:id="AMantegna"> <persName>Andrea Mantegna</persName></person>
+<person xml:id="FPetrarca"> <persName>Francesco Petrarca</persName></person>
+<person xml:id="ACaro"> <persName>Annibale Caro</persName></person>
+<person xml:id="AFarnese"> <persName>Alessandro Farnese</persName></person>
+<person xml:id="AsdrubaleAnguissola"> <persName>Asdrubale Anguissola</persName></person>
+<person xml:id="LdaVinci"> <persName>Leonardo da Vinci</persName></person>
+<person xml:id="CdeMedici"> <persName>Cosimo de' Medici</persName></person>
+<person xml:id="TdeCavalieri"> <persName>Tommaso de' Cavalieri</persName></person>
+<person xml:id="ASerristori"> <persName>Averardo Serristori</persName></person>
+<person xml:id="FilippoII"> <persName>Filippo II di Spagna</persName></person>
+<person xml:id="GAMdiMarignano"> <persName>Giovanni Angelo Medici di Marignano (papa Pio IV)</persName></person>
+<person xml:id="FMPignatelli"> <persName>Fabrizio Moncada Pignatelli</persName></person>
+<person xml:id="RSanzio"> <persName>Raffaello Sanzio</persName></person>
+<person xml:id="OLomellini"> <persName>Orazio Lomellini</persName></person>
+<person xml:id="AVDyck"> <persName>Antoon Van Dyck</persName></person>
+<person xml:id="LFontana"> <persName>Lavinia Fontana</persName></person>
+<person xml:id="PFontana"> <persName>Prospero Fontana</persName></person>
+<person xml:id="ACarracci"> <persName>Annibale Carracci</persName></person>
+<person xml:id="LCarracci"> <persName>Ludovico Carracci</persName></person>
+<person xml:id="AGentileschi"> <persName>Artemisia Gentileschi</persName></person>
+<person xml:id="SZappi"> <persName>Severo Zappi</persName></person>
+<person xml:id="GPZappi"> <persName>Gian Paolo Zappi</persName></person>
+<person xml:id="CIAlisodi"> <persName>Costanza Isolani Alidosi</persName></person>
+<person xml:id="IRuini"> <persName>Isabella Ruini</persName></person>
+<person xml:id="EldeMedici"> <persName>Eleonora de' Medici</persName></person>
+<person xml:id="UAldovrandi"> <persName>Ulisse Aldovrandi</persName></person>
+<person xml:id="AGonzales"> <persName>Antonietta Gonzales</persName></person>
+<person xml:id="CatdeMedici"> <persName>Caterina de Medici</persName></person>
+<person xml:id="IAldobrandini"> <persName>Ippolito Aldobrandini (papa Clemente VIII)</persName></person>
+<person xml:id="GBaglione"> <persName>Giovanni Baglione</persName></person>
+<person xml:id="SBorghese"> <persName>Scipione Borghese</persName></person>
+<person xml:id="MMerisi"> <persName>Michelangelo Merisi (Caravaggio)</persName></person>
+<person xml:id="GLBernini"> <persName>Gian Lorenzo Bernini</persName></person>
+<person xml:id="DZampieri"> <persName>Domenico Zampieri (Domenichino)</persName></person>
+<person xml:id="FMCasoni"> <persName>Felice Maria Casoni</persName></person>
+<person xml:id="CRipa"> <persName>Cesare Ripa</persName></person>
+<person xml:id="OGentileschi"> <persName>Orazio Gentileschi</persName></person>
+<person xml:id="PMontone"> <persName>Prudenzia Montone</persName></person>
+<person xml:id="CBorghese"> <persName>Camillo Borghese (Paolo V)</persName></person>
+<person xml:id="CSaraceni"> <persName>Carlo Saraceni</persName></person>
+<person xml:id="ATassi"> <persName>Agostino Tassi</persName></person>
+<person xml:id="VdeBoulogne"> <persName>Valentin de Boulogne</persName></person>
+<person xml:id="RTomassoni"> <persName>Ranuccio Tomassoni</persName></person>
+<person xml:id="PAStiattesi"> <persName>Pietro Antonio Stiattesi</persName></person>
+<person xml:id="CIIdeMedici"> <persName>Cosimo II de' Medici</persName></person>
+<person xml:id="AurelioGentileschi"> <persName>Aurelio Lomi Gentileschi</persName></person>
+<person xml:id="GReni"> <persName>Guido Reni</persName></person>
+<person xml:id="ESirani"> <persName>Elisabetta Sirani</persName></person>
+<person xml:id="GASirani"> <persName>Giovanni Andrea Sirani</persName></person>
+<person xml:id="VFRanuzzi"> <persName>Vincenzo Ferdinando Ranuzzi</persName></person>
+<person xml:id="OLCordini"> <persName>Ortensia Leoni Cordini</persName></person>
+<person xml:id="CCMalvasia"> <persName>Carlo Cesare Malvasia</persName></person>
+<person xml:id="EMPanzacchi"> <persName>Elena Maria Panzacchi</persName></person>
+<person xml:id="VFontana"> <persName>Veronica Fontana</persName></person>
+<person xml:id="LScarfaglia"> <persName>Lucrezia Scarfaglia</persName></person>
+<person xml:id="TCoriolano"> <persName>Teresa Coriolano</persName></person>
+<person xml:id="ATMuratori"> <persName>Angela Teresa Muratori</persName></person>
+<person xml:id="BGozzardini"> <persName>Bettisia Gozzardini</persName></person>
+<person xml:id="NDAndrea"> <persName>Novella D'Andrea</persName></person>
+<person xml:id="EASavoia"> <persName>Enrichetta Adelaide di Savoia</persName></person>
+<person xml:id="GCantofoli"> <persName>Ginevra Cantofoli</persName></person>
+<person xml:id="LTolomelli"> <persName>Lucia Tolomelli</persName></person>
+<person xml:id="FGalizia"> <persName>Fede Galizia</persName></person>
+<person xml:id="GGarzoni"> <persName>Giovanna Garzoni</persName></person>
+<person xml:id="MRobusti"> <persName>Marietta Robusti (Tintoretta)</persName></person>
+<person xml:id="PMorigia"> <persName>Paola Morigia</persName></person>
+<person xml:id="VinGonzaga"> <persName>Vincenzo Gonzaga</persName></person>
+<person xml:id="FerdeMedici"> <persName>Ferdinando de' Medici</persName></person>
+<person xml:id="JFernandez"> <persName>Juan Fernandez</persName></person>
+<person xml:id="GArcimboldi"> <persName>Giuseppe Arcimboldi</persName></person>
+<person xml:id="RodolfoII"> <persName>Rodolfo II d'Asburgo</persName></person>
+<person xml:id="JVdeVelde"> <persName>Jan van de Velde</persName></person>
+<person xml:id="CdalPozzo"> <persName>Cassiano dal Pozzo</persName></person>
+<person xml:id="NPoussin"> <persName>Nicolas Poussin</persName></person>
+<person xml:id="FBarberini"> <persName>Francesco Barberini</persName></person>
+<person xml:id="ADurer"> <persName>Albrecht Dürer</persName></person>
+<person xml:id="FCesi"> <persName>Federico Cesi</persName></person>
+<person xml:id="Richelieu"> <persName>Armand-Jean du Plessis</persName></person>
+<person xml:id="PBricci"> <persName>Plautilla Bricci</persName></person>
+<person xml:id="MMazzucco"> <persName>Melania Mazzucco</persName></person>
+<person xml:id="CdePizan"> <persName>Christine de Pizan</persName></person>
+<person xml:id="CarloV"> <persName>Carlo V d'Asburgo</persName></person>
+<person xml:id="JdeMeung"> <persName>Jean de Meung</persName></person>
+<person xml:id="GdeLorris"> <persName>Guillaume de Lorris</persName></person>
+<person xml:id="IdiBaviera"> <persName>Isabella di Baviera-Ingolstadt</persName></person>
+<person xml:id="GTignonville"> <persName>Guillaume de Tignonville</persName></person>
+<person xml:id="MFonte"> <persName>Moderata Fonte (pseudonimo di Modesta dal Pozzo)</persName></person>
+<person xml:id="LMarinelli"> <persName>çucrezia Marinelli</persName></person>
+<person xml:id="GPassi"> <persName>Giuseppe Passi</persName></person>
+<person xml:id="GBoccaccio"> <persName>Giovanni Boccaccio</persName></person>
+<person xml:id="Aristotele"> <persName>Aristotele</persName></person>
+<person xml:id="ATarabotti"> <persName>Angela Tarabotti</persName></person>
+<person xml:id="RCarriera"> <persName>Rosalba Carriera</persName></person>
+<person xml:id="GStampa"> <persName>Gaspara Stampa</persName></person>
+<person xml:id="TdAragona"> <persName>Tullia d’Aragona</persName></person>
+<person xml:id="VColonna"> <persName>Vittoria Colonna</persName></person>
+<person xml:id="LBergalli"> <persName>Luisa Bergalli</persName></person>
+<person xml:id="ABalestra"> <persName>Antonio Balestra</persName></person>
+<person xml:id="CCole"> <persName>Christian Cole</persName></person>
+<person xml:id="GGhezzi"> <persName>Giuseppe Ghezzi</persName></person>
+<person xml:id="BCastiglione"> <persName>Baldassarre Castiglione</persName></person>
+<person xml:id="CMaratta"> <persName>Carlo Maratta</persName></person>
+<person xml:id="LuigiXV"> <persName>Luigi XV di Borbone</persName></person>
+<person xml:id="AWatteau"> <persName>Antoine Watteau</persName></person>
+<person xml:id="AKauffman"> <persName>Angelica Kauffmann</persName></person>
+<person xml:id="AAllegri"> <persName>Antonio Allegri (Correggio)</persName></person>
+<person xml:id="GFBarbieri"> <persName>Giovanni Francesco Barbieri (Guercino)</persName></person>
+<person xml:id="GPiranesi"> <persName>Giovanbattista Piranesi</persName></person>
+<person xml:id="PBatoni"> <persName>Pompeo Batoni</persName></person>
+<person xml:id="Goethe"> <persName>Johann Wolfgang von Goethe</persName></person>
+<person xml:id="AZucchi"> <persName>Antonio Zucchi</persName></person>
+<person xml:id="JGHerder"> <persName>Johann Gottfried Herder</persName></person>
+<person xml:id="HFussli"> <persName>Heinrich Füssli</persName></person>
+<person xml:id="JReynolds"> <persName>Joshua Reynolds</persName></person>
+<person xml:id="NHone"> <persName>Nathaniel Hone</persName></person>
+<person xml:id="MMoser"> <persName>Mary Moser</persName></person>
+<person xml:id="FdeHorn"> <persName>Frederick de Horn</persName></person>
+<person xml:id="GiuseppeII"> <persName>Giuseppe II</persName></person>
+<person xml:id="CaterinalaGrande"> <persName>Caterina la Grande</persName></person>
+<person xml:id="GGdeRossi"> <persName>Giovanni Gherardo De Rossi</persName></person>
+<person xml:id="ACanova"> <persName>Antonio Canova</persName></person>
+<person xml:id="MCarlevarijs"> <persName>Marianna Carlevarijs</persName></person>
+<person xml:id="FSartori"> <persName>Felicita Sartori</persName></person>
+<person xml:id="GBPiazzetta"> <persName>Giovan Battista Piazzetta</persName></person>
+<person xml:id="GLama"> <persName>Giulia Lama</persName></person>
+<person xml:id="AMManzolini"> <persName>Anna Morandi Manzolini</persName></person>
+
+<!--Chapter Rivoluzionarie-->
+
+<!--introduzione-->
+<person xml:id="Caravaggio"><persName>Caravaggio</persName></person>
+<person xml:id="JHFussli"><persName>Johann Heinrich Fussli</persName></person>
+<person xml:id="CofMecklenburgStrelitz"><persName>Charlotte of Mecklenburg-Strelitz</persName></person>
+<person xml:id="HLloyd"><persName>Hugh Lloyd</persName></person>
+<person xml:id="RCosway"><persName>Richard Cosway</persName></person>
+
+<!--Gli abiti di élisabeth Vigéé-Le Brun-->
+<person xml:id="DDiderot"><persName>Denis Diderot</persName></person>
+<person xml:id="JleRonddAlembert"><persName>Jean-Baptiste le Rond d'Alembert</persName></person>
+<person xml:id="EVigeeLeBrun"><persName>Èlisabeth Vigée-Le Brun</persName></person>
+<person xml:id="MAntoniette"><persName>Marie Antoniette</persName></person>
+<person xml:id="AVallayerCoster"><persName>Anne Vallayer-Coster</persName></person>
+<person xml:id="ALabilleGuiard"><persName>Adèlaide Labille-Guiard </persName></person>
+<person xml:id="JBMPierre"><persName>Jean-Baptiste-Marie Pierre </persName></person>
+<person xml:id="JLeBrun"><persName>Julie Le Brun </persName></person>
+<person xml:id="HRobert"><persName>Hubert Robert</persName></person>
+<person xml:id="CAPorporati"><persName>Carlo Antonio Porporati</persName></person>
+<person xml:id="CtheGreat"><persName>Catherine the Great</persName></person>
+<person xml:id="CBonaparte"><persName>Caroline Bonaparte</persName><!--nel testo Caroline Murat-->
+</person>
+<!-- Le bestie di Rosa Bonheur -->
+<person xml:id="RBonheur"><persName>Rose Bonheur</persName></person>
+<person xml:id="OdGouges"><persName>Olympe de Gouges</persName></person>
+<person xml:id="RayBonheur"><persName>Raymond Bonheur</persName></person>
+<person xml:id="BBill"><persName>Buffalo Bill</persName></person>
+<person xml:id="JLDavid"><persName>Jacques-Louis David</persName></person>
+<person xml:id="GCourbet"><persName>Gustave Courbet</persName></person>
+
+<!--I capelli di Berthe Morisot -->
+<person xml:id="BMorisot"><persName>Berthe Morisot</persName></person>
+<person xml:id="EMorisot"><persName>Edma Morisot</persName></person>
+<person xml:id="PPRubens"><persName>Peter Paul Rubens</persName></person>
+<person xml:id="HFantinLatour"><persName>Henri Fantin-Latour</persName></person>
+<person xml:id="EManet"><persName>Eduard Manet</persName></person>
+<person xml:id="CBaudelaire"><persName>Charles Baudelaire</persName></person>
+<person xml:id="EZola"><persName>Emile Zola</persName></person>
+<person xml:id="EGonzales"><persName>Eva Gonzalès</persName></person>
+<person xml:id="PARenoir"><persName>Pierre-Auguste Renoir</persName></person>
+<person xml:id="CMonet"><persName>Claude Monet</persName></person>
+<person xml:id="EDegas"><persName>Edgar Degas</persName></person>
+<person xml:id="EuManet"><persName>Eugéne Manet</persName></person>
+<person xml:id="Nadar"><persName>Nadar</persName></person>
+<person xml:id="CPissarro"><persName>Camille Pissarro</persName></person>
+<person xml:id="ASisley"><persName>Alfred Sisley</persName></person>
+<person xml:id="PdeChavannes"><persName>Puvis de Chavannes</persName></person>
+<person xml:id="SMallarme"><persName>Stéphane Mallarmé</persName></person>
+<!--Le carte di Mary Cassat -->
+<person xml:id="MCassat"><persName>Mary Cassat</persName></person>
+<person xml:id="TCole"><persName>Thomas Cole</persName></person>
+<person xml:id="GInness"><persName>George Inness</persName></person>
+<person xml:id="DVelazquez"><persName>Diego Velázquez</persName></person>
+<person xml:id="LCassat"><persName>Lydia Cassat</persName></person>
+<person xml:id="JADIngres"><persName>Jean Auguste Dominique Ingres</persName></person>
+<person xml:id="JSargent"><persName>John Sargent</persName></person>
+<person xml:id="LEHavemeyer "><persName>Louisine Elder Havemeyer </persName></person>
+
+<!--La passione di Camille Claudel -->
+<person xml:id="CClaudel"><persName>Camille Claudel</persName></person>
+<person xml:id="LACCerveaux"><!--madre di lei-->
+<persName>Louise Athanaïse Cécile Cerveaux</persName></person>
+<person xml:id="FColarossi "><persName>Filippo Colarossi </persName></person>
+<person xml:id="JLipscomb"><persName>Jessie Lipscomb</persName></person>
+<person xml:id="ASinger"><persName>Amy Singer</persName></person>
+<person xml:id="VVanGogh"><persName>Vincent Van Gogh</persName></person>
+<person xml:id="HMatisse"><persName>Henri Matisse</persName></person>
+<person xml:id="OMirbeau"><persName>Octave Mirbeau</persName></person>
+<person xml:id="RBeuret"><persName>Rose Beuret</persName></person>
+<person xml:id="PClaudel"><persName>Paul Claudel</persName></person>  
+
+
+<!--Chapter Libere-->
+<!--Il fascino di Suzanne Valadon-->
+<person xml:id="SValadon"><persName>Suzanne Valadon</persName></person> 
+<person xml:id="MUtrillo"><persName>Maurice Utrillo</persName></person>
+<person xml:id="MiUtrillo"><persName>Miguel Utrillo</persName></person> 
+<person xml:id="AUtter"><persName>André Utter</persName></person> 
+<person xml:id="GBraque"><persName>Georges Braque</persName></person> 
+<person xml:id="GSeurat"><persName>Georges Seurat</persName></person> 
+<person xml:id="AModigliani"><persName>Amedeo Modigliani</persName></person> 
+<person xml:id="GdeChirico"><persName>Giorgio de Chirico</persName></person>
+<person xml:id="FZandomeneghi"><persName>Federico Zandomeneghi</persName></person>
+
+<person xml:id="HdeToulouseLautrec"><persName>Henri de Toulouse-Lautrec</persName></person> 
+<person xml:id="ESatie"><persName>Erik Satie</persName></person>
+<person xml:id="ESatie"><persName>Paul Mousis</persName></person>
+<person xml:id="BWeill"><persName>Berthe Weill</persName></person>
+<person xml:id="LValore"><persName>Lucie Valore</persName></person>
+<person xml:id="PPicasso"><persName>Pablo Picasso</persName></person>
+
+<!--Lo stile di Tamara de Lempicka-->
+<person xml:id="TdeLempicka"><persName>Tamara de Lempicka</persName></person> 
+<person xml:id="GKlimt"><persName>Gustav Klimt</persName></person>
+<person xml:id="Pontormo"><persName>Pontormo</persName></person>
+<person xml:id="GDAnnunzio"><persName>Gabriele D'Annunzio</persName></person>
+<person xml:id="SDali"><persName>Salvador Dalí</persName></person>
+<person xml:id="UBoccioni"><persName>Umberto Boccioni</persName></person>
+<person xml:id="TLempichi"><persName>Tadeusz Lempichi</persName></person>
+<person xml:id="IPerrot"><persName>Ira Perrot</persName></person>
+<person xml:id="FTMarinetti"><persName>Filippo Tommaso Marinetti</persName></person>
+<person xml:id="BKuffner"><persName>Baron Kuffner</persName></person>
+<person xml:id="AHitler"><persName>Adolf Hitler</persName></person>
+<person xml:id="ABlondel"><persName>Alain Blondel</persName></person>
+<person xml:id="VMContreras"><persName>Victor Manuel Contreras</persName></person>
+
+<!--Gli esperimenti di Sonia Terk Delaunay --> 
+<person xml:id="GDali"><!-- nel testo come gala éluard-->
+<persName>Gala Dalí </persName></person>
+<person xml:id="NGoncharova"><persName>Natalia Goncharova</persName> <!--Natal'ja Goncarova-->
+</person>
+<person xml:id="ARaphael"><persName>Antonietta Raphaël</persName></person>
+<person xml:id="SDelaunay"><persName>Sonia Delaunay</persName> <!--anche sonia Stern-->
+</person>
+<person xml:id="HTerk"><persName>Henri Terk</persName></person>
+<person xml:id="RDelaunay"><persName>Robert Delaunay</persName></person>
+<person xml:id="MEChevreul"><persName>Michel-Eugène Chevreul</persName></person>
+<person xml:id="TTzara"><persName>Tristan Tzara</persName></person>
+<person xml:id="PSoupault"><persName>Philippe Soupault</persName></person>
+<person xml:id="MMatyushin"><persName>Mikhail Matyushin</persName></person>
+<person xml:id="DEllington"><persName>Duke Ellington</persName></person>
+<person xml:id="LArmstrong"><persName>Luis Armstrong</persName></person>
+<person xml:id="CChanel"><persName>Coco Chanel</persName></person>
+
+<!--La follia di Gala éluard-->
+<person xml:id="PEluard"> <!--Nel testo è citato come Eugène émile Paul Grindel-->
+<persName>Paul Éluard</persName></person>
+<person xml:id="CELuard"><persName>Cécile Éluard</persName></person>
+<person xml:id="ABreton"><persName>André Breton</persName></person>
+<person xml:id="MRay"><persName>Man Ray</persName></person>
+<person xml:id="MErnst"><persName>Max Ernst</persName></person>
+<person xml:id="RMagritte"><persName>René Magritte</persName></person>
+<person xml:id="GBerger"><persName>Georgette Berger</persName></person>
+<person xml:id="CGoemans"><persName>Camille Goemans</persName></person>
+<person xml:id="WJensen"><persName>Wilhelm Jensen</persName></person>
+<person xml:id="SFreud"><persName>Sigmund Freud</persName></person>
+<person xml:id="JLdeFaucignyLucinge"><persName>Jena-Louis de Faucigny-Lucinge</persName><!--è un principe-->
+</person>
+
+<!--Lo scandalo di Natal'ja Segeevna Goncarova--><!--Ricordati che è già citata prima come Goncharova-->
+<person xml:id="APushkin"><persName>Alexander Pushkin</persName></person>
+<person xml:id="MLarionov"><persName>Mikhail Larionov</persName></person>
+<person xml:id="PGauguin"><persName>Paul Gauguin</persName></person>
+<person xml:id="JRBoronali"><persName>Joachim-Raphaël Boronali</persName></person>
+<person xml:id="RDorgeles"><persName>Roland Dorgelès</persName></person>
+<person xml:id="SDiaghilev"><persName>Sergei Diaghilev</persName></person>
+<person xml:id="KMikhaylova"><!--Nel testo citata come Klavdia Mikhailova-->
+<persName>Klavdiya Mikhaylova</persName></person>
+
+<!--Il coraggio di Frida Kalho-->
+<person xml:id="FKahlo"><persName>Frida Kahlo</persName></person>
+<person xml:id="MCyGonzález"><persName>Matilde Calderón y González</persName></person>
+<person xml:id="GKahlo"><persName>Guillermo Kahlo</persName></person>
+<person xml:id="JVascncelos"><persName>José Vasconcelos</persName></person>
+<person xml:id="AGomezArias"><persName>Alejandro Gómez Arias</persName></person>
+<person xml:id="TModotti"><persName>Tina Modotti</persName></person>
+<person xml:id="DRivera"><persName>Diego Rivera</persName></person>
+<person xml:id="FDRoosevelt"><persName>Franklin Delano Roosevelt</persName></person>
+<person xml:id="CKahlo"><persName>Cristina Kahlo</persName></person>
+<person xml:id="LTrotsky"><!--su google si trova Leon. nel testo Trotskij--><!--Caso particolare di indentazione-->
+<persName>LevTrotsky</persName></person>
+<person xml:id="NSedova"> <!--Nel testo Natalja Trotskij-->
+<persName>Natalia Sedova</persName></person>
+
+<!--L'impegno di Tina Modotti-->
+<person xml:id="PModotti"><persName>Pietro Modotti</persName></person>
+<person xml:id="RdelAbrieRichey"><persName>Roubaix de l'Abrie Richey</persName></person>
+<person xml:id="EWeston"><persName>Edward Weston</persName></person>
+<person xml:id="DSiqueiros"><persName>David Siqueiros</persName></person>
+<person xml:id="PORubio"><persName>Pascual Ortiz Rubio</persName></person>
+
+<!--persName visionarie-->
+
+<person xml:id='fkalo'><persName>Frida</persName></person>
+<person xml:id='bcappa'><persName>Benedetta Cappa</persName></person>
+<person xml:id='gballa'><persName>Giacomo Balla</persName></person>
+<person xml:id='eprampolini'><persName>Enrico Prampolini</persName></person>
+<person xml:id='uboccioni'><persName>Boccioni</persName></person>
+<person xml:id='mmafai'><persName>Mario Mafai</persName></person>
+<person xml:id='mrmafai'><persName>Maria Raffaella</persName></person>
+<person xml:id='smafaidepasquale'><persName>Simona</persName></person>
+<person xml:id='gungaretti'><persName>Giuseppe Ungaretti</persName></person>
+<person xml:id='ldelibero'><persName>Libero de Libero</persName></person>
+<person xml:id='gbonichi'><persName>Scipione</persName></person>
+<person xml:id='ccagli'><persName>Corrado Cagli</persName></person>
+<person xml:id='rlonghi'><persName>Roberto Longhi</persName></person>
+<person xml:id='msironi'><persName>Sironi</persName></person>
+<person xml:id='afuni'><persName>Funi</persName></person>
+<person xml:id=''><persName>Salus</persName></person>
+<person xml:id='ecolla'><persName>Ettore Colla</persName></person>
+<person xml:id='mmarini'><persName>Marino Marini</persName></person>
+<person xml:id='rmazzacurati'><persName>Renato Mazzacurati</persName></person>
+<person xml:id='gmanzu'><persName>Giacomo Manzù</persName></person>
+<person xml:id='amartini'><persName>Arturo Martini</persName></person>
+<person xml:id='salome'><persName>Salomè</persName></person>
+<person xml:id='gbattista'><persName>Battista</persName></person>
+<person xml:id='tmaselli'><persName>Titina Maselli</persName></person>
+<person xml:id='emaselli'><persName>Enrico</persName></person>
+<person xml:id='asavinio'><persName>Alberto Savinio</persName></person>
+<person xml:id='mbontempelli'><persName>Massimo Bontempelli</persName></person>
+<person xml:id='amoravia'><persName>Alberto Moravia</persName></person>
+<person xml:id='emorante'><persName>Elsa Morante</persName></person>
+<person xml:id='rguttuso'><persName>Guttuso</persName></person>
+<person xml:id='rvespignani'><persName>Vespignani</persName></person>
+<person xml:id='lpirandello'><persName>Luigi Pirandello</persName></person>
+<person xml:id='emanet'><persName>Manet</persName></person>
+<person xml:id='rgualino'><persName>Riccardo Gualino</persName></person>
+<person xml:id='amodigliani'><persName>Modigliani</persName></person>
+<person xml:id='fcasorati'><persName>Casorati</persName></person>
+<person xml:id='ddbuoninsegna'><persName>Duccio di Buoninsegna</persName></person>
+<person xml:id='tscialoja'><persName>Toti Scialoja</persName></person>
+<person xml:id='gturcato'><persName>Giulio Turcato</persName></person>
+<person xml:id='gmarotta'><persName>Gino Marotta</persName></person>
+<person xml:id='ibrin'><persName>Irene Brin</persName></person>
+<person xml:id='gdcorso'><persName>Gaspero Del Corso</persName></person>
+<person xml:id='tfesta'><persName>Tano Festa</persName></person>
+<person xml:id='mschifano'><persName>Mario Schifano</persName></person>
+<person xml:id='fangeli'><persName>Franco Angeli</persName></person>
+<person xml:id='pdmartiis'><persName>Plinio De Martiis</persName></person>
+<person xml:id='newyork'><persName>Neova York</persName></person>
+<person xml:id='amagnani'><persName>Magnani</persName></person>
+<person xml:id='ccecchi'><persName>Carlo Cecchi</persName></person>
+<person xml:id='sbeckett'><persName>Beckett</persName></person>
+<person xml:id='caccardi'><persName>Carla Accardi</persName></person>
+<person xml:id='gmorandi'><persName>Giorgio Morandi</persName></person>
+<person xml:id='orosai'><persName>Ottone Rosai</persName></person>
+<person xml:id='asanfilippo'><persName>Antonio Sanfilippo</persName></person>
+<person xml:id='bangelico'><persName>Beato Angelico</persName></person>
+<person xml:id='vkandinsky'><persName>Kandinsky</persName></person>
+<person xml:id='pklee'><persName>Klee</persName></person>
+<person xml:id='jpollock'><persName>Pollock</persName></person>
+<person xml:id='pconsagra'><persName>Pietro Consagra</persName></person>
+<person xml:id='pfazzini'><persName>Pericle Fazzini</persName></person>
+<person xml:id='icalvino'><persName>Italo Calvino</persName></person>
+<person xml:id='sscarpitta'><persName>Salvatore Scarpitta</persName></person>
+<person xml:id='pdorazio'><persName>Piero Dorazio</persName></person>
+<person xml:id='mguerrini'><persName>Mino Guerrini</persName></person>
+<person xml:id='aperilli'><persName>Achille Perilli</persName></person>
+<person xml:id='gseverini'><persName>Gino Severini</persName></person>
+<person xml:id='rdcastiglia'><persName>Roderigo di Castiglia</persName></person>
+<person xml:id='ptogliatti'><persName>Palmiro Togliatti</persName></person>
+<person xml:id='clonzi'><persName>Carla Lonzi</persName></person>
+<person xml:id='ebanotti'><persName>Elvira Banotti</persName></person>
+<person xml:id='gwfhegel'><persName>Hegel</persName></person>
+<person xml:id='gcarandente'><persName>Giovanni Carandente</persName></person>
+<person xml:id='gcelant'><persName>Germano Celant</persName></person>
+<person xml:id='cchristovbakargiev'><persName>Carolyn Christov-Bakargiev</persName></person>
+<person xml:id='huobrist'><persName>Hans Ulrich Obrist</persName></person>
+<person xml:id='blazzari'><persName>Bice Lazzari</persName></person>
+<person xml:id='bmarcello'><persName>Benedetto Marcello</persName></person>
+<person xml:id='leferro'><persName>Ferro</persName></person>
+<person xml:id='asezanne'><persName>Sezanne</persName></person>
+<person xml:id='cmonet'><persName>Monet</persName></person>
+<person xml:id='jfmillet'><persName>Millet</persName></person>
+<person xml:id='psemeghini'><persName>Pio Semeghini</persName></person>
+<person xml:id='cscarpa'><persName>Carlo Scarpa</persName></person>
+<person xml:id='gnpasinetti'><persName>Nei Pasinetti</persName></person>
+<person xml:id='drosa'><persName>Diego Rosa</persName></person>
+<person xml:id='aburri'><persName>Alberto Burri</persName></person>
+<person xml:id='abasaldella'><persName>Afro Basaldella</persName></person>
+<person xml:id='mlai'><persName>Maria Lai</persName></person>
+<person xml:id='scambosu'><persName>Salvatore Cambosu</persName></person>
+<person xml:id='aviani'><persName>Alberto Viani</persName></person>
+<person xml:id='gdessi'><persName>Giuseppe Dessì</persName></person>
+<person xml:id='amarras'><persName>Antonio Marras</persName></person>
+<person xml:id='gpane'><persName>Gina Pane</persName></person>
+<person xml:id='fmasson'><persName>Françoise Masson</persName></person>
+<person xml:id='srosa'><persName>Salvator Rosa</persName></person>
+<person xml:id='puccello'><persName>Paolo Uccello</persName></person>
+<person xml:id='hmemling'><persName>Memling</persName></person>
+<person xml:id='flippi'><persName>Filippino Lippi</persName></person>
+<person xml:id='francescodassisi'><persName>san Francesco</persName></person>
+<person xml:id='jesus'><persName>Cristo sulla Croce</persName></person>
+<person xml:id='giotto'><persName>Giotto</persName></person>
+<person xml:id='klrocca'><persName>Ketty La Rocca</persName></person>
+
+<!--persName compagne-->
+
+<person xml:id='dmaar'><persName>Dora Maar</persName></person>
+<person xml:id='hcartierbesson'><persName>Henri Cartier-Bresson</persName></person>
+<person xml:id='rcapa'><persName>Robert Capa</persName></person>
+<person xml:id='ffranco'><persName>Francisco Franco</persName></person>
+<person xml:id='fgilot'><persName>Françoise Gilot</persName></person>
+<person xml:id='amartin'><persName>Agnes Martin</persName></person>
+<person xml:id='agorky'><persName>Arshile Gorky</persName></person>
+<person xml:id='jmiro'><persName>Joan Miró</persName></person>
+<person xml:id='wdekooning'><persName>Willem De Kooning</persName></person>
+<person xml:id='dtsuzuki'><persName>Daisetsu Teitarō Suzuki</persName></person>
+<person xml:id='fmitchell'><persName>Fred Mitchell</persName></person>
+<person xml:id='rindiana'><persName>Robert Indiana</persName></person>
+<person xml:id='ekelly'><persName>Ellsworth Kelly</persName></person>
+<person xml:id='jyoungerman'><persName>Jack Youngerman</persName></person>
+<person xml:id='dseyrig'><persName>Delphine Seyrig</persName></person>
+<person xml:id='jrosenquist'><persName>James Rosenquist</persName></person>
+<person xml:id='chinman'><persName>Charles Hinman</persName></person>
+<person xml:id='mernst'><persName>Ernst</persName></person>
+<person xml:id='okokoschka'><persName>Kokoschka</persName></person>
+<person xml:id='wamozart'><persName>Mozart</persName></person>
+<person xml:id='mrothko'><persName>Mark Rothko</persName></person>
+<person xml:id='slewitt'><persName>Sol LeWitt</persName></person>
+<person xml:id='rryman'><persName>Robert Ryman</persName></person>
+<person xml:id='djudd'><persName>Donald Judd</persName></person>
+<person xml:id='areinhardt'><persName>Ad Reinhardt</persName></person>
+<person xml:id='dhopper'><persName>Dennis Hopper</persName></person>
+<person xml:id='mmerz'><persName>Marisa Merz</persName></person>
+<person xml:id='mmerz2'><persName>Mario</persName></person>
+<person xml:id='fcasorati'><persName>Felice Casorati</persName></person>
+<person xml:id='cabate'><persName>Claudio Abate</persName></person>
+<person xml:id='fsargentini'><persName>Fabio Sargentini</persName></person>
+<person xml:id='ndesaintphalle'><persName>Niki de Saint Phalle</persName></person>
+<person xml:id='jtinguely'><persName>Jean Tinguely</persName></person>
+<person xml:id='pklee'><persName>Paul Klee</persName></person>
+<person xml:id='hmatisse'><persName>Matisse</persName></person>
+<person xml:id='ulinde'><persName>Ulf Linde</persName></person>
+<person xml:id='ggarbo'><persName>Greta Garbo</persName></person>
+<person xml:id='polofultved'><persName>Per Olof Ultvedt</persName></person>
+<person xml:id='mcaraccioloagnelli'><persName>Marella Caracciolo Agnelli</persName></person>
+<person xml:id='ecatalano'><persName>Elisabetta Catalano</persName></person>
+<person xml:id='ffellini'><persName>Federico Fellini</persName></person>
+<person xml:id='Matilde'><persName>Matilde</persName></person>
+<person xml:id='Guido'><persName>Guido</persName></person>
+<person xml:id='mmastroianni'><persName>Marcello Mastroianni</persName></person>
+<person xml:id='lvisconti'><persName>Luisella Visconti</persName></person>
+<person xml:id='abonitooliva'><persName>Achille Bonito Oliva</persName></person>
+<person xml:id='glonardi'><persName>Graziella Lonardi</persName></person>
+<person xml:id='aboetti'><persName>Alighiero Boetti</persName></person>
+<person xml:id='jbeuys'><persName>Joseph Beuys</persName></person>
+<person xml:id='gddominicis'><persName>Gino De Dominicis</persName></person>
+<person xml:id='gprousch'><persName>Gilbert</persName></person>
+<person xml:id='gpassmore'><persName>George</persName></person>
+<person xml:id='jkounellis'><persName>Jannis Kounellis</persName></person>
+<person xml:id='emattiacci'><persName>Eliseo Mattiacci</persName></person>
+<person xml:id='mpistoletto'><persName>Michelangelo Pistoletto</persName></person>
+<person xml:id='ctacchi'><persName>Cesare Tacchi</persName></person>
+<person xml:id='vpisani'><persName>Vettor Pisani</persName></person>
+<person xml:id='fmauri'><persName>Fabio Mauri</persName></person>
+<person xml:id='danka'><persName>Danka</persName></person>
+<person xml:id='fwoodman'><persName>Francesca Woodman</persName></person>
+<person xml:id='gcasetti'><persName>Giuseppe Casetti</persName></person>
+<person xml:id='maldororrome'><persName>Maldoror</persName></person>
+<person xml:id='smirri'><persName>Sabina Mirri</persName></person>
+<person xml:id='ggallo'><persName>Giuseppe Gallo</persName></person>
+<person xml:id='csherman'><persName>Cindy Sherman</persName></person>
+<person xml:id='scalle'><persName>Sophie Calle</persName></person>
+<person xml:id='ngoldin'><persName>Nan Goldin</persName></person>
+<person xml:id='darbus'><persName>Diane Arbus</persName></person>
+<person xml:id='aarbus'><persName>Allan Arbus</persName></person>
+<person xml:id='tbrowning'><persName>Tod Browning</persName></person>
+<person xml:id='cleopatra'><persName>Cleopatra</persName></person>
+<person xml:id='hercules'><persName>Ercole</persName></person>
+<person xml:id='wshakespeare'><persName>Shakespeare</persName></person>
+<person xml:id='crama'><persName>Carol Rama</persName></person>
+<person xml:id='gvercelli'><persName>Gemma Vercelli</persName></person>
+<person xml:id='esanguineti'><persName>Edoardo Sanguineti</persName></person>
+<person xml:id='asoldati'><persName>Atanasio Soldati</persName></person>
+<person xml:id='gdorfles'><persName>Gillo Dorfles</persName></person>
+<person xml:id='bmunari'><persName>Bruno Munari</persName></person>
+<person xml:id='gmonet'><persName>Gianni Monnet</persName></person>
+<person xml:id='gbertasso'><persName>Giuseppe Bertasso</persName></person>
+<person xml:id='clevistrauss'><persName>Claude Lévi-Strauss</persName></person>
+<person xml:id='lvergine'><persName>Lea Vergine</persName></person>
+<person xml:id='ehesse'><persName>Eva Hesse</persName></person>
+<person xml:id='tdoyle'><persName>Tom Doyle</persName></person>
+<person xml:id='adanto'><persName>Arthur Danto</persName></person>
+<person xml:id='bschwabsky'><persName>Barry Schwabsky</persName></person>
+<person xml:id='zhadid'><persName>Hadid</persName></person>
+<person xml:id='rkoolhaas'><persName>Rem Koolhaas</persName></person>
+<person xml:id='wfehlbaum'><persName>Willi Fehlbaum</persName></person>
+<person xml:id='tando'><persName>Tadao Ando</persName></person>
+<person xml:id='fgehry'><persName>Frank Gehry</persName></person>
+<person xml:id='gaulenti'><persName>Gae Aulenti</persName></person>
+<person xml:id='gponti'><persName>Gio Ponti</persName></person>
+<person xml:id='gropius'><persName>Gropius</persName></person>
+<person xml:id='lecorbusier'><persName>Le Corbusier</persName></person>
+<person xml:id='lwright'><persName>Wright</persName></person>
+<person xml:id='enrogers'><persName>Ernesto Nathan Rogers</persName></person>
+<person xml:id='aolivetti'><persName>Adriano Olivetti</persName></person>
+<person xml:id='lnissimmomigliano'><persName>Luciana Nissim Momigliano</persName></person>
+<person xml:id='fmomigliano'><persName>Franco</persName></person>
+<person xml:id='gsoavi'><persName>Giorgio Soavi</persName></person>
+<person xml:id='rzorzi'><persName>Renzo Zorzi</persName></person>
+<person xml:id='gagnelli'><persName>Gianni Agnelli</persName></person>
+<person xml:id='fbacon'><persName>Francis Bacon</persName></person>
+<person xml:id='rlichtenstein'><persName>Roy Lichtenstein</persName></person>
+<person xml:id='lronconi'><persName>Luca Ronconi</persName></person>
+<person xml:id='gpalomba'><persName>Giuseppe Palomba</persName></person>
+<person xml:id='coldenburg'><persName>Claes Oldenburg</persName></person>
+<person xml:id='cvanbruggen'><persName>Coosje van Bruggen</persName></person>
+<person xml:id='emaino'><persName>Dadamaino</persName></person>
+<person xml:id='lfontana'><persName>Lucio Fontana</persName></person>
+<person xml:id='lbourgeois'><persName>Louise Bourgeois</persName></person>
+<person xml:id='lbourgeois2'><persName>Papà Louis</persName></person>
+<person xml:id='fleger'><persName>Fernand Léger</persName></person>
+<person xml:id='rgoldwater'><persName>Robert Goldwater</persName></person>
+<person xml:id='mduchamp'><persName>Duchamp</persName></person>
+<person xml:id='jmccarthy'><persName>Joseph McCarthy</persName></person>
+<person xml:id='abarr'><persName>Alfred Barr</persName></person>
+<person xml:id='rmapplethorpe'><persName>Robert Mapplethorpe</persName></person>
+</listPerson>
+<listPerson type="fictional">
+
+<person xml:id="Giuseppe"> <persName>Giuseppe</persName></person>
+<person xml:id="Saffira"> <persName>Saffira</persName></person>
+<person xml:id="Putifarre"> <persName>Putifarre</persName></person>
+<person xml:id="santa-margherita"> <persName>Santa Margherita</persName></person>
+<person xml:id="Minerva"> <persName>Minerva</persName></person>
+<person xml:id="Tiresia"> <persName>Tiresia</persName></person>
+<person xml:id="Venere"> <persName>Venere</persName></person>
+<person xml:id="Giuditta"> <persName>Giuditta</persName></person>
+<person xml:id="Oloferne"> <persName>Oloferne</persName></person>
+<person xml:id="Susanna"><!--personaggio biblico--><persName>Sussanna, biblic character</persName></person> 
+<person xml:id="Gradiva"><!--Character from the romance by Wilhelm Jensen 1903 Gradiva--><persName>Gradiva</persName></person> 
+<person xml:id="Clotho"><!--Una delle tre moire, scolpita dalla Claudel, nel testo col nome di Cloto--><persName>Clotho</persName></person>
+
+</listPerson>
+
+<listPlace>
+
+<place xml:id="Urbino"><placeName>Urbino</placeName></place>
+<place xml:id="Europe"><placeName>Europa</placeName></place>
+<place xml:id="Genoa"><placeName>Genova</placeName></place>
+<place xml:id="Nemours"><placeName>Nemours</placeName></place>
+<place xml:id="Greece"><placeName>Grecia</placeName></place>
+<place xml:id="Venice"><placeName>Venezia</placeName></place>
+<place xml:id="Naples"><placeName>Napoli</placeName></place>
+<place xml:id="Bologna"><placeName>Bologna</placeName></place>
+<place xml:id="MCMBologna"><placeName>Museo Civico Medievale di Bologna</placeName></place>
+<place xml:id="Uffizi"><placeName>Uffizi</placeName></place>
+<place xml:id="BSanPetronio"><placeName>Basilica di San Petronio</placeName></place>
+<place xml:id="Egypt"><placeName>Egitto</placeName></place>
+<place xml:id="palazzo-salina-amorini"><placeName>Palazzo Salina-Amorini</placeName></place>
+<place xml:id="Italy"><placeName>Italia</placeName></place>
+<place xml:id="Cremona"><placeName>Cremona</placeName></place>
+<place xml:id="NGLondon"><placeName>National Gallery di Londra</placeName></place>
+<place xml:id="Rome"><placeName>Roma</placeName></place>
+<place xml:id="VaticanMuseums"><placeName>Musei Vaticani</placeName></place>
+<place xml:id="Madrid"><placeName>Madrid</placeName></place>
+<place xml:id="PradoMuseum"><placeName>Museo del Prado</placeName></place>
+<place xml:id="Palermo"><placeName>Palermo</placeName></place>
+<place xml:id="Sicily"><placeName>Sicilia</placeName></place>
+<place xml:id="Capri"><placeName>Capri</placeName></place>
+<place xml:id="Annunziata-Paternò"><placeName>Chiesa dell'Annunziata a Paternò</placeName></place>
+<place xml:id="Imola"><placeName>Imola</placeName></place>
+<place xml:id="Paris"><placeName>Parigi</placeName></place>
+<place xml:id="France"><placeName>Francia</placeName></place>
+<place xml:id="Pisa"><placeName>Pisa</placeName></place>
+<place xml:id="Florence"><placeName>Firenze</placeName></place>
+<place xml:id="UK"><placeName>Inghilterra</placeName></place>
+<place xml:id="HCourt"><placeName>Hampton Court</placeName></place>
+<place xml:id="sanlinfonte"><placeName>Chiesa San Lorenzo in Fonte, Roma</placeName></place>
+<place xml:id="accademia-san-luca-roma"><placeName>Accademia San Luca, Roma</placeName></place>
+<place xml:id="san-domenico-bologna"><placeName>Basilica di San Domenico, Bologna</placeName></place>
+<place xml:id="Milan"><placeName>Milano</placeName></place>
+<place xml:id="Ascoli"><placeName>Ascoli</placeName></place>
+<place xml:id="Spain"><placeName>Spagna</placeName></place>
+<place xml:id="accademia-lincei"><placeName>Accademia dei Lincei</placeName></place>
+<place xml:id="Tuscany"><placeName>Toscana</placeName></place>
+<place xml:id="Turin"><placeName>Torino</placeName></place>
+<place xml:id="Vienna"><placeName>Vienna</placeName></place>
+<place xml:id="Coira"><placeName>Coira</placeName></place>
+<place xml:id="accademia-belle-arti-firenze"><placeName>Accademia di Belle Arti di Firenze</placeName></place>
+<place xml:id="London"><placeName>Londra</placeName></place>
+<place xml:id="royal-academy-of-arts"><placeName>Royal Academy of Arts, Londra</placeName></place>
+<place xml:id="Loreto"><placeName>Loreto</placeName></place>
+<place xml:id="santa-casa-di-maria"><placeName>Santa Casa di Maria, Loreto</placeName></place>
+<place xml:id="via-sistina"><placeName>via Sistina, Roma</placeName></place>
+<place xml:id="Russia"><placeName>Russia</placeName></place>
+<place xml:id="chiesa-andrea-fratte"><placeName>Chiesa di Sant'Andrea delle Fratte, Roma</placeName></place>
+<place xml:id="pantheon"><placeName>Pantheon, Roma</placeName></place>
+<place xml:id="archiginnasio"><placeName>Archiginnasio, Bologna</placeName></place>
+
+<!--Chapter Rivoluzionarie-->
+<!--introduzione-->
+<place xml:id="London"><placeName>Londra</placeName></place>
+<place xml:id="GreatBritain"><placeName>Gran Bretagna</placeName></place>
+<place xml:id="FrogmoreHouse"><placeName>Casa Frogmore</placeName></place>
+<place xml:id="WindsorCastle"><placeName>Castello di Windsor</placeName></place> 
+ 
+<!--Gli abiti di élisabeth Vigéé-Le Brun-->
+<place xml:id="Paris"><placeName>Parigi</placeName></place> 
+<place xml:id="France"><placeName>Francia</placeName></place> 
+<place xml:id="PalaceofVersailles"><placeName>Reggia di Versailles</placeName></place> 
+<place xml:id="Italy"><placeName>Italia</placeName></place> 
+<place xml:id="Turin"><placeName>Torino</placeName></place> 
+<place xml:id="Bologna"><placeName>Bologna</placeName></place> 
+<place xml:id="Florence"><placeName>Firenze</placeName></place> 
+<place xml:id="Naples"><placeName>Napoli</placeName></place> 
+<place xml:id="Rome"><placeName>Roma</placeName></place>
+<place xml:id="Milan"><placeName>Milano</placeName></place> 
+<place xml:id="Venice"><placeName>Venezia</placeName></place> 
+<place xml:id="Vienna"><placeName>Vienna</placeName></place>
+<place xml:id="Russia"><placeName>Russia</placeName></place>
+
+<!-- Le bestie di Rosa Bonheur -->
+<place xml:id="Bordeaux"><placeName>Bordeaux</placeName></place>
+<place xml:id="LouvreMuseum"><placeName>Museo del Louvre</placeName></place>
+<place xml:id="By"><placeName>By</placeName></place>
+
+<!--I capelli di Berthe Morisot -->
+<place xml:id="Batignolles"><placeName>Batignolles, quartiere di Parigi</placeName></place>
+<place xml:id="Passy"><placeName>Passy</placeName></place>
+
+<!--Le carte di Mary Cassat -->
+<place xml:id="America"><placeName>America</placeName></place>
+<place xml:id="Pittsburgh"><placeName>Pittsburgh</placeName></place>
+<place xml:id="HudsonRiver"><placeName>Fiume Hudson</placeName></place>
+<place xml:id="Seine"><placeName>Senna</placeName></place>
+<place xml:id="BoulevarddesCapucins"><placeName>Boulevard des Capucins</placeName></place>
+<place xml:id="NewYorkCity"><placeName>New York City</placeName></place>
+<place xml:id="Washington"><placeName>Washington</placeName></place>
+<place xml:id="Philadelphia"><placeName>Philadelphia</placeName></place>
+<place xml:id="Boston"><placeName>Boston</placeName></place>
+
+<!--La passione di Camille Claudel -->
+<place xml:id="Montparnasse "><placeName>Montparnasse, Neighbourhood in Paris </placeName></place>
+<place xml:id="Villeevrard"><placeName>Hôpital Ville-évrard </placeName></place>
+
+
+<!--Chapter Libere-->
+<!--introduzione-->
+<place xml:id="England"><placeName>England</placeName></place>
+<place xml:id="UK"><placeName>Regno Unito</placeName></place>
+<place xml:id="USA"><placeName>Stati Uniti d'America</placeName></place>
+<place xml:id="SouthAmreica"><placeName>Sud Amreica</placeName></place>
+
+<!--Il fascino di Suzanne Valadon-->
+<place xml:id="RueCortot"><placeName>Rue Cortot</placeName></place>
+<place xml:id="Montmartre"><placeName>Montmartre</placeName></place>
+<place xml:id="SainteAnneHospitalCenter"><placeName>Ospedale Sainte-Anne</placeName></place>
+
+<!--Lo stile di Tamara de Lempicka-->
+<place xml:id="SaintPetersburg"><placeName>San Pietroburgo</placeName></place>
+<place xml:id="LakeGarda"><placeName>Lago di Garda</placeName></place>
+<place xml:id="Vittoriale"><placeName>Vittoriale degli Italiani</placeName></place>
+<place xml:id="Brescia"><placeName>Brescia</placeName></place>
+<place xml:id="Parma"><placeName>Parma</placeName></place>
+<place xml:id="Cuernavaca"><placeName>Cuernavaca</placeName></place>
+<place xml:id="Mexico"><placeName>Messico</placeName></place>
+
+
+
+<!--Gli esperimenti di Sonia Terk Delaunay -->
+<place xml:id="Poland"><placeName>Polonia</placeName></place>
+<place xml:id="SovietUnion"><placeName>Unione Sovietica</placeName></place>
+<place xml:id="Kazan"><placeName>Kazan</placeName></place> 
+<place xml:id="Odessa"><placeName>Odessa</placeName></place>
+<place xml:id="Kaunas"><placeName>Kaunas</placeName></place>
+<place xml:id="Finland"><placeName>Fillandia</placeName></place>
+<place xml:id="Germany"><placeName>Germania</placeName></place>
+<place xml:id="Austria"><placeName>Austria</placeName></place>
+<place xml:id="Switzerland"><placeName>Svizzera</placeName></place>
+<place xml:id="Karlsruhe"><placeName>Karlsruhe</placeName></place>
+<place xml:id="Madrid"><placeName>Madrid</placeName></place>
+<place xml:id="BoulevardMalesherbes"><placeName>Boulevard Malesherbes</placeName></place>
+<place xml:id="ChampsElysees"><placeName>Champs Elysées</placeName></place>
+
+<!--La follia di Gala éluard-->
+<place xml:id="Moscow"><placeName>Mosca</placeName></place>
+<place xml:id="Cologne"><placeName>Colonia</placeName></place>
+<place xml:id="Indochina"><placeName>Indocina</placeName></place>
+<place xml:id="Asia"><placeName>Asia</placeName></place>
+<place xml:id="Cadaqués"><placeName>Cadaqués</placeName></place>
+<place xml:id="Girona"><placeName>Girona</placeName></place>
+<place xml:id="CastleofPubol"><placeName>Castello di Púbol</placeName></place>
+
+<!--Il coraggio di Frida Kalho-->
+<place xml:id="Coyoacan"><placeName>Coyoacán</placeName></place>
+<place xml:id="RockefellerCenter"><placeName>Rockefeller Center</placeName></place>
+<place xml:id="SanFrancisco"><placeName>San Francisco</placeName></place>
+<place xml:id="MexicoCity"><placeName>Mexico City</placeName></place>
+<place xml:id="FriuliVeneziaGiulia"><placeName>Friuli Venezia-Giulia</placeName></place>
+<place xml:id="Berlin"><placeName>Berlino</placeName></place>
+<place xml:id="Spain"><placeName>Spagna</placeName></place>
+<place xml:id="LosAngeles"><placeName>Los Angeles</placeName></place>
+
+<!--place visionarie-->
+
+<place xml:id='paris'><placeName>Parigi</placeName></place>
+<place xml:id='villaborghese'><placeName>Villa Borghese</placeName></place>
+<place xml:id='etna'><placeName>Etna</placeName></place>
+<place xml:id='carso'><placeName>Carso</placeName></place>
+<place xml:id='piave'><placeName>Piave</placeName></place>
+<place xml:id='italy'><placeName>Italia</placeName></place>
+<place xml:id='palazzodellepostepalermo'><placeName>Palazzo delle Poste</placeName></place>
+<place xml:id='palermo'><placeName>Palermo</placeName></place>
+<place xml:id='bcappa'><placeName>Cappa</placeName></place>
+<place xml:id='rome'><placeName>Roma</placeName></place>
+<place xml:id='kaunas'><placeName>Kaunas</placeName></place>
+<place xml:id='lithuania'><placeName>Lituania</placeName></place>
+<place xml:id='london'><placeName>Londra</placeName></place>
+<place xml:id='royalacademy'><placeName>Royal Academy</placeName></place>
+<place xml:id='eastend'><placeName>East End</placeName></place>
+<place xml:id='england'><placeName>Inghilterra</placeName></place>
+<place xml:id='greece'><placeName>Grecia</placeName></place>
+<place xml:id=''><placeName>Accademia di Belle arti</placeName></place>
+<place xml:id='325viacavourrome'><placeName>325 di via Cavour</placeName></place>
+<place xml:id='genoa'><placeName>Genova</placeName></place>
+<place xml:id='pescolanciano'><placeName>Pescolanciano</placeName></place>
+<place xml:id='provdiisernia'><placeName>provincia di Isernia</placeName></place>
+<place xml:id='casteldisangro'><placeName>Castel di Sangro</placeName></place>
+<place xml:id='lucera'><placeName>Lucera</placeName></place>
+<place xml:id='gallerialobelisco'><placeName>Galleria L’Obelisco</placeName></place>
+<place xml:id='muraaureliane'><placeName>Mura Aureliane</placeName></place>
+<place xml:id='piazzafiume'><placeName>piazza Fiume</placeName></place>
+<place xml:id='portapia'><placeName>Porta Pia</placeName></place>
+<place xml:id='unitedstates'><placeName>Stati Uniti</placeName></place>
+<place xml:id='newyork'><placeName>New York</placeName></place>
+<place xml:id='florence'><placeName>Firenze</placeName></place>
+<place xml:id='venice'><placeName>Venezia</placeName></place>
+<place xml:id='bronx'><placeName>Bronx</placeName></place>
+<place xml:id='gallerialatartaruga'><placeName>Galleria La Tartaruga</placeName></place>
+<place xml:id='klagenfurt'><placeName>Klagenfurt</placeName></place>
+<place xml:id='cmaselli'><placeName>Citto</placeName></place>
+<place xml:id='saintgermain'><placeName>Saint-Germain</placeName></place>
+<place xml:id='sicily'><placeName>Sicilia</placeName></place>
+<place xml:id='trapani'><placeName>Trapani</placeName></place>
+<place xml:id='erice'><placeName>Erice</placeName></place>
+<place xml:id='montesangiuliano'><placeName>Monte San Giuliano</placeName></place>
+<place xml:id='conventodisanmarco'><placeName>convento di San Marco</placeName></place>
+<place xml:id='viamargutta'><placeName>via Margutta</placeName></place>
+<place xml:id='losteriadeifratellimenghi'><placeName>l’osteria Fratelli Menghi</placeName></place>
+<place xml:id='viaflaminia'><placeName>via Flaminia</placeName></place>
+<place xml:id='piazzadelpopolo'><placeName>piazza del Popolo</placeName></place>
+<place xml:id='accademiadibelleartiroma'><placeName>Accademia di Belle Arti</placeName></place>
+<place xml:id='viadelbabuino'><placeName>via del Babuino</placeName></place>
+<place xml:id='salonedelpalazzodelpodestà'><placeName>Salone del Palazzo del Podestà</placeName></place>
+<place xml:id='bologna'><placeName>Bologna</placeName></place>
+<place xml:id='hungary'><placeName>Ungheria</placeName></place>
+<place xml:id='europe'><placeName>Europa</placeName></place>
+<place xml:id='castellodirivoli'><placeName>Castello di Rivoli</placeName></place>
+<place xml:id='accademiadibelleartivenezia'><placeName>Accademia di Belle Arti</placeName></place>
+<place xml:id='brenta'><placeName>Brenta</placeName></place>
+<place xml:id='chiesadeigesuati'><placeName>chiesa dei Gesuati</placeName></place>
+<place xml:id='milan'><placeName>Milano</placeName></place>
+<place xml:id='gorizia'><placeName>Gorizia</placeName></place>
+<place xml:id='monza'><placeName>Monza</placeName></place>
+<place xml:id='turin'><placeName>Torino</placeName></place>
+<place xml:id='barcelona'><placeName>Barcellona</placeName></place>
+<place xml:id='venicelido'><placeName>Lido di Venezia</placeName></place>
+<place xml:id='viasannicolodatolentino'><placeName>via San Nicolò da Tolentino</placeName></place>
+<place xml:id='naples'><placeName>Napoli</placeName></place>
+<place xml:id='caffearagno'><placeName>Caffè Aragno</placeName></place>
+<place xml:id='ulassai'><placeName>Ulassai</placeName></place>
+<place xml:id='ogliastra'><placeName>Ogliastra</placeName></place>
+<place xml:id='nuoroprovince'><placeName>provincia di Nuoro</placeName></place>
+<place xml:id='sardinia'><placeName>Sardegna</placeName></place>
+<place xml:id='verona'><placeName>Verona</placeName></place>
+<place xml:id='accademiadibelleartiverona'><placeName>Accademia di Belle Arti</placeName></place>
+<place xml:id='portofnaples'><placeName>porto di Napoli</placeName></place>
+<place xml:id='cagliari'><placeName>Cagliari</placeName></place>
+<place xml:id='gschneider'><placeName>Galleria Schneider</placeName></place>
+<place xml:id='montegedili'><placeName>monte Gedili</placeName></place>
+<place xml:id='gpane'><placeName>Pane</placeName></place>
+<place xml:id='galleriadiaframmamilan'><placeName>Galleria Diaframma di Milano</placeName></place>
+<place xml:id='assisi'><placeName>Assisi</placeName></place>
+<place xml:id='cappellabardi'><placeName>Cappella Bardi</placeName></place>
+<place xml:id='santacroce'><placeName>Santa Croce</placeName></place>
+<place xml:id='klrocca'><placeName>La Rocca</placeName></place>
+
+<!--place compagne-->
+
+<place xml:id='ruedesgrandsaugustins'><placeName>rue des Grands-Augustins</placeName></place>
+<place xml:id='guernica'><placeName>Guernica</placeName></place>
+<place xml:id='spain'><placeName>Spagna</placeName></place>
+<place xml:id='cafelesdeuxmagots'><placeName>Café Les Deux Magots</placeName></place>
+<place xml:id='bosniaandherzegovina'><placeName>Bosnia Erzegovina</placeName></place>
+<place xml:id='paris'><placeName>Parigi</placeName></place>
+<place xml:id='buenosaires'><placeName>Buenos Aires</placeName></place>
+<place xml:id='ecoledelaphotographiedelavilledeparis'><placeName>École de la Photographie de la Ville de Paris</placeName></place>
+<place xml:id='europe'><placeName>Europa</placeName></place>
+<place xml:id='southamerica'><placeName>Sudamerica</placeName></place>
+<place xml:id='london'><placeName>Londra</placeName></place>
+<place xml:id='washingtonstate'><placeName>Stato di Washington</placeName></place>
+<place xml:id='newmexico'><placeName>New Mexico</placeName></place>
+<place xml:id='newyork'><placeName>New York</placeName></place>
+<place xml:id='unitedstates'><placeName>Stati Uniti</placeName></place>
+<place xml:id='manhattan'><placeName>Manhattan</placeName></place>
+<place xml:id='teacherscollege'><placeName>Teachers College</placeName></place>
+<place xml:id='columbiauniversity'><placeName>Columbia</placeName></place>
+<place xml:id='uptown'><placeName>Uptown</placeName></place>
+<place xml:id='brooklynbridge'><placeName>ponte di Brooklyn</placeName></place>
+<place xml:id='eastrivernewyork'><placeName>East River</placeName></place>
+<place xml:id='greenwichvillage'><placeName>Greenwich Village</placeName></place>
+<place xml:id='bellevuehospital'><placeName>Bellevue Hospital</placeName></place>
+<place xml:id='coentiesslip'><placeName>Coenties</placeName></place>
+<place xml:id='bowerystreetnewyork'><placeName>Bowery Street</placeName></place>
+<place xml:id='soho'><placeName>SoHo</placeName></place>
+<place xml:id='taos'><placeName>Taos</placeName></place>
+<place xml:id='milan'><placeName>Milano</placeName></place>
+<place xml:id='arcodellapace'><placeName>Arco della Pace</placeName></place>
+<place xml:id='turin'><placeName>Torino</placeName></place>
+<place xml:id='portapalazzo'><placeName>Porta Palazzo</placeName></place>
+<place xml:id='arsenaliamalfi'><placeName>Arsenali di Amalfi</placeName></place>
+<place xml:id='gallerialattico'><placeName>Galleria L’Attico</placeName></place>
+<place xml:id='fregene'><placeName>Fregene</placeName></place>
+<place xml:id='ciampino'><placeName>Ciampino</placeName></place>
+<place xml:id='mmerz'><placeName>Merz</placeName></place>
+<place xml:id='neuillysurseine'><placeName>Neuilly-sur-Seine</placeName></place>
+<place xml:id='france'><placeName>Francia</placeName></place>
+<place xml:id='modernamuseet'><placeName>Moderna Museet di</placeName></place>
+<place xml:id='stockholm'><placeName>Stoccolma</placeName></place>
+<place xml:id='geneva'><placeName>Ginevra</placeName></place>
+<place xml:id='jerusalem'><placeName>Gerusalemme</placeName></place>
+<place xml:id='tuscany'><placeName>Toscana</placeName></place>
+<place xml:id='parcguell'><placeName>Parc Güell di Gaudí</placeName></place>
+<place xml:id='garavicchio'><placeName>Garavicchio</placeName></place>
+<place xml:id='maremma'><placeName>Maremma</placeName></place>
+<place xml:id='centrepompidou'><placeName>Centre Pompidou –</placeName></place>
+<place xml:id='rome'><placeName>Roma</placeName></place>
+<place xml:id='palazzodelleesposizioni'><placeName>Palazzo delle Esposizioni</placeName></place>
+<place xml:id='villaborghese'><placeName>Villa Borghese</placeName></place>
+<place xml:id='viabeccariarome'><placeName>via Beccaria</placeName></place>
+<place xml:id='chiesadisantaluciabologna'><placeName>Santa Lucia</placeName></place>
+<place xml:id='bologna'><placeName>Bologna</placeName></place>
+<place xml:id='rhodeislandschoolofdesign'><placeName>Rhode Island School of Design</placeName></place>
+<place xml:id='italy'><placeName>Italia</placeName></place>
+<place xml:id='galleriaugoferranti'><placeName>Galleria Ugo Ferranti</placeName></place>
+<place xml:id='england'><placeName>Inghilterra</placeName></place>
+<place xml:id='club82newyork'><placeName>Club 82 di Lower Manhattan</placeName></place>
+<place xml:id='hubertsmuseum'><placeName>Hubert’s Museum</placeName></place>
+<place xml:id='timessquare'><placeName>Times Square</placeName></place>
+<place xml:id='50thwest'><placeName>50th West</placeName></place>
+<place xml:id='6thavenue'><placeName>6th Avenue</placeName></place>
+<place xml:id='dijon'><placeName>Digione</placeName></place>
+<place xml:id='bussolaturin'><placeName>Bussola</placeName></place>
+<place xml:id='instituteofcontemporaryartboston'><placeName>Institute of Contemporary Art di Boston</placeName></place>
+<place xml:id='stedelijkmuseumamsterdam'><placeName>Stedelijk Museum di Amsterdam</placeName></place>
+<place xml:id='hamburg'><placeName>Amburgo</placeName></place>
+<place xml:id='netherlands'><placeName>Olanda</placeName></place>
+<place xml:id='germany'><placeName>Germania</placeName></place>
+<place xml:id='ruhr'><placeName>Ruhr</placeName></place>
+<place xml:id='camdenartscentre'><placeName>Camden Arts Centre di Londra</placeName></place>
+<place xml:id='guggenheimmuseumbilbao'><placeName>Guggenheim di Bilbao</placeName></place>
+<place xml:id='maxxirome'><placeName>MAXXI di Roma</placeName></place>
+<place xml:id='udineprovince'><placeName>provincia di Udine</placeName></place>
+<place xml:id='biella'><placeName>Biella</placeName></place>
+<place xml:id='trani'><placeName>Trani</placeName></place>
+<place xml:id='apulia'><placeName>Puglia</placeName></place>
+<place xml:id='palermo'><placeName>Palermo</placeName></place>
+<place xml:id='calabria'><placeName>Calabria</placeName></place>
+<place xml:id='naples'><placeName>Napoli</placeName></place>
+<place xml:id='vesuvius'><placeName>Vesuvio</placeName></place>
+<place xml:id='florence'><placeName>Firenze</placeName></place>
+<place xml:id='politecnicomilan'><placeName>Politecnico</placeName></place>
+<place xml:id='ivrea'><placeName>Ivrea</placeName></place>
+<place xml:id='brera'><placeName>Brera</placeName></place>
+<place xml:id='pisa'><placeName>Pisa</placeName></place>
+<place xml:id='parma'><placeName>Parma</placeName></place>
+<place xml:id='teatromediterraneonaples'><placeName>Teatro Mediterraneo di Napoli</placeName></place>
+<place xml:id='teatroallascalamilan'><placeName>Scala di Milano</placeName></place>
+<place xml:id='teatroargentinarome'><placeName>Teatro Argentina di Roma</placeName></place>
+<place xml:id='sein'><placeName>Senna</placeName></place>
+<place xml:id='palazzograssi'><placeName>Palazzo Grassi</placeName></place>
+<place xml:id='venice'><placeName>Venezia</placeName></place>
+<place xml:id='egypt'><placeName>Egitto</placeName></place>
+<place xml:id='None'><placeName>piazza Dante a Napoli</placeName></place>
+<place xml:id='museoarcheologiconaples'><placeName>Museo Archeologico</placeName></place>
+<place xml:id='piazzalecadornamilan'><placeName>piazzale Cadorna</placeName></place>
+<place xml:id='leftbanksein'><placeName>Senna sulla Rive Gauche</placeName></place>
+<place xml:id='montmartre'><placeName>Montmartre</placeName></place>
+<place xml:id='montparnasse'><placeName>Montparnasse</placeName></place>
+
+</listPlace>
+<list type="work"><item xml:id="Cortegiano" type="text">Libro del Cortegiano, Castiglione, 1528</item>
+<item xml:id="Dialoghi" type="text">Dialoghi di Platone</item>
+<item xml:id="Apologia-di-Socrate" type="text">Apologia di Socrate, Senofonte</item>
+<item xml:id="de-natura-de-amore" type="text">Libro de Natura de Amore, Mario Equicola</item>
+<item xml:id="della-eccellenza-e-dignità" type="text">Della eccellenza e dignità delle donne, Galeazzo Flavio Capella</item>
+<item xml:id="iconologia-ripa" type="text">Iconologia, Cesare Ripa</item>
+<item xml:id="raffaella" type="text">La Raffaella, ovvero Dialogo de la bella Creanza de le Donne, Alessandro Piccolomini</item>
+<item xml:id="Vite" type="text">Le vite de' più eccellenti pittori, scultori e architettori, Vasari, 1550</item>
+<item xml:id="dialogo-dignità-donne" type="text">Dialogo della dignità delle donne, Sperone Speroni</item>
+<item xml:id="dialogo-institution-donne" type="text">Dialogo della institution delle donne, Ludovico Dolce</item>
+<item xml:id="femina-christiana-vives" type="text">De l’istituzione de la femina christiana, vergine, maritata e vedova, Juan Vives</item>
+<item xml:id="aquila-bicipite" type="sculpture">aquila bicipite</item> 
+<item xml:id="pendente-properzia" type="sculpture">pendente di De Rossi Properzia - bottega italiana (sec. XVI)</item>
+<item xml:id="portaMagna" type="sculpture">Porta Magna, Della Quercia, 1425</item>
+<item xml:id="bassorilievi" type="sculpture">Giuseppe e la moglie di Putifarre, De' Rossi, 1526</item>
+<item xml:id="capitelli" type="sculpture">capitelli portico palazzo Salina-Amorini</item>
+<item xml:id="Sofonisba-Mantegna" type="painting">Sofonisba, Mantegna</item>
+<item xml:id="chessgame" type="painting">Partita a schacchi, Sofonisba Anguissola, 1555</item>
+<item xml:id="Gioconda" type="painting">Gioconda, Leonardo da Vinci, 1506</item>
+<item xml:id="ignudi" type="painting">Ignudi, Michelangelo Buonarroti</item>
+<item xml:id="ritratti" type="painting">ritratti di Filippo II di Spagna e consorte, Sofonisba Anguissola</item>
+<item xml:id="fanciullo-morso-da-un-gambero" type="drawing">Fanciullo morso da un gambero, Sofonisba Anguissola, 1554</item>
+<item xml:id="testa-di-cleopatra" type="drawing">La testa di Cleopatra, Michelangelo Buonarroti, 1535</item>
+<item xml:id="Madonna-Itria" type="painting">Madonna dell'Itria, Sofonisba Anguissola</item>
+<item xml:id="autoritratto-lavinia-fontana" type="painting">Autoritratto Lavinia Fontana</item>
+<item xml:id="autoritratto2-lavinia-fontana" type="painting">Autoritratto Lavinia Zappi</item>
+<item xml:id="sacra-famiglia" type="painting">Pala Sacra Famiglia con santi Francesco e Margherita</item>
+<item xml:id="venere-ruini" type="painting">Ritratto Isabella Ruini</item>
+<item xml:id="saba-medici">Ritratto Eleonora de' Medici</item>
+<item xml:id="oloferne-fontana" type="painting">Giuditta con la testa di Oloferne, Lavinia Fontana</item>
+<item xml:id="ritratto-gonzales-fontana" type="painting">Ritratto di Antonietta Gonzales, Lavinia Fontana</item>
+<item xml:id="minerva-fontana" type="painting">Minerva in atto di abbigliarsi, Lavinia Fontana, </item>
+<item xml:id="medaglia-casoni-fontana">Ritratto di Lavinia Fontana, Allegoria della pittura, Casoni Antonio Felice </item>
+<item xml:id="giuditta-gentileschi" type="painting">Giuditta che decapita Oloferne, Artemisia Gentileschi</item>
+<item xml:id="autoritratto-pittura-gentileschi" type="painting">Autoritratto in veste di pittura, Artemisia Gentileschi</item>
+<item xml:id="battesimo-sirani" type="painting">Battesimo di Cristo, Elisabetta Sirani</item>
+<item xml:id="madonna-sirani" type="painting">Madonna col Bambino, Santa Elisabetta e Santa Margherita, Elisabetta Sirani</item>
+<item xml:id="amorino-trionfante-sirani" type="painting">Amorino trionfante, Elisabetta Sirani</item>
+<item xml:id="cupido-sirani" type="painting">Ritratto di Vincenzo Ferdinando Ranuzzi in veste di Cupido, Elisabetta Sirani</item>
+<item xml:id="dorotea-sirani" type="painting">Ritratto di Ortensia Leoni Cordini in veste di santa Dorotea, Elisabetta Sirani</item>
+<item xml:id="giuditta-sirani" type="painting">Giuditta con la testa di Oloferne, Elisabetta Sirani</item>
+<item xml:id="circe-sirani" type="painting">Circe, Elisabetta Sirani</item>
+<item xml:id="cleopatra-sirani" type="painting">Cleopatra, Elisabetta Sirani</item>
+<item xml:id="madonna-cuscino-sirani" type="painting">Madonna col cuscino, Elisabetta Sirani</item>
+<item xml:id="giuditta-galizia" type="painting">Giuditta con la testa di Oloferne, Fede Galizia</item>
+<item xml:id="ritratto-morigia-galizia" type="painting">Ritratto di Paolo Morigia, Fede Galizia</item>
+<item xml:id="text-garzoni" type="drawing">Libro de' caratteri cancellereschi corsivi, Giovanna Garzoni</item>
+<item xml:id="plantaria" type="text">Syntaxis Plantaria, Federico Cesi</item>
+<item xml:id="architettrice" type="text">L'Architettrice, Melania Mazzucco</item>
+<item xml:id="città-delle-dame" type="text">La città delle dame, Christine de Pizan</item>
+<item xml:id="roman-rose" type="text">Roman de la rose, poema di Guillaume de Lorris e Jean de Meung</item>
+<item xml:id="merito-delle-donne" type="text">Il merito delle donne. Ove chiaramente si scuopre quanto sieno elle degne e più perfette de gli huomini, Moderata Fonte</item>
+<item xml:id="nobiltà-delle-donne" type="text">Le nobiltà et eccellenze delle donne et i difetti degli huomini, Lucrezia Marinelli</item>
+<item xml:id="donneschi-difetti" type="text">I donneschi difetti, Giuseppe Passi</item>
+<item xml:id="tirannia-paterna" type="text">Tirannia Paterna, Angela Tarabotti</item>
+<item xml:id="fanciulla-carriera" type="painting">Fanciulla con colomba, Rosalba Carriera</item>
+<item xml:id="trattato-colori-carriera" type="text">Le Maniere diverse per formare i colori in pittura, Rosalba Carriera</item>
+<item xml:id="luigixv-ritratto-carriera" type="painting">Luigi XV di Francia, Rosalba Carriera</item>
+<item xml:id="ritratto-goethe-kauffman" type="painting">Ritratto di Goethe, Angelica Kauffman</item>
+<item xml:id="ifigenia-goethe" type="text">Ifigenia in Tauride, Goethe</item>
+<item xml:id="penelope-telaio" type="painting">Penelope al telaio, Angelica Kauffman</item>
+<item xml:id="bacco-arianna" type="painting">Bacco e Arianna, Angelica Kauffman</item>
+<item xml:id="nudo-virile" type="painting">Nudo virile, Angelica Kauffman</item>
+<item xml:id="congiurato" type="painting">Il congiurato, Nathaniel Hone</item>
+<item xml:id="educazione-kauffman" type="painting">L'educazione della vergine, Angelica Kauffman</item>
+<item xml:id="san-girolamo" type="painting">Pala di San Girolamo, Leonardo da Vinci</item>
+<item xml:id="enea-pallante" type="painting">Ermanno e Tusnelda, Angelica Kauffman</item>
+<item xml:id="ermanno-tusnelda" type="painting">Enea piange la morte di Pallante, Angelica Kauffman</item>
+<item xml:id="serviotullio" type="painting">Servio Tullio, Angelica Kauffman</item>
+<item xml:id="achille-licomede" type="painting">Achille tra le figlie di Licomede, Angelica Kauffman</item>
+<item xml:id="giuditta-oloferne-lama" type="painting">Giuditta e Oloferne, Giulia Lama</item>
+
+<!--Chapter Rivoluzionarie-->
+
+<item xml:id="Encyclopedie" type="text">Encyclopédie</item>
+<!--Gli abiti di élisabeth Vigéé-Le Brun-->
+<item xml:id="MarieAntoinette" type="painting">Marie-Antoinette, Queen of France, 1779</item>
+<item xml:id="MarieAntoinetteportraits" type="painting">Marie-Antoinette, Queen of France, portraits</item>
+<item xml:id="Selfportrait" type="painting">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
+<item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, 1514</item>
+<item xml:id="PortraitofMadameDuBarry" type="painting">Portrait of Madame Du Barry, 1781</item> 
+
+<!-- Le bestie di Rosa Bonheur -->
+<item xml:id="BuffaloBill" type="painting">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
+<item xml:id="LeMarcheauxchevaux" type="painting">Le Marché aux chevaux, 1853</item>
+
+<!--I capelli di Berthe Morisot -->
+<item xml:id="TheArrivalofMariedeMediciatMarseilles" type="painting">The Arrival of Marie de Medici at Marseilles, 1625</item>
+<item xml:id="LeDejeunersurlherbe" type="painting">Le Déjeuner sur l'herbe, 1863</item>
+<item xml:id="Olympia" type="painting">Olympia, 1863</item>
+<item xml:id="TheCradle" type="painting">The Cradle, 1872</item>
+
+<!--Le carte di Mary Cassat --><!-- tre quadri nelle note 23-23 del testo -->
+<item xml:id="IntheLoge" type="painting">In the Loge, 1878</item>
+<item xml:id="WomanwithaPearlNecklace" type="painting">Woman with a Pearl Necklace, 1879</item>
+<item xml:id="MaryCassattSeatedHoldingCards" type="painting">Mary Cassatt Seated, Holding Cards, 1880-1884</item>
+
+<!--La passione di Camille Claudel -->
+<item xml:id="Clotho" type="sculpture">Clotho, 1893</item>
+<item xml:id="TheMatureAge" type="sculpture">The Mature Age, 1894-1900</item>
+
+<!--Chapter Libere-->
+
+<!--Il fascino di Suzanne Valadon-->
+<!--Lo stile di Tamara de Lempicka-->
+<item xml:id="SelfPortraitintheGreenBugatti" type="painting">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
+<item xml:id="Ledueamiche" type="painting"></item>
+<item xml:id="BaronKuffner" type="painting"></item>
+<item xml:id="TheMusician" type="painting">The Musician, 1929</item><!--La musicista nel testo-->
+<item xml:id="TheMotherSuperior" type="painting">The Mother Superior, 1935</item>
+<!--Gli esperimenti di Sonia Terk Delaunay -->
+<item xml:id="Feuillages"></item>
+<item xml:id="LibriNeri"></item>
+
+<!--La follia di Gala éluard-->
+<item xml:id="Aurendezvousdesamis" type="painting">Au rendez-vous des amis</item>
+<item xml:id="Aurendezvousdesamis" type="text">Dialogue des inutiles</item>
+<item xml:id="Aurendezvousdesamis" type="text">Au défaut du silence</item>
+
+<!--Lo scandalo di Natal'ja Segeevna Goncarova-->
+
+<!--Il coraggio di Frida Kalho-->
+<item xml:id="SelfPortraits" type="painting">Self-portraits</item>
+
+<!--L’impegno civile di Tina Modotti-->
+<item xml:id="TheTigersCoat" type="movie">The Tiger’s Coat</item>
+
+<!--item visionarie-->
+
+<item xml:id='psicologiadi1uomo'>Psicologia di 1 uomo</item>
+<item xml:id='progettofuturistadireclutamentoperlaprossimaguerra'>Progetto futurista di reclutamento per la prossima guerra</item>
+<item xml:id='salaconferenzepalazzopostepalermo'>sala conferenze sono esposti cinque pannelli</item>
+<item xml:id='leforzeumane'>Le forze umane</item>
+<item xml:id='viaggiodigararà'>Viaggio di Gararà</item>
+<item xml:id='astraeilsottomarino'>Astra e il sottomarino</item>
+<item xml:id='unpiccologessoraffigurantemiriamchedorme'>un piccolo gesso raffigurante Miriam che dorme</item>
+<item xml:id='decorazionecaffèaragno'>decorazione del Caffè Aragno</item>
+<item xml:id='iprimitelai'>i primi Telai</item>
+<item xml:id='monumento'>monumento</item>
+
+<!--item compagne-->
+
+<item xml:id='livingsculptures'>Living Sculptures</item>
+<item xml:id='altalenaperbea'>Altalena per Bea</item>
+<item xml:id='adocchichiusi'>Ad occhi chiusi</item>
+<item xml:id='gliocchisonostraordinariamenteaperti'>gli occhi sono straordinariamente aperti</item>
+<item xml:id='ilcieloèungrandespazio'>Il cielo è un grande spazio</item>
+<item xml:id='poesiasenzatitolo'>Poesia senza titolo</item>
+<item xml:id='senzatitolo'>Senza titolo</item>
+<item xml:id='hon'>HON</item>
+<item xml:id='nanafontana'>Nana fontana</item>
+<item xml:id='nanapiscina'>Nana piscina</item>
+<item xml:id='golemparcogiochi'>Golem parco giochi</item>
+<item xml:id='giardinodeitarocchi'>Giardino dei Tarocchi</item>
+<item xml:id='imperatrice-sfinge'>Imperatrice-Sfinge</item>
+<item xml:id='europabombardata(1978)'>Europa bombardata (1978)</item>
+<item xml:id='theverticaljourney'>The Vertical Journey</item>
+<item xml:id='bricolage'>Bricolage</item>
+<item xml:id='ringaroundarosie'>Ringaround Arosie</item>
+<item xml:id='fehlbaum'>Fehlbaum</item>
+<item xml:id='maxxidiroma'>MAXXI di Roma</item>
+<item xml:id='riconversionedellagared’orsay'>riconversione della Gare d’Orsay</item>
+<item xml:id='museod’artecatalana'>Museo d’arte catalana</item>
+<item xml:id='barcellona'>Barcellona</item>
+<item xml:id='palazzograssi'>Palazzo Grassi</item>
+<item xml:id='scuderiedelquirinale'>Scuderie del Quirinale</item>
+<item xml:id='muséed’orsayaparigi'>Musée d’Orsay a Parigi</item>
+<item xml:id='riallestimento'>riallestimento</item>
+<item xml:id='piazzalecadorna'>piazzale Cadorna</item>
+<item xml:id='costellazioni'>Costellazioni</item>
+
+</list>
+</particDesc>
+</profileDesc>
+<publicationStmt><publisher>Editori Laterza</publisher>
+ <pubPlace>Bari</pubPlace>
+ <address>
+ <addrLine>piazza Umberto I 54, 70121 Bari, Italy</addrLine>
+ </address>
+ <date>2021</date>
+ <availability><p> E' vietata la riproduzione, anche parziale, con qualsiasi mezzo effettuata</p></availability>
+</publicationStmt>
+<sourceDesc>
+<biblStruct> <title>"Vite di artiste eccellenti"</title>
+ <author>Costantino D'Orazio</author>
+ <publisher>Editori Laterza</publisher>
+ <series> I Robinson/Letture</series>
+ <pubPlace>Bari</pubPlace>
+ <date>2021</date> 
+ <idno type="ISBN">9788858141359</idno>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+<xenodata>
+</xenodata>
+</teiHeader>
+</TEI>
