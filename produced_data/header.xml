@@ -543,7 +543,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='aarbus'><persName>Allan Arbus</persName></person>
 <person xml:id='tbrowning'><persName>Tod Browning</persName></person>
 <person xml:id='cleopatra'><persName>Cleopatra</persName></person>
-<person xml:id='hercules'><persName>Ercole</persName></person>
 <person xml:id='wshakespeare'><persName>William Shakespeare</persName></person>
 <person xml:id='crama'><persName>Carol Rama</persName></person>
 <person xml:id='gvercelli'><persName>Gemma Vercelli</persName></person>
@@ -610,6 +609,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id="Clotho"><!--Una delle tre moire, scolpita dalla Claudel, nel testo col nome di Cloto--><persName>Clotho</persName></person>
 <person xml:id='Matilde'><persName>Matilde</persName></person>
 <person xml:id='Guido'><persName>Guido</persName></person>
+<person xml:id='hercules'><persName>Ercole</persName></person>
 
 
 </listPerson>
