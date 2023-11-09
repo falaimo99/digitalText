@@ -1,6 +1,6 @@
 <person xml:id='dmaar'><persName>Dora Maar</persName></person>
 <person xml:id='ppicasso'><persName>Pablo Picasso</persName></person>
-<person xml:id='hcartierbesson'><persName>Henri Cartier-Bresson</persName></person>
+<person xml:id='Hcartierbesson'><persName>Henri Cartier-Bresson</persName></person>
 <person xml:id='rcapa'><persName>Robert Capa</persName></person>
 <person xml:id='ffranco'><persName>Francisco Franco</persName></person>
 <person xml:id='manray'><persName>Man Ray</persName></person>
@@ -9,7 +9,7 @@
 <person xml:id='agorky'><persName>Arshile Gorky</persName></person>
 <person xml:id='jmiro'><persName>Joan Miró</persName></person>
 <person xml:id='wdekooning'><persName>Willem De Kooning</persName></person>
-<person xml:id='dtsuzuki'><persName>Daisetsu Teitarō Suzuki</persName></person>
+<person xml:id='DTsuzuki'><persName>Daisetsu Teitarō Suzuki</persName></person>
 <person xml:id='fmitchell'><persName>Fred Mitchell</persName></person>
 <person xml:id='rindiana'><persName>Robert Indiana</persName></person>
 <person xml:id='ekelly'><persName>Ellsworth Kelly</persName></person>
@@ -24,7 +24,7 @@
 <person xml:id='slewitt'><persName>Sol LeWitt</persName></person>
 <person xml:id='rryman'><persName>Robert Ryman</persName></person>
 <person xml:id='djudd'><persName>Donald Judd</persName></person>
-<person xml:id=''><persName>Robert Indiana</persName></person>
+<person xml:id='rindiana'><persName>Robert Indiana</persName></person>
 <person xml:id='areinhardt'><persName>Ad Reinhardt</persName></person>
 <person xml:id='dhopper'><persName>Dennis Hopper</persName></person>
 <person xml:id='mmerz'><persName>Marisa Merz</persName></person>

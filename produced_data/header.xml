@@ -515,8 +515,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id='mcaraccioloagnelli'><persName>Marella Caracciolo Agnelli</persName></person>
 <person xml:id='ecatalano'><persName>Elisabetta Catalano</persName></person>
 <person xml:id='ffellini'><persName>Federico Fellini</persName></person>
-<person xml:id='Matilde'><persName>Matilde</persName></person><!---->
-<person xml:id='Guido'><persName>Guido</persName></person><!---->
 <person xml:id='mmastroianni'><persName>Marcello Mastroianni</persName></person>
 <person xml:id='lvisconti'><persName>Luisella Visconti</persName></person>
 <person xml:id='abonitooliva'><persName>Achille Bonito Oliva</persName></person>
@@ -610,6 +608,9 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id="Susanna"><!--personaggio biblico--><persName>Sussanna, biblic character</persName></person> 
 <person xml:id="Gradiva"><!--Character from the romance by Wilhelm Jensen 1903 Gradiva--><persName>Gradiva</persName></person> 
 <person xml:id="Clotho"><!--Una delle tre moire, scolpita dalla Claudel, nel testo col nome di Cloto--><persName>Clotho</persName></person>
+<person xml:id='Matilde'><persName>Matilde</persName></person>
+<person xml:id='Guido'><persName>Guido</persName></person>
+
 
 </listPerson>
 
