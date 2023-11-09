@@ -1,10 +1,12 @@
-<item xml:id='psicologiadi1uomo'>Psicologia di 1 uomo</item>
-<item xml:id='progettofuturistadireclutamentoperlaprossimaguerra'>Progetto futurista di reclutamento per la prossima guerra</item>
-<item xml:id='salaconferenzepalazzopostepalermo'>sala conferenze sono esposti cinque pannelli</item>
-<item xml:id='leforzeumane'>Le forze umane</item>
-<item xml:id='viaggiodigararà'>Viaggio di Gararà</item>
-<item xml:id='astraeilsottomarino'>Astra e il sottomarino</item>
-<item xml:id='unpiccologessoraffigurantemiriamchedorme'>un piccolo gesso raffigurante Miriam che dorme</item>
-<item xml:id='decorazionecaffèaragno'>decorazione del Caffè Aragno</item>
-<item xml:id='iprimitelai'>i primi Telai</item>
-<item xml:id='monumento'>monumento</item>
+<root>
+    <item xml:id='psicologiadi1uomo'>Psicologia di 1 uomo</item>
+    <item xml:id='progettofuturistadireclutamentoperlaprossimaguerra'>Progetto futurista di reclutamento per la prossima guerra</item>
+    <item xml:id='salaconferenzepalazzopostepalermo'>sala conferenze sono esposti cinque pannelli</item>
+    <item xml:id='leforzeumane'>Le forze umane</item>
+    <item xml:id='viaggiodigararà'>Viaggio di Gararà</item>
+    <item xml:id='astraeilsottomarino'>Astra e il sottomarino</item>
+    <item xml:id='unpiccologessoraffigurantemiriamchedorme'>un piccolo gesso raffigurante Miriam che dorme</item>
+    <item xml:id='decorazionecaffèaragno'>decorazione del Caffè Aragno</item>
+    <item xml:id='iprimitelai'>i primi Telai</item>
+    <item xml:id='monumento'>monumento</item>
+</root>
