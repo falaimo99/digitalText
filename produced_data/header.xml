@@ -208,7 +208,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <!--Chapter Rivoluzionarie-->
 
 <!--introduzione-->
-<person xml:id="Caravaggio"><persName>Caravaggio</persName></person>
 <person xml:id="JHFussli"><persName>Johann Heinrich Fussli</persName></person>
 <person xml:id="CofMecklenburgStrelitz"><persName>Charlotte of Mecklenburg-Strelitz</persName></person>
 <person xml:id="HLloyd"><persName>Hugh Lloyd</persName></person>
@@ -683,8 +682,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
  
 <!--Gli abiti di élisabeth Vigéé-Le Brun-->
 <place xml:id="PalaceofVersailles"><placeName>Reggia di Versailles</placeName></place> 
-<place xml:id="Bologna"><placeName>Bologna</placeName></place> 
-<place xml:id="Russia"><placeName>Russia</placeName></place>
 
 <!-- Le bestie di Rosa Bonheur -->
 <place xml:id="Bordeaux"><placeName>Bordeaux</placeName></place>
@@ -707,20 +704,19 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Boston"><placeName>Boston</placeName></place>
 
 <!--La passione di Camille Claudel -->
-<place xml:id="Montparnasse "><placeName>Montparnasse, Neighbourhood in Paris </placeName></place>
+<place xml:id="Montparnasse "><placeName>Montparnasse, Quartiere di Parigi </placeName></place>
 <place xml:id="Villeevrard"><placeName>Hôpital Ville-évrard </placeName></place>
 
 
 <!--Chapter Libere-->
 <!--introduzione-->
-<place xml:id="England"><placeName>England</placeName></place>
+<place xml:id="England"><placeName>Inghilterra</placeName></place>
 <place xml:id="UK"><placeName>Regno Unito</placeName></place>
 <place xml:id="USA"><placeName>Stati Uniti d'America</placeName></place>
 <place xml:id="SouthAmreica"><placeName>Sud Amreica</placeName></place>
 
 <!--Il fascino di Suzanne Valadon-->
 <place xml:id="RueCortot"><placeName>Rue Cortot</placeName></place>
-<place xml:id="Montmartre"><placeName>Montmartre</placeName></place>
 <place xml:id="SainteAnneHospitalCenter"><placeName>Ospedale Sainte-Anne</placeName></place>
 
 <!--Lo stile di Tamara de Lempicka-->
@@ -740,14 +736,13 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Kazan"><placeName>Kazan</placeName></place> 
 <place xml:id="Odessa"><placeName>Odessa</placeName></place>
 <place xml:id="Kaunas"><placeName>Kaunas</placeName></place>
-<place xml:id="Finland"><placeName>Fillandia</placeName></place>
+<place xml:id="Finland"><placeName>Finlandia</placeName></place>
 <place xml:id="Germany"><placeName>Germania</placeName></place>
 <place xml:id="Austria"><placeName>Austria</placeName></place>
 <place xml:id="Switzerland"><placeName>Svizzera</placeName></place>
 <place xml:id="Karlsruhe"><placeName>Karlsruhe</placeName></place>
 <place xml:id="BoulevardMalesherbes"><placeName>Boulevard Malesherbes</placeName></place>
 <place xml:id="ChampsElysees"><placeName>Champs Elysées</placeName></place>
-
 <!--La follia di Gala éluard-->
 <place xml:id="Moscow"><placeName>Mosca</placeName></place>
 <place xml:id="Cologne"><placeName>Colonia</placeName></place>
@@ -768,26 +763,18 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 
 <!--place visionarie-->
 
-<place xml:id="Paris"><placeName>Parigi</placeName></place>
+
 <place xml:id="Villaborghese"><placeName>Villa Borghese</placeName></place>
 <place xml:id="Etna"><placeName>Etna</placeName></place>
 <place xml:id="Carso"><placeName>Carso</placeName></place>
 <place xml:id="Piave"><placeName>Piave</placeName></place>
-<place xml:id="Italy"><placeName>Italia</placeName></place>
 <place xml:id="Palazzodellepostepalermo"><placeName>Palazzo delle Poste</placeName></place>
-<place xml:id="Palermo"><placeName>Palermo</placeName></place>
 <place xml:id="Bcappa"><placeName>Cappa</placeName></place>
-<place xml:id="Rome"><placeName>Roma</placeName></place>
-<place xml:id="Kaunas"><placeName>Kaunas</placeName></place>
 <place xml:id="Lithuania"><placeName>Lituania</placeName></place>
-<place xml:id="London"><placeName>Londra</placeName></place>
 <place xml:id="Royalacademy"><placeName>Royal Academy</placeName></place>
 <place xml:id="Eastend"><placeName>East End</placeName></place>
-<place xml:id="England"><placeName>Inghilterra</placeName></place>
-<place xml:id="Greece"><placeName>Grecia</placeName></place>
-<place xml:id=""><placeName>Accademia di Belle arti</placeName></place>
+<place xml:id=""><placeName>Accademia di Belle arti</placeName></place><!---->
 <place xml:id="325viacavourrome"><placeName>325 di via Cavour</placeName></place>
-<place xml:id="Genoa"><placeName>Genova</placeName></place>
 <place xml:id="Pescolanciano"><placeName>Pescolanciano</placeName></place>
 <place xml:id="Provdiisernia"><placeName>provincia di Isernia</placeName></place>
 <place xml:id="Casteldisangro"><placeName>Castel di Sangro</placeName></place>
@@ -796,16 +783,10 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Muraaureliane"><placeName>Mura Aureliane</placeName></place>
 <place xml:id="Piazzafiume"><placeName>piazza Fiume</placeName></place>
 <place xml:id="Portapia"><placeName>Porta Pia</placeName></place>
-<place xml:id="Unitedstates"><placeName>Stati Uniti</placeName></place>
-<place xml:id="Newyork"><placeName>New York</placeName></place>
-<place xml:id="Florence"><placeName>Firenze</placeName></place>
-<place xml:id="Venice"><placeName>Venezia</placeName></place>
 <place xml:id="Bronx"><placeName>Bronx</placeName></place>
 <place xml:id="Gallerialatartaruga"><placeName>Galleria La Tartaruga</placeName></place>
-<place xml:id="Austria"><placeName>Austria</placeName></place>
 <place xml:id="Klagenfurt"><placeName>Klagenfurt</placeName></place>
 <place xml:id="Saintgermain"><placeName>Saint-Germain</placeName></place>
-<place xml:id="Sicily"><placeName>Sicilia</placeName></place>
 <place xml:id="Trapani"><placeName>Trapani</placeName></place>
 <place xml:id="Erice"><placeName>Erice</placeName></place>
 <place xml:id="Montesangiuliano"><placeName>Monte San Giuliano</placeName></place>
@@ -817,21 +798,16 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Accademiadibelleartiroma"><placeName>Accademia di Belle Arti</placeName></place>
 <place xml:id="Viadelbabuino"><placeName>via del Babuino</placeName></place>
 <place xml:id="Salonedelpalazzodelpodestà"><placeName>Salone del Palazzo del Podestà</placeName></place>
-<place xml:id="Bologna"><placeName>Bologna</placeName></place>
 <place xml:id="Hungary"><placeName>Ungheria</placeName></place>
-<place xml:id="Europe"><placeName>Europa</placeName></place>
 <place xml:id="Castellodirivoli"><placeName>Castello di Rivoli</placeName></place>
 <place xml:id="Accademiadibelleartivenezia"><placeName>Accademia di Belle Arti</placeName></place>
 <place xml:id="Brenta"><placeName>Brenta</placeName></place>
 <place xml:id="Chiesadeigesuati"><placeName>chiesa dei Gesuati</placeName></place>
-<place xml:id="Milan"><placeName>Milano</placeName></place>
 <place xml:id="Gorizia"><placeName>Gorizia</placeName></place>
 <place xml:id="Monza"><placeName>Monza</placeName></place>
-<place xml:id="Turin"><placeName>Torino</placeName></place>
 <place xml:id="Barcelona"><placeName>Barcellona</placeName></place>
 <place xml:id="Venicelido"><placeName>Lido di Venezia</placeName></place>
 <place xml:id="Viasannicolodatolentino"><placeName>via San Nicolò da Tolentino</placeName></place>
-<place xml:id="Naples"><placeName>Napoli</placeName></place>
 <place xml:id="Caffearagno"><placeName>Caffè Aragno</placeName></place>
 <place xml:id="Ulassai"><placeName>Ulassai</placeName></place>
 <place xml:id="Ogliastra"><placeName>Ogliastra</placeName></place>
@@ -853,19 +829,12 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 
 <place xml:id="Ruedesgrandsaugustins"><placeName>rue des Grands-Augustins</placeName></place>
 <place xml:id="Guernica"><placeName>Guernica</placeName></place>
-<place xml:id="Spain"><placeName>Spagna</placeName></place>
 <place xml:id="Cafelesdeuxmagots"><placeName>Café Les Deux Magots</placeName></place>
 <place xml:id="Bosniaandherzegovina"><placeName>Bosnia Erzegovina</placeName></place>
-<place xml:id="Paris"><placeName>Parigi</placeName></place>
 <place xml:id="Buenosaires"><placeName>Buenos Aires</placeName></place>
 <place xml:id="Ecoledelaphotographiedelavilledeparis"><placeName>École de la Photographie de la Ville de Paris</placeName></place>
-<place xml:id="Europe"><placeName>Europa</placeName></place>
-<place xml:id="Southamerica"><placeName>Sudamerica</placeName></place>
-<place xml:id="London"><placeName>Londra</placeName></place>
 <place xml:id="Washingtonstate"><placeName>Stato di Washington</placeName></place>
 <place xml:id="Newmexico"><placeName>New Mexico</placeName></place>
-<place xml:id="Newyork"><placeName>New York</placeName></place>
-<place xml:id="Unitedstates"><placeName>Stati Uniti</placeName></place>
 <place xml:id="Manhattan"><placeName>Manhattan</placeName></place>
 <place xml:id="Teacherscollege"><placeName>Teachers College</placeName></place>
 <place xml:id="Columbiauniversity"><placeName>Columbia</placeName></place>
@@ -878,35 +847,27 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Bowerystreetnewyork"><placeName>Bowery Street</placeName></place>
 <place xml:id="Soho"><placeName>SoHo</placeName></place>
 <place xml:id="Taos"><placeName>Taos</placeName></place>
-<place xml:id="Milan"><placeName>Milano</placeName></place>
 <place xml:id="Arcodellapace"><placeName>Arco della Pace</placeName></place>
-<place xml:id="Turin"><placeName>Torino</placeName></place>
 <place xml:id="Portapalazzo"><placeName>Porta Palazzo</placeName></place>
 <place xml:id="Arsenaliamalfi"><placeName>Arsenali di Amalfi</placeName></place>
 <place xml:id="Gallerialattico"><placeName>Galleria L’Attico</placeName></place>
 <place xml:id="Fregene"><placeName>Fregene</placeName></place>
 <place xml:id="Ciampino"><placeName>Ciampino</placeName></place>
 <place xml:id="Neuillysurseine"><placeName>Neuilly-sur-Seine</placeName></place>
-<place xml:id="France"><placeName>Francia</placeName></place>
 <place xml:id="Modernamuseet"><placeName>Moderna Museet di</placeName></place>
 <place xml:id="Stockholm"><placeName>Stoccolma</placeName></place>
 <place xml:id="Geneva"><placeName>Ginevra</placeName></place>
 <place xml:id="Jerusalem"><placeName>Gerusalemme</placeName></place>
-<place xml:id="Tuscany"><placeName>Toscana</placeName></place>
 <place xml:id="Parcguell"><placeName>Parc Güell di Gaudí</placeName></place>
 <place xml:id="Garavicchio"><placeName>Garavicchio</placeName></place>
 <place xml:id="Maremma"><placeName>Maremma</placeName></place>
 <place xml:id="Centrepompidou"><placeName>Centre Pompidou –</placeName></place>
-<place xml:id="Rome"><placeName>Roma</placeName></place>
 <place xml:id="Palazzodelleesposizioni"><placeName>Palazzo delle Esposizioni</placeName></place>
 <place xml:id="Villaborghese"><placeName>Villa Borghese</placeName></place>
 <place xml:id="Viabeccariarome"><placeName>via Beccaria</placeName></place>
-<place xml:id="Chiesadisantaluciabologna"><placeName>Santa Lucia</placeName></place>
-<place xml:id="Bologna"><placeName>Bologna</placeName></place>
+<place xml:id="Chiesadisantaluciabologna"><placeName>Santa Lucia, Bologna</placeName></place>
 <place xml:id="Rhodeislandschoolofdesign"><placeName>Rhode Island School of Design</placeName></place>
-<place xml:id="Italy"><placeName>Italia</placeName></place>
 <place xml:id="Galleriaugoferranti"><placeName>Galleria Ugo Ferranti</placeName></place>
-<place xml:id="England"><placeName>Inghilterra</placeName></place>
 <place xml:id="Club82newyork"><placeName>Club 82 di Lower Manhattan</placeName></place>
 <place xml:id="Hubertsmuseum"><placeName>Hubert’s Museum</placeName></place>
 <place xml:id="Timessquare"><placeName>Times Square</placeName></place>
@@ -918,7 +879,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Stedelijkmuseumamsterdam"><placeName>Stedelijk Museum di Amsterdam</placeName></place>
 <place xml:id="Hamburg"><placeName>Amburgo</placeName></place>
 <place xml:id="Netherlands"><placeName>Olanda</placeName></place>
-<place xml:id="Germany"><placeName>Germania</placeName></place>
 <place xml:id="Ruhr"><placeName>Ruhr</placeName></place>
 <place xml:id="Camdenartscentre"><placeName>Camden Arts Centre di Londra</placeName></place>
 <place xml:id="Guggenheimmuseumbilbao"><placeName>Guggenheim di Bilbao</placeName></place>
@@ -927,23 +887,16 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Biella"><placeName>Biella</placeName></place>
 <place xml:id="Trani"><placeName>Trani</placeName></place>
 <place xml:id="Apulia"><placeName>Puglia</placeName></place>
-<place xml:id="Palermo"><placeName>Palermo</placeName></place>
 <place xml:id="Calabria"><placeName>Calabria</placeName></place>
-<place xml:id="Naples"><placeName>Napoli</placeName></place>
 <place xml:id="Vesuvius"><placeName>Vesuvio</placeName></place>
-<place xml:id="Florence"><placeName>Firenze</placeName></place>
 <place xml:id="Politecnicomilan"><placeName>Politecnico</placeName></place>
 <place xml:id="Ivrea"><placeName>Ivrea</placeName></place>
 <place xml:id="Brera"><placeName>Brera</placeName></place>
-<place xml:id="Pisa"><placeName>Pisa</placeName></place>
-<place xml:id="Parma"><placeName>Parma</placeName></place>
 <place xml:id="Teatromediterraneonaples"><placeName>Teatro Mediterraneo di Napoli</placeName></place>
 <place xml:id="Teatroallascalamilan"><placeName>Scala di Milano</placeName></place>
 <place xml:id="Teatroargentinarome"><placeName>Teatro Argentina di Roma</placeName></place>
 <place xml:id="Sein"><placeName>Senna</placeName></place>
 <place xml:id="Palazzograssi"><placeName>Palazzo Grassi</placeName></place>
-<place xml:id="Venice"><placeName>Venezia</placeName></place>
-<place xml:id="Egypt"><placeName>Egitto</placeName></place>
 <place xml:id="None"><placeName>piazza Dante a Napoli</placeName></place>
 <place xml:id="Museoarcheologiconaples"><placeName>Museo Archeologico</placeName></place>
 <place xml:id="Piazzalecadornamilan"><placeName>piazzale Cadorna</placeName></place>
@@ -1120,8 +1073,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <item xml:id="Museodartecatalana">Museo d’arte catalana</item>
 <item xml:id="Palazzograssi">Palazzo Grassi</item>
 <item xml:id="Scuderiedelquirinale">Scuderie del Quirinale</item>
-<item xml:id="Museedorsayaparigi">Musée d’Orsay a Parigi</item>
-<item xml:id="Riallestimento">riallestimento</item>
+<item xml:id="MuseedorsayParis">Musée d’Orsay a Parigi</item>
 <item xml:id="Piazzalecadorna">piazzale Cadorna</item>
 <item xml:id="Costellazioni">Costellazioni</item>
 
