@@ -208,7 +208,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <!--Chapter Rivoluzionarie-->
 
 <!--introduzione-->
-<person xml:id="MMerisi"><persName>Caravaggio</persName></person>
 <person xml:id="JHFussli"><persName>Johann Heinrich Fussli</persName></person>
 <person xml:id="CofMecklenburgStrelitz"><persName>Charlotte of Mecklenburg-Strelitz</persName></person>
 <person xml:id="HLloyd"><persName>Hugh Lloyd</persName></person>
@@ -706,7 +705,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Boston"><placeName>Boston</placeName></place>
 
 <!--La passione di Camille Claudel -->
-<place xml:id="Montparnasse "><placeName>Montparnasse, Neighbourhood in Paris </placeName></place>
+<place xml:id="Montparnasse "><placeName>Montparnasse, Quartiere di Parigi </placeName></place>
 <place xml:id="Villeevrard"><placeName>Hôpital Ville-évrard </placeName></place>
 
 
@@ -719,7 +718,6 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 
 <!--Il fascino di Suzanne Valadon-->
 <place xml:id="RueCortot"><placeName>Rue Cortot</placeName></place>
-<place xml:id="Montmartre"><placeName>Montmartre</placeName></place>
 <place xml:id="SainteAnneHospitalCenter"><placeName>Ospedale Sainte-Anne</placeName></place>
 
 <!--Lo stile di Tamara de Lempicka-->
@@ -773,11 +771,10 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Piave"><placeName>Piave</placeName></place>
 <place xml:id="Palazzodellepostepalermo"><placeName>Palazzo delle Poste</placeName></place>
 <place xml:id="Bcappa"><placeName>Cappa</placeName></place>
-<place xml:id="Kaunas"><placeName>Kaunas</placeName></place>
 <place xml:id="Lithuania"><placeName>Lituania</placeName></place>
 <place xml:id="Royalacademy"><placeName>Royal Academy</placeName></place>
 <place xml:id="Eastend"><placeName>East End</placeName></place>
-<place xml:id=""><placeName>Accademia di Belle arti</placeName></place>
+<place xml:id=""><placeName>Accademia di Belle arti</placeName></place><!---->
 <place xml:id="325viacavourrome"><placeName>325 di via Cavour</placeName></place>
 <place xml:id="Pescolanciano"><placeName>Pescolanciano</placeName></place>
 <place xml:id="Provdiisernia"><placeName>provincia di Isernia</placeName></place>
@@ -869,7 +866,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <place xml:id="Palazzodelleesposizioni"><placeName>Palazzo delle Esposizioni</placeName></place>
 <place xml:id="Villaborghese"><placeName>Villa Borghese</placeName></place>
 <place xml:id="Viabeccariarome"><placeName>via Beccaria</placeName></place>
-<place xml:id="Chiesadisantaluciabologna"><placeName>Santa Lucia</placeName></place>
+<place xml:id="Chiesadisantaluciabologna"><placeName>Santa Lucia, Bologna</placeName></place>
 <place xml:id="Rhodeislandschoolofdesign"><placeName>Rhode Island School of Design</placeName></place>
 <place xml:id="Galleriaugoferranti"><placeName>Galleria Ugo Ferranti</placeName></place>
 <place xml:id="Club82newyork"><placeName>Club 82 di Lower Manhattan</placeName></place>
@@ -1077,8 +1074,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <item xml:id="Museodartecatalana">Museo d’arte catalana</item>
 <item xml:id="Palazzograssi">Palazzo Grassi</item>
 <item xml:id="Scuderiedelquirinale">Scuderie del Quirinale</item>
-<item xml:id="Museedorsayaparigi">Musée d’Orsay a Parigi</item>
-<item xml:id="Riallestimento">riallestimento</item>
+<item xml:id="MuseedorsayParis">Musée d’Orsay a Parigi</item>
 <item xml:id="Piazzalecadorna">piazzale Cadorna</item>
 <item xml:id="Costellazioni">Costellazioni</item>
 
