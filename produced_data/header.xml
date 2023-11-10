@@ -497,7 +497,7 @@
 <person xml:id="Giotto"><persName>Giotto</persName></person>
 <person xml:id="KLRocca"><persName>Ketty La Rocca</persName></person>
 <person xml:id="CMaselli"><persName>Citto Maselli</persName></person>
-
+<person xml:id='Jesus'><persName>Jesus</persName></person>
 
 <!--persName compagne-->
 
@@ -539,7 +539,7 @@
 <person xml:id="NDSaintPhalle"><persName>Niki de Saint Phalle</persName></person>
 <person xml:id="JTinguely"><persName>Jean Tinguely</persName></person>
 <person xml:id="PKlee"><persName>Paul Klee</persName></person>
-<person xml:id="HMatisse"><persName>Matisse</persName></person>
+<person xml:id="HMatisse"><persName>Henri Matisse</persName></person>
 <person xml:id="ULinde"><persName>Ulf Linde</persName></person>
 <person xml:id="GGarbo"><persName>Greta Garbo</persName></person>
 <person xml:id="POlofUltved"><persName>Per Olof Ultvedt</persName></person>
@@ -561,10 +561,8 @@
 <person xml:id="CTacchi"><persName>Cesare Tacchi</persName></person>
 <person xml:id="VPisani"><persName>Vettor Pisani</persName></person>
 <person xml:id="FMauri"><persName>Fabio Mauri</persName></person>
-<person xml:id="Danka"><persName>Danka</persName></person>
 <person xml:id="FWoodman"><persName>Francesca Woodman</persName></person>
 <person xml:id="GCasetti"><persName>Giuseppe Casetti</persName></person>
-<person xml:id="MAldororrome"><persName>Maldoror</persName></person>
 <person xml:id="SMirri"><persName>Sabina Mirri</persName></person>
 <person xml:id="GGallo"><persName>Giuseppe Gallo</persName></person>
 <person xml:id="CSherman"><persName>Cindy Sherman</persName></person>
@@ -589,15 +587,15 @@
 <person xml:id="TDoyle"><persName>Tom Doyle</persName></person>
 <person xml:id="ADanto"><persName>Arthur Danto</persName></person>
 <person xml:id="BSchwabsky"><persName>Barry Schwabsky</persName></person>
-<person xml:id="ZHadid"><persName>Hadid</persName></person>
+<person xml:id="ZHadid"><persName>Zaha Hadid</persName></person>
 <person xml:id="RKoolhaas"><persName>Rem Koolhaas</persName></person>
 <person xml:id="WFehlbaum"><persName>Willi Fehlbaum</persName></person>
 <person xml:id="TAndo"><persName>Tadao Ando</persName></person>
 <person xml:id="FGehry"><persName>Frank Gehry</persName></person>
 <person xml:id="GAulenti"><persName>Gae Aulenti</persName></person>
 <person xml:id="GPonti"><persName>Gio Ponti</persName></person>
-<person xml:id="Gropius"><persName>Gropius</persName></person>
-<person xml:id="LEcorbusier"><persName>Le Corbusier</persName></person>
+<person xml:id="WGropius"><persName>Walter Gropius</persName></person>
+<person xml:id="LeCorbusier"><persName>Le Corbusier</persName></person>
 <person xml:id="LWright"><persName>Wright</persName></person>
 <person xml:id="ENrogers"><persName>Ernesto Nathan Rogers</persName></person>
 <person xml:id="AOlivetti"><persName>Adriano Olivetti</persName></person>
@@ -642,8 +640,6 @@
 <person xml:id='Guidoottoemezzo'><persName>Guido</persName></person>
 <person xml:id='Hercules'><persName>Ercole</persName></person>
 <person xml:id='Salome'><persName>Salomè</persName></person>
-<person xml:id='Jesus'><persName>Jesus</persName></person><!---->
-
 
 
 </listPerson>
@@ -850,6 +846,8 @@
 <place xml:id="Assisi"><placeName>Assisi</placeName></place>
 <place xml:id="Cappellabardi"><placeName>Cappella Bardi</placeName></place>
 <place xml:id="Santacroce"><placeName>Santa Croce</placeName></place>
+<person xml:id="Maldororrome"><persName>Maldoror</persName></person>
+
 
 
 <!--place compagne-->
