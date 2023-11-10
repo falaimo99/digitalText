@@ -1,24 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader xml:lang="it"><fileDesc>
-<titleStmt><title> "Vite di artiste eccellenti"</title>
-<author xml:id="C.D.O">Costantino D'Orazio</author>
-</titleStmt>
-<profileDesc> <keywords> Storia dell'arte, Attualità culturale e di costume </keywords>
-<abstract> Dall’antica Grecia a oggi sono moltissime le donne che hanno dipinto, scolpito, decorato. Tanti dei loro nomi 
-sono finiti – ingiustamente – nell’oblio. È arrivato il momento di raccontare un’altra storia dell’arte.
-Già nell’antica Grecia esistevano artiste donne, che hanno decorato palazzi e lasciato tracce del loro lavoro. Durante il 
-Medioevo, per lo più considerato un periodo nel quale le donne non godevano di alcun rilievo nella società, molte opere 
-sono nate grazie alla manualità femminile, che si poteva esprimere soprattutto nei conventi. L’esplosione dell’arte al 
-femminile risale però al Rinascimento, quando alcune artiste sono arrivate a occupare posti di rilievo nelle corti più 
-prestigiose d’Europa godendo di una fama pari ai propri colleghi uomini. Bisogna attendere la fine dell’Ottocento per 
-vedere alcune artiste esporre nelle mostre accanto a pittori uomini: spesso si tratta di compagne di artisti famosi, 
-altre volte di donne capaci di imporre la propria personalità oltre al proprio talento. Sono le apripista di un fenomeno 
-che nel corso del XX secolo diventerà inarrestabile: le artiste firmeranno i manifesti delle avanguardie storiche e saranno 
-sempre più protagoniste, finché nella seconda parte del secolo supereranno i propri colleghi in quanto a fama e quotazioni 
-sul mercato. Le vite de’ più eccellenti pittori, scultori e architettori è il titolo della celeberrima opera di Giorgio 
-Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costantino D’Orazio rende onore alle tante 
-‘eccellenti artiste’ di cui i canoni si sono troppo spesso dimenticati.</abstract>
-<particDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title> Vite di artiste eccellenti</title>
+                <author xml:id="C.D.O">Costantino D'Orazio</author>
+                <respStmt> <!--chiederle come scrivere respStmt-->
+                    <resp>Responsabile progetto</resp>
+                    <persName xml:id="D.S.">Daniele Spedicati</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile progetto</resp>
+                    <persName xml:id="F.A.">Francesco Alaimo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile progetto</resp>
+                    <persName xml:id="G.O.">Gaia Ortona</persName>
+                </respStmt>
+                    
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>To be defined</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <address>
+                    <addrLine>Via Zamboni 32</addrLine>
+                </address>
+                <date>2023</date>
+                <availability><p>Questa risorsa digitale è liberamente accessibile per uso personale o
+                        scientifico. Ogni uso commerciale è vietato</p></availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <biblStruct> 
+                        <title>"Vite di artiste eccellenti"</title>
+                        <author ref="C.D.O">Costantino D'Orazio</author>
+                        <publisher>Editori Laterza</publisher>
+                        <series> I Robinson/Letture</series>
+                        <pubPlace>Bari</pubPlace>
+                        <date>2021</date> 
+                        <idno type="ISBN">9788858141359</idno>
+                    </biblStruct>
+                </sourceDesc>
+<!--chiedere delucidazioni su profileDesc e particDesc--> 
+                <profileDesc> 
+                    <keywords> Storia dell'arte, Attualità culturale e di costume </keywords>
+                    <abstract> Dall’antica Grecia a oggi sono moltissime le donne che hanno dipinto, scolpito, decorato. Tanti dei loro nomi sono finiti – ingiustamente – nell’oblio. È arrivato il momento di raccontare un’altra storia dell’arte. Già nell’antica Grecia esistevano artiste donne, che hanno decorato palazzi e lasciato tracce del loro lavoro. Durante il Medioevo, per lo più considerato un periodo nel quale le donne non godevano di alcun rilievo nella società, molte opere sono nate grazie alla manualità femminile, che si poteva esprimere soprattutto nei conventi. L’esplosione dell’arte al femminile risale però al Rinascimento, quando alcune artiste sono arrivate a occupare posti di rilievo nelle corti più prestigiose d’Europa godendo di una fama pari ai propri colleghi uomini. Bisogna attendere la fine dell’Ottocento per vedere alcune artiste esporre nelle mostre accanto a pittori uomini: spesso si tratta di compagne di artisti famosi, altre volte di donne capaci di imporre la propria personalità oltre al proprio talento. Sono le apripista di un fenomeno che nel corso del XX secolo diventerà inarrestabile: le artiste firmeranno i manifesti delle avanguardie storiche e saranno sempre più protagoniste, finché nella seconda parte del secolo supereranno i propri colleghi in quanto a fama e quotazioni sul mercato. Le vite de’ più eccellenti pittori, scultori e architettori è il titolo della celeberrima opera di Giorgio Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costantino D’Orazio rende onore alle tante ‘eccellenti artiste’ di cui i canoni si sono troppo spesso dimenticati.</abstract>
+                    <particDesc>
 
 
 <listPerson type="real">
@@ -59,7 +86,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id="AGMalvasia"> <persName>Antonio Galeazzo Malvasia</persName></person>
 <person xml:id="GPepoli"> <persName>Conte Guido Pepoli</persName></person>
 <person xml:id="JDQuercia"> <persName>Jacopo della Quercia</persName></person>
-<person xml:id="GDRovere"> <persName>Giuliano della Rovere (papa Giulio II)</persName></person>
+<person xml:id="GDRovere"> <persName>papa Giulio II</persName></person>
 <person xml:id="MBuonarroti"> <persName>Michelangelo Buonarroti</persName></person>
 <person xml:id="AAspertini"> <persName>Amico Aspertini</persName></person>
 <person xml:id="NTribolo"> <persName>Niccolò Tribolo</persName></person>
@@ -88,7 +115,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id="TdeCavalieri"> <persName>Tommaso de' Cavalieri</persName></person>
 <person xml:id="ASerristori"> <persName>Averardo Serristori</persName></person>
 <person xml:id="FilippoII"> <persName>Filippo II di Spagna</persName></person>
-<person xml:id="GAMdiMarignano"> <persName>Giovanni Angelo Medici di Marignano (papa Pio IV)</persName></person>
+<person xml:id="GAMdiMarignano"> <persName>papa Pio IV</persName></person>
 <person xml:id="FMPignatelli"> <persName>Fabrizio Moncada Pignatelli</persName></person>
 <person xml:id="RSanzio"> <persName>Raffaello Sanzio</persName></person>
 <person xml:id="OLomellini"> <persName>Orazio Lomellini</persName></person>
@@ -106,7 +133,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id="UAldovrandi"> <persName>Ulisse Aldovrandi</persName></person>
 <person xml:id="AGonzales"> <persName>Antonietta Gonzales</persName></person>
 <person xml:id="CatdeMedici"> <persName>Caterina de Medici</persName></person>
-<person xml:id="IAldobrandini"> <persName>Ippolito Aldobrandini (papa Clemente VIII)</persName></person>
+<person xml:id="IAldobrandini"> <persName>papa Clemente VIII</persName></person>
 <person xml:id="GBaglione"> <persName>Giovanni Baglione</persName></person>
 <person xml:id="SBorghese"> <persName>Scipione Borghese</persName></person>
 <person xml:id="MMerisi"> <persName>Michelangelo Merisi (Caravaggio)</persName></person>
@@ -116,7 +143,7 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <person xml:id="CRipa"> <persName>Cesare Ripa</persName></person>
 <person xml:id="OGentileschi"> <persName>Orazio Gentileschi</persName></person>
 <person xml:id="PMontone"> <persName>Prudenzia Montone</persName></person>
-<person xml:id="CBorghese"> <persName>Camillo Borghese (Paolo V)</persName></person>
+<person xml:id="CBorghese"> <persName>papa Paolo V</persName></person>
 <person xml:id="CSaraceni"> <persName>Carlo Saraceni</persName></person>
 <person xml:id="ATassi"> <persName>Agostino Tassi</persName></person>
 <person xml:id="VdeBoulogne"> <persName>Valentin de Boulogne</persName></person>
@@ -1083,28 +1110,10 @@ Vasari che, nel Rinascimento, ha costituito un vero e proprio canone. Oggi Costa
 <item xml:id="Costellazioni">Costellazioni</item>
 
 </list>
-</particDesc>
-</profileDesc>
-<publicationStmt><publisher>Editori Laterza</publisher>
- <pubPlace>Bari</pubPlace>
- <address>
- <addrLine>piazza Umberto I 54, 70121 Bari, Italy</addrLine>
- </address>
- <date>2021</date>
- <availability><p> E' vietata la riproduzione, anche parziale, con qualsiasi mezzo effettuata</p></availability>
-</publicationStmt>
-<sourceDesc>
-<biblStruct> <title>"Vite di artiste eccellenti"</title>
- <author>Costantino D'Orazio</author>
- <publisher>Editori Laterza</publisher>
- <series> I Robinson/Letture</series>
- <pubPlace>Bari</pubPlace>
- <date>2021</date> 
- <idno type="ISBN">9788858141359</idno>
-</biblStruct>
-</sourceDesc>
-</fileDesc>
-<xenodata>
-</xenodata>
-</teiHeader>
+                </particDesc>
+            </profileDesc>
+        </fileDesc>
+        <xenodata>
+        </xenodata>
+    </teiHeader>
 </TEI>
