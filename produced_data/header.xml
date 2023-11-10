@@ -495,7 +495,7 @@
 <person xml:id="Giotto"><persName>Giotto</persName></person>
 <person xml:id="KLRocca"><persName>Ketty La Rocca</persName></person>
 <person xml:id="CMaselli"><persName>Citto Maselli</persName></person>
-
+<person xml:id='Jesus'><persName>Jesus</persName></person>
 
 <!--persName compagne-->
 
@@ -637,8 +637,6 @@
 <person xml:id='Guidoottoemezzo'><persName>Guido</persName></person>
 <person xml:id='Hercules'><persName>Ercole</persName></person>
 <person xml:id='Salome'><persName>Salomè</persName></person>
-<person xml:id='Jesus'><persName>Jesus</persName></person><!---->
-
 
 
 </listPerson>
@@ -873,7 +871,9 @@
 <place xml:id="Montegedili"><placeName>monte Gedili</placeName></place><!--NO-->
 <place xml:id="Galleriadiaframmamilan"><placeName>Galleria Diaframma di Milano</placeName></place><!--NO-->
 <place xml:id="Cappellabardi"><placeName>Cappella Bardi</placeName></place>
-<place xml:id="Santacroce"><placeName>Santa Croce</placeName></place><!--DOVE-->
+<place xml:id="Santacroce"><placeName>Santa Croce</placeName></place>
+<person xml:id="Maldororrome"><persName>Maldoror</persName></person><!--NO-->
+
 
 
 <!--place compagne-->
