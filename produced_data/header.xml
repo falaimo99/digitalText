@@ -814,6 +814,8 @@
 <place xml:id="RockefellerCenter"><placeName>Rockefeller Center</placeName></place>
 <place xml:id="SanFrancisco"><placeName>San Francisco</placeName></place>
 <place xml:id="MexicoCity"><placeName>Mexico City</placeName></place>
+
+
 <place xml:id="FriuliVeneziaGiulia"><placeName>Friuli Venezia-Giulia</placeName></place>
 <place xml:id="Berlin"><placeName>Berlino</placeName></place>
 <place xml:id="LosAngeles"><placeName>Los Angeles</placeName></place>
@@ -960,7 +962,7 @@
 
 <list type="work">
     
-<item xml:id="Cortegiano" type="text">Libro del Cortegiano, Castiglione, 1528</item>
+<item xml:id="Cortegiano" type="text">Il Cortegiano</item><!--written work-->
 <item xml:id="Dialoghi" type="text">Dialoghi di Platone</item>
 <item xml:id="Apologia-di-Socrate" type="text">Apologia di Socrate, Senofonte</item>
 <item xml:id="de-natura-de-amore" type="text">Libro de Natura de Amore, Mario Equicola</item>
