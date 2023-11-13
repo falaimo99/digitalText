@@ -621,7 +621,7 @@
 
 <listPerson type="fictional">
 
-<person xml:id="Giuseppe"> <persName>San Giuseppe</persName></person><!--human biblical figure-->
+<!-- <person xml:id="Giuseppe"> <persName>San Giuseppe</persName></person><!--human biblical figure-->
 <person xml:id="Saffira"> <persName>Saffira</persName></person>
 <person xml:id="Putifarre"> <persName>Putifarre</persName></person>
 <person xml:id="santa-margherita"> <persName>Santa Margherita</persName></person>
@@ -636,7 +636,7 @@
 <person xml:id='Matildeottoemezzo'><persName>Matilde</persName></person>
 <person xml:id='Guidoottoemezzo'><persName>Guido</persName></person>
 <person xml:id='Hercules'><persName>Ercole</persName></person>
-<person xml:id='Salome'><persName>Salomè</persName></person>
+<person xml:id='Salome'><persName>Salomè</persName></person> -->
 
 
 </listPerson>
