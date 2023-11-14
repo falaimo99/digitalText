@@ -636,7 +636,7 @@
 <person xml:id='Matildeottoemezzo'><persName>Matilde</persName></person>
 <person xml:id='Guidoottoemezzo'><persName>Guido</persName></person>
 <person xml:id='Hercules'><persName>Ercole</persName></person>
-<person xml:id='Salome'><persName>Salomè</persName></person>
+<person xml:id='Salome'><persName>Salomè</persName></person> -->
 
 
 </listPerson>
@@ -814,6 +814,8 @@
 <place xml:id="RockefellerCenter"><placeName>Rockefeller Center</placeName></place>
 <place xml:id="SanFrancisco"><placeName>San Francisco</placeName></place>
 <place xml:id="MexicoCity"><placeName>Mexico City</placeName></place>
+
+
 <place xml:id="FriuliVeneziaGiulia"><placeName>Friuli Venezia-Giulia</placeName></place>
 <place xml:id="Berlin"><placeName>Berlino</placeName></place>
 <place xml:id="LosAngeles"><placeName>Los Angeles</placeName></place>
@@ -960,7 +962,7 @@
 
 <list type="work">
     
-<item xml:id="Cortegiano" type="text">Libro del Cortegiano, Castiglione, 1528</item>
+<item xml:id="Cortegiano" type="text">Il Cortegiano</item><!--written work-->
 <item xml:id="Dialoghi" type="text">Dialoghi di Platone</item>
 <item xml:id="Apologia-di-Socrate" type="text">Apologia di Socrate, Senofonte</item>
 <item xml:id="de-natura-de-amore" type="text">Libro de Natura de Amore, Mario Equicola</item>
@@ -1036,7 +1038,8 @@
 
 <item xml:id="Encyclopedie" type="text">Encyclopédie</item>
 <!--Gli abiti di élisabeth Vigéé-Le Brun-->
-<item xml:id="MarieAntoinette" type="painting">Marie-Antoinette, Queen of France, 1779</item>
+<item xml:id="MarieAntoinette" type="painting">Marie-Antoinette, Queen of France
+<year>1779</year></item>
 <item xml:id="MarieAntoinetteportraits" type="painting">Marie-Antoinette, Queen of France, portraits</item>
 <item xml:id="Selfportrait" type="painting">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
 <item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, 1514</item>
