@@ -621,7 +621,7 @@
 
 <listPerson type="fictional">
 
-<!-- <person xml:id="Giuseppe"> <persName>San Giuseppe</persName></person><!--human biblical figure-->
+<person xml:id="Giuseppe"> <persName>San Giuseppe</persName></person><!--human biblical figure-->
 <person xml:id="Saffira"> <persName>Saffira</persName></person>
 <person xml:id="Putifarre"> <persName>Putifarre</persName></person>
 <person xml:id="santa-margherita"> <persName>Santa Margherita</persName></person>
@@ -1038,7 +1038,8 @@
 
 <item xml:id="Encyclopedie" type="text">Encyclopédie</item>
 <!--Gli abiti di élisabeth Vigéé-Le Brun-->
-<item xml:id="MarieAntoinette" type="painting">Marie-Antoinette, Queen of France, 1779</item>
+<item xml:id="MarieAntoinette" type="painting">Marie-Antoinette, Queen of France
+<year>1779</year></item>
 <item xml:id="MarieAntoinetteportraits" type="painting">Marie-Antoinette, Queen of France, portraits</item>
 <item xml:id="Selfportrait" type="painting">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
 <item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, 1514</item>
