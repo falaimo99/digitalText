@@ -50,9 +50,9 @@
 
 <listPerson type="real">
 
-<person xml:id="GdaMontefeltro"> <persName>Guidobaldo Da Montefeltro</persName></person>
+<person xml:id="GdaMontefeltro"> <persName>Guidobaldo da Montefeltro</persName></person>
 <person xml:id="EGonzaga"> <persName>Elisabetta Gonzaga</persName></person>
-<person xml:id="FdaMontefeltro"> <persName>Federico Da Montefeltro</persName></person>
+<person xml:id="FdaMontefeltro"> <persName>Federico da Montefeltro</persName></person>
 <person xml:id="FdiGiorgioMartini"> <persName>Federico Di Giorgio Martini</persName></person><!--NO-->
 <person xml:id="GGenga"> <persName>Girolamo Genga</persName></person>
 <person xml:id="PdellaFrancesca"> <persName>Piero della Francesca</persName></person>
