@@ -54,7 +54,7 @@
 <person xml:id="EGonzaga"> <persName>Elisabetta Gonzaga</persName></person>
 <person xml:id="FdaMontefeltro"> <persName>Federico da Montefeltro</persName></person>
 <person xml:id="FdiGiorgioMartini"> <persName>Federico Di Giorgio Martini</persName></person><!--NO-->
-<person xml:id="GGenga"> <persName>Girolamo Genga</persName></person>
+<person xml:id="GGenga"> <persName>Gerolamo Genga</persName></person>
 <person xml:id="PdellaFrancesca"> <persName>Piero della Francesca</persName></person>
 <person xml:id="GSanti"> <persName>Giovanni Santi</persName></person>
 <person xml:id="LPacioli"> <persName>Luca Pacioli</persName></person>
@@ -224,7 +224,7 @@
 <person xml:id="FdeHorn"> <persName>Frederick de Horn</persName></person>
 <person xml:id="GiuseppeII"> <persName>Giuseppe II d'Asburgo-Lorena</persName></person>
 <person xml:id="CaterinalaGrande"> <persName>Caterina II di Russia</persName></person>
-<person xml:id="GGdeRossi"> <persName>Giovanni Gherardo De Rossi</persName></person>
+<person xml:id="GGdeRossi"> <persName>Giovanni Gherardo de Rossi</persName></person>
 <person xml:id="ACanova"> <persName>Antonio Canova</persName></person>
 <person xml:id="MCarlevarijs"> <persName>Marianna Carlevarijs</persName></person>
 <person xml:id="FSartori"> <persName>Felicità Sartori</persName></person>
@@ -828,6 +828,7 @@
 <place xml:id="Carso"><placeName>Carso</placeName></place>
 <place xml:id="Piave"><placeName>Piave</placeName></place>
 <place xml:id="Palazzodellepostepalermo"><placeName>Palazzo delle Poste</placeName></place><!--!!!-->
+<place xml:id="Bcappa"><placeName>Cappa</placeName></place><!--!!!-->
 <place xml:id="Lithuania"><placeName>Lituania</placeName></place>
 <place xml:id="Pescolanciano"><placeName>Pescolanciano</placeName></place>
 <place xml:id="Isernia"><placeName>Isernia</placeName></place>
@@ -972,27 +973,27 @@
 <item xml:id="dialogo-dignità-donne" type="text">Dialogo della dignità delle donne, Sperone Speroni</item>
 <item xml:id="dialogo-institution-donne" type="text">Dialogo della institution delle donne, Ludovico Dolce</item>
 <item xml:id="femina-christiana-vives" type="text">De l’istituzione de la femina christiana, vergine, maritata e vedova, Juan Vives</item>
-<item xml:id="aquila-bicipite" type="sculpture">aquila bicipite</item> <!--No-->
-<item xml:id="pendente-properzia" type="sculpture">pendente di De Rossi Properzia - bottega italiana (sec. XVI)</item> <!--No-->
+<item xml:id="aquila-bicipite" type="sculpture">aquila bicipite</item> 
+<item xml:id="pendente-properzia" type="sculpture">pendente di De Rossi Properzia - bottega italiana (sec. XVI)</item>
 <item xml:id="portaMagna" type="sculpture">Porta Magna, Della Quercia, 1425</item>
-<item xml:id="bassorilievi" type="sculpture">Giuseppe e la moglie di Putifarre</item> <!--Q120733635-->
-<item xml:id="capitelli" type="sculpture">capitelli portico palazzo Salina-Amorini</item> <!--No-->
+<item xml:id="bassorilievi" type="sculpture">Giuseppe e la moglie di Putifarre, De' Rossi, 1526</item>
+<item xml:id="capitelli" type="sculpture">capitelli portico palazzo Salina-Amorini</item>
 <item xml:id="Sofonisba-Mantegna" type="painting">Sofonisba, Mantegna</item>
-<item xml:id="chessgame" type="painting">Partita a schacchi</item> <!--Q23008305-->
+<item xml:id="chessgame" type="painting">Partita a schacchi, Sofonisba Anguissola, 1555</item>
 <item xml:id="Gioconda" type="painting">Gioconda, Leonardo da Vinci, 1506</item>
 <item xml:id="ignudi" type="painting">Ignudi, Michelangelo Buonarroti</item>
-<item xml:id="ritratti" type="painting">ritratti di Filippo II di Spagna e consorte, Sofonisba Anguissola</item> <!--no-->
-<item xml:id="fanciullo-morso-da-un-gambero" type="drawing">Fanciullo morso da un gambero, Sofonisba Anguissola, 1554</item> <!--Q29604552-->
+<item xml:id="ritratti" type="painting">ritratti di Filippo II di Spagna e consorte, Sofonisba Anguissola</item>
+<item xml:id="fanciullo-morso-da-un-gambero" type="drawing">Fanciullo morso da un gambero, Sofonisba Anguissola, 1554</item>
 <item xml:id="testa-di-cleopatra" type="drawing">La testa di Cleopatra, Michelangelo Buonarroti, 1535</item>
-<item xml:id="Madonna-Itria" type="painting">Madonna dell'Itria, Sofonisba Anguissola</item> <!--no-->
-<item xml:id="autoritratto-lavinia-fontana" type="painting">Autoritratto alla spinetta</item> <!--Q19931300-->
-<item xml:id="autoritratto2-lavinia-fontana" type="painting">Autoritratto nello studio</item> <!--Q19390001-->
+<item xml:id="Madonna-Itria" type="painting">Madonna dell'Itria, Sofonisba Anguissola</item>
+<item xml:id="autoritratto-lavinia-fontana" type="painting">Autoritratto Lavinia Fontana</item>
+<item xml:id="autoritratto2-lavinia-fontana" type="painting">Autoritratto Lavinia Zappi</item>
 <item xml:id="sacra-famiglia" type="painting">Pala Sacra Famiglia con santi Francesco e Margherita</item>
-<item xml:id="venere-ruini" type="painting">Ritratto Isabella Ruini</item> <!--no-->
-<item xml:id="saba-medici">Ritratto Eleonora de' Medici</item> <!--no-->
-<item xml:id="oloferne-fontana" type="painting">Giuditta con la testa di Oloferne</item> <!--Q104720632--> <!--esiste solo il label in inglese-->
-<item xml:id="ritratto-gonzales-fontana" type="painting">Ritratto di Antonietta Gonzales</item> <!--Q69495936-->
-<item xml:id="minerva-fontana" type="painting">Minerva in atto di abbigliarsi, Lavinia Fontana, </item> <!--esiste su wikidata ma non ha un label-->
+<item xml:id="venere-ruini" type="painting">Ritratto Isabella Ruini</item>
+<item xml:id="saba-medici">Ritratto Eleonora de' Medici</item>
+<item xml:id="oloferne-fontana" type="painting">Giuditta con la testa di Oloferne, Lavinia Fontana</item>
+<item xml:id="ritratto-gonzales-fontana" type="painting">Ritratto di Antonietta Gonzales, Lavinia Fontana</item>
+<item xml:id="minerva-fontana" type="painting">Minerva in atto di abbigliarsi, Lavinia Fontana, </item>
 <item xml:id="medaglia-casoni-fontana">Ritratto di Lavinia Fontana, Allegoria della pittura, Casoni Antonio Felice </item>
 <item xml:id="giuditta-gentileschi" type="painting">Giuditta che decapita Oloferne, Artemisia Gentileschi</item>
 <item xml:id="autoritratto-pittura-gentileschi" type="painting">Autoritratto in veste di pittura, Artemisia Gentileschi</item>
