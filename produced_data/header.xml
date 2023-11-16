@@ -962,7 +962,7 @@
 
 <list type="work">
     
-<item xml:id="Cortegiano" type="text">Il Cortegiano</item><!--written work-->
+<item xml:id="Cortegiano" type="text">Il Cortegiano</item>
 <item xml:id="Dialoghi" type="text">Dialoghi di Platone</item>
 <item xml:id="Apologia-di-Socrate" type="text">Apologia di Socrate, Senofonte</item>
 <item xml:id="de-natura-de-amore" type="text">Libro de Natura de Amore, Mario Equicola</item>
@@ -974,40 +974,40 @@
 <item xml:id="dialogo-institution-donne" type="text">Dialogo della institution delle donne, Ludovico Dolce</item>
 <item xml:id="femina-christiana-vives" type="text">De l’istituzione de la femina christiana, vergine, maritata e vedova, Juan Vives</item>
 <item xml:id="aquila-bicipite" type="sculpture">aquila bicipite</item> 
-<item xml:id="pendente-properzia" type="sculpture">pendente di De Rossi Properzia - bottega italiana (sec. XVI)</item>
+<item xml:id="pendente-properzia" type="sculpture">pendente di De Rossi Properzia - bottega italiana (sec. XVI)</item> 
 <item xml:id="portaMagna" type="sculpture">Porta Magna, Della Quercia, 1425</item>
-<item xml:id="bassorilievi" type="sculpture">Giuseppe e la moglie di Putifarre, De' Rossi, 1526</item>
-<item xml:id="capitelli" type="sculpture">capitelli portico palazzo Salina-Amorini</item>
-<item xml:id="Sofonisba-Mantegna" type="painting">Sofonisba, Mantegna</item>
-<item xml:id="chessgame" type="painting">Partita a schacchi, Sofonisba Anguissola, 1555</item>
+<item xml:id="bassorilievi" type="sculpture" sameAs="http://wikidata.org/entity/Q120733635">Giuseppe e la moglie di Putifarre</item> 
+<item xml:id="capitelli" type="sculpture">capitelli portico palazzo Salina-Amorini</item> 
+<item xml:id="Sofonisba-Mantegna" type="painting">Sofonisba, Mantegna</item> 
+<item xml:id="chessgame" type="painting" sameAs="http://www.wikidata.org/entity/Q23008305">Partita a schacchi</item> 
 <item xml:id="Gioconda" type="painting">Gioconda, Leonardo da Vinci, 1506</item>
 <item xml:id="ignudi" type="painting">Ignudi, Michelangelo Buonarroti</item>
-<item xml:id="ritratti" type="painting">ritratti di Filippo II di Spagna e consorte, Sofonisba Anguissola</item>
-<item xml:id="fanciullo-morso-da-un-gambero" type="drawing">Fanciullo morso da un gambero, Sofonisba Anguissola, 1554</item>
+<item xml:id="ritratti" type="painting">ritratti di Filippo II di Spagna e consorte, Sofonisba Anguissola</item> 
+<item xml:id="fanciullo-morso-da-un-gambero" type="drawing" sameAs="http://www.wikidata.org/entity/Q29604552">Fanciullo morso da un gambero, Sofonisba Anguissola, 1554</item> 
 <item xml:id="testa-di-cleopatra" type="drawing">La testa di Cleopatra, Michelangelo Buonarroti, 1535</item>
-<item xml:id="Madonna-Itria" type="painting">Madonna dell'Itria, Sofonisba Anguissola</item>
-<item xml:id="autoritratto-lavinia-fontana" type="painting">Autoritratto Lavinia Fontana</item>
-<item xml:id="autoritratto2-lavinia-fontana" type="painting">Autoritratto Lavinia Zappi</item>
+<item xml:id="Madonna-Itria" type="painting">Madonna dell'Itria, Sofonisba Anguissola</item> 
+<item xml:id="autoritratto-lavinia-fontana" type="painting" sameAs="http://www.wikidata.org/entity/Q19931300">Autoritratto alla spinetta</item>
+<item xml:id="autoritratto2-lavinia-fontana" type="painting" sameAs="http://www.wikidata.org/entity/Q19390001">Autoritratto nello studio</item> 
 <item xml:id="sacra-famiglia" type="painting">Pala Sacra Famiglia con santi Francesco e Margherita</item>
-<item xml:id="venere-ruini" type="painting">Ritratto Isabella Ruini</item>
-<item xml:id="saba-medici">Ritratto Eleonora de' Medici</item>
-<item xml:id="oloferne-fontana" type="painting">Giuditta con la testa di Oloferne, Lavinia Fontana</item>
-<item xml:id="ritratto-gonzales-fontana" type="painting">Ritratto di Antonietta Gonzales, Lavinia Fontana</item>
-<item xml:id="minerva-fontana" type="painting">Minerva in atto di abbigliarsi, Lavinia Fontana, </item>
+<item xml:id="venere-ruini" type="painting">Ritratto Isabella Ruini</item> 
+<item xml:id="saba-medici">Ritratto Eleonora de' Medici</item> 
+<item xml:id="oloferne-fontana" type="painting" sameAs="http://www.wikidata.org/entity/Q104720632">Giuditta con la testa di Oloferne</item> <!--esiste solo il label in inglese-->
+<item xml:id="ritratto-gonzales-fontana" type="painting" sameAs="http://www.wikidata.org/entity/Q69495936">Ritratto di Antonietta Gonzales</item> 
+<item xml:id="minerva-fontana" type="painting">Minerva in atto di abbigliarsi, Lavinia Fontana, </item> <!--esiste su wikidata ma non ha un label-->
 <item xml:id="medaglia-casoni-fontana">Ritratto di Lavinia Fontana, Allegoria della pittura, Casoni Antonio Felice </item>
-<item xml:id="giuditta-gentileschi" type="painting">Giuditta che decapita Oloferne, Artemisia Gentileschi</item>
-<item xml:id="autoritratto-pittura-gentileschi" type="painting">Autoritratto in veste di pittura, Artemisia Gentileschi</item>
-<item xml:id="battesimo-sirani" type="painting">Battesimo di Cristo, Elisabetta Sirani</item>
+<item xml:id="giuditta-gentileschi" type="painting" sameAs="http://www.wikidata.org/entity/Q2247406">Giuditta che decapita Oloferne, Artemisia Gentileschi</item>
+<item xml:id="autoritratto-pittura-gentileschi" type="painting" sameAs="http://www.wikidata.org/entity/Q3630745">Autoritratto in veste di pittura, Artemisia Gentileschi</item>
+<item xml:id="battesimo-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q120512327">Battesimo di Cristo, Elisabetta Sirani</item>
 <item xml:id="madonna-sirani" type="painting">Madonna col Bambino, Santa Elisabetta e Santa Margherita, Elisabetta Sirani</item>
-<item xml:id="amorino-trionfante-sirani" type="painting">Amorino trionfante, Elisabetta Sirani</item>
-<item xml:id="cupido-sirani" type="painting">Ritratto di Vincenzo Ferdinando Ranuzzi in veste di Cupido, Elisabetta Sirani</item>
-<item xml:id="dorotea-sirani" type="painting">Ritratto di Ortensia Leoni Cordini in veste di santa Dorotea, Elisabetta Sirani</item>
-<item xml:id="giuditta-sirani" type="painting">Giuditta con la testa di Oloferne, Elisabetta Sirani</item>
-<item xml:id="circe-sirani" type="painting">Circe, Elisabetta Sirani</item>
-<item xml:id="cleopatra-sirani" type="painting">Cleopatra, Elisabetta Sirani</item>
+<item xml:id="amorino-trionfante-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q21725529">Amorino trionfante, Elisabetta Sirani</item>
+<item xml:id="cupido-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q3937671">Ritratto di Vincenzo Ferdinando Ranuzzi in veste di Cupido, Elisabetta Sirani</item>
+<item xml:id="dorotea-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q120512322">Ritratto di Ortensia Leoni Cordini in veste di santa Dorotea, Elisabetta Sirani</item>
+<item xml:id="giuditta-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q18749466">Giuditta con la testa di Oloferne, Elisabetta Sirani</item>
+<item xml:id="circe-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q120257763">Circe, Elisabetta Sirani</item>
+<item xml:id="cleopatra-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q118782632">Cleopatra, Elisabetta Sirani</item>
 <item xml:id="madonna-cuscino-sirani" type="painting">Madonna col cuscino, Elisabetta Sirani</item>
-<item xml:id="giuditta-galizia" type="painting">Giuditta con la testa di Oloferne, Fede Galizia</item>
-<item xml:id="ritratto-morigia-galizia" type="painting">Ritratto di Paolo Morigia, Fede Galizia</item>
+<item xml:id="giuditta-galizia" type="painting" sameAs="http://www.wikidata.org/entity/Q23010104">Giuditta con la testa di Oloferne, Fede Galizia</item>
+<item xml:id="ritratto-morigia-galizia" type="painting" sameAs="http://www.wikidata.org/entity/Q29654663">Ritratto di Paolo Morigia, Fede Galizia</item>
 <item xml:id="text-garzoni" type="drawing">Libro de' caratteri cancellereschi corsivi, Giovanna Garzoni</item>
 <item xml:id="plantaria" type="text">Syntaxis Plantaria, Federico Cesi</item>
 <item xml:id="architettrice" type="text">L'Architettrice, Melania Mazzucco</item>
@@ -1017,19 +1017,19 @@
 <item xml:id="nobiltà-delle-donne" type="text">Le nobiltà et eccellenze delle donne et i difetti degli huomini, Lucrezia Marinelli</item>
 <item xml:id="donneschi-difetti" type="text">I donneschi difetti, Giuseppe Passi</item>
 <item xml:id="tirannia-paterna" type="text">Tirannia Paterna, Angela Tarabotti</item>
-<item xml:id="fanciulla-carriera" type="painting">Fanciulla con colomba, Rosalba Carriera</item>
+<item xml:id="fanciulla-carriera" type="painting" sameAs="http://www.wikidata.org/entity/Q50326454">Fanciulla con colomba, Rosalba Carriera</item>
 <item xml:id="trattato-colori-carriera" type="text">Le Maniere diverse per formare i colori in pittura, Rosalba Carriera</item>
-<item xml:id="luigixv-ritratto-carriera" type="painting">Luigi XV di Francia, Rosalba Carriera</item>
+<item xml:id="luigixv-ritratto-carriera" type="painting" sameAs="http://www.wikidata.org/entity/Q18689275">Luigi XV di Francia, Rosalba Carriera</item>
 <item xml:id="ritratto-goethe-kauffman" type="painting">Ritratto di Goethe, Angelica Kauffman</item>
 <item xml:id="ifigenia-goethe" type="text">Ifigenia in Tauride, Goethe</item>
 <item xml:id="penelope-telaio" type="painting">Penelope al telaio, Angelica Kauffman</item>
-<item xml:id="bacco-arianna" type="painting">Bacco e Arianna, Angelica Kauffman</item>
+<item xml:id="bacco-arianna" type="painting" sameAs="http://www.wikidata.org/entity/Q52145340">Bacco e Arianna, Angelica Kauffman</item>
 <item xml:id="nudo-virile" type="painting">Nudo virile, Angelica Kauffman</item>
 <item xml:id="congiurato" type="painting">Il congiurato, Nathaniel Hone</item>
 <item xml:id="educazione-kauffman" type="painting">L'educazione della vergine, Angelica Kauffman</item>
 <item xml:id="san-girolamo" type="painting">Pala di San Girolamo, Leonardo da Vinci</item>
 <item xml:id="enea-pallante" type="painting">Ermanno e Tusnelda, Angelica Kauffman</item>
-<item xml:id="ermanno-tusnelda" type="painting">Enea piange la morte di Pallante, Angelica Kauffman</item>
+<item xml:id="ermanno-tusnelda" type="painting" sameAs="http://www.wikidata.org/entity/Q109545736">Enea piange la morte di Pallante, Angelica Kauffman</item>
 <item xml:id="serviotullio" type="painting">Servio Tullio, Angelica Kauffman</item>
 <item xml:id="achille-licomede" type="painting">Achille tra le figlie di Licomede, Angelica Kauffman</item>
 <item xml:id="giuditta-oloferne-lama" type="painting">Giuditta e Oloferne, Giulia Lama</item>
@@ -1042,33 +1042,33 @@
 <year>1779</year></item>
 <item xml:id="MarieAntoinetteportraits" type="painting">Marie-Antoinette, Queen of France, portraits</item>
 <item xml:id="Selfportrait" type="painting">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
-<item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, Raffaello Sanzio, 1514</item>
-<item xml:id="PortraitofMadameDuBarry" type="painting">Portrait of Madame Du Barry, 1781</item> 
+<item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, 1514</item>
+<item xml:id="PortraitofMadameDuBarry" type="painting" sameAs="http://www.wikidata.org/entity/Q20810265">Portrait of Madame Du Barry, 1781</item> 
 
 <!-- Le bestie di Rosa Bonheur -->
-<item xml:id="BuffaloBill" type="painting">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
-<item xml:id="LeMarcheauxchevaux" type="painting">Le Marché aux chevaux, 1853</item>
+<item xml:id="BuffaloBill" type="painting" sameAs="http://www.wikidata.org/entity/Q87752255">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
+<item xml:id="LeMarcheauxchevaux" type="painting" sameAs="http://www.wikidata.org/entity/Q40432">Le Marché aux chevaux, 1853</item>
 
 <!--I capelli di Berthe Morisot -->
 <item xml:id="TheArrivalofMariedeMediciatMarseilles" type="painting">The Arrival of Marie de Medici at Marseilles, 1625</item>
 <item xml:id="LeDejeunersurlherbe" type="painting">Le Déjeuner sur l'herbe, 1863</item>
 <item xml:id="Olympia" type="painting">Olympia, 1863</item>
-<item xml:id="TheCradle" type="painting">The Cradle, 1872</item>
+<item xml:id="TheCradle" type="painting" sameAs="http://www.wikidata.org/entity/Q5966403">The Cradle, 1872</item>
 
 <!--Le carte di Mary Cassat --><!-- tre quadri nelle note 23-23 del testo -->
-<item xml:id="IntheLoge" type="painting">In the Loge, 1878</item>
-<item xml:id="WomanwithaPearlNecklace" type="painting">Woman with a Pearl Necklace, 1879</item>
+<item xml:id="IntheLoge" type="painting" sameAs="http://www.wikidata.org/entity/Q14915747">In the Loge, 1878</item>
+<item xml:id="WomanwithaPearlNecklace" type="painting" sameAs="http://www.wikidata.org/entity/Q15130000">Woman with a Pearl Necklace, 1879</item>
 <item xml:id="MaryCassattSeatedHoldingCards" type="painting">Mary Cassatt Seated, Holding Cards, 1880-1884</item>
 
 <!--La passione di Camille Claudel -->
-<item xml:id="Clotho" type="sculpture">Clotho, 1893</item>
-<item xml:id="TheMatureAge" type="sculpture">The Mature Age, 1894-1900</item>
+<item xml:id="Clotho" type="sculpture" sameAs="http://www.wikidata.org/entity/Q106314799">Clotho, 1893</item>
+<item xml:id="TheMatureAge" type="sculpture" sameAs="http://www.wikidata.org/entity/Q3205060">The Mature Age, 1894-1900</item>
 
 <!--Chapter Libere-->
 
 <!--Il fascino di Suzanne Valadon-->
 <!--Lo stile di Tamara de Lempicka-->
-<item xml:id="SelfPortraitintheGreenBugatti" type="painting">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
+<item xml:id="SelfPortraitintheGreenBugatti" type="painting" sameAs="http://www.wikidata.org/entity/Q19901889">Self-Portrait in the Green Bugatti, 1929</item><!--autoritratto nel testo-->
 <item xml:id="Ledueamiche" type="painting"></item>
 <item xml:id="BaronKuffner" type="painting"></item>
 <item xml:id="TheMusician" type="painting">The Musician, 1929</item><!--La musicista nel testo-->
@@ -1113,7 +1113,7 @@
 <item xml:id="Poesiasenzatitolo">Poesia senza titolo</item>
 <item xml:id="Senzatitolo">Senza titolo</item>
 <item xml:id="Hon">HON</item>
-<item xml:id="Nanafontana">Nana fontana</item>
+<item xml:id="Nanafontana" sameAs="http://www.wikidata.org/entity/Q121334798">Nana fontana</item>
 <item xml:id="Nanapiscina">Nana piscina</item>
 <item xml:id="Golemparcogiochi">Golem parco giochi</item>
 <item xml:id="Giardinodeitarocchi">Giardino dei Tarocchi</item>
@@ -1123,13 +1123,13 @@
 <item xml:id="Bricolage">Bricolage</item>
 <item xml:id="Ringaroundarosie">Ringaround Arosie</item>
 <item xml:id="Fehlbaum">Fehlbaum</item>
-<item xml:id="Maxxidiroma">MAXXI di Roma</item>
+<item xml:id="Maxxidiroma" sameAs="http://www.wikidata.org/entity/Q1881229">MAXXI di Roma</item>
 <item xml:id="Riconversionedellagaredorsay">riconversione della Gare d’Orsay</item>
 <item xml:id="Museodartecatalana">Museo d’arte catalana</item>
-<item xml:id="Palazzograssivenice">Palazzo Grassi</item>
-<item xml:id="Scuderiedelquirinale">Scuderie del Quirinale</item>
-<item xml:id="MuseedorsayParis">Musée d’Orsay a Parigi</item>
-<item xml:id="Piazzalecadorna">piazzale Cadorna</item>
+<item xml:id="Palazzograssi" sameAs="http://www.wikidata.org/entity/Q907964">Palazzo Grassi</item>
+<item xml:id="Scuderiedelquirinale" sameAs="http://www.wikidata.org/entity/Q26840128">Scuderie del Quirinale</item>
+<item xml:id="MuseedorsayParis" sameAs="http://www.wikidata.org/entity/Q23402">Musée d’Orsay a Parigi</item>
+<item xml:id="Piazzalecadorna"  sameAs="http://www.wikidata.org/entity/Q3902479">piazzale Cadorna</item>
 <item xml:id="Costellazioni">Costellazioni</item>
 
 </list>
