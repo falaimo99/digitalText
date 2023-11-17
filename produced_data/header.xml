@@ -998,6 +998,7 @@
 <item xml:id="giuditta-gentileschi" type="painting" sameAs="http://www.wikidata.org/entity/Q2247406">Giuditta che decapita Oloferne, Artemisia Gentileschi</item>
 <item xml:id="autoritratto-pittura-gentileschi" type="painting" sameAs="http://www.wikidata.org/entity/Q3630745">Autoritratto in veste di pittura, Artemisia Gentileschi</item>
 <item xml:id="battesimo-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q120512327">Battesimo di Cristo, Elisabetta Sirani</item>
+
 <item xml:id="madonna-sirani" type="painting">Madonna col Bambino, Santa Elisabetta e Santa Margherita, Elisabetta Sirani</item>
 <item xml:id="amorino-trionfante-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q21725529">Amorino trionfante, Elisabetta Sirani</item>
 <item xml:id="cupido-sirani" type="painting" sameAs="http://www.wikidata.org/entity/Q3937671">Ritratto di Vincenzo Ferdinando Ranuzzi in veste di Cupido, Elisabetta Sirani</item>
@@ -1043,7 +1044,7 @@
 <item xml:id="MarieAntoinetteportraits" type="painting">Marie-Antoinette, Queen of France, portraits</item>
 <item xml:id="Selfportrait" type="painting">Self-portrait, Élisabeth Vigéé-Le Brun, 1787</item>
 <item xml:id="MadonnadellaSeggiola" type="painting">Madonna della Seggiola, 1514</item>
-<item xml:id="PortraitofMadameDuBarry" type="painting" sameAs="http://www.wikidata.org/entity/Q20810265">Portrait of Madame Du Barry, 1781</item> 
+<item xml:id="PortraitofMadameDuBarry" type="painting" sameAs="http://www.wikidata.org/entity/Q46625567">Portrait of Madame Du Barry, 1781</item> 
 
 <!-- Le bestie di Rosa Bonheur -->
 <item xml:id="BuffaloBill" type="painting" sameAs="http://www.wikidata.org/entity/Q87752255">Portrait of Col. William F. Cody (Buffalo Bill), 1889 </item>
