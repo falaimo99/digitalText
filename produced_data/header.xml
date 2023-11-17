@@ -53,12 +53,12 @@
 <person xml:id="GdaMontefeltro"> <persName>Guidobaldo da Montefeltro</persName></person>
 <person xml:id="EGonzaga"> <persName>Elisabetta Gonzaga</persName></person>
 <person xml:id="FdaMontefeltro"> <persName>Federico da Montefeltro</persName></person>
-<person xml:id="FdiGiorgioMartini"> <persName>Federico Di Giorgio Martini</persName></person><!--NO-->
-<person xml:id="GGenga"> <persName>Gerolamo Genga</persName></person>
+<person xml:id="FdiGiorgioMartini"> <persName>Federico di Giorgio Martini</persName></person><!--NO-->
+<person xml:id="GGenga"> <persName>Girolamo Genga</persName></person>
 <person xml:id="PdellaFrancesca"> <persName>Piero della Francesca</persName></person>
 <person xml:id="GSanti"> <persName>Giovanni Santi</persName></person>
 <person xml:id="LPacioli"> <persName>Luca Pacioli</persName></person>
-<person xml:id="LdiCanossa"> <persName>Ludovico da Canossa</persName></person>
+<person xml:id="LdiCanossa"> <persName>Louis da Canossa</persName></person>
 <person xml:id="OFregoso"> <persName>Ottaviano Fregoso</persName></person>
 <person xml:id="GdeMedici"> <persName> Giuliano de' Medici</persName></person>
 <person xml:id="FFregoso"> <persName>Federico Fregoso</persName></person>
