@@ -6,17 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/tei.css">
 
-  <script src="js/CETEI.js"></script>
-  <script>
-    let c = new CETEI();
-    c.getHTML5('../produced_data/body.xml.', function(data) {
-       document.getElementsByTagName("body")[0].appendChild(data);
-    });  
-  </script>
-  
+  <script src="js/oldCETEI.js"></script>
+    
 </head>
 <body>
-    <h1>hello world</h1>
+    <script>
+      let c = new CETEI();
+      c.getHTML5('../produced_data/body.xml', function(data) {
+         document.getElementsByTagName("body")[0].appendChild(data);
+      });  
+    </script>
   
 </body>
 </html>
