@@ -75,7 +75,7 @@
                     <person xml:id="GdiMontefeltro"> <persName>Guidobaldo da Montefeltro</persName></person>
                     <person xml:id="Platone"> <persName>Platone</persName></person>
                     <person xml:id="Senofonte"> <persName>Senofonte</persName></person>
-                    <person xml:id="IdEste>"> <persName>Isabella d'Este</persName></person>
+                    <person xml:id="IdEste"> <persName>Isabella d'Este</persName></person>
                     <person xml:id="FAsolano"> <persName>Francesco Torresano</persName></person>
                     <person xml:id="PdeRossi"> <persName>Properzia de' Rossi</persName></person>
                     <person xml:id="MEquicola"> <persName>Mario Equicola</persName></person>
@@ -1144,6 +1144,137 @@
             </profileDesc>
         </fileDesc>
         <xenodata>
+        <rdf:Description tei:ref='GdaMontefeltro' rdf:about='http://www.wikidata.org/entity/Q969797'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Guidobaldo da Montefeltro</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1472-01-26T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1508-04-20T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q20458">Gubbio</schema:birthPlace>
+            <schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q190646">Fossombrone</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q273108">capitano di ventura</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='FdaMontefeltro' rdf:about='http://www.wikidata.org/entity/Q435501'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Federico da Montefeltro</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1422-06-16T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1482-09-19T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q20458">Gubbio</schema:birthPlace>
+            <schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q13362">Ferrara</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q15472169">mecenate</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q273108">capitano di ventura</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='GGenga' rdf:about='http://www.wikidata.org/entity/Q920115'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Gerolamo Genga</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1476-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1551-07-21T00:00:00Z</schema:deathDate>
+            <schema:birthPlace xml:ref="Urbino">Urbino</schema:birthPlace>
+            <schema:deathPlace xml:ref="Urbino">Urbino</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1281618">scultore</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1028181">pittore</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q42973">architetto</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='PdellaFrancesca' rdf:about='http://www.wikidata.org/entity/Q5822'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Piero della Francesca</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1415-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1492-10-21T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q52098">Sansepolcro</schema:birthPlace>
+            <schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q52098">Sansepolcro</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q17391638">teorico dell'arte</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1028181">pittore</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q170790">matematico</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='LPacioli' rdf:about='http://www.wikidata.org/entity/Q87620'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Luca Pacioli</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1440-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1517-01-01T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q52098">Sansepolcro</schema:birthPlace>
+            <schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q52098">Sansepolcro</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1622272">professore universitario</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q326653">contabile</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q831474">presbitero</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q548320">frate</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q188094">economista</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q205375">inventore</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q170790">matematico</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='CGonzaga' rdf:about='http://www.wikidata.org/entity/Q24033625'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Cesare Gonzaga</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1476-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1512-09-01T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q6247">Mantova</schema:birthPlace>
+            <schema:deathPlace xml:ref="Bologna">Bologna</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q47064">militare</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='BDdaBibbiena' rdf:about='http://www.wikidata.org/entity/Q823002'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Bernardo Dovizi da Bibbiena</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1470-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1520-11-19T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q52066">Bibbiena</schema:birthPlace>
+            <schema:deathPlace xml:ref="Rome">Roma</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q611644">vescovo cattolico</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q250867">sacerdote cattolico</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q214917">drammaturgo</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q193391">diplomatico</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q49757">poeta</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q36180">scrittore</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='GdiMontefeltro' rdf:about='http://www.wikidata.org/entity/Q969797'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Guidobaldo da Montefeltro</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1472-01-26T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1508-04-20T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q20458">Gubbio</schema:birthPlace>
+            <schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q190646">Fossombrone</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q273108">capitano di ventura</schema:hasOccupation>
+        </rdf:Description>
+        
+        <rdf:Description tei:ref='FAsolano' rdf:about='http://www.wikidata.org/entity/Q87766257'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Francesco Torresano</rdfs:label>
+            <crm:P61_has_gender>maschio</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1490-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1550-01-01T00:00:00Z</schema:deathDate>
+            <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q42288">Asola</schema:birthPlace>
+            <schema:deathPlace xml:ref="Venice">Venezia</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q2516866">editore</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1229025">tipografo</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q175151">stampatore</schema:hasOccupation>
+        </rdf:Description>
+        
+        
+        <rdf:Description tei:ref='PdeRossi' rdf:about='http://www.wikidata.org/entity/Q293106'>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label xml:lan="it">Properzia de' Rossi</rdfs:label>
+            <crm:P61_has_gender>femmina</crm:P61_has_gender>
+            <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1490-01-01T00:00:00Z</schema:birthDate>
+            <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1530-01-01T00:00:00Z</schema:deathDate>
+            <schema:birthPlace xml:ref="Bologna">Bologna</schema:birthPlace>
+            <schema:deathPlace xml:ref="Bologna">Bologna</schema:deathPlace>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1281618">scultore</schema:hasOccupation>
+            <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q483501">artista</schema:hasOccupation>
+            <schema:workLocation xml:ref="Bologna">Bologna</schema:workLocation>
+        </rdf:Description>
+        
         </xenodata>
     </teiHeader>
 
