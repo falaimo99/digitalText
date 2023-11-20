@@ -4909,4 +4909,575 @@ set()
 	<schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q40348">avvocato</schema:hasOccupation>
 </rdf:Description>
 
-[['http://www.wikidata.org/entity/Q453113', 'http://www.wikidata.org/entity/Q18814526', 'http://www.wikidata.org/entity/Q18814525'], ['http://www.wikidata.org/entity/Q860949', 'http://www.wikidata.org/entity/Q60711238', 'http://www.wikidata.org/entity/Q63870953'], ['http://www.wikidata.org/entity/Q3887170', 'http://www.wikidata.org/entity/Q82925573'], ['http://www.wikidata.org/entity/Q177854', 'http://www.wikidata.org/entity/Q3837121', 'http://www.wikidata.org/entity/Q100439802', 'http://www.wikidata.org/entity/Q117804188'], ['http://www.wikidata.org/entity/Q334188', 'http://www.wikidata.org/entity/Q16590374'], ['http://www.wikidata.org/entity/Q2035656', 'http://www.wikidata.org/entity/Q859'], ['http://www.wikidata.org/entity/Q96515949', 'http://www.wikidata.org/entity/Q129772', 'http://www.wikidata.org/entity/Q735159', 'http://www.wikidata.org/entity/Q1465890', 'http://www.wikidata.org/entity/Q20102260', 'http://www.wikidata.org/entity/Q20102261', 'http://www.wikidata.org/entity/Q67389085', 'http://www.wikidata.org/entity/Q115437423', 'http://www.wikidata.org/entity/Q116026018'], ['http://www.wikidata.org/entity/Q593626', 'http://www.wikidata.org/entity/Q2445155'], ['http://www.wikidata.org/entity/Q681446', 'http://www.wikidata.org/entity/Q1243494', 'http://www.wikidata.org/entity/Q2403916', 'http://www.wikidata.org/entity/Q10261'], ['http://www.wikidata.org/entity/Q250089', 'http://www.wikidata.org/entity/Q25209256', 'http://www.wikidata.org/entity/Q39070052'], ['http://www.wikidata.org/entity/Q128027', 'http://www.wikidata.org/entity/Q22343608', 'http://www.wikidata.org/entity/Q107212182'], ['http://www.wikidata.org/entity/Q61482756', 'http://www.wikidata.org/entity/Q9440'], ['http://www.wikidata.org/entity/Q16010690', 'http://www.wikidata.org/entity/Q16010691'], ['http://www.wikidata.org/entity/Q312903', 'http://www.wikidata.org/entity/Q554961', 'http://www.wikidata.org/entity/Q62055963'], ['http://www.wikidata.org/entity/Q48544', 'http://www.wikidata.org/entity/Q117804091'], ['http://www.wikidata.org/entity/Q1991420', 'http://www.wikidata.org/entity/Q3721835'], ['http://www.wikidata.org/entity/Q740361', 'http://www.wikidata.org/entity/Q1131481'], ['http://www.wikidata.org/entity/Q150586', 'http://www.wikidata.org/entity/Q314001'], ['http://www.wikidata.org/entity/Q473720', 'http://www.wikidata.org/entity/Q63924867'], ['http://www.wikidata.org/entity/Q534683', 'http://www.wikidata.org/entity/Q2662344', 'http://www.wikidata.org/entity/Q62121634'], ['http://www.wikidata.org/entity/Q322023', 'http://www.wikidata.org/entity/Q1605089'], ['http://www.wikidata.org/entity/Q154064', 'http://www.wikidata.org/entity/Q1330397', 'http://www.wikidata.org/entity/Q62994'], ['http://www.wikidata.org/entity/Q3766842', 'http://www.wikidata.org/entity/Q1402'], ['http://www.wikidata.org/entity/Q667717', 'http://www.wikidata.org/entity/Q11906543', 'http://www.wikidata.org/entity/Q105136288', 'http://www.wikidata.org/entity/Q868'], ['http://www.wikidata.org/entity/Q255368', 'http://www.wikidata.org/entity/Q43948081', 'http://www.wikidata.org/entity/Q105753445'], ['http://www.wikidata.org/entity/Q1749764', 'http://www.wikidata.org/entity/Q63872588'], ['http://www.wikidata.org/entity/Q211133', 'http://www.wikidata.org/entity/Q16265685', 'http://www.wikidata.org/entity/Q76553973'], ['http://www.wikidata.org/entity/Q374111', 'http://www.wikidata.org/entity/Q19517644'], ['http://www.wikidata.org/entity/Q2539929', 'http://www.wikidata.org/entity/Q72282536'], ['http://www.wikidata.org/entity/Q60334641', 'http://www.wikidata.org/entity/Q47365'], ['http://www.wikidata.org/entity/Q44720949', 'http://www.wikidata.org/entity/Q98754826'], ['http://www.wikidata.org/entity/Q334001', 'http://www.wikidata.org/entity/Q72915415', 'http://www.wikidata.org/entity/Q99485323'], ['http://www.wikidata.org/entity/Q18917434', 'http://www.wikidata.org/entity/Q6256678', 'http://www.wikidata.org/entity/Q15693893'], ['http://www.wikidata.org/entity/Q722855', 'http://www.wikidata.org/entity/Q59583624'], ['http://www.wikidata.org/entity/Q100721665', 'http://www.wikidata.org/entity/Q1779'], ['http://www.wikidata.org/entity/Q171128', 'http://www.wikidata.org/entity/Q42868163'], ['http://www.wikidata.org/entity/Q346988', 'http://www.wikidata.org/entity/Q902986', 'http://www.wikidata.org/entity/Q17422005'], ['http://www.wikidata.org/entity/Q1361667', 'http://www.wikidata.org/entity/Q3938904'], ['http://www.wikidata.org/entity/Q703980', 'http://www.wikidata.org/entity/Q2244619', 'http://www.wikidata.org/entity/Q3848204', 'http://www.wikidata.org/entity/Q15729291', 'http://www.wikidata.org/entity/Q65071293'], ['http://www.wikidata.org/entity/Q98996820', 'http://www.wikidata.org/entity/Q106982534'], ['http://www.wikidata.org/entity/Q741862', 'http://www.wikidata.org/entity/Q24539470'], ['http://www.wikidata.org/entity/Q3751112', 'http://www.wikidata.org/entity/Q1442517'], ['http://www.wikidata.org/entity/Q21542818', 'http://www.wikidata.org/entity/Q554251', 'http://www.wikidata.org/entity/Q50144332', 'http://www.wikidata.org/entity/Q106776591'], ['http://www.wikidata.org/entity/Q309618', 'http://www.wikidata.org/entity/Q22991695'], ['http://www.wikidata.org/entity/Q3620150', 'http://www.wikidata.org/entity/Q41048992'], ['http://www.wikidata.org/entity/Q30084817', 'http://www.wikidata.org/entity/Q51137'], ['http://www.wikidata.org/entity/Q5274796', 'http://www.wikidata.org/entity/Q13099552', 'http://www.wikidata.org/entity/Q61895669', 'http://www.wikidata.org/entity/Q76376134'], ['http://www.wikidata.org/entity/Q29179', 'http://www.wikidata.org/entity/Q1003437', 'http://www.wikidata.org/entity/Q5865733', 'http://www.wikidata.org/entity/Q8962356'], ['http://www.wikidata.org/entity/Q955098', 'http://www.wikidata.org/entity/Q6139840', 'http://www.wikidata.org/entity/Q6139845', 'http://www.wikidata.org/entity/Q16908897', 'http://www.wikidata.org/entity/Q18671622', 'http://www.wikidata.org/entity/Q22020369'], ['http://www.wikidata.org/entity/Q574616', 'http://www.wikidata.org/entity/Q225208'], ['http://www.wikidata.org/entity/Q1508041', 'http://www.wikidata.org/entity/Q2621387'], ['http://www.wikidata.org/entity/Q1122181', 'http://www.wikidata.org/entity/Q2521331'], ['http://www.wikidata.org/entity/Q3108038', 'http://www.wikidata.org/entity/Q3770622', 'http://www.wikidata.org/entity/Q3770623', 'http://www.wikidata.org/entity/Q56991094', 'http://www.wikidata.org/entity/Q57416352', 'http://www.wikidata.org/entity/Q81738920', 'http://www.wikidata.org/entity/Q95982294', 'http://www.wikidata.org/entity/Q104751785'], ['http://www.wikidata.org/entity/Q443102', 'http://www.wikidata.org/entity/Q635'], ['http://www.wikidata.org/entity/Q8018308', 'http://www.wikidata.org/entity/Q8018314', 'http://www.wikidata.org/entity/Q8018313', 'http://www.wikidata.org/entity/Q692'], ['http://www.wikidata.org/entity/Q708028', 'http://www.wikidata.org/entity/Q123408431'], ['http://www.wikidata.org/entity/Q215457', 'http://www.wikidata.org/entity/Q1379218'], ['http://www.wikidata.org/entity/Q172231', 'http://www.wikidata.org/entity/Q3933091'], ['http://www.wikidata.org/entity/Q154340', 'http://www.wikidata.org/entity/Q29583002', 'http://www.wikidata.org/entity/Q60032480'], ['http://www.wikidata.org/entity/Q542096', 'http://www.wikidata.org/entity/Q46842319', 'http://www.wikidata.org/entity/Q57019161'], ['http://www.wikidata.org/entity/Q3771140', 'http://www.wikidata.org/entity/Q3771141', 'http://www.wikidata.org/entity/Q63904775'], ['http://www.wikidata.org/entity/Q159409', 'http://www.wikidata.org/entity/Q3263690'], ['http://www.wikidata.org/entity/Q189197', 'http://www.wikidata.org/entity/Q3810247', 'http://www.wikidata.org/entity/Q110181660'], ['http://www.wikidata.org/entity/Q429927', 'http://www.wikidata.org/entity/Q3187975'], ['http://www.wikidata.org/entity/Q3779144', 'http://www.wikidata.org/entity/Q4515613', 'http://www.wikidata.org/entity/Q5615559']] 65
+<!-- places -->
+
+<rdf:Description tei:ref="Urbino" rdf:about="http://www.wikidata.org/entity/Q2759">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Urbino</rdfs:label>
+	<geo:lat>43.725238888</geo:lat>
+	<geo:long>12.6372</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Nemours" rdf:about="http://www.wikidata.org/entity/Q321067">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Nemours</rdfs:label>
+	<geo:lat>48.268611111</geo:lat>
+	<geo:long>2.693611111</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Uffizi" rdf:about="http://www.wikidata.org/entity/Q51252">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Uffizi</rdfs:label>
+	<geo:lat>43.768333333</geo:lat>
+	<geo:long>11.255277777</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="BSanPetronio" rdf:about="http://www.wikidata.org/entity/Q810103">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">basilica di San Petronio</rdfs:label>
+	<geo:lat>44.493382243</geo:lat>
+	<geo:long>11.343284639</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="palazzo-salina-amorini" rdf:about="http://www.wikidata.org/entity/Q25052809">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Palazzo Bolognini Amorini</rdfs:label>
+	<geo:lat>44.49250278</geo:lat>
+	<geo:long>11.34778056</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="NGLondon" rdf:about="http://www.wikidata.org/entity/Q180788">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">National Gallery</rdfs:label>
+	<geo:lat>51.508888888</geo:lat>
+	<geo:long>-0.128333333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="VaticanMuseums" rdf:about="http://www.wikidata.org/entity/Q182955">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Musei Vaticani</rdfs:label>
+	<geo:lat>41.906388888</geo:lat>
+	<geo:long>12.454444444</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="PradoMuseum" rdf:about="http://www.wikidata.org/entity/Q160112">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Museo del Prado</rdfs:label>
+	<geo:lat>40.413888888</geo:lat>
+	<geo:long>-3.692222222</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Capri" rdf:about="http://www.wikidata.org/entity/Q173292">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Isola di Capri</rdfs:label>
+	<geo:lat>40.55</geo:lat>
+	<geo:long>14.233333333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Florence" rdf:about="http://www.wikidata.org/entity/Q2044">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Firenze</rdfs:label>
+	<geo:lat>43.771388888</geo:lat>
+	<geo:long>11.254166666</geo:long>
+</rdf:Description>
+
+
+<rdf:Description tei:ref="HCourt" rdf:about="http://www.wikidata.org/entity/Q205666">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Hampton Court</rdfs:label>
+	<geo:lat>51.4034</geo:lat>
+	<geo:long>-0.337499</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="accademia-san-luca-roma" rdf:about="http://www.wikidata.org/entity/Q338523">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Accademia nazionale di San Luca</rdfs:label>
+	<geo:lat>41.90166</geo:lat>
+	<geo:long>12.483586</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Tuscany" rdf:about="http://www.wikidata.org/entity/Q1273">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Toscana</rdfs:label>
+	<geo:lat>43.35</geo:lat>
+	<geo:long>11.016666666</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="royal-academy-of-arts" rdf:about="http://www.wikidata.org/entity/Q270920">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Royal Academy of Arts</rdfs:label>
+	<geo:lat>51.509166666</geo:lat>
+	<geo:long>-0.139444444</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="via-sistina" rdf:about="http://www.wikidata.org/entity/Q669281">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">via Sistina</rdfs:label>
+	<geo:lat>41.90469</geo:lat>
+	<geo:long>12.48595</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="chiesa-andrea-fratte" rdf:about="http://www.wikidata.org/entity/Q1809794">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">basilica di Sant'Andrea delle Fratte</rdfs:label>
+	<geo:lat>41.903627777</geo:lat>
+	<geo:long>12.483552777</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="GreatBritain" rdf:about="http://www.wikidata.org/entity/Q23666">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Gran Bretagna</rdfs:label>
+	<geo:lat>53.833333333</geo:lat>
+	<geo:long>-2.416666666</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="FrogmoreHouse" rdf:about="http://www.wikidata.org/entity/Q564578">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Frogmore House</rdfs:label>
+	<geo:lat>51.4743</geo:lat>
+	<geo:long>-0.594333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="WindsorCastle" rdf:about="http://www.wikidata.org/entity/Q42646">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">castello di Windsor</rdfs:label>
+	<geo:lat>51.4838</geo:lat>
+	<geo:long>-0.60483</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="PalaceofVersailles" rdf:about="http://www.wikidata.org/entity/Q2946">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">reggia di Versailles</rdfs:label>
+	<geo:lat>48.804805555</geo:lat>
+	<geo:long>2.120333333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="LouvreMuseum" rdf:about="http://www.wikidata.org/entity/Q19675">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Museo del Louvre</rdfs:label>
+	<geo:lat>48.861111111</geo:lat>
+	<geo:long>2.335833333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Batignolles" rdf:about="http://www.wikidata.org/entity/Q575565">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Batignolles</rdfs:label>
+	<geo:lat>48.8875</geo:lat>
+	<geo:long>2.31666667</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Pittsburgh" rdf:about="http://www.wikidata.org/entity/Q1342">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Pittsburgh</rdfs:label>
+	<geo:lat>40.441666666</geo:lat>
+	<geo:long>-80.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Montparnasse " rdf:about="http://www.wikidata.org/entity/Q211604">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Montparnasse</rdfs:label>
+	<geo:lat>48.843638888</geo:lat>
+	<geo:long>2.323811111</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="England" rdf:about="http://www.wikidata.org/entity/Q21">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Inghilterra</rdfs:label>
+	<geo:lat>53.207777777</geo:lat>
+	<geo:long>22.771277777</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="UK" rdf:about="http://www.wikidata.org/entity/Q145">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Regno Unito</rdfs:label>
+	<geo:lat>54.6</geo:lat>
+	<geo:long>-2.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="USA" rdf:about="http://www.wikidata.org/entity/Q30">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Stati Uniti d'America</rdfs:label>
+	<geo:lat>39.828175</geo:lat>
+	<geo:long>-98.5795</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="SaintPetersburg" rdf:about="http://www.wikidata.org/entity/Q656">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">San Pietroburgo</rdfs:label>
+	<geo:lat>59.95</geo:lat>
+	<geo:long>30.316666666</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Brescia" rdf:about="http://www.wikidata.org/entity/Q6221">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Brescia</rdfs:label>
+	<geo:lat>45.538888888</geo:lat>
+	<geo:long>10.220280555</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Cuernavaca" rdf:about="http://www.wikidata.org/entity/Q204245">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Cuernavaca</rdfs:label>
+	<geo:lat>18.918611111</geo:lat>
+	<geo:long>-99.234166666</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="SovietUnion" rdf:about="http://www.wikidata.org/entity/Q15180">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Unione Sovietica</rdfs:label>
+	<geo:lat>65.0</geo:lat>
+	<geo:long>90.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Kaunas" rdf:about="http://www.wikidata.org/entity/Q4115712">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Kaunas</rdfs:label>
+	<geo:lat>54.9</geo:lat>
+	<geo:long>23.933333333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Finland" rdf:about="http://www.wikidata.org/entity/Q33">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Finlandia</rdfs:label>
+	<geo:lat>65.0</geo:lat>
+	<geo:long>27.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Austria" rdf:about="http://www.wikidata.org/entity/Q40">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Austria</rdfs:label>
+	<geo:lat>48.0</geo:lat>
+	<geo:long>14.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Switzerland" rdf:about="http://www.wikidata.org/entity/Q39">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Svizzera</rdfs:label>
+	<geo:lat>46.798562</geo:lat>
+	<geo:long>8.231973</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Moscow" rdf:about="http://www.wikidata.org/entity/Q649">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Mosca</rdfs:label>
+	<geo:lat>55.755833333</geo:lat>
+	<geo:long>37.617777777</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Indochina" rdf:about="http://www.wikidata.org/entity/Q43467">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Indocina</rdfs:label>
+	<geo:lat>16.0</geo:lat>
+	<geo:long>102.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Girona" rdf:about="http://www.wikidata.org/entity/Q2606185">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Girona</rdfs:label>
+	<geo:lat>41.394938888</geo:lat>
+	<geo:long>2.170986111</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="RockefellerCenter" rdf:about="http://www.wikidata.org/entity/Q11277">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Rockefeller Center</rdfs:label>
+	<geo:lat>40.758611111</geo:lat>
+	<geo:long>-73.979194444</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Berlin" rdf:about="http://www.wikidata.org/entity/Q64">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Berlino</rdfs:label>
+	<geo:lat>52.516666666</geo:lat>
+	<geo:long>13.383333333</geo:long>
+</rdf:Description>
+
+<rdf:Description tei:ref="Soho" rdf:about="http://www.wikidata.org/entity/Q461572">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">SoHo</rdfs:label>
+	<geo:lat>40.723056</geo:lat>
+	<geo:long>-74.000833</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Arcodellapace" rdf:about="http://www.wikidata.org/entity/Q776576">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Arco della Pace</rdfs:label>
+	<geo:lat>45.475697222</geo:lat>
+	<geo:long>9.172408333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Portapalazzo" rdf:about="http://www.wikidata.org/entity/Q3908757">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Porta Palazzo</rdfs:label>
+	<geo:lat>45.076772</geo:lat>
+	<geo:long>7.683646</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Fregene" rdf:about="http://www.wikidata.org/entity/Q1918325">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Fregene</rdfs:label>
+	<geo:lat>41.853079</geo:lat>
+	<geo:long>12.193379</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Neuillysurseine" rdf:about="http://www.wikidata.org/entity/Q48958">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Neuilly-sur-Seine</rdfs:label>
+	<geo:lat>48.887222222</geo:lat>
+	<geo:long>2.2675</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Modernamuseet" rdf:about="http://www.wikidata.org/entity/Q1274511">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Moderna Museet</rdfs:label>
+	<geo:lat>59.32639</geo:lat>
+	<geo:long>18.08361</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Stockholm" rdf:about="http://www.wikidata.org/entity/Q1754">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Stoccolma</rdfs:label>
+	<geo:lat>59.329444444</geo:lat>
+	<geo:long>18.068611111</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Maremma" rdf:about="http://www.wikidata.org/entity/Q1233184">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Maremma</rdfs:label>
+	<geo:lat>42.416388888</geo:lat>
+	<geo:long>11.478055555</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Centrepompidou" rdf:about="http://www.wikidata.org/entity/Q178065">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Centro Georges Pompidou</rdfs:label>
+	<geo:lat>48.860642</geo:lat>
+	<geo:long>2.352245</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Chiesadisantaluciabologna" rdf:about="http://www.wikidata.org/entity/Q35973138">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">ex chiesa di S. Lucia</rdfs:label>
+	<geo:lat>44.489428</geo:lat>
+	<geo:long>11.347576</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="6thavenue" rdf:about="http://www.wikidata.org/entity/Q109873">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Avenue of the Americas</rdfs:label>
+	<geo:lat>40.742777777</geo:lat>
+	<geo:long>-73.992777777</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Dijon" rdf:about="http://www.wikidata.org/entity/Q7003">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Digione</rdfs:label>
+	<geo:lat>47.323055555</geo:lat>
+	<geo:long>5.041944444</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Instituteofcontemporaryartboston" rdf:about="http://www.wikidata.org/entity/Q3152226">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Institute of Contemporary Art (Boston)</rdfs:label>
+	<geo:lat>42.3528</geo:lat>
+	<geo:long>-71.0429</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Stedelijkmuseumamsterdam" rdf:about="http://www.wikidata.org/entity/Q924335">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Stedelijk Museum</rdfs:label>
+	<geo:lat>52.358011</geo:lat>
+	<geo:long>4.879755</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Hamburg" rdf:about="http://www.wikidata.org/entity/Q1055">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Amburgo</rdfs:label>
+	<geo:lat>53.55</geo:lat>
+	<geo:long>10.0</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Maxxirome" rdf:about="http://www.wikidata.org/entity/Q1881229">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">MAXXI - Museo nazionale delle arti del XXI secolo</rdfs:label>
+	<geo:lat>41.928467</geo:lat>
+	<geo:long>12.468314</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Udineprovince" rdf:about="http://www.wikidata.org/entity/Q16294">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">provincia di Udine</rdfs:label>
+	<geo:lat>46.066666666</geo:lat>
+	<geo:long>13.233333333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Biella" rdf:about="http://www.wikidata.org/entity/Q18021">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Biella</rdfs:label>
+	<geo:lat>45.566388888</geo:lat>
+	<geo:long>8.053333333</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Trani" rdf:about="http://www.wikidata.org/entity/Q13495">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Trani</rdfs:label>
+	<geo:lat>41.266666666</geo:lat>
+	<geo:long>16.416666666</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Brera" rdf:about="http://www.wikidata.org/entity/Q426609">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Brera</rdfs:label>
+	<geo:lat>45.471282</geo:lat>
+	<geo:long>9.184999</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Teatroallascalamilan" rdf:about="http://www.wikidata.org/entity/Q5471">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Teatro Alla Scala</rdfs:label>
+	<geo:lat>45.4675</geo:lat>
+	<geo:long>9.189166666</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Teatroargentinarome" rdf:about="http://www.wikidata.org/entity/Q588377">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">Teatro Argentina</rdfs:label>
+	<geo:lat>41.895555555</geo:lat>
+	<geo:long>12.476111111</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Piazzalecadornamilan" rdf:about="http://www.wikidata.org/entity/Q3902479">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+	<rdfs:label xml:lang="it">piazzale Luigi Cadorna</rdfs:label>
+	<geo:lat>45.468136</geo:lat>
+	<geo:long>9.1768293</geo:long>
+</rdf:Description>
+
+
+
+<rdf:Description tei:ref="Montmartre" rdf:about="http://www.wikidata.org/entity/Q186115">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.1/E_53_Place"/>
+    <rdfs:label xml:lang="it">Montmartre</rdfs:label>
+    <geo:lat>48.886944444</geo:lat>
+    <geo:long>2.341111111</geo:long>
+</rdf:Description>
