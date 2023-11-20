@@ -92,17 +92,6 @@
 	<schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q36180">scrittore</schema:hasOccupation>
 </rdf:Description>
 
-<rdf:Description tei:ref='GdiMontefeltro' rdf:about='http://www.wikidata.org/entity/Q969797'>
-	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-	<rdfs:label xml:lan="it">Guidobaldo da Montefeltro</rdfs:label>
-	<crm:P61_has_gender>maschio</crm:P61_has_gender>
-	<schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1472-01-26T00:00:00Z</schema:birthDate>
-	<schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1508-04-20T00:00:00Z</schema:deathDate>
-	<schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q20458">Gubbio</schema:birthPlace>
-	<schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q190646">Fossombrone</schema:deathPlace>
-	<schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q273108">capitano di ventura</schema:hasOccupation>
-</rdf:Description>
-
 <rdf:Description tei:ref='FAsolano' rdf:about='http://www.wikidata.org/entity/Q87766257'>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
 	<rdfs:label xml:lan="it">Francesco Torresano</rdfs:label>
