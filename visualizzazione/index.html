@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/tei.css">
 
   <script src="js/CETEI.js"></script>
-  <script src="https://linkeddata.github.io/rdflib.js/dist/rdflib.min.js"></script>
     
 </head>
 <body>
@@ -17,31 +16,6 @@
          document.getElementsByTagName("body")[0].appendChild(data);
       });  
     </script>
-
-<script>
-  // JavaScript code for RDF visualization
-  function visualizeRDF() {
-    // RDF/XML data embedded in TEI
-    const rdfXmlData = `
-      <xenodata>
-        <!-- Your RDF/XML data goes here -->
-      </xenodata>
-    `;
-
-    // Create a new RDF store
-    const store = $rdf.graph();
-
-    // Parse RDF/XML data and load it into the store
-    $rdf.parse(rdfXmlData, store, 'https://example.com/base-uri', 'application/rdf+xml');
-
-    // Display the RDF data
-    const rdfVisualizationDiv = document.getElementById('rdfVisualization');
-    rdfVisualizationDiv.textContent = JSON.stringify(store, null, 2);
-  }
-
-  // Call the function to visualize RDF data
-  visualizeRDF();
-</script>
   
 </body>
 </html>
