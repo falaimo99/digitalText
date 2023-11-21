@@ -6,3 +6,7 @@ tei-div {
     margin-top: .5em;
     margin-bottom: .5em;
   }
+
+  tei-hi[rend=italics] {
+    font-style: italic;
+  }
