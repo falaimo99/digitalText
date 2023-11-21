@@ -9,6 +9,7 @@ tei-div {
     display: block;
     margin: .5em .5em 2em .5em;
   }
+<<<<<<< HEAD
 tei-p {
   display: block;
   margin-top: .5em;
@@ -78,3 +79,14 @@ tei-p[class="note"]{
 
 
 
+=======
+  tei-p {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+  tei-hi[rend=italics] {
+    font-style: italic;
+  }
+>>>>>>> 0bbc3bcd4a4dd1758a6134df8d311ff2a0e64659
