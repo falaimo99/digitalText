@@ -6,13 +6,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans&display=swap" rel="stylesheet">
     <title>Vite Artiste Eccellenti</title>
     <style>
         
         html, body {
         overflow: -moz-hidden-unscrollable;
         font-family: 'Bree Serif', serif;
-        background-color: blanchedalmond;
+        background-color: rgb(177, 204, 255);
         }
                 
         .container{
@@ -38,26 +41,31 @@
 
         .buttoneer{
             display: flex;
+            width: 40vw;
             padding: 10px;
             justify-content: space-evenly;
         }
-        
-        @media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-        [class*="col-"] {
-            width: 100%;
-            .button{
-                    font-size: 3ch;
-                    width: fit-content;
-                    height: 10vh;
-                    border-radius: 15px;
-                    margin: 5px;
-                    overflow: auto;
-                    border-style: solid;
-                }
 
+        @media (max-width: 768px) {
+        #phone {
+            font-family: 'Bree Serif', serif;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 5px;
+            width: fit-content;
+            justify-content: space-evenly;
+            padding: 20px;
         }
-    }
+        }
+        #phone{
+            font-family: 'Bree Serif', serif;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 30px;
+            width: 30vw;
+            height: 10vh;
+            margin: 10px;
+            border-radius: 15px;
+            border-style: solid;
+        }
 
     </style>
 </head>
@@ -67,8 +75,8 @@
         <h1 class="title">Vite Di Artiste Eccellenti</h1>
         <h2 class="subtitle">an empowering digital version</h2>
         <div class="buttoneer">
-            <button class="button">Documentation</button>
-            <button class="button">Text</button>
+            <button class="button" id="phone">Documentation</button>
+            <button class="button" id="phone" onclick="window.location.href='visualizzazione/visualizationName.html';">Text</button>
         </div>
     </div>
 </body>
