@@ -1,82 +1,94 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: .05em;
-  line-height: 2em;
+* {
+    background-color: rgb(245, 250, 255);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .05em;
+    line-height: 2em;
 
 }
 
-#text{
-  padding-left: 10vw;
-  padding-right: 10vw;
+#text {
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 tei-div {
     display: block;
     margin: .5em .5em 2em .5em;
-  }
+}
 
 tei-p {
-  display: block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  font-size: 14pt;
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 14pt;
 }
 
 tei-head[class="Titolo_1"] {
-  display: block;
-  font-size: 24pt;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: .5em .3em;
+    display: block;
+    font-size: 24pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .5em .3em;
 }
 
-tei-head[class="Titolo_2"]{
-  display: block;
-  font-size: 16pt;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 0 .3em .5em .3em;  
+tei-head[class="Titolo_2"] {
+    display: block;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 .3em .5em .3em;
 }
 
-div [type="paragraph"]{
-  padding: 0.5em;
+div [type="paragraph"] {
+    padding: 0.5em;
 }
 
 tei-hi[rend=italics] {
-  font-style: italic;
+    font-style: italic;
 }
 
 tei-ref {
-  vertical-align: super;
-  font-size: .7em;
+    vertical-align: super;
+    font-size: .7em;
 }
 
-tei-q{
-  padding: 0 .5em;
-  font-size: .9em;
+tei-q {
+    padding: 0 .5em;
+    font-size: .9em;
 
 }
 
-tei-item{ 
-  color: #6a9bc5;;
-  font-weight: bold;
-  font-style: italic;
+tei-item {
+    color: #6a9bc5;
+    ;
+    font-weight: bold;
+    font-style: italic;
 }
 
-tei-item[ref="PortraitofMadameDuBarry"]{
-  color:darkblue;
+tei-item[ref="PortraitofMadameDuBarry"] {
+    color: darkblue;
 }
 
 tei-persName {
-  color: #d46a9b;
-  font-weight: bold;
+    color: #d46a9b;
+    font-weight: bold;
 
 }
 
 tei-placeName {
-  color: #6abf9b;
-  font-weight: bold;
+    color: #6abf9b;
+    font-weight: bold;
 
 }
 
-tei-p[class="note"]{
-  font-size: .9em;
+tei-p[class="note"] {
+    font-size: .9em;
+}
+
+@media (max-width: 600px) {
+    #text {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
 }
