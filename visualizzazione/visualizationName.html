@@ -10,12 +10,13 @@
     
 </head>
 <body>
-    <script>
-      let c = new CETEI();
-      c.getHTML5('../produced_data/body.xml', function(data) {
-         document.getElementsByTagName("body")[0].appendChild(data);
-      });  
-    </script>
-  
+    <div id="text">
+      <script>
+        let c = new CETEI();
+        c.getHTML5('../produced_data/body.xml', function(data) {
+          document.getElementById("text").appendChild(data);
+        });  
+      </script>
+    </div>  
 </body>
 </html>
