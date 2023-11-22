@@ -7,16 +7,85 @@
   <link rel="stylesheet" href="css/tei.css">
 
   <script src="js/CETEI.js"></script>
+
+  <style>
+    /* Add styles for the sidebar */
+    #sidebar {
+      width: 250px;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      background-color: #111;
+      padding-top: 20px;
+      color: white;
+      transition: 0.5s;
+    }
+
+    /* Add styles for the content */
+    #main {
+      transition: margin-left 0.5s;
+      padding: 16px;
+    }
+  </style>
     
 </head> 
 <body>
-    <div id="text">
-      <script>
-        let c = new CETEI();
-        c.getHTML5('../produced_data/body.xml', function(data) {
-          document.getElementById("text").appendChild(data);
-        });  
-      </script>
-    </div>  
+  <div id="sidebar">
+    <button onclick="toggleSidebar()">Close Sidebar</button>
+    <div id="sidebarContent"></div>
+  </div>
+  <div id="main">
+    <script>
+      let c = new CETEI();
+      c.getHTML5('../produced_data/body.xml', function(data) {
+        document.getElementById("main").appendChild(data);
+      });
+    </script>
+    <script>
+      // Function to toggle the sidebar
+      function toggleSidebar() {
+        var sidebar = document.getElementById("sidebar");
+        var main = document.getElementById("main");
+    
+        if (sidebar.style.left === "0px") {
+          // If the sidebar is open, close it
+          sidebar.style.left = "-250px";
+          main.style.marginLeft = "0";
+        } else {
+          // If the sidebar is closed, open it
+          var persNameElement = document.querySelector('tei-PersName');
+          if (persNameElement) {
+            var refValue = persNameElement.getAttribute('ref');
+            var descriptionElement = document.querySelector('tei-rdf\\:Description[tei\\:ref="' + refValue + '"]');
+    
+            // Check if the element is found
+            if (descriptionElement) {
+              // Get the content of the tei-rdfs:label element
+              var labelContent = descriptionElement.querySelector('tei-rdfs\\:label').textContent;
+    
+              // Display the content in the sidebar
+              document.getElementById('sidebarContent').textContent = labelContent;
+            }
+          }
+    
+          sidebar.style.left = "0";
+          main.style.marginLeft = "250px";
+        }
+      }
+    
+      // Attach the toggleSidebar function to the click event for elements with the class persName
+      var persNameElement = document.querySelector('tei-PersName');
+      if (persNameElement) {
+        persNameElement.addEventListener('click', toggleSidebar);
+      }
+    
+      // Attach the toggleSidebar function to the click event for the sidebar to close it
+      var sidebarElement = document.getElementById('sidebar');
+      sidebarElement.addEventListener('click', function () {
+        toggleSidebar();
+      });
+    </script>
+  </div>
 </body>
 </html>
