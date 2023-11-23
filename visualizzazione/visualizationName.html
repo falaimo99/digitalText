@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <!-- MANCA GEO FRA I NAMESPACE -->
+  <!-- rdf == ns1- 
+  rdfs == ns2- 
+  crm == ns3-
+  schema == ns4- -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,69 +26,257 @@
       transition: 0.5s;
     }
 
+    #sidebarContent{
+      white-space: pre-line;
+      background-color: #111;
+    }
+
     /* Add styles for the content */
     #main {
       transition: margin-left 0.5s;
       padding: 16px;
     }
   </style>
+
+  <script>
+    let c = new CETEI();
+
+    c.getHTML5('../produced_data/body.xml', function(data) {
+      document.getElementById("main").appendChild(data);
+
+    // After the TEI document is loaded, apply the function to tei-persname elements
+    applyFunctionToPersNameElements();
+    });
+
+    // Function to apply the toggleSidebar function to tei-persname elements
+    function applyFunctionToPersNameElements() {
+      // Get all tei-persname elements
+      var persNameElements = document.querySelectorAll('tei-persname');
+      var placeNameElements = document.querySelectorAll('tei-placename');
+      var ArtNameElements = document.querySelectorAll('tei-item');
+
+  // Attach the toggleSidebar function to the click event for each tei-persname element
+    for (var i = 0; i < persNameElements.length; i++) {
+      persNameElements[i].addEventListener('click', PersontoggleSidebar);
+    }
+
+    for (var i = 0; i < placeNameElements.length; i++) {
+      placeNameElements[i].addEventListener('click', PlacetoggleSidebar);
+    }
+
+    for (var i = 0; i < ArtNameElements.length; i++) {
+      ArtNameElements[i].addEventListener('click', ArttoggleSidebar);
+    }
+    
+  }
+
+
+
+    function PersontoggleSidebar(event) {
+      var sidebar = document.getElementById("sidebar");
+      var main = document.getElementById("main");
+      var sidebarContent = document.getElementById('sidebarContent');
+
+      if (sidebar.style.left === "0px") {
+        // If the sidebar is open, close it
+        sidebar.style.left = "-250px";
+        main.style.marginLeft = "0";
+        sidebarContent.textContent = ''; // Clear the sidebar content
+      } else {
+        // If the sidebar is closed, open it
+        var refValue = (event && event.target.getAttribute('ref')) || '';
+        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+
+        // Check if the element is found
+        if (descriptionElement) {
+          // Get the content of the rdfs:label element
+          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+          var birthDateContent = descriptionElement.querySelector('ns4-birthdate').textContent;
+          var deathDateContent = descriptionElement.querySelector('ns4-deathdate').textContent;
+          var birthPlaceContent = descriptionElement.querySelector('ns4-birthplace').textContent;
+          var deathPlaceContent = descriptionElement.querySelector('ns4-deathplace').textContent;
+
+          //correct birth date
+          let birthDate = new Date(birthDateContent);
+
+          let birthday = birthDate.getDate().toString().padStart(2, '0');
+          let birthmonth = (birthDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+          let birthyear = birthDate.getFullYear().toString();
+
+          let formattedBirthDate;
+
+          if (birthday === '01' && birthmonth === '01') {
+            formattedBirthDate = birthyear;
+          } else {
+          formattedBirthDate = `${birthday} ${birthmonth} ${birthyear}`;
+          }
+
+
+          //correct death date
+
+          let deathDate = new Date(deathDateContent);
+
+          let deathday = deathDate.getDate().toString().padStart(2, '0');
+          let deathmonth = (deathDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+          let deathyear = deathDate.getFullYear().toString();
+
+          let formattedDeathDate;
+
+          if (deathday === '01' && deathmonth === '01') {
+            formattedDeathDate = deathyear;
+          } else {
+            if (deathmonth == '01') {
+              deathmonth === "gennaio"
+            }
+          formattedDeathDate = `${deathday} ${deathmonth} ${deathyear}`;
+          }
+
+
+          // Display the content in the sidebar
+          sidebarContent.innerText += 'name: ' + labelContent + '\n';
+          sidebarContent.innerText += 'birth date: ' + formattedBirthDate + '\n';
+          sidebarContent.innerText += 'birth place: ' + birthPlaceContent + '\n';
+          sidebarContent.innerText += 'death date: ' + formattedDeathDate + '\n';
+          sidebarContent.innerText += 'birth place: ' + deathPlaceContent + '\n';
+
+        } else {
+          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
+        }
+
+        sidebar.style.left = "0";
+        main.style.marginLeft = "250px";
+      }
+    }
+
+    function PlacetoggleSidebar(event) {
+      var sidebar = document.getElementById("sidebar");
+      var main = document.getElementById("main");
+      var sidebarContent = document.getElementById('sidebarContent');
+
+      if (sidebar.style.left === "0px") {
+        // If the sidebar is open, close it
+        sidebar.style.left = "-250px";
+        main.style.marginLeft = "0";
+        sidebarContent.textContent = ''; // Clear the sidebar content
+      } else {
+        // If the sidebar is closed, open it
+        var refValue = (event && event.target.getAttribute('ref')) || '';
+        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+
+        // Check if the element is found
+        if (descriptionElement) {
+          // Get the content of the rdfs:label element
+          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+          var latitudeContent = descriptionElement.querySelector('???').textContent;
+          var longitudeContent = descriptionElement.querySelector('???').textContent
+
+
+          // Display the content in the sidebar
+          sidebarContent.innerText += 'nome: ' + labelContent + '\n';
+          sidebarContent.innerText += 'latitudine: ' + latitudeContent + '\n';
+          sidebarContent.innerText += 'longitudine: ' + longitudeContent + '\n';
+
+        }else {
+          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
+        }
+
+        sidebar.style.left = "0";
+        main.style.marginLeft = "250px";
+      }
+    }
+
+    function ArttoggleSidebar(event) {
+      var sidebar = document.getElementById("sidebar");
+      var main = document.getElementById("main");
+      var sidebarContent = document.getElementById('sidebarContent');
+
+      if (sidebar.style.left === "0px") {
+        // If the sidebar is open, close it
+        sidebar.style.left = "-250px";
+        main.style.marginLeft = "0";
+        sidebarContent.textContent = ''; // Clear the sidebar content
+      } else {
+        // If the sidebar is closed, open it
+        var refValue = (event && event.target.getAttribute('ref')) || '';
+        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+
+        // Check if the element is found
+        if (descriptionElement) {
+          // Get the content of the rdfs:label element
+          // var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+          // var birthDateContent = descriptionElement.querySelector('ns4-birthdate').textContent;
+          // var deathDateContent = descriptionElement.querySelector('ns4-deathdate').textContent;
+          // var birthPlaceContent = descriptionElement.querySelector('ns4-birthplace').textContent;
+          // var deathPlaceContent = descriptionElement.querySelector('ns4-deathplace').textContent;
+
+          //correct birth date (if is 01 01, only report the year doe to wikidata data)
+          let birthDate = new Date(birthDateContent);
+
+          let birthday = birthDate.getDate().toString().padStart(2, '0');
+          let birthmonth = (birthDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+          let birthyear = birthDate.getFullYear().toString();
+
+          let formattedBirthDate;
+
+          if (birthday === '01' && birthmonth === '01') {
+            formattedBirthDate = birthyear;
+          } else {
+          formattedBirthDate = `${birthday} ${birthmonth} ${birthyear}`;
+          }
+
+
+          //correct death date (if is 01 01, only report the year doe to wikidata data)
+
+          let deathDate = new Date(deathDateContent);
+
+          let deathday = deathDate.getDate().toString().padStart(2, '0');
+          let deathmonth = (deathDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+          let deathyear = deathDate.getFullYear().toString();
+
+          let formattedDeathDate;
+
+          if (deathday === '01' && deathmonth === '01') {
+            formattedDeathDate = deathyear;
+          } else {
+            if (deathmonth == '01') {
+              deathmonth === "gennaio"
+            }
+          formattedDeathDate = `${deathday} ${deathmonth} ${deathyear}`;
+          }
+
+
+          // Display the content in the sidebar
+          sidebarContent.innerText += 'name: ' + labelContent + '\n';
+          sidebarContent.innerText += 'birth date: ' + formattedBirthDate + '\n';
+          sidebarContent.innerText += 'birth place: ' + birthPlaceContent + '\n';
+          sidebarContent.innerText += 'death date: ' + formattedDeathDate + '\n';
+          sidebarContent.innerText += 'birth place: ' + deathPlaceContent + '\n';
+
+        }else {
+          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
+        }
+
+        sidebar.style.left = "0";
+        main.style.marginLeft = "250px";
+      }
+    }
+  </script>
     
 </head> 
 <body>
   <div id="sidebar">
-    <button onclick="toggleSidebar()">Close Sidebar</button>
+    <button onclick="PersontoggleSidebar(), PlacetoggleSidebar(), ArttoggleSidebar()">Close Sidebar</button>
     <div id="sidebarContent"></div>
   </div>
   <div id="main">
-    <script>
-      let c = new CETEI();
-      c.getHTML5('../produced_data/body.xml', function(data) {
-        document.getElementById("main").appendChild(data);
-      });
-
-      // Function to toggle the sidebar
-      function toggleSidebar() {
-        var sidebar = document.getElementById("sidebar");
-        var main = document.getElementById("main");
-    
-        if (sidebar.style.left === "0px") {
-          // If the sidebar is open, close it
-          sidebar.style.left = "-250px";
-          main.style.marginLeft = "0";
-        } else {
-          // If the sidebar is closed, open it
-          var persNameElement = document.querySelector('tei-PersName');
-          if (persNameElement) {
-            var refValue = persNameElement.getAttribute('ref');
-            var descriptionElement = document.querySelector('tei-rdf\\:Description[tei\\:ref="' + refValue + '"]');
-    
-            // Check if the element is found
-            if (descriptionElement) {
-              // Get the content of the tei-rdfs:label element
-              var labelContent = descriptionElement.querySelector('tei-rdfs\\:label').textContent;
-    
-              // Display the content in the sidebar
-              document.getElementById('sidebarContent').textContent = labelContent;
-            }
-          }
-    
-          sidebar.style.left = "0";
-          main.style.marginLeft = "250px";
-        }
-      }
-    
-      // Attach the toggleSidebar function to the click event for elements with the class persName
-      var persNameElement = document.querySelector('tei-PersName');
-      if (persNameElement) {
-        persNameElement.addEventListener('click', toggleSidebar);
-      }
-    
-      // Attach the toggleSidebar function to the click event for the sidebar to close it
-      var sidebarElement = document.getElementById('sidebar');
-      sidebarElement.addEventListener('click', function () {
-        toggleSidebar();
-      });
-    </script>
   </div>
+
+  <div id="index">
+    <div id="indexContent">
+      
+    </div>
+    
+  </div>
+
 </body>
 </html>
