@@ -3303,6 +3303,31 @@
     <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q82955">politico</schema:hasOccupation>
 </rdf:Description>
 
+<rdf:Description tei:ref='EVigeeLeBrun' rdf:about='http://www.wikidata.org/entity/Q213163'>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lan="it">Élisabeth Vigée-Le Brun</rdfs:label>
+    <crm:P61_has_gender>femmina</crm:P61_has_gender>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-04-16T00:00:00Z</schema:birthDate>
+    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-03-30T00:00:00Z</schema:deathDate>
+    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q90">Parigi</schema:birthPlace>
+    <schema:deathPlace rdf:resource="http://www.wikidata.org/entity/Q90">Parigi</schema:deathPlace>
+    <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q3068305">salottiera</schema:hasOccupation>
+    <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q483501">artista</schema:hasOccupation>
+    <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q1028181">pittore</schema:hasOccupation>
+    <schema:workLocation xml:ref="Paris">Parigi</schema:workLocation>
+    <schema:workLocation xml:ref="Berlin">Berlino</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+    <schema:workLocation xml:ref="SanFrancisco">San Francisco</schema:workLocation>
+</rdf:Description>
+
 <rdf:Description tei:ref='RDelaunay' rdf:about='http://www.wikidata.org/entity/Q33978'>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:label xml:lan="it">Robert Delaunay</rdfs:label>
@@ -3400,6 +3425,8 @@
     <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q2961975">impresario</schema:hasOccupation>
     <schema:hasOccupation rdf:resource="http://www.wikidata.org/entity/Q18611810">designer tessile</schema:hasOccupation>
 </rdf:Description>
+
+
 
 <rdf:Description tei:ref='MRay' rdf:about='http://www.wikidata.org/entity/Q46139'>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
