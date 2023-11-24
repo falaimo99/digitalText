@@ -12,32 +12,6 @@
   <link rel="stylesheet" href="css/tei.css">
   <script src="js/CETEI.js"></script>
 
-  <style>
-    /* Add styles for the sidebar */
-    #sidebar {
-      width: 250px;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: -250px;
-      background-color: #111;
-      padding-top: 20px;
-      color: white;
-      transition: 0.5s;
-    }
-
-    #sidebarContent{
-      white-space: pre-line;
-      background-color: #111;
-    }
-
-    /* Add styles for the content */
-    #main {
-      transition: margin-left 0.5s;
-      padding: 16px;
-    }
-  </style>
-
   <script>
     let c = new CETEI();
 
@@ -79,7 +53,7 @@
 
       if (sidebar.style.left === "0px") {
         // If the sidebar is open, close it
-        sidebar.style.left = "-250px";
+        sidebar.style.left = "-270px";
         main.style.marginLeft = "0";
         sidebarContent.textContent = ''; // Clear the sidebar content
       } else {
@@ -144,7 +118,6 @@
         }
 
         sidebar.style.left = "0";
-        main.style.marginLeft = "250px";
       }
     }
 
@@ -155,7 +128,7 @@
 
       if (sidebar.style.left === "0px") {
         // If the sidebar is open, close it
-        sidebar.style.left = "-250px";
+        sidebar.style.left = "-270px";
         main.style.marginLeft = "0";
         sidebarContent.textContent = ''; // Clear the sidebar content
       } else {
@@ -181,7 +154,6 @@
         }
 
         sidebar.style.left = "0";
-        main.style.marginLeft = "250px";
       }
     }
 
@@ -192,7 +164,7 @@
 
       if (sidebar.style.left === "0px") {
         // If the sidebar is open, close it
-        sidebar.style.left = "-250px";
+        sidebar.style.left = "-270px";
         main.style.marginLeft = "0";
         sidebarContent.textContent = ''; // Clear the sidebar content
       } else {
@@ -206,8 +178,9 @@
           var labelContent = descriptionElement.querySelector('ns2-label').textContent;
           var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
           var type = descriptionElement.querySelector('ns1-type').textContent;
-          // var represents = descriptionElement.querySelectorAll('ns3-P_138_represents').textContent;
-          var is_about = descriptionElement.querySelector('ns3-p129_is_about').textContent;
+          var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
+          var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
+          console.log(is_about[0].textContent)
 
           //correct birth date (if is 01 01, only report the year doe to wikidata data)
           // let birthDate = new Date(birthDateContent);
@@ -246,19 +219,35 @@
 
 
           // Display the content in the sidebar
-          sidebarContent.innerText += 'name: ' + labelContent + '\n';
-          sidebarContent.innerText += 'author: ' + authorContent + '\n';
-          sidebarContent.innerText += 'type: ' + type + '\n';
-          sidebarContent.innerText += 'is about: ' + is_about + '\n';
-          // for (let i = 0; i < represents.length; i++) {
-          //   console.log(i)
-          //   sidebarContent.innerText += 'represents: ' + i + '\n';}
+          sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
+          sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
+          sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
+          var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
+          for (let i = 0; i < represents.length; i++) {
+            if (i === represents.length-1) {
+              representsContent = represents[i].innerHTML;
+              sidebarContent.innerHTML += representsContent + '. \n';
+            } else {
+            representsContent = represents[i].innerHTML;
+            sidebarContent.innerHTML += representsContent + ',' + ' ';
+            }
+          }
+          var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
+          for (let i = 0; i < is_about.length; i++) {
+            if (i === is_about.length-1) {
+              is_aboutContent = is_about[i].innerHTML;
+              sidebarContent.innerHTML += is_aboutContent + '.\n';
+            } else {
+            is_aboutContent = is_about[i].innerHTML;
+            sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+            }
+          }
+
         }else {
           sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
         }
 
         sidebar.style.left = "0";
-        main.style.marginLeft = "250px";
       }
     }
   </script>
@@ -268,7 +257,6 @@
   <div id="sidebar">
     <button onclick="PersontoggleSidebar(), PlacetoggleSidebar(), ArttoggleSidebar()">Close Sidebar</button>
     <div id="sidebarContent"></div>
-  </div>
   <div id="main">
   </div>
 
