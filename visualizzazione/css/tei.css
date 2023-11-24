@@ -6,13 +6,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: .05em;
     line-height: 2em;
-
-}
-
-#main{
     padding-left: 10vw;
     padding-right: 10vw;
 }
+
+button{
+    border-style: solid;
+    background-color: aliceblue;
+    color:rgb(165, 91, 0);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#sidebarContent{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #6a9bc5;
+}
+
+#sidebar{
+    background-color: #6a9bc5;
+}
+
 
 tei-div {
     display: block;
@@ -87,7 +102,7 @@ tei-p[class="note"] {
 }
 
 @media (max-width: 600px) {
-    #text {
+    body {
         padding-left: 1vw;
         padding-right: 1vw;
     }

@@ -206,15 +206,3 @@
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2293362">gruppo di statue</crm:P_129_is_about>
 	<schema:location rdf:resource="http://www.wikidata.org/entity/Q23402">Museo d'Orsay</schema:location>
 </rdf:Description>
-<rdf:Description tei:ref="TheMatureAge" rdf:about="http://www.wikidata.org/entity/Q3205060">
-	<crm:P_108_was_produced_by tei:ref="CClaudel">Camille Claudel</crm:P_108_was_produced_by>
-	<rdfs:label xml:lan="it">L'età matura</rdfs:label>
-	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q860861">scultura</rdf:type>
-	<crm:E_52_Time_Span>1898-01-01T00:00:00Z</crm:E_52_Time_Span>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q190007">giovinezza</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q191089">senilità</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q216774">destino</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q34636">Art Nouveau</crm:P_2_has_type>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2293362">gruppo di statue</crm:P_129_is_about>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q23402">Museo d'Orsay</schema:location>
-</rdf:Description>

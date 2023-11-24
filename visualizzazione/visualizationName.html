@@ -167,8 +167,8 @@
         if (descriptionElement) {
           // Get the content of the rdfs:label element
           var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          var latitudeContent = descriptionElement.querySelector('???').textContent;
-          var longitudeContent = descriptionElement.querySelector('???').textContent
+          var latitudeContent = descriptionElement.querySelector('ns5-lat').textContent;
+          var longitudeContent = descriptionElement.querySelector('ns5-long').textContent
 
 
           // Display the content in the sidebar
@@ -203,55 +203,56 @@
         // Check if the element is found
         if (descriptionElement) {
           // Get the content of the rdfs:label element
-          // var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          // var birthDateContent = descriptionElement.querySelector('ns4-birthdate').textContent;
-          // var deathDateContent = descriptionElement.querySelector('ns4-deathdate').textContent;
-          // var birthPlaceContent = descriptionElement.querySelector('ns4-birthplace').textContent;
-          // var deathPlaceContent = descriptionElement.querySelector('ns4-deathplace').textContent;
+          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+          var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
+          var type = descriptionElement.querySelector('ns1-type').textContent;
+          // var represents = descriptionElement.querySelectorAll('ns3-P_138_represents').textContent;
+          var is_about = descriptionElement.querySelector('ns3-p129_is_about').textContent;
 
           //correct birth date (if is 01 01, only report the year doe to wikidata data)
-          let birthDate = new Date(birthDateContent);
+          // let birthDate = new Date(birthDateContent);
 
-          let birthday = birthDate.getDate().toString().padStart(2, '0');
-          let birthmonth = (birthDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
-          let birthyear = birthDate.getFullYear().toString();
+          // let birthday = birthDate.getDate().toString().padStart(2, '0');
+          // let birthmonth = (birthDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+          // let birthyear = birthDate.getFullYear().toString();
 
-          let formattedBirthDate;
+          // let formattedBirthDate;
 
-          if (birthday === '01' && birthmonth === '01') {
-            formattedBirthDate = birthyear;
-          } else {
-          formattedBirthDate = `${birthday} ${birthmonth} ${birthyear}`;
-          }
+          // if (birthday === '01' && birthmonth === '01') {
+          //   formattedBirthDate = birthyear;
+          // } else {
+          // formattedBirthDate = `${birthday} ${birthmonth} ${birthyear}`;
+          // }
 
 
           //correct death date (if is 01 01, only report the year doe to wikidata data)
 
-          let deathDate = new Date(deathDateContent);
+          // let deathDate = new Date(deathDateContent);
 
-          let deathday = deathDate.getDate().toString().padStart(2, '0');
-          let deathmonth = (deathDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
-          let deathyear = deathDate.getFullYear().toString();
+          // let deathday = deathDate.getDate().toString().padStart(2, '0');
+          // let deathmonth = (deathDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+          // let deathyear = deathDate.getFullYear().toString();
 
-          let formattedDeathDate;
+          // let formattedDeathDate;
 
-          if (deathday === '01' && deathmonth === '01') {
-            formattedDeathDate = deathyear;
-          } else {
-            if (deathmonth == '01') {
-              deathmonth === "gennaio"
-            }
-          formattedDeathDate = `${deathday} ${deathmonth} ${deathyear}`;
-          }
+          // if (deathday === '01' && deathmonth === '01') {
+          //   formattedDeathDate = deathyear;
+          // } else {
+          //   if (deathmonth == '01') {
+          //     deathmonth === "gennaio"
+          //   }
+          // formattedDeathDate = `${deathday} ${deathmonth} ${deathyear}`;
+          // }
 
 
           // Display the content in the sidebar
           sidebarContent.innerText += 'name: ' + labelContent + '\n';
-          sidebarContent.innerText += 'birth date: ' + formattedBirthDate + '\n';
-          sidebarContent.innerText += 'birth place: ' + birthPlaceContent + '\n';
-          sidebarContent.innerText += 'death date: ' + formattedDeathDate + '\n';
-          sidebarContent.innerText += 'birth place: ' + deathPlaceContent + '\n';
-
+          sidebarContent.innerText += 'author: ' + authorContent + '\n';
+          sidebarContent.innerText += 'type: ' + type + '\n';
+          sidebarContent.innerText += 'is about: ' + is_about + '\n';
+          // for (let i = 0; i < represents.length; i++) {
+          //   console.log(i)
+          //   sidebarContent.innerText += 'represents: ' + i + '\n';}
         }else {
           sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
         }
