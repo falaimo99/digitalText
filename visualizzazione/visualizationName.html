@@ -1,275 +1,113 @@
-<!DOCTYPE html>
-<html>
-  <!-- MANCA GEO FRA I NAMESPACE -->
-  <!-- rdf == ns1- 
-  rdfs == ns2- 
-  crm == ns3-
-  schema == ns4- -->
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/tei.css">
-  <script src="js/CETEI.js"></script>
-
-  <script>
-    let c = new CETEI();
-
-    c.getHTML5('../produced_data/body.xml', function(data) {
-      document.getElementById("main").appendChild(data);
-
-    // After the TEI document is loaded, apply the function to tei-persname elements
-    applyFunctionToPersNameElements();
-    });
-
-    // Function to apply the toggleSidebar function to tei-persname elements
-    function applyFunctionToPersNameElements() {
-      // Get all tei-persname elements
-      var persNameElements = document.querySelectorAll('tei-persname');
-      var placeNameElements = document.querySelectorAll('tei-placename');
-      var ArtNameElements = document.querySelectorAll('tei-item');
-
-  // Attach the toggleSidebar function to the click event for each tei-persname element
-    for (var i = 0; i < persNameElements.length; i++) {
-      persNameElements[i].addEventListener('click', PersontoggleSidebar);
-    }
-
-    for (var i = 0; i < placeNameElements.length; i++) {
-      placeNameElements[i].addEventListener('click', PlacetoggleSidebar);
-    }
-
-    for (var i = 0; i < ArtNameElements.length; i++) {
-      ArtNameElements[i].addEventListener('click', ArttoggleSidebar);
-    }
-    
+<link rel="stylesheet" href="css/tei.css">
+<script src="js/CETEI.js"></script>
+<style>
+  /* Add styles for the sidebar */
+  #sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #111;
+    padding-top: 20px;
+    color: white;
+    transition: 0.5s;
   }
-
-
-
-    function PersontoggleSidebar(event) {
-      var sidebar = document.getElementById("sidebar");
-      var main = document.getElementById("main");
-      var sidebarContent = document.getElementById('sidebarContent');
-
-      if (sidebar.style.left === "0px") {
-        // If the sidebar is open, close it
-        sidebar.style.left = "-270px";
-        main.style.marginLeft = "0";
-        sidebarContent.textContent = ''; // Clear the sidebar content
-      } else {
-        // If the sidebar is closed, open it
-        var refValue = (event && event.target.getAttribute('ref')) || '';
-        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
-
-        // Check if the element is found
-        if (descriptionElement) {
-          // Get the content of the rdfs:label element
-          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          var birthDateContent = descriptionElement.querySelector('ns4-birthdate').textContent;
-          var deathDateContent = descriptionElement.querySelector('ns4-deathdate').textContent;
-          var birthPlaceContent = descriptionElement.querySelector('ns4-birthplace').textContent;
-          var deathPlaceContent = descriptionElement.querySelector('ns4-deathplace').textContent;
-
-          //correct birth date
-          let birthDate = new Date(birthDateContent);
-
-          let birthday = birthDate.getDate().toString().padStart(2, '0');
-          let birthmonth = (birthDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
-          let birthyear = birthDate.getFullYear().toString();
-
-          let formattedBirthDate;
-
-          if (birthday === '01' && birthmonth === '01') {
-            formattedBirthDate = birthyear;
-          } else {
-          formattedBirthDate = `${birthday} ${birthmonth} ${birthyear}`;
-          }
-
-
-          //correct death date
-
-          let deathDate = new Date(deathDateContent);
-
-          let deathday = deathDate.getDate().toString().padStart(2, '0');
-          let deathmonth = (deathDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
-          let deathyear = deathDate.getFullYear().toString();
-
-          let formattedDeathDate;
-
-          if (deathday === '01' && deathmonth === '01') {
-            formattedDeathDate = deathyear;
-          } else {
-            if (deathmonth == '01') {
-              deathmonth === "gennaio"
-            }
-          formattedDeathDate = `${deathday} ${deathmonth} ${deathyear}`;
-          }
-
-
-          // Display the content in the sidebar
-          sidebarContent.innerText += 'name: ' + labelContent + '\n';
-          sidebarContent.innerText += 'birth date: ' + formattedBirthDate + '\n';
-          sidebarContent.innerText += 'birth place: ' + birthPlaceContent + '\n';
-          sidebarContent.innerText += 'death date: ' + formattedDeathDate + '\n';
-          sidebarContent.innerText += 'birth place: ' + deathPlaceContent + '\n';
-
-        } else {
-          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
-        }
-
-        sidebar.style.left = "0";
+  #sidebarContent{
+    white-space: pre-line;
+    background-color: #111;
+  }
+  /* Add styles for the content */
+  #main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+</style>
+<script>
+  let c = new CETEI();
+    if (sidebar.style.left === "0px") {
+      // If the sidebar is open, close it
+      sidebar.style.left = "-250px";
+      sidebar.style.left = "-270px";
+      main.style.marginLeft = "0";
+      sidebarContent.textContent = ''; // Clear the sidebar content
+    } else {
       }
+      sidebar.style.left = "0";
+      main.style.marginLeft = "250px";
     }
-
-    function PlacetoggleSidebar(event) {
-      var sidebar = document.getElementById("sidebar");
-      var main = document.getElementById("main");
-      var sidebarContent = document.getElementById('sidebarContent');
-
-      if (sidebar.style.left === "0px") {
-        // If the sidebar is open, close it
-        sidebar.style.left = "-270px";
-        main.style.marginLeft = "0";
-        sidebarContent.textContent = ''; // Clear the sidebar content
-      } else {
-        // If the sidebar is closed, open it
-        var refValue = (event && event.target.getAttribute('ref')) || '';
-        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
-
-        // Check if the element is found
-        if (descriptionElement) {
-          // Get the content of the rdfs:label element
-          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          var latitudeContent = descriptionElement.querySelector('ns5-lat').textContent;
-          var longitudeContent = descriptionElement.querySelector('ns5-long').textContent
-
-
-          // Display the content in the sidebar
-          sidebarContent.innerText += 'nome: ' + labelContent + '\n';
-          sidebarContent.innerText += 'latitudine: ' + latitudeContent + '\n';
-          sidebarContent.innerText += 'longitudine: ' + longitudeContent + '\n';
-
-        }else {
-          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
-        }
-
-        sidebar.style.left = "0";
+  }
+    if (sidebar.style.left === "0px") {
+      // If the sidebar is open, close it
+      sidebar.style.left = "-250px";
+      sidebar.style.left = "-270px";
+      main.style.marginLeft = "0";
+      sidebarContent.textContent = ''; // Clear the sidebar content
+    } else {
       }
+      sidebar.style.left = "0";
+      main.style.marginLeft = "250px";
     }
-
-    function ArttoggleSidebar(event) {
-      var sidebar = document.getElementById("sidebar");
-      var main = document.getElementById("main");
-      var sidebarContent = document.getElementById('sidebarContent');
-
-      if (sidebar.style.left === "0px") {
-        // If the sidebar is open, close it
-        sidebar.style.left = "-270px";
-        main.style.marginLeft = "0";
-        sidebarContent.textContent = ''; // Clear the sidebar content
-      } else {
-        // If the sidebar is closed, open it
-        var refValue = (event && event.target.getAttribute('ref')) || '';
-        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
-
-        // Check if the element is found
-        if (descriptionElement) {
-          // Get the content of the rdfs:label element
-          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
-          var type = descriptionElement.querySelector('ns1-type').textContent;
-          var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
-          var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
-          console.log(is_about[0].textContent)
-
-          //correct birth date (if is 01 01, only report the year doe to wikidata data)
-          // let birthDate = new Date(birthDateContent);
-
-          // let birthday = birthDate.getDate().toString().padStart(2, '0');
-          // let birthmonth = (birthDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
-          // let birthyear = birthDate.getFullYear().toString();
-
-          // let formattedBirthDate;
-
-          // if (birthday === '01' && birthmonth === '01') {
-          //   formattedBirthDate = birthyear;
-          // } else {
-          // formattedBirthDate = `${birthday} ${birthmonth} ${birthyear}`;
-          // }
-
-
-          //correct death date (if is 01 01, only report the year doe to wikidata data)
-
-          // let deathDate = new Date(deathDateContent);
-
-          // let deathday = deathDate.getDate().toString().padStart(2, '0');
-          // let deathmonth = (deathDate.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
-          // let deathyear = deathDate.getFullYear().toString();
-
-          // let formattedDeathDate;
-
-          // if (deathday === '01' && deathmonth === '01') {
-          //   formattedDeathDate = deathyear;
-          // } else {
-          //   if (deathmonth == '01') {
-          //     deathmonth === "gennaio"
-          //   }
-          // formattedDeathDate = `${deathday} ${deathmonth} ${deathyear}`;
-          // }
-
-
-          // Display the content in the sidebar
-          sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
-          sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
-          sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
-          var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
-          for (let i = 0; i < represents.length; i++) {
-            if (i === represents.length-1) {
-              representsContent = represents[i].innerHTML;
-              sidebarContent.innerHTML += representsContent + '. \n';
-            } else {
+  }
+    if (sidebar.style.left === "0px") {
+      // If the sidebar is open, close it
+      sidebar.style.left = "-250px";
+      sidebar.style.left = "-270px";
+      main.style.marginLeft = "0";
+      sidebarContent.textContent = ''; // Clear the sidebar content
+    } else {
+        var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+        var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
+        var type = descriptionElement.querySelector('ns1-type').textContent;
+        // var represents = descriptionElement.querySelectorAll('ns3-P_138_represents').textContent;
+        var is_about = descriptionElement.querySelector('ns3-p129_is_about').textContent;
+        var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
+        var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
+        console.log(is_about[0].textContent)
+        //correct birth date (if is 01 01, only report the year doe to wikidata data)
+        // let birthDate = new Date(birthDateContent);
+        // Display the content in the sidebar
+        sidebarContent.innerText += 'name: ' + labelContent + '\n';
+        sidebarContent.innerText += 'author: ' + authorContent + '\n';
+        sidebarContent.innerText += 'type: ' + type + '\n';
+        sidebarContent.innerText += 'is about: ' + is_about + '\n';
+        // for (let i = 0; i < represents.length; i++) {
+        //   console.log(i)
+        //   sidebarContent.innerText += 'represents: ' + i + '\n';}
+        sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
+        sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
+        sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
+        var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
+        for (let i = 0; i < represents.length; i++) {
+          if (i === represents.length-1) {
             representsContent = represents[i].innerHTML;
-            sidebarContent.innerHTML += representsContent + ',' + ' ';
-            }
+            sidebarContent.innerHTML += representsContent + '. \n';
+          } else {
+          representsContent = represents[i].innerHTML;
+          sidebarContent.innerHTML += representsContent + ',' + ' ';
           }
-          var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
-          for (let i = 0; i < is_about.length; i++) {
-            if (i === is_about.length-1) {
-              is_aboutContent = is_about[i].innerHTML;
-              sidebarContent.innerHTML += is_aboutContent + '.\n';
-            } else {
-            is_aboutContent = is_about[i].innerHTML;
-            sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
-            }
-          }
-
-        }else {
-          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
         }
-
-        sidebar.style.left = "0";
+        var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
+        for (let i = 0; i < is_about.length; i++) {
+          if (i === is_about.length-1) {
+            is_aboutContent = is_about[i].innerHTML;
+            sidebarContent.innerHTML += is_aboutContent + '.\n';
+          } else {
+          is_aboutContent = is_about[i].innerHTML;
+          sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+          }
+        }
+      }else {
+        sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
       }
+      sidebar.style.left = "0";
+      main.style.marginLeft = "250px";
     }
-  </script>
-    
-</head> 
-<body>
-  <div id="sidebar">
-    <button onclick="PersontoggleSidebar(), PlacetoggleSidebar(), ArttoggleSidebar()">Close Sidebar</button>
-    <div id="sidebarContent"></div>
-    <div id="mirador"><script>
-      
-    </script></div>
-  </div>
-  <div id="main">
-  </div>
-
-  <div id="index">
-    <div id="indexContent">
-      
-    </div>
-    
-  </div>
-
-</body>
-</html>
+  }
+</script>
+<div id="sidebar">
+  <button onclick="PersontoggleSidebar(), PlacetoggleSidebar(), ArttoggleSidebar()">Close Sidebar</button>
+  <div id="sidebarContent"></div>
+</div>
+<div id="main">
+</div>
