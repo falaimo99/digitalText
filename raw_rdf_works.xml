@@ -3,7 +3,6 @@
 	<rdfs:label xml:lan="it">Giuseppe e la moglie di Putifarre</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q860861">scultura</rdf:type>
 	</rdf:Description>
-
 <rdf:Description tei:ref="chessgame" rdf:about="http://www.wikidata.org/entity/Q23008305">
 	<crm:P_108_was_produced_by tei:ref="SAnguissola">Sofonisba Anguissola</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Partita a scacchi</rdfs:label>
@@ -18,12 +17,11 @@
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q20819848">scacco matto</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1375207">Europa Anguissola</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q54128">collaboratore domestico</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q1551015">ritratto di gruppo</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q194533">Museo Nazionale di Poznań<schema:location>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_2_has_type>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_129_is_about>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q1551015">ritratto di gruppo</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q194533">Museo Nazionale di Poznań</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="fanciullo-morso-da-un-gambero" rdf:about="http://www.wikidata.org/entity/Q29604552">
 	<crm:P_108_was_produced_by tei:ref="SAnguissola">Sofonisba Anguissola</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Fanciullo morso da un gambero</rdfs:label>
@@ -31,11 +29,10 @@
 	<crm:E_52_Time_Span>1554-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1211742">gambero d'acqua dolce</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q7569">bambino</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_2_has_type>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_129_is_about>
 	<schema:location xml:ref="Cremona">Cremona</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="autoritratto-lavinia-fontana" rdf:about="http://www.wikidata.org/entity/Q19931300">
 	<crm:P_108_was_produced_by tei:ref="LFontana">Lavinia Fontana</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Autoritratto alla spinetta</rdfs:label>
@@ -49,10 +46,9 @@
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q34379">strumento musicale</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q8441">uomo</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q236050">Lavinia Fontana</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q192110">autoritratto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q338523">Accademia nazionale di San Luca<schema:location>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q192110">autoritratto</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q338523">Accademia nazionale di San Luca</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="autoritratto2-lavinia-fontana" rdf:about="http://www.wikidata.org/entity/Q19390001">
 	<crm:P_108_was_produced_by tei:ref="LFontana">Lavinia Fontana</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Autoritratto nello studio</rdfs:label>
@@ -60,19 +56,17 @@
 	<crm:E_52_Time_Span>1579-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q467">donna</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q236050">Lavinia Fontana</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q192110">autoritratto</crm:P_138_represents>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q192110">autoritratto</crm:P_129_is_about>
 	<schema:location xml:ref="Uffizi">Uffizi</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="ritratto-gonzales-fontana" rdf:about="http://www.wikidata.org/entity/Q69495936">
 	<crm:P_108_was_produced_by tei:ref="LFontana">Lavinia Fontana</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Ritratto di Antonietta Gonzales</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q431327">Antonietta Gonsalvus</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q4055">Castello di Blois<schema:location>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q4055">Castello di Blois</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="giuditta-gentileschi" rdf:about="http://www.wikidata.org/entity/Q2247406">
 	<crm:P_108_was_produced_by tei:ref="AGentileschi">Artemisia Gentileschi</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Giuditta che decapita Oloferne</rdfs:label>
@@ -84,10 +78,9 @@
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q149086">omicidio</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q8441">uomo</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q625748">Oloferne</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2864737">arte religiosa</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q290549">Museo nazionale di Capodimonte<schema:location>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2864737">arte religiosa</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q290549">Museo nazionale di Capodimonte</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="autoritratto-pittura-gentileschi" rdf:about="http://www.wikidata.org/entity/Q3630745">
 	<crm:P_108_was_produced_by tei:ref="AGentileschi">Artemisia Gentileschi</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Autoritratto come allegoria della Pittura</rdfs:label>
@@ -107,29 +100,25 @@
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q3305213">dipinto</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q14130">capelli lunghi</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q193897">pennello</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q192110">autoritratto</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2839016">allegoria</crm:P_138_represents>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q192110">autoritratto</crm:P_129_is_about>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2839016">allegoria</crm:P_129_is_about>
 	</rdf:Description>
-
 <rdf:Description tei:ref="battesimo-sirani" rdf:about="http://www.wikidata.org/entity/Q120512327">
 	<crm:P_108_was_produced_by tei:ref="ESirani">Elisabetta Sirani</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Battesimo di Cristo</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
 	</rdf:Description>
-
 <rdf:Description tei:ref="cupido-sirani" rdf:about="http://www.wikidata.org/entity/Q3937671">
 	<crm:P_108_was_produced_by tei:ref="ESirani">Elisabetta Sirani</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Ritratto di Vincenzo Ferdinando Ranuzzi in veste di Amore</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
 	<crm:E_52_Time_Span>1663-01-01T00:00:00Z</crm:E_52_Time_Span>
 	</rdf:Description>
-
 <rdf:Description tei:ref="dorotea-sirani" rdf:about="http://www.wikidata.org/entity/Q120512322">
 	<crm:P_108_was_produced_by tei:ref="ESirani">Elisabetta Sirani</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Ritratto di Ortensia Leoni Cordini in veste di santa Dorotea</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
 	</rdf:Description>
-
 <rdf:Description tei:ref="giuditta-sirani" rdf:about="http://www.wikidata.org/entity/Q18749466">
 	<crm:P_108_was_produced_by tei:ref="ESirani">Elisabetta Sirani</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Giuditta con la testa di Oloferne</rdfs:label>
@@ -137,10 +126,9 @@
 	<crm:E_52_Time_Span>1650-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q26454627">Giuditta</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q625748">Oloferne</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2864737">arte religiosa</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q210081">Walters Art Museum<schema:location>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2864737">arte religiosa</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q210081">Walters Art Museum</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="circe-sirani" rdf:about="http://www.wikidata.org/entity/Q120257763">
 	<crm:P_108_was_produced_by tei:ref="ESirani">Elisabetta Sirani</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Circe</rdfs:label>
@@ -148,7 +136,6 @@
 	<crm:E_52_Time_Span>1664-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q187602">Circe</crm:P_138_represents>
 	</rdf:Description>
-
 <rdf:Description tei:ref="cleopatra-sirani" rdf:about="http://www.wikidata.org/entity/Q118782632">
 	<crm:P_108_was_produced_by tei:ref="ESirani">Elisabetta Sirani</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Cleopatra</rdfs:label>
@@ -156,7 +143,6 @@
 	<crm:E_52_Time_Span>1664-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q635">Cleopatra</crm:P_138_represents>
 	</rdf:Description>
-
 <rdf:Description tei:ref="giuditta-galizia" rdf:about="http://www.wikidata.org/entity/Q23010104">
 	<crm:P_108_was_produced_by tei:ref="FGalizia">Fede Galizia</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Giuditta con la testa di Oloferne</rdfs:label>
@@ -164,77 +150,50 @@
 	<crm:E_52_Time_Span>1596-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q467">donna</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q13077250">Giuditta e Oloferne</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2864737">arte religiosa</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q612530">John and Mable Ringling Museum of Art<schema:location>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2864737">arte religiosa</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q612530">John and Mable Ringling Museum of Art</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="ritratto-morigia-galizia" rdf:about="http://www.wikidata.org/entity/Q29654663">
 	<crm:P_108_was_produced_by tei:ref="FGalizia">Fede Galizia</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Ritratto di Paolo Morigia</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
 	<crm:E_52_Time_Span>1592-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q5">umano</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q1085811">Pinacoteca Ambrosiana<schema:location>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_2_has_type>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q1085811">Pinacoteca Ambrosiana</schema:location>
 </rdf:Description>
-
-<rdf:Description tei:ref="ritratto-morigia-galizia" rdf:about="http://www.wikidata.org/entity/Q29654663">
-	<crm:P_108_was_produced_by tei:ref="FGalizia">Fede Galizia</crm:P_108_was_produced_by>
-	<rdfs:label xml:lan="it">Ritratto di Paolo Morigia</rdfs:label>
-	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
-	<crm:E_52_Time_Span>1592-01-01T00:00:00Z</crm:E_52_Time_Span>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q5">umano</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q1085811">Pinacoteca Ambrosiana<schema:location>
-</rdf:Description>
-
-
-<rdf:Description tei:ref="ritratto-morigia-galizia" rdf:about="http://www.wikidata.org/entity/Q29654663">
-	<crm:P_108_was_produced_by tei:ref="FGalizia">Fede Galizia</crm:P_108_was_produced_by>
-	<rdfs:label xml:lan="it">Ritratto di Paolo Morigia</rdfs:label>
-	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
-	<crm:E_52_Time_Span>1592-01-01T00:00:00Z</crm:E_52_Time_Span>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q5">umano</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q131808">manierismo</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q1085811">Pinacoteca Ambrosiana<schema:location>
-</rdf:Description>
-
 <rdf:Description tei:ref="TheCradle" rdf:about="http://www.wikidata.org/entity/Q5966403">
 	<crm:P_108_was_produced_by tei:ref="BMorisot">Berthe Morisot</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">La culla</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
 	<crm:E_52_Time_Span>1872-01-01T00:00:00Z</crm:E_52_Time_Span>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q998">bebè</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q467">donna</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q200539">abito da donna</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q14130">capelli lunghi</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q7560">madre</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q35831">sonno</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q17457044">Edma Morisot</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q5094009">castani</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1144593">posizione seduta</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q200539">abito da donna</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q487623">Trasparenza e traslucenza</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q696265">Zanzariera</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1424519">girocollo</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1131270">culla</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q998">bebè</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q467">donna</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q35831">sonno</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q14130">capelli lunghi</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q7560">madre</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q40415">impressionismo</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q1047337">pittura di genere</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q656296">Galleria nazionale del Jeu de Paume<schema:location>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q40415">impressionismo</crm:P_2_has_type>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q1047337">pittura di genere</crm:P_129_is_about>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q23402">Museo d'Orsay</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="Clotho" rdf:about="http://www.wikidata.org/entity/Q106314799">
 	<crm:P_108_was_produced_by tei:ref="CClaudel">Camille Claudel</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">Clotho</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q860861">scultura</rdf:type>
 	<crm:E_52_Time_Span>1893-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q829669">Cloto</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q650519">Musée Rodin<schema:location>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q650519">Musée Rodin</schema:location>
 </rdf:Description>
-
 <rdf:Description tei:ref="TheMatureAge" rdf:about="http://www.wikidata.org/entity/Q3205060">
 	<crm:P_108_was_produced_by tei:ref="CClaudel">Camille Claudel</crm:P_108_was_produced_by>
 	<rdfs:label xml:lan="it">L'età matura</rdfs:label>
@@ -243,7 +202,19 @@
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q190007">giovinezza</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q191089">senilità</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q216774">destino</crm:P_138_represents>
-	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q34636">Art Nouveau</crm:P_138_represents>
-	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2293362">gruppo di statue</crm:P_138_represents>
-	<schema:location rdf:resource="http://www.wikidata.org/entity/Q23402">Museo d'Orsay<schema:location>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q34636">Art Nouveau</crm:P_2_has_type>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2293362">gruppo di statue</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q23402">Museo d'Orsay</schema:location>
+</rdf:Description>
+<rdf:Description tei:ref="TheMatureAge" rdf:about="http://www.wikidata.org/entity/Q3205060">
+	<crm:P_108_was_produced_by tei:ref="CClaudel">Camille Claudel</crm:P_108_was_produced_by>
+	<rdfs:label xml:lan="it">L'età matura</rdfs:label>
+	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q860861">scultura</rdf:type>
+	<crm:E_52_Time_Span>1898-01-01T00:00:00Z</crm:E_52_Time_Span>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q190007">giovinezza</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q191089">senilità</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q216774">destino</crm:P_138_represents>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q34636">Art Nouveau</crm:P_2_has_type>
+	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q2293362">gruppo di statue</crm:P_129_is_about>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q23402">Museo d'Orsay</schema:location>
 </rdf:Description>
