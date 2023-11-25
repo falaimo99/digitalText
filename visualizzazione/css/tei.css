@@ -101,6 +101,7 @@ tei-item {
     ;
     font-weight: bold;
     font-style: italic;
+    cursor: pointer;
 }
 
 tei-item[ref="PortraitofMadameDuBarry"] {
@@ -110,12 +111,14 @@ tei-item[ref="PortraitofMadameDuBarry"] {
 tei-persName {
     color: #d46a9b;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
 tei-placeName {
     color: #6abf9b;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
