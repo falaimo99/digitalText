@@ -177,72 +177,53 @@
       } else {
         // If the sidebar is closed, open it
         var refValue = (event && event.target.getAttribute('ref')) || '';
-        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+        var iiifValue = (event && event.target.getAttribute('iiif')) || '';      
 
         // Check if the element is found
-        if (descriptionElement) {
-          // Get the content of the rdfs:label element
-          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
-          var type = descriptionElement.querySelector('ns1-type').textContent;
-          var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
-          var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
-        
 
-          // Display the content in the sidebar
-          sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
-          sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
-          sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
-          var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
-          for (let i = 0; i < represents.length; i++) {
-            if (i === represents.length-1) {
-              representsContent = represents[i].innerHTML;
-              sidebarContent.innerHTML += representsContent + '. \n';
-            } else {
-            representsContent = represents[i].innerHTML;
-            sidebarContent.innerHTML += representsContent + ',' + ' ';
+        if (iiifValue === '1') {
+          var pageName = event.target.refValue + '.html';
+          window.open(pageName, '_blank');
+        } else{
+          var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+
+          if (descriptionElement) {
+            // Get the content of the rdfs:label element
+            var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+            var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
+            var type = descriptionElement.querySelector('ns1-type').textContent;
+            var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
+            var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
+          
+
+            // Display the content in the sidebar
+            sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
+            sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
+            sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
+            var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
+            for (let i = 0; i < represents.length; i++) {
+              if (i === represents.length-1) {
+                representsContent = represents[i].innerHTML;
+                sidebarContent.innerHTML += representsContent + '. \n';
+              } else {
+                representsContent = represents[i].innerHTML;
+                sidebarContent.innerHTML += representsContent + ',' + ' ';
+              }
             }
-          }
-          var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
-          for (let i = 0; i < is_about.length; i++) {
-            if (i === is_about.length-1) {
-              is_aboutContent = is_about[i].innerHTML;
-              sidebarContent.innerHTML += is_aboutContent + '.\n';
-            } else {
-            is_aboutContent = is_about[i].innerHTML;
-            sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+            var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
+            for (let i = 0; i < is_about.length; i++) {
+              if (i === is_about.length-1) {
+                is_aboutContent = is_about[i].innerHTML;
+                sidebarContent.innerHTML += is_aboutContent + '.\n';
+              } else {
+                is_aboutContent = is_about[i].innerHTML;
+                sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+              }
             }
+          } else {
+            sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
           }
 
-          var iiif = (event && event.target.getAttribute('iiif'));
-          miradorViewer.outerHTML += iiif;
-          if (iiif) {
-
-            // miradorViewer.innerHTML += "gatto";
-
-            // console.log("balena")
-            // // Replace "your_manifest_url_here" with the actual URL of your IIIF manifest
-            //   var manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
-
-            // // Initialize Mirador viewer
-            // var miradorInstance = Mirador.viewer({
-            //     id: "miradorViewer",
-            //     windows: [{
-            //         loadedManifest: manifestUrl,
-            //         canvasIndex: 0, // Index of the canvas to load initially
-            //     }],
-            //     windowObjects: [{
-            //         loadedManifest: manifestUrl,
-            //         canvasIndex: 0,
-            //     }],
-            //     thumbnailNavigation: {
-            //         defaultPosition: 'far-bottom',
-            //     },
-            // });
-          }
-
-        } else {
-          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
         }
 
         sidebar.style.left = "0";
@@ -290,7 +271,7 @@
       getImageUrl(manifestUrl)
           .then(imageUrl => displayImage(imageUrl))
           .catch(error => console.error(error));
-    </script>      
+</script>      
     <!-- <script> var manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
 
       // Initialize Mirador viewer
@@ -303,50 +284,21 @@
           windowObjects: [{
               loadedManifest: manifestUrl,
               canvasIndex: 0,
-            }],
-            thumbnailNavigation: {
+          }],
+          thumbnailNavigation: {
               defaultPosition: 'far-bottom',
-            },
-          }); </script>  -->
-        </div>
-        
-      <div id="main">
-        <div id="navbar">
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-            <script>
-                  // When the user scrolls the page, execute myFunction
-            window.onscroll = function() {myFunction()};
-        
-            // Get the navbar
-            var navbar = document.getElementById("navbar");
-            
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-        
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
-            } 
-            </script>
-        </div>  
-        <div id="index">
-          <div id="indexContent">
-            <a href="#coraggiose">Coraggiose</a>
-            <a href="#autorevoli">Autorevoli</a>
-            <a href="#rivoluzionarie">Rivoluzionarie</a>
-            <a href="#libere">Libere</a>
-            <a href="#visionarie">Visionarie</a>
-            <a href="#compagne">Compagne</a>
-        </div>
-          
+          },
+      }); </script>  -->
   </div>
-</div>
-  
+  <div id="main">
+  </div>
+
+  <div id="index">
+    <div id="indexContent">
+      
+    </div>
+    
+  </div>
+
 </body>
 </html>
