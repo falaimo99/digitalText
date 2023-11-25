@@ -130,48 +130,67 @@ tei-p[class="note"] {
         padding-left: 1vw;
         padding-right: 1vw;
     }
+    .nav {
+        display: none;
+    }
 }
 
- /* Style the navbar */
-#navbar {
-overflow: auto;
-width: inherit;
-background-color: #6a9bc5;
-}
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-self: center;
+    width: 10vw;
+    border-radius: 15px;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(192, 226, 255);
+    font-weight: bold;
+  }
+  
+  .nav a {
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(192, 226, 255);
+    padding: 10px;
+    text-decoration: none;
+    color: #d46a9b;
+  }
+  
+  .nav a:hover {
+    background-color: rgb(110, 187, 255);
+  }
 
-/* Navbar links */
-#navbar a {
-float: left;
-display: block;
-color: bisque;
-text-align: center;
-padding: 14px;
-text-decoration: none;
-background-color: #6a9bc5;
-}
-
-/* Page content */
-/* .content {
-padding: 16px;
-} */
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-/* .sticky {
-position: fixed;
-top: 0;
-width: 100%;
-} */
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-/* .sticky + .content {
-padding-top: 60px;
-}  */
-
-#index{
-    width: fit-content;
+  .navbar {
     position: inherit;
-    margin-left: 20px;
-    font-family: Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    width: inherit;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .navbar li {
+    float: left;
+  }
+
+  .navbar li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #d46a9b;
+    font-weight: bold;
     font-size: larger;
-    color: darkblue;
-}
+  }
+
+  .navbar li a:hover {
+    background-color: #ddd;
+    border-radius: 15px;
+  }

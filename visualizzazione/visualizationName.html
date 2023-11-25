@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <!-- MANCA GEO FRA I NAMESPACE
-  rdf == ns1- 
-  rdfs == ns2- 
-  crm == ns3-
-  schema == ns4- -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -115,7 +110,7 @@
           sidebarContent.innerText += 'birth date: ' + formattedBirthDate + '\n';
           sidebarContent.innerText += 'birth place: ' + birthPlaceContent + '\n';
           sidebarContent.innerText += 'death date: ' + formattedDeathDate + '\n';
-          sidebarContent.innerText += 'birth place: ' + deathPlaceContent + '\n';
+          sidebarContent.innerText += 'death place: ' + deathPlaceContent + '\n';
 
         } else {
           sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
@@ -273,6 +268,12 @@
     
 </head> 
 <body>
+  <div class="navbar">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="docs.html">Docs</a></li>
+    </ul>
+  </div>
   <div id="sidebar">
     <button onclick="PersontoggleSidebar(), PlacetoggleSidebar(), ArttoggleSidebar()">Close Sidebar</button>
     <div id="sidebarContent"></div>
@@ -329,20 +330,20 @@
           },
       }); </script>  -->
     </div>
-
+    
     <div class="navbar">
-
+      
     </div>
     
     <div id="main">
-          <div id="index">
-            <a href="#coraggiose">Coraggiose</a>
-            <a href="#autorevoli">Autorevoli</a>
-            <a href="#rivoluzionarie">Rivoluzionarie</a>
-            <a href="#libere">Libere</a>
-            <a href="#visionarie">Visionarie</a>
-            <a href="#compagne">Compagne</a>
-          </div>
+      <div class="nav">
+        <a href="#coraggiose">Coraggiose</a>
+        <a href="#autorevoli">Autorevoli</a>
+        <a href="#rivoluzionarie">Rivoluzionarie</a>
+        <a href="#libere">Libere</a>
+        <a href="#visionarie">Visionarie</a>
+        <a href="#compagne">Compagne</a>
+      </div>
     </div>
     
 </body>
