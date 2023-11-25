@@ -100,22 +100,25 @@ tei-item {
     ;
     font-weight: bold;
     font-style: italic;
+    cursor: pointer;
 }
 
 tei-item[ref="PortraitofMadameDuBarry"] {
     color: darkblue;
+    cursor: pointer;
 }
 
 tei-persName {
     color: #d46a9b;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
 tei-placeName {
     color: #6abf9b;
     font-weight: bold;
-
+    cursor: pointer;
 }
 
 tei-p[class="note"] {
@@ -163,3 +166,12 @@ width: 100%;
 /* .sticky + .content {
 padding-top: 60px;
 }  */
+
+#index{
+    width: fit-content;
+    position: inherit;
+    margin-left: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    color: darkblue;
+}
