@@ -182,7 +182,7 @@
         // Check if the element is found
 
         if (iiifValue === '1') {
-          var pageName = event.target.refValue + '.html';
+          var pageName = event.target.getAttribute('ref') + '.html';
           window.open(pageName, '_blank');
         } else{
           var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
