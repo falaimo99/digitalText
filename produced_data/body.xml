@@ -2416,7 +2416,7 @@ set()
 </rdf:Description>
 
 
-<rdf:Description tei:ref='AKauffman' rdf:about='http://www.wikidata.org/entity/Q123098'>
+<rdf:Description tei:ref='AKauffmann' rdf:about='http://www.wikidata.org/entity/Q123098'>
 <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
 <rdfs:label xml:lan="it">Angelica Kauffmann</rdfs:label>
 <crm:P61_has_gender>femmina</crm:P61_has_gender>
