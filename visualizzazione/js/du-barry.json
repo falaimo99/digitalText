@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://www.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest.json?cultObj:id=172073",
+    "@type": "sc:Manifest",
+    "label": "Madame du Barry",
+    "description": "Madame du Barry",
+    "logo": "https://www.nga.gov/etc/designs/ngaweb/images/nga-seal.png",
+    "attribution": "Provided by National Gallery of Art",
+    "metadata": [
+        {
+            "label": "Artist",
+            "value": "Vigée Le Brun, Élisabeth Louise "
+        },
+        {
+            "label": "Accession Number",
+            "value": "2014.136.36"
+        },
+        {
+            "label": "Creation Year",
+            "value": "1782"
+        },
+        {
+            "label": "Title",
+            "value": "Madame du Barry"
+        }
+    ],
+    "viewingDirection": "left-to-right",
+    "viewingHint": "individuals",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "label": "Madame du Barry",
+            "canvases": [
+                {
+                    "@id": "https://cq.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas.json?cultObj:id=172073",
+                    "@type": "sc:Canvas",
+                    "width": 12698,
+                    "height": 16425,
+                    "label": "Madame du Barry",
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://www.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas/resource.json?cultObj:id=172073",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 16425,
+                                "width": 12698,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://media.nga.gov/iiif/555e69b1-fcf2-420b-8f00-d856e04c188f",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://cq.nga.gov/content/ngaweb/api/v1/iiif/presentation/manifest/sequence/canvas.json?cultObj:id=172073"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://media.nga.gov/iiif/555e69b1-fcf2-420b-8f00-d856e04c188f/full/!100,100/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "width": 100,
+                        "height": 100
+                    }
+                }
+            ]
+        }
+    ]
+}

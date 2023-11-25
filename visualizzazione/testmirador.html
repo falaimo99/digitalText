@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirador IIIF Viewer</title>
+    <script src="https://unpkg.com/mirador/dist/mirador.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/mirador@3.0.0/dist/css/mirador-combined.css">
+</head>
+<body>
+    <div id="miradorViewer"></div>
+
+    <script>
+        // Replace "your_manifest_url_here" with the actual URL of your IIIF manifest
+        var manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
+
+        // Initialize Mirador viewer
+        var miradorInstance = Mirador.viewer({
+            id: "miradorViewer",
+            windows: [{
+                loadedManifest: manifestUrl,
+                canvasIndex: 0, // Index of the canvas to load initially
+            }],
+            windowObjects: [{
+                loadedManifest: manifestUrl,
+                canvasIndex: 0,
+            }],
+            thumbnailNavigation: {
+                defaultPosition: 'far-bottom',
+            },
+        });
+    </script>
+</body>
+</html>
+
+ 
+ <!-- <!DOCTYPE html>
+ <html>
+
+
+    <body>
+        <script src="https://unpkg.com/mirador/dist/mirador.min.js"></script>
+        <div id="mirador-lady-du-barry">
+        <script>        
+            var mirador = Mirador.viewer({
+            "id": "mirador-lady-du-barry",
+            "manifests": {
+            "manifest.json" : {
+                "provider": "Wikidata"
+            }
+            },
+            "windows": [
+            {
+                "loadedManifest": "../js/du-barry.json",
+                "canvasIndex": 2,
+                "thumbnailNavigationPosition": 'far-bottom',
+            }
+            ]
+        });
+
+    </script>
+    </div>
+</body>
+</html> -->
+<!-- <html>
+    <body>
+<script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
+
+<div id="my-mirador"></div>
+
+<script type="text/javascript">
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "manifests": {
+    "manifest.json" : {
+      "provider": "IIIF Tutorial University of Bologna"
+    }
+  },
+  "windows": [
+    {
+      "loadedManifest": "manifest.json",
+      "canvasIndex": 2,
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});
+</script>
+    </body>
+</html>
