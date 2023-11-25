@@ -6883,6 +6883,7 @@ set()
 
 
 
+
 <rdf:Description tei:ref="bassorilievi" rdf:about="http://www.wikidata.org/entity/Q120733635">
 	<rdfs:label xml:lan="it">Joseph harassed by Putifar's wife</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q860861">scultura</rdf:type>
@@ -7076,6 +7077,7 @@ set()
 <rdf:Description tei:ref="bacco-arianna" rdf:about="http://www.wikidata.org/entity/Q52145340">
 	<rdfs:label xml:lan="it">Bacchus and Ariadne</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="AKauffman">Angelika Kauffmann</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1794-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q184874">Arianna</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q645312">Bacco</crm:P_138_represents>
@@ -7085,6 +7087,7 @@ set()
 <rdf:Description tei:ref="ermanno-tusnelda" rdf:about="http://www.wikidata.org/entity/Q109545736">
 	<rdfs:label xml:lan="it">Aeneas mourns Pallas, Evander's son, who was killed by Turnus</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="AKaufman">Angelika Kauffmann</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1786-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q82732">Enea</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q2048018">Pallante</crm:P_138_represents>
@@ -7094,6 +7097,7 @@ set()
 <rdf:Description tei:ref="PortraitofMadameDuBarry" rdf:about="http://www.wikidata.org/entity/Q46625567">
 	<rdfs:label xml:lan="it">Madame du Barry</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="EVigeeLeBrun">Élisabeth Vigée Le Brun</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1782-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P129_is_about>
 	<schema:location rdf:resource="http://www.wikidata.org/entity/Q214867">National Gallery of Art</schema:location>
@@ -7102,6 +7106,7 @@ set()
 <rdf:Description tei:ref="BuffaloBill" rdf:about="http://www.wikidata.org/entity/Q87752255">
 	<rdfs:label xml:lan="it">Col. William F. Cody</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="RBonheur">Rosa Bonheur</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1889-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q202285">Buffalo Bill</crm:P_138_represents>
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q3399515">ritratto equestre</crm:P129_is_about>
@@ -7111,6 +7116,7 @@ set()
 <rdf:Description tei:ref="LeMarcheauxchevaux" rdf:about="http://www.wikidata.org/entity/Q40432">
 	<rdfs:label xml:lan="it">The Horse Fair</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="RBonheur">Rosa Bonheur</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1853-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q148571">recinto</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q10884">albero</crm:P_138_represents>
@@ -7139,15 +7145,15 @@ set()
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q7560">madre</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q14130">capelli lunghi</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q467">donna</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q35831">sonno</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q200539">abito da donna</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q487623">Trasparenza e traslucenza</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q5094009">castani</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q17457044">Edma Morisot</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1144593">posizione seduta</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q696265">Zanzariera</crm:P_138_represents>
-	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q487623">Trasparenza e traslucenza</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1424519">girocollo</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1131270">culla</crm:P_138_represents>
+	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q35831">sonno</crm:P_138_represents>
 	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q40415">impressionismo</crm:P_2_has_type>
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P129_is_about>
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q1047337">pittura di genere</crm:P129_is_about>
@@ -7157,6 +7163,7 @@ set()
 <rdf:Description tei:ref="IntheLoge" rdf:about="http://www.wikidata.org/entity/Q14915747">
 	<rdfs:label xml:lan="it">In the Loge</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="">Mary Cassatt</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1878-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<schema:location rdf:resource="http://www.wikidata.org/entity/Q49133">Museum of Fine Arts Boston</schema:location>
 </rdf:Description>
@@ -7164,6 +7171,7 @@ set()
 <rdf:Description tei:ref="WomanwithaPearlNecklace" rdf:about="http://www.wikidata.org/entity/Q15130000">
 	<rdfs:label xml:lan="it">Woman with a Pearl Necklace in a Loge</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="MCassatt">Mary Cassatt</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1879-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q40415">impressionismo</crm:P_2_has_type>
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q134307">ritratto</crm:P129_is_about>
@@ -7195,7 +7203,7 @@ set()
 <rdf:Description tei:ref="SelfPortraitintheGreenBugatti" rdf:about="http://www.wikidata.org/entity/Q19901889">
 	<rdfs:label xml:lan="it">Autoportrait</rdfs:label>
 	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q3305213">dipinto</rdf:type>
-	<crm:P_108_was_produced_by tei:ref="TdeLempicka">Tamara de Lempicka</crm:P_108_was_produced_by>
+	<crm:P_108_was_produced_by tei:ref="TDLempicka">Tamara de Lempicka</crm:P_108_was_produced_by>
 	<crm:E_52_Time_Span>1929-01-01T00:00:00Z</crm:E_52_Time_Span>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q1420">autovettura</crm:P_138_represents>
 	<crm:P_138_represents rdf:about="http://www.wikidata.org/entity/Q229351">Tamara de Lempicka</crm:P_138_represents>
@@ -7211,6 +7219,36 @@ set()
 	<crm:P129_is_about rdf:about="http://www.wikidata.org/entity/Q557141">arte pubblica</crm:P129_is_about>
 	<schema:location rdf:resource="http://www.wikidata.org/entity/Q3500">Heimfeld</schema:location>
 </rdf:Description>
+
+<rdf:Description tei:ref="Maxxidiroma" rdf:about="http://www.wikidata.org/entity/Q1881229">
+	<rdfs:label xml:lan="it">MAXXI – National Museum of the 21st Century Arts</rdfs:label>
+	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q207694">museo d'arte</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="ZHadid">Zaha Hadid</crm:P_108_was_produced_by>
+	<crm:E_52_Time_Span>2010-01-01T00:00:00Z</crm:E_52_Time_Span>
+	<crm:P_2_has_type rdf:about="http://www.wikidata.org/entity/Q595448">architettura postmoderna</crm:P_2_has_type>
+</rdf:Description>
+
+<rdf:Description tei:ref="Palazzograssi" rdf:about="http://www.wikidata.org/entity/Q907964">
+	<rdfs:label xml:lan="it">Palazzo Grassi</rdfs:label>
+	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q33506">museo</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="GMassari">Giorgio Massari</crm:P_108_was_produced_by>
+	<crm:E_52_Time_Span>1772-01-01T00:00:00Z</crm:E_52_Time_Span>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q52427">San Marco</schema:location>
+</rdf:Description>
+
+<rdf:Description tei:ref="Scuderiedelquirinale" rdf:about="http://www.wikidata.org/entity/Q26840128">
+	<rdfs:label xml:lan="it">Scuderie del Quirinale</rdfs:label>
+	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q41176">edificio</rdf:type>
+	<crm:P_108_was_produced_by tei:ref="ASpecchi">Alessandro Specchi</crm:P_108_was_produced_by>
+</rdf:Description>
+
+<rdf:Description tei:ref="MuseedorsayParis" rdf:about="http://www.wikidata.org/entity/Q23402">
+	<rdfs:label xml:lan="it">Musée d'Orsay</rdfs:label>
+	<rdf:type rdf:resource="http://www.wikidata.org/entity/Q11396960">compagnia di produzione</rdf:type>
+	<crm:E_52_Time_Span>1986-01-01T00:00:00Z</crm:E_52_Time_Span>
+	<schema:location rdf:resource="http://www.wikidata.org/entity/Q2698691">stazione di Parigi Orsay</schema:location>
+</rdf:Description>
+
 
 <rdf:Description tei:ref="Maxxidiroma" rdf:about="http://www.wikidata.org/entity/Q1881229">
 	<rdfs:label xml:lan="it">MAXXI – National Museum of the 21st Century Arts</rdfs:label>
