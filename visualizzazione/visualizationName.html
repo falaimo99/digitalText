@@ -184,6 +184,45 @@
         if (iiifValue === '1') {
           var pageName = event.target.getAttribute('ref') + '.html';
           window.open(pageName, '_blank');
+
+          var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+
+          if (descriptionElement) {
+            // Get the content of the rdfs:label element
+            var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+            var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
+            var type = descriptionElement.querySelector('ns1-type').textContent;
+            var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
+            var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
+          
+
+            // Display the content in the sidebar
+            sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
+            sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
+            sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
+            var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
+            for (let i = 0; i < represents.length; i++) {
+              if (i === represents.length-1) {
+                representsContent = represents[i].innerHTML;
+                sidebarContent.innerHTML += representsContent + '. \n';
+              } else {
+                representsContent = represents[i].innerHTML;
+                sidebarContent.innerHTML += representsContent + ',' + ' ';
+              }
+            }
+            var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
+            for (let i = 0; i < is_about.length; i++) {
+              if (i === is_about.length-1) {
+                is_aboutContent = is_about[i].innerHTML;
+                sidebarContent.innerHTML += is_aboutContent + '.\n';
+              } else {
+                is_aboutContent = is_about[i].innerHTML;
+                sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+              }
+            }
+          } else {
+            sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
+          }
         } else{
           var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
 
