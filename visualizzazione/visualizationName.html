@@ -290,7 +290,7 @@
       getImageUrl(manifestUrl)
           .then(imageUrl => displayImage(imageUrl))
           .catch(error => console.error(error));
-</script>      
+    </script>      
     <!-- <script> var manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
 
       // Initialize Mirador viewer
@@ -303,21 +303,50 @@
           windowObjects: [{
               loadedManifest: manifestUrl,
               canvasIndex: 0,
-          }],
-          thumbnailNavigation: {
+            }],
+            thumbnailNavigation: {
               defaultPosition: 'far-bottom',
-          },
-      }); </script>  -->
+            },
+          }); </script>  -->
+        </div>
+        
+      <div id="main">
+        <div id="navbar">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+            <script>
+                  // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+        
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+            
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+        
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            } 
+            </script>
+        </div>  
+        <div id="index">
+          <div id="indexContent">
+            <a href="#coraggiose">Coraggiose</a>
+            <a href="#autorevoli">Autorevoli</a>
+            <a href="#rivoluzionarie">Rivoluzionarie</a>
+            <a href="#libere">Libere</a>
+            <a href="#visionarie">Visionarie</a>
+            <a href="#compagne">Compagne</a>
+        </div>
+          
   </div>
-  <div id="main">
-  </div>
-
-  <div id="index">
-    <div id="indexContent">
-      
-    </div>
-    
-  </div>
-
+</div>
+  
 </body>
 </html>
