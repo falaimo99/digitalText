@@ -177,72 +177,53 @@
       } else {
         // If the sidebar is closed, open it
         var refValue = (event && event.target.getAttribute('ref')) || '';
-        var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+        var iiifValue = (event && event.target.getAttribute('iiif')) || '';      
 
         // Check if the element is found
-        if (descriptionElement) {
-          // Get the content of the rdfs:label element
-          var labelContent = descriptionElement.querySelector('ns2-label').textContent;
-          var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
-          var type = descriptionElement.querySelector('ns1-type').textContent;
-          var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
-          var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
-        
 
-          // Display the content in the sidebar
-          sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
-          sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
-          sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
-          var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
-          for (let i = 0; i < represents.length; i++) {
-            if (i === represents.length-1) {
-              representsContent = represents[i].innerHTML;
-              sidebarContent.innerHTML += representsContent + '. \n';
-            } else {
-            representsContent = represents[i].innerHTML;
-            sidebarContent.innerHTML += representsContent + ',' + ' ';
+        if (iiifValue === '1') {
+          var pageName = event.target.refValue + '.html';
+          window.open(pageName, '_blank');
+        } else{
+          var descriptionElement = document.querySelector('ns1-description[tei\\:ref="' + refValue + '"]');
+
+          if (descriptionElement) {
+            // Get the content of the rdfs:label element
+            var labelContent = descriptionElement.querySelector('ns2-label').textContent;
+            var authorContent = descriptionElement.querySelector('ns3-P_108_was_produced_by').textContent;
+            var type = descriptionElement.querySelector('ns1-type').textContent;
+            var represents = descriptionElement.querySelectorAll('ns3-P_138_represents');
+            var is_about = descriptionElement.querySelectorAll('ns3-p129_is_about');
+          
+
+            // Display the content in the sidebar
+            sidebarContent.innerHTML += '<b>nome</b>: ' + labelContent + '\n';
+            sidebarContent.innerHTML += '<b>autore</b>: ' + authorContent + '\n';
+            sidebarContent.innerHTML += '<b>tipo</b>: ' + type + '\n';
+            var representsContent = sidebarContent.innerHTML += '<b>soggetti</b>: ';
+            for (let i = 0; i < represents.length; i++) {
+              if (i === represents.length-1) {
+                representsContent = represents[i].innerHTML;
+                sidebarContent.innerHTML += representsContent + '. \n';
+              } else {
+                representsContent = represents[i].innerHTML;
+                sidebarContent.innerHTML += representsContent + ',' + ' ';
+              }
             }
-          }
-          var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
-          for (let i = 0; i < is_about.length; i++) {
-            if (i === is_about.length-1) {
-              is_aboutContent = is_about[i].innerHTML;
-              sidebarContent.innerHTML += is_aboutContent + '.\n';
-            } else {
-            is_aboutContent = is_about[i].innerHTML;
-            sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+            var is_aboutContent = sidebarContent.innerHTML += '<b>genere</b>: ';
+            for (let i = 0; i < is_about.length; i++) {
+              if (i === is_about.length-1) {
+                is_aboutContent = is_about[i].innerHTML;
+                sidebarContent.innerHTML += is_aboutContent + '.\n';
+              } else {
+                is_aboutContent = is_about[i].innerHTML;
+                sidebarContent.innerHTML += is_aboutContent + ',' + ' ';
+              }
             }
+          } else {
+            sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
           }
 
-            // var iiif = (event && event.target.getAttribute('iiif'));
-            // miradorViewer.outerHTML += iiif;
-            // if (iiif) {
-
-            // miradorViewer.innerHTML += "gatto";
-
-            // console.log("balena")
-            // // Replace "your_manifest_url_here" with the actual URL of your IIIF manifest
-            //   var manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
-
-            // // Initialize Mirador viewer
-            // var miradorInstance = Mirador.viewer({
-            //     id: "miradorViewer",
-            //     windows: [{
-            //         loadedManifest: manifestUrl,
-            //         canvasIndex: 0, // Index of the canvas to load initially
-            //     }],
-            //     windowObjects: [{
-            //         loadedManifest: manifestUrl,
-            //         canvasIndex: 0,
-            //     }],
-            //     thumbnailNavigation: {
-            //         defaultPosition: 'far-bottom',
-            //     },
-            // });
-          // }
-
-        } else {
-          sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
         }
 
         sidebar.style.left = "0";
@@ -256,58 +237,7 @@
   <div id="sidebar">
     <button onclick="PersontoggleSidebar(), PlacetoggleSidebar(), ArttoggleSidebar()">Close Sidebar</button>
     <div id="sidebarContent"></div>
-    <div id="imagecontainer"></div>
-    <script>// Sostituisci con l'URL del tuo manifesto IIIF
-      const manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
-      
-      // Funzione per ottenere l'URL dell'immagine da un manifesto IIIF
-      function getImageUrl(manifestUrl) {
-          return new Promise((resolve, reject) => {
-              fetch(manifestUrl)
-                  .then(response => response.json())
-                  .then(manifest => {
-                      // Assicurati che il manifesto contenga un'immagine
-                      if (manifest && manifest.sequences && manifest.sequences[0] && manifest.sequences[0].canvases && manifest.sequences[0].canvases[0]) {
-                          const imageUrl = manifest.sequences[0].canvases[0].images[0].resource['@id'];
-                          resolve(imageUrl);
-                      } else {
-                          reject("Il manifesto non contiene informazioni sull'immagine.");
-                      }
-                  })
-                  .catch(error => reject(error));
-          });
-      }
-      
-      // Funzione per visualizzare l'immagine in una div
-      function displayImage(imageUrl) {
-          const imageContainer = document.getElementById('imageContainer');
-          const imgElement = document.createElement('img');
-          imgElement.src = imageUrl;
-          imageContainer.appendChild(imgElement);
-      }
-      
-      // Ottieni l'URL dell'immagine e visualizzala
-      getImageUrl(manifestUrl)
-          .then(imageUrl => displayImage(imageUrl))
-          .catch(error => console.error(error));
-</script>      
-    <!-- <script> var manifestUrl = "https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=172073";
-
-      // Initialize Mirador viewer
-      var miradorInstance = Mirador.viewer({
-          id: "miradorViewer",
-          windows: [{
-              loadedManifest: manifestUrl,
-              canvasIndex: 0, // Index of the canvas to load initially
-          }],
-          windowObjects: [{
-              loadedManifest: manifestUrl,
-              canvasIndex: 0,
-          }],
-          thumbnailNavigation: {
-              defaultPosition: 'far-bottom',
-          },
-      }); </script>  -->
+    <div id="miradorViewer"></div>
   </div>
   <div id="main">
   </div>
