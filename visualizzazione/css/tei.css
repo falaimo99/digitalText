@@ -129,6 +129,7 @@ tei-p[class="note"] {
     body {
         padding-left: 1vw;
         padding-right: 1vw;
+        justify-content: space-evenly;
     }
     .nav {
         display: none;
@@ -137,7 +138,7 @@ tei-p[class="note"] {
 
 .nav {
     position: fixed;
-    top: 0;
+    top: 15px;
     right: 0;
     justify-content: center;
     align-self: center;
@@ -147,15 +148,17 @@ tei-p[class="note"] {
     text-align: center;
     background-color: rgb(192, 226, 255);
     font-weight: bold;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
   
   .nav a {
     display: block;
-    margin-bottom: 10px;
-    background-color: rgb(192, 226, 255);
-    padding: 10px;
+    background-color: transparent;
     text-decoration: none;
+    line-height: 3em;
     color: #d46a9b;
+    border-radius: 15px;
   }
   
   .nav a:hover {
@@ -194,3 +197,17 @@ tei-p[class="note"] {
     background-color: #ddd;
     border-radius: 15px;
   }
+
+.material-symbols-outlined a {
+  background-color: rgb(192, 226, 255);
+  color: #6a9bc5;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: x-small;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
