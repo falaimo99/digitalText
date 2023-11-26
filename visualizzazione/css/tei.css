@@ -137,20 +137,21 @@ tei-p[class="note"] {
 }
 
 .nav {
-    position: fixed;
-    top: 15px;
-    right: 0;
-    justify-content: center;
-    align-self: center;
-    width: 10vw;
-    border-radius: 15px;
-    padding: 0;
-    text-align: center;
-    background-color: rgb(192, 226, 255);
-    font-weight: bold;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
+  position: fixed;
+  top: 15px;
+  right: 0;
+  justify-content: center;
+  align-self: center;
+  width: 10vw;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(192, 226, 255, 0.611);
+  font-weight: bold;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px) saturate(1.8);
+}
   
   .nav a {
     display: block;

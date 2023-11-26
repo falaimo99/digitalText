@@ -1,11 +1,4698 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=OPeqXG-QxW3ZD8BtmPikfA);
+
+        ol.lst-kix_mqhgymcoj1j8-5.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-5 0
+        }
+
+        .lst-kix_sj8bkocoutsd-2>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-2
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-2.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-2 0
+        }
+
+        .lst-kix_voho08zefl8m-4>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-4
+        }
+
+        .lst-kix_ouyewh1j19wb-6>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-6
+        }
+
+        .lst-kix_31sjslr2x5zw-8>li:before {
+            content: "(" counter(lst-ctn-kix_31sjslr2x5zw-8, lower-roman) ") "
+        }
+
+        .lst-kix_78yfyf7b0uy2-1>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-1
+        }
+
+        .lst-kix_78yfyf7b0uy2-3>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-3, decimal) ". "
+        }
+
+        .lst-kix_78yfyf7b0uy2-4>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-4, lower-latin) ". "
+        }
+
+        .lst-kix_31sjslr2x5zw-2>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-2
+        }
+
+        ol.lst-kix_sj8bkocoutsd-4.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-4 0
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-1.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-1 0
+        }
+
+        .lst-kix_78yfyf7b0uy2-1>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-1, lower-latin) ". "
+        }
+
+        .lst-kix_78yfyf7b0uy2-2>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-2, lower-roman) ". "
+        }
+
+        .lst-kix_78yfyf7b0uy2-5>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-5, lower-roman) ". "
+        }
+
+        .lst-kix_y9yifegkhx4n-2>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-2
+        }
+
+        .lst-kix_vrkopolnd82l-7>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-7
+        }
+
+        .lst-kix_r82hnbaki3uh-8>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-8
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-0.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-0 0
+        }
+
+        .lst-kix_78yfyf7b0uy2-0>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-0, decimal) ". "
+        }
+
+        .lst-kix_cdlnkkvr8shj-0>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-0
+        }
+
+        .lst-kix_uw3c72ir26fd-7>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-7
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-5.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-5 0
+        }
+
+        .lst-kix_r82hnbaki3uh-1>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-1
+        }
+
+        .lst-kix_pc4ac0lz2732-0>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-0
+        }
+
+        ol.lst-kix_voho08zefl8m-3.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-3 0
+        }
+
+        .lst-kix_w1mfwnkv1sew-4>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-4
+        }
+
+        .lst-kix_jiyo7z5lrv8u-6>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-6
+        }
+
+        .lst-kix_bbnp0wjrvkps-1>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-1
+        }
+
+        .lst-kix_pc4ac0lz2732-7>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-7
+        }
+
+        .lst-kix_n4j8wgbotqs4-3>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-3
+        }
+
+        .lst-kix_iodqjgaswcyx-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_iodqjgaswcyx-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vrkopolnd82l-0>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-0
+        }
+
+        ol.lst-kix_voho08zefl8m-8.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-8 0
+        }
+
+        .lst-kix_iodqjgaswcyx-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_iodqjgaswcyx-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ony68fgmran2-5.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-5 0
+        }
+
+        .lst-kix_iodqjgaswcyx-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_iodqjgaswcyx-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_ouyewh1j19wb-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_rhh1i07qapye-4>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_rhh1i07qapye-6>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_cdlnkkvr8shj-7>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-7
+        }
+
+        .lst-kix_bbnp0wjrvkps-1>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-1, lower-latin) ". "
+        }
+
+        .lst-kix_sl353p7w81r5-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_rhh1i07qapye-0>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_rhh1i07qapye-2>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_rhh1i07qapye-8>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_sl353p7w81r5-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_bbnp0wjrvkps-8>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-8, lower-roman) ". "
+        }
+
+        .lst-kix_sl353p7w81r5-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_sl353p7w81r5-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_iodqjgaswcyx-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_mqhgymcoj1j8-3>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-3
+        }
+
+        ol.lst-kix_ouyewh1j19wb-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_cdlnkkvr8shj-8>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-8
+        }
+
+        ol.lst-kix_ouyewh1j19wb-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_w1mfwnkv1sew-6>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-6, lower-latin) ". "
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-8.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-8 0
+        }
+
+        .lst-kix_w1mfwnkv1sew-4>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-4, lower-roman) ". "
+        }
+
+        .lst-kix_w1mfwnkv1sew-2>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-2, decimal) ". "
+        }
+
+        ol.lst-kix_ony68fgmran2-0.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-0 0
+        }
+
+        ol.lst-kix_pc4ac0lz2732-3.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-3 0
+        }
+
+        .lst-kix_oynlvfpbvber-3>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-3
+        }
+
+        .lst-kix_w1mfwnkv1sew-0>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-7.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-7 0
+        }
+
+        .lst-kix_d0oxa5cd57e0-5>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_vrkopolnd82l-4>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-4, lower-latin) ". "
+        }
+
+        .lst-kix_vrkopolnd82l-0>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-0, decimal) ". "
+        }
+
+        .lst-kix_d0oxa5cd57e0-3>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_p775bewvuqva-5.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-5 0
+        }
+
+        .lst-kix_vrkopolnd82l-6>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-6, decimal) ". "
+        }
+
+        ol.lst-kix_y9yifegkhx4n-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-0.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-0 0
+        }
+
+        ol.lst-kix_2wqeai486r0h-4.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-4 0
+        }
+
+        ol.lst-kix_r82hnbaki3uh-8.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-8 0
+        }
+
+        .lst-kix_oynlvfpbvber-4>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-4
+        }
+
+        .lst-kix_vrkopolnd82l-8>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_78yfyf7b0uy2-6>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-6, decimal) ". "
+        }
+
+        .lst-kix_78yfyf7b0uy2-8>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_d0oxa5cd57e0-7>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_y9yifegkhx4n-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_jiyo7z5lrv8u-5>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-5
+        }
+
+        .lst-kix_31sjslr2x5zw-6>li:before {
+            content: "(" counter(lst-ctn-kix_31sjslr2x5zw-6, lower-roman) ") "
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-0.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-0 0
+        }
+
+        .lst-kix_mqhgymcoj1j8-4>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-4
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-1.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-1 0
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_31sjslr2x5zw-4>li:before {
+            content: "(" counter(lst-ctn-kix_31sjslr2x5zw-4, decimal) ") "
+        }
+
+        .lst-kix_pc4ac0lz2732-8>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-8
+        }
+
+        .lst-kix_uw3c72ir26fd-0>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-0
+        }
+
+        .lst-kix_31sjslr2x5zw-2>li:before {
+            content: "" counter(lst-ctn-kix_31sjslr2x5zw-2, decimal) ". "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-1.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-1 0
+        }
+
+        ol.lst-kix_ouyewh1j19wb-5.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-5 0
+        }
+
+        .lst-kix_vrkopolnd82l-2>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-2, lower-roman) ". "
+        }
+
+        .lst-kix_31sjslr2x5zw-0>li:before {
+            content: "" counter(lst-ctn-kix_31sjslr2x5zw-0, upper-roman) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-7>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-7
+        }
+
+        .lst-kix_cdlnkkvr8shj-1>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-1
+        }
+
+        .lst-kix_y9yifegkhx4n-3>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-3
+        }
+
+        .lst-kix_voho08zefl8m-5>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-5
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-7.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-7 0
+        }
+
+        .lst-kix_uw3c72ir26fd-6>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-6
+        }
+
+        ol.lst-kix_r82hnbaki3uh-3.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-3 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-1.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-1 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-6.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-6 0
+        }
+
+        ol.lst-kix_y9yifegkhx4n-1.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-1 0
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-0.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-0 0
+        }
+
+        ol.lst-kix_p775bewvuqva-6.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-6 0
+        }
+
+        .lst-kix_sj8bkocoutsd-1>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-1
+        }
+
+        ol.lst-kix_oynlvfpbvber-5.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-5 0
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-2.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-2 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-2>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-2
+        }
+
+        .lst-kix_y9yifegkhx4n-3>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-3, decimal) ". "
+        }
+
+        ol.lst-kix_r82hnbaki3uh-4.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-4 0
+        }
+
+        .lst-kix_y9yifegkhx4n-6>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-6, decimal) ". "
+        }
+
+        .lst-kix_pc4ac0lz2732-6>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-6
+        }
+
+        ol.lst-kix_y9yifegkhx4n-7.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-7 0
+        }
+
+        .lst-kix_r82hnbaki3uh-7>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-7
+        }
+
+        .lst-kix_w1mfwnkv1sew-7>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-7, lower-roman) ". "
+        }
+
+        .lst-kix_y9yifegkhx4n-2>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_pc4ac0lz2732-7.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-7 0
+        }
+
+        ol.lst-kix_pc4ac0lz2732-8.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-8 0
+        }
+
+        .lst-kix_oynlvfpbvber-2>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-2
+        }
+
+        .lst-kix_fs0la2q4ryr4-6>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-6
+        }
+
+        .lst-kix_vrkopolnd82l-6>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-6
+        }
+
+        ol.lst-kix_y9yifegkhx4n-6.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-6 0
+        }
+
+        .lst-kix_y9yifegkhx4n-7>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_2wqeai486r0h-8.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-8 0
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-1.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-1 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-4>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-4, lower-latin) ". "
+        }
+
+        .lst-kix_bbnp0wjrvkps-3>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-3, decimal) ". "
+        }
+
+        .lst-kix_bbnp0wjrvkps-0>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-0, decimal) ". "
+        }
+
+        ol.lst-kix_y9yifegkhx4n-2.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-2 0
+        }
+
+        .lst-kix_pc4ac0lz2732-6>li:before {
+            content: "" counter(lst-ctn-kix_pc4ac0lz2732-6, decimal) ". "
+        }
+
+        .lst-kix_rhh1i07qapye-3>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_rhh1i07qapye-7>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_sl353p7w81r5-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_78yfyf7b0uy2-8>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-8
+        }
+
+        .lst-kix_bbnp0wjrvkps-7>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-7, lower-latin) ". "
+        }
+
+        ul.lst-kix_rhh1i07qapye-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_sl353p7w81r5-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_rhh1i07qapye-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rhh1i07qapye-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rhh1i07qapye-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rhh1i07qapye-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rhh1i07qapye-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_pc4ac0lz2732-2>li:before {
+            content: "" counter(lst-ctn-kix_pc4ac0lz2732-2, lower-roman) ") "
+        }
+
+        .lst-kix_ony68fgmran2-4>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-4
+        }
+
+        .lst-kix_iodqjgaswcyx-0>li:before {
+            content: "  "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-5.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-5 0
+        }
+
+        .lst-kix_p775bewvuqva-5>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-5
+        }
+
+        ul.lst-kix_rhh1i07qapye-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-6.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-6 0
+        }
+
+        ul.lst-kix_rhh1i07qapye-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rhh1i07qapye-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_sj8bkocoutsd-1>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-1, lower-latin) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-2>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-2
+        }
+
+        .lst-kix_w1mfwnkv1sew-3>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-3, lower-latin) ". "
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-6.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-6 0
+        }
+
+        .lst-kix_sj8bkocoutsd-5>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-6.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-6 0
+        }
+
+        .lst-kix_d0oxa5cd57e0-6>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_vrkopolnd82l-5>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-7.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-7 0
+        }
+
+        .lst-kix_fs0la2q4ryr4-8>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-8
+        }
+
+        .lst-kix_d0oxa5cd57e0-2>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_p775bewvuqva-0>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-6.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-6 0
+        }
+
+        .lst-kix_31sjslr2x5zw-7>li:before {
+            content: "(" counter(lst-ctn-kix_31sjslr2x5zw-7, lower-latin) ") "
+        }
+
+        .lst-kix_fs0la2q4ryr4-1>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-1
+        }
+
+        .lst-kix_azisk8adfup-6>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_r82hnbaki3uh-0>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-0
+        }
+
+        .lst-kix_2wqeai486r0h-5>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-5
+        }
+
+        .lst-kix_31sjslr2x5zw-3>li:before {
+            content: "" counter(lst-ctn-kix_31sjslr2x5zw-3, lower-latin) ") "
+        }
+
+        ol.lst-kix_vrkopolnd82l-2.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-2 0
+        }
+
+        .lst-kix_voho08zefl8m-3>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-3
+        }
+
+        .lst-kix_vrkopolnd82l-1>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-1, lower-latin) ". "
+        }
+
+        .lst-kix_azisk8adfup-2>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_w1mfwnkv1sew-2>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-2
+        }
+
+        .lst-kix_jiyo7z5lrv8u-1>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-1, lower-latin) ". "
+        }
+
+        .lst-kix_jiyo7z5lrv8u-2>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-2, lower-roman) ". "
+        }
+
+        .lst-kix_n4j8wgbotqs4-1>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-1
+        }
+
+        .lst-kix_78yfyf7b0uy2-3>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-3
+        }
+
+        .lst-kix_jiyo7z5lrv8u-4>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-4, lower-latin) ". "
+        }
+
+        .lst-kix_cdlnkkvr8shj-2>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-2
+        }
+
+        ol.lst-kix_ouyewh1j19wb-4.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-4 0
+        }
+
+        .lst-kix_jiyo7z5lrv8u-7>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_voho08zefl8m-1>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-1, lower-roman) ". "
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_mqhgymcoj1j8-1>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-1, lower-latin) ". "
+        }
+
+        .lst-kix_voho08zefl8m-3>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-3, lower-latin) ". "
+        }
+
+        .lst-kix_voho08zefl8m-4>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-4, lower-roman) ". "
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-6.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-6 0
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_p775bewvuqva-3>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-3, lower-latin) ". "
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ony68fgmran2-4.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-4 0
+        }
+
+        ul.lst-kix_d0oxa5cd57e0-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_p775bewvuqva-4>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-4, lower-roman) ". "
+        }
+
+        ol.lst-kix_oynlvfpbvber-2.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-2 0
+        }
+
+        .lst-kix_mqhgymcoj1j8-6>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-6, decimal) ". "
+        }
+
+        .lst-kix_31sjslr2x5zw-0>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-0
+        }
+
+        .lst-kix_voho08zefl8m-6>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-6, lower-latin) ". "
+        }
+
+        .lst-kix_p775bewvuqva-6>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-6, lower-latin) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-4>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-4, lower-latin) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-3>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-3, decimal) ". "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-4.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-4 0
+        }
+
+        ol.lst-kix_sj8bkocoutsd-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-7.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-7 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-7>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-7
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-4.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-4 0
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_oynlvfpbvber-5>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-5
+        }
+
+        ol.lst-kix_voho08zefl8m-2.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-2 0
+        }
+
+        ol.lst-kix_sj8bkocoutsd-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sj8bkocoutsd-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_31sjslr2x5zw-7>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-7
+        }
+
+        .lst-kix_pc4ac0lz2732-7>li:before {
+            content: "" counter(lst-ctn-kix_pc4ac0lz2732-7, lower-latin) ". "
+        }
+
+        .lst-kix_ony68fgmran2-7>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_oynlvfpbvber-0.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-0 0
+        }
+
+        .lst-kix_3mozpjoy5bzj-5>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_vrkopolnd82l-2>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-2
+        }
+
+        .lst-kix_p775bewvuqva-7>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-7
+        }
+
+        ol.lst-kix_ony68fgmran2-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_sj8bkocoutsd-8>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-8
+        }
+
+        ol.lst-kix_ony68fgmran2-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ony68fgmran2-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-2.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-2 0
+        }
+
+        ol.lst-kix_ony68fgmran2-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_bbnp0wjrvkps-0>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-0
+        }
+
+        .lst-kix_pc4ac0lz2732-1>li:before {
+            content: "" counter(lst-ctn-kix_pc4ac0lz2732-1, lower-latin) ") "
+        }
+
+        .lst-kix_ony68fgmran2-1>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_sj8bkocoutsd-0.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-0 0
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-0.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-0 0
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-4.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-4 0
+        }
+
+        .lst-kix_ouyewh1j19wb-0>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-0
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-2.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-2 0
+        }
+
+        ol.lst-kix_voho08zefl8m-4.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-4 0
+        }
+
+        .lst-kix_2wqeai486r0h-7>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-7
+        }
+
+        .lst-kix_sj8bkocoutsd-8>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-8, lower-roman) ". "
+        }
+
+        .lst-kix_sj8bkocoutsd-6>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-6, decimal) ". "
+        }
+
+        .lst-kix_vrkopolnd82l-1>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-1
+        }
+
+        .lst-kix_pc4ac0lz2732-1>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-1
+        }
+
+        .lst-kix_cdlnkkvr8shj-6>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-6
+        }
+
+        ol.lst-kix_r82hnbaki3uh-5.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-5 0
+        }
+
+        ol.lst-kix_ony68fgmran2-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ony68fgmran2-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_sj8bkocoutsd-0>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-0, decimal) ". "
+        }
+
+        ol.lst-kix_ony68fgmran2-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ony68fgmran2-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ony68fgmran2-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_r82hnbaki3uh-2>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-2
+        }
+
+        ol.lst-kix_y9yifegkhx4n-8.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-8 0
+        }
+
+        .lst-kix_3mozpjoy5bzj-7>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-0.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-0 0
+        }
+
+        .lst-kix_ony68fgmran2-6>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-6
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-1.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-1 0
+        }
+
+        ol.lst-kix_ony68fgmran2-1.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-1 0
+        }
+
+        .lst-kix_p775bewvuqva-1>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-1, lower-roman) ". "
+        }
+
+        ol.lst-kix_ouyewh1j19wb-6.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-6 0
+        }
+
+        .lst-kix_uw3c72ir26fd-3>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-3, decimal) ". "
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-1.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-1 0
+        }
+
+        .lst-kix_r82hnbaki3uh-3>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-3
+        }
+
+        .lst-kix_azisk8adfup-3>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_azisk8adfup-5>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_n4j8wgbotqs4-5>li:before {
+            content: "(" counter(lst-ctn-kix_n4j8wgbotqs4-5, lower-roman) ") "
+        }
+
+        .lst-kix_bbnp0wjrvkps-6>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-6
+        }
+
+        ol.lst-kix_ony68fgmran2-2.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-2 0
+        }
+
+        .lst-kix_pc4ac0lz2732-2>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-2
+        }
+
+        .lst-kix_uw3c72ir26fd-5>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_r82hnbaki3uh-7.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-7 0
+        }
+
+        .lst-kix_n4j8wgbotqs4-7>li:before {
+            content: "" counter(lst-ctn-kix_n4j8wgbotqs4-7, lower-latin) ". "
+        }
+
+        .lst-kix_vrkopolnd82l-8>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-8
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-6.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-6 0
+        }
+
+        .lst-kix_r82hnbaki3uh-3>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-3, decimal) ". "
+        }
+
+        .lst-kix_n4j8wgbotqs4-0>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-0
+        }
+
+        .lst-kix_r82hnbaki3uh-0>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-0, decimal) ". "
+        }
+
+        .lst-kix_fs0la2q4ryr4-4>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-4
+        }
+
+        ol.lst-kix_ouyewh1j19wb-1.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-1 0
+        }
+
+        .lst-kix_78yfyf7b0uy2-4>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-4
+        }
+
+        .lst-kix_2wqeai486r0h-4>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-4
+        }
+
+        .lst-kix_r82hnbaki3uh-8>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_sj8bkocoutsd-1.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-1 0
+        }
+
+        ol.lst-kix_sj8bkocoutsd-7.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-7 0
+        }
+
+        .lst-kix_d0oxa5cd57e0-1>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-3.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-3 0
+        }
+
+        ol.lst-kix_ony68fgmran2-7.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-7 0
+        }
+
+        ol.lst-kix_voho08zefl8m-0.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-0 0
+        }
+
+        .lst-kix_y9yifegkhx4n-0>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-0, decimal) ". "
+        }
+
+        .lst-kix_oynlvfpbvber-4>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-4, lower-latin) ". "
+        }
+
+        .lst-kix_oynlvfpbvber-7>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-7, lower-latin) ". "
+        }
+
+        .lst-kix_n4j8wgbotqs4-4>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-4
+        }
+
+        .lst-kix_y9yifegkhx4n-5>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-5, lower-roman) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-3>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-3
+        }
+
+        .lst-kix_78yfyf7b0uy2-0>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-0
+        }
+
+        .lst-kix_voho08zefl8m-7>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-7
+        }
+
+        .lst-kix_oynlvfpbvber-8>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-8
+        }
+
+        .lst-kix_mqhgymcoj1j8-6>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-6
+        }
+
+        ol.lst-kix_sj8bkocoutsd-8.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-8 0
+        }
+
+        .lst-kix_w1mfwnkv1sew-8>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-8, decimal) ". "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-5.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-5 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-6>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-6, lower-latin) ". "
+        }
+
+        .lst-kix_cdlnkkvr8shj-3>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-3, lower-latin) ". "
+        }
+
+        .lst-kix_y9yifegkhx4n-8>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_sj8bkocoutsd-2.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-2 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-5>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_ouyewh1j19wb-2.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-2 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-2>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_sl353p7w81r5-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_sl353p7w81r5-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_sl353p7w81r5-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_sl353p7w81r5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-0.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-0 0
+        }
+
+        .lst-kix_ony68fgmran2-3>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-3
+        }
+
+        .lst-kix_ony68fgmran2-4>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_sl353p7w81r5-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_n4j8wgbotqs4-7>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-7
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-7.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-7 0
+        }
+
+        .lst-kix_3mozpjoy5bzj-2>li:before {
+            content: "-  "
+        }
+
+        ul.lst-kix_sl353p7w81r5-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_sl353p7w81r5-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_sl353p7w81r5-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_sl353p7w81r5-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_sl353p7w81r5-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_rhh1i07qapye-1>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_voho08zefl8m-1.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-1 0
+        }
+
+        .lst-kix_oynlvfpbvber-1>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-1
+        }
+
+        .lst-kix_fs0la2q4ryr4-0>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-0
+        }
+
+        ol.lst-kix_sj8bkocoutsd-3.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-3 0
+        }
+
+        .lst-kix_78yfyf7b0uy2-7>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-7
+        }
+
+        ol.lst-kix_ony68fgmran2-6.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-6 0
+        }
+
+        .lst-kix_pc4ac0lz2732-4>li:before {
+            content: "(" counter(lst-ctn-kix_pc4ac0lz2732-4, lower-latin) ") "
+        }
+
+        .lst-kix_w1mfwnkv1sew-5>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-5, decimal) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-1>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-1, lower-latin) ". "
+        }
+
+        .lst-kix_sj8bkocoutsd-3>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-3, decimal) ". "
+        }
+
+        .lst-kix_vrkopolnd82l-3>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-3, decimal) ". "
+        }
+
+        .lst-kix_vrkopolnd82l-5>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-5
+        }
+
+        ol.lst-kix_sj8bkocoutsd-5.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-5 0
+        }
+
+        .lst-kix_w1mfwnkv1sew-5>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-5
+        }
+
+        ol.lst-kix_ony68fgmran2-8.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-8 0
+        }
+
+        .lst-kix_d0oxa5cd57e0-4>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_sj8bkocoutsd-5>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-5
+        }
+
+        .lst-kix_31sjslr2x5zw-3>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-3
+        }
+
+        .lst-kix_fs0la2q4ryr4-7>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-7
+        }
+
+        .lst-kix_azisk8adfup-8>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-7.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-7 0
+        }
+
+        .lst-kix_jiyo7z5lrv8u-2>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-2
+        }
+
+        .lst-kix_31sjslr2x5zw-5>li:before {
+            content: "(" counter(lst-ctn-kix_31sjslr2x5zw-5, lower-latin) ") "
+        }
+
+        ol.lst-kix_sj8bkocoutsd-6.start {
+            counter-reset: lst-ctn-kix_sj8bkocoutsd-6 0
+        }
+
+        .lst-kix_n4j8wgbotqs4-2>li:before {
+            content: "" counter(lst-ctn-kix_n4j8wgbotqs4-2, lower-roman) ") "
+        }
+
+        .lst-kix_uw3c72ir26fd-0>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-0, decimal) ". "
+        }
+
+        .lst-kix_uw3c72ir26fd-8>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-8, lower-roman) ". "
+        }
+
+        .lst-kix_sl353p7w81r5-8>li:before {
+            content: "\0025a0   "
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_uw3c72ir26fd-3>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-3
+        }
+
+        .lst-kix_r82hnbaki3uh-6>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-6
+        }
+
+        .lst-kix_pc4ac0lz2732-5>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-5
+        }
+
+        .lst-kix_bbnp0wjrvkps-3>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-3
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-8.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-8 0
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-8.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-8 0
+        }
+
+        .lst-kix_fs0la2q4ryr4-6>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-6, decimal) ". "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_p775bewvuqva-4>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-4
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_azisk8adfup-0>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_2wqeai486r0h-8>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_p775bewvuqva-3.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-3 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-5>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-5
+        }
+
+        .lst-kix_2wqeai486r0h-6>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-6, decimal) ". "
+        }
+
+        .lst-kix_2wqeai486r0h-5>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_r82hnbaki3uh-6.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-6 0
+        }
+
+        .lst-kix_2wqeai486r0h-4>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_2wqeai486r0h-3>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-3, decimal) ". "
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r82hnbaki3uh-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-5.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-5 0
+        }
+
+        ol.lst-kix_r82hnbaki3uh-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r82hnbaki3uh-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-0.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-0 0
+        }
+
+        ol.lst-kix_r82hnbaki3uh-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r82hnbaki3uh-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r82hnbaki3uh-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r82hnbaki3uh-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r82hnbaki3uh-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_2wqeai486r0h-7>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_r82hnbaki3uh-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_2wqeai486r0h-1>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-1
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_uw3c72ir26fd-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_2wqeai486r0h-0>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-0, decimal) ". "
+        }
+
+        .lst-kix_2wqeai486r0h-2>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_bbnp0wjrvkps-3.start {
+            counter-reset: lst-ctn-kix_bbnp0wjrvkps-3 0
+        }
+
+        .lst-kix_2wqeai486r0h-1>li:before {
+            content: "" counter(lst-ctn-kix_2wqeai486r0h-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-1.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-1 0
+        }
+
+        .lst-kix_voho08zefl8m-8>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-8
+        }
+
+        .lst-kix_mqhgymcoj1j8-0>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-0
+        }
+
+        .lst-kix_y9yifegkhx4n-6>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-6
+        }
+
+        ol.lst-kix_pc4ac0lz2732-0.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-0 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-4.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-4 0
+        }
+
+        .lst-kix_fs0la2q4ryr4-3>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-3
+        }
+
+        .lst-kix_w1mfwnkv1sew-0>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-0
+        }
+
+        ul.lst-kix_iodqjgaswcyx-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_sj8bkocoutsd-6>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-6
+        }
+
+        ul.lst-kix_iodqjgaswcyx-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_vrkopolnd82l-3>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-3
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_iodqjgaswcyx-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-8.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-8 0
+        }
+
+        .lst-kix_w1mfwnkv1sew-8>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-8
+        }
+
+        ol.lst-kix_ony68fgmran2-3.start {
+            counter-reset: lst-ctn-kix_ony68fgmran2-3 0
+        }
+
+        .lst-kix_31sjslr2x5zw-6>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-6
+        }
+
+        .lst-kix_pc4ac0lz2732-3>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-3
+        }
+
+        .lst-kix_n4j8wgbotqs4-6>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-6
+        }
+
+        ol.lst-kix_ouyewh1j19wb-3.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-3 0
+        }
+
+        ol.lst-kix_oynlvfpbvber-3.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-3 0
+        }
+
+        .lst-kix_r82hnbaki3uh-4>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-4
+        }
+
+        .lst-kix_w1mfwnkv1sew-7>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-7
+        }
+
+        ol.lst-kix_vrkopolnd82l-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-6.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-6 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_31sjslr2x5zw-5>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-5
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-2.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-2 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_p775bewvuqva-8>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-8
+        }
+
+        ol.lst-kix_voho08zefl8m-6.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-6 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_ouyewh1j19wb-2>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_oynlvfpbvber-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_ony68fgmran2-0>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-0
+        }
+
+        ol.lst-kix_oynlvfpbvber-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_oynlvfpbvber-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_ouyewh1j19wb-4>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-4, lower-latin) ". "
+        }
+
+        .lst-kix_fs0la2q4ryr4-1>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-1, lower-latin) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-6>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-6, decimal) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-8>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-0.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-0 0
+        }
+
+        .lst-kix_ony68fgmran2-7>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-7
+        }
+
+        .lst-kix_voho08zefl8m-0>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-0
+        }
+
+        ol.lst-kix_jiyo7z5lrv8u-2.start {
+            counter-reset: lst-ctn-kix_jiyo7z5lrv8u-2 0
+        }
+
+        .lst-kix_fs0la2q4ryr4-7>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-7, lower-latin) ". "
+        }
+
+        .lst-kix_2wqeai486r0h-8>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-8
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-6.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-6 0
+        }
+
+        .lst-kix_fs0la2q4ryr4-5>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-5, lower-roman) ". "
+        }
+
+        .lst-kix_78yfyf7b0uy2-5>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-5
+        }
+
+        .lst-kix_p775bewvuqva-1>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-1
+        }
+
+        .lst-kix_fs0la2q4ryr4-3>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-3, decimal) ". "
+        }
+
+        ol.lst-kix_voho08zefl8m-5.start {
+            counter-reset: lst-ctn-kix_voho08zefl8m-5 0
+        }
+
+        ol.lst-kix_ouyewh1j19wb-7.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-7 0
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-8.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-8 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-0>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-0, lower-latin) ". "
+        }
+
+        .lst-kix_p775bewvuqva-0>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-0
+        }
+
+        .lst-kix_w1mfwnkv1sew-1>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-1
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-2.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-2 0
+        }
+
+        .lst-kix_r82hnbaki3uh-1>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-1, lower-latin) ". "
+        }
+
+        .lst-kix_jiyo7z5lrv8u-3>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-3
+        }
+
+        .lst-kix_r82hnbaki3uh-2>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-2, lower-roman) ". "
+        }
+
+        .lst-kix_bbnp0wjrvkps-4>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-4
+        }
+
+        .lst-kix_y9yifegkhx4n-5>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-5
+        }
+
+        .lst-kix_r82hnbaki3uh-5>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-5, lower-roman) ". "
+        }
+
+        .lst-kix_r82hnbaki3uh-6>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-6, decimal) ". "
+        }
+
+        ul.lst-kix_azisk8adfup-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_azisk8adfup-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_azisk8adfup-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_azisk8adfup-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_uw3c72ir26fd-4>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-4
+        }
+
+        ul.lst-kix_azisk8adfup-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_cdlnkkvr8shj-3>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-3
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-4.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-4 0
+        }
+
+        ul.lst-kix_azisk8adfup-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_azisk8adfup-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_azisk8adfup-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_azisk8adfup-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_oynlvfpbvber-5>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_2wqeai486r0h-7.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-7 0
+        }
+
+        .lst-kix_oynlvfpbvber-6>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-6, decimal) ". "
+        }
+
+        .lst-kix_uw3c72ir26fd-2>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-2
+        }
+
+        .lst-kix_2wqeai486r0h-0>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-0
+        }
+
+        .lst-kix_jiyo7z5lrv8u-1>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-1
+        }
+
+        .lst-kix_ouyewh1j19wb-0>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-0, decimal) ". "
+        }
+
+        ol.lst-kix_vrkopolnd82l-0.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-0 0
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-3.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-3 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-5>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-5
+        }
+
+        ol.lst-kix_pc4ac0lz2732-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-3.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-3 0
+        }
+
+        .lst-kix_oynlvfpbvber-1>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-1, lower-latin) ". "
+        }
+
+        .lst-kix_oynlvfpbvber-2>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-2, lower-roman) ". "
+        }
+
+        .lst-kix_voho08zefl8m-1>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-1
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-8.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-8 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-8>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-8, decimal) ". "
+        }
+
+        ol.lst-kix_pc4ac0lz2732-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ouyewh1j19wb-8.start {
+            counter-reset: lst-ctn-kix_ouyewh1j19wb-8 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-1>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-1, lower-roman) ". "
+        }
+
+        ol.lst-kix_y9yifegkhx4n-0.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-0 0
+        }
+
+        ol.lst-kix_oynlvfpbvber-4.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-4 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-4>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-4, lower-roman) ". "
+        }
+
+        ol.lst-kix_vrkopolnd82l-5.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-5 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-5>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-5, decimal) ". "
+        }
+
+        .lst-kix_3mozpjoy5bzj-4>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_oynlvfpbvber-0>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-0
+        }
+
+        .lst-kix_ony68fgmran2-6>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-6, decimal) ". "
+        }
+
+        .lst-kix_pc4ac0lz2732-4>li {
+            counter-increment: lst-ctn-kix_pc4ac0lz2732-4
+        }
+
+        .lst-kix_3mozpjoy5bzj-0>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_78yfyf7b0uy2-8.start {
+            counter-reset: lst-ctn-kix_78yfyf7b0uy2-8 0
+        }
+
+        .lst-kix_n4j8wgbotqs4-0>li:before {
+            content: "" counter(lst-ctn-kix_n4j8wgbotqs4-0, decimal) ") "
+        }
+
+        .lst-kix_ony68fgmran2-2>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-2, lower-roman) ". "
+        }
+
+        .lst-kix_w1mfwnkv1sew-6>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-6
+        }
+
+        .lst-kix_r82hnbaki3uh-5>li {
+            counter-increment: lst-ctn-kix_r82hnbaki3uh-5
+        }
+
+        .lst-kix_vrkopolnd82l-4>li {
+            counter-increment: lst-ctn-kix_vrkopolnd82l-4
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-3.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-3 0
+        }
+
+        ol.lst-kix_r82hnbaki3uh-2.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-2 0
+        }
+
+        ol.lst-kix_y9yifegkhx4n-5.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-5 0
+        }
+
+        .lst-kix_3mozpjoy5bzj-8>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_ouyewh1j19wb-3>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-3, decimal) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-7>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-7, lower-latin) ". "
+        }
+
+        .lst-kix_fs0la2q4ryr4-0>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-0, decimal) ". "
+        }
+
+        ol.lst-kix_r82hnbaki3uh-1.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-1 0
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-5.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-5 0
+        }
+
+        ol.lst-kix_vrkopolnd82l-3.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-3 0
+        }
+
+        ol.lst-kix_mqhgymcoj1j8-7.start {
+            counter-reset: lst-ctn-kix_mqhgymcoj1j8-7 0
+        }
+
+        ol.lst-kix_y9yifegkhx4n-4.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-4 0
+        }
+
+        ol.lst-kix_oynlvfpbvber-8.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-8 0
+        }
+
+        .lst-kix_voho08zefl8m-0>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-0, lower-latin) ". "
+        }
+
+        .lst-kix_uw3c72ir26fd-2>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-2, lower-roman) ". "
+        }
+
+        .lst-kix_jiyo7z5lrv8u-8>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-8
+        }
+
+        .lst-kix_n4j8wgbotqs4-8>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-8
+        }
+
+        ol.lst-kix_y9yifegkhx4n-3.start {
+            counter-reset: lst-ctn-kix_y9yifegkhx4n-3 0
+        }
+
+        .lst-kix_fs0la2q4ryr4-8>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-8, lower-roman) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-7>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-7
+        }
+
+        ol.lst-kix_r82hnbaki3uh-0.start {
+            counter-reset: lst-ctn-kix_r82hnbaki3uh-0 0
+        }
+
+        .lst-kix_oynlvfpbvber-7>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-7
+        }
+
+        .lst-kix_fs0la2q4ryr4-4>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-4, lower-latin) ". "
+        }
+
+        .lst-kix_n4j8wgbotqs4-4>li:before {
+            content: "(" counter(lst-ctn-kix_n4j8wgbotqs4-4, lower-latin) ") "
+        }
+
+        .lst-kix_ouyewh1j19wb-2>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-2
+        }
+
+        ol.lst-kix_fs0la2q4ryr4-4.start {
+            counter-reset: lst-ctn-kix_fs0la2q4ryr4-4 0
+        }
+
+        ol.lst-kix_oynlvfpbvber-7.start {
+            counter-reset: lst-ctn-kix_oynlvfpbvber-7 0
+        }
+
+        .lst-kix_uw3c72ir26fd-6>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-6, decimal) ". "
+        }
+
+        .lst-kix_n4j8wgbotqs4-8>li:before {
+            content: "" counter(lst-ctn-kix_n4j8wgbotqs4-8, lower-roman) ". "
+        }
+
+        .lst-kix_fs0la2q4ryr4-5>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-5
+        }
+
+        .lst-kix_jiyo7z5lrv8u-3>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-3, decimal) ". "
+        }
+
+        .lst-kix_uw3c72ir26fd-5>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-5
+        }
+
+        ol.lst-kix_2wqeai486r0h-5.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-5 0
+        }
+
+        .lst-kix_jiyo7z5lrv8u-4>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-4
+        }
+
+        .lst-kix_jiyo7z5lrv8u-5>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-5, lower-roman) ". "
+        }
+
+        .lst-kix_jiyo7z5lrv8u-6>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-6, decimal) ". "
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-1.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-1 0
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-7.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-7 0
+        }
+
+        .lst-kix_mqhgymcoj1j8-7>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-7, lower-latin) ". "
+        }
+
+        .lst-kix_y9yifegkhx4n-4>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-4
+        }
+
+        .lst-kix_mqhgymcoj1j8-8>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-8, lower-roman) ". "
+        }
+
+        .lst-kix_2wqeai486r0h-3>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-3
+        }
+
+        .lst-kix_jiyo7z5lrv8u-8>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-8, lower-roman) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-0>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-0, decimal) ". "
+        }
+
+        .lst-kix_voho08zefl8m-2>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-2, decimal) ". "
+        }
+
+        .lst-kix_p775bewvuqva-2>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-2, decimal) ". "
+        }
+
+        .lst-kix_voho08zefl8m-5>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-5, decimal) ". "
+        }
+
+        .lst-kix_voho08zefl8m-8>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-8, decimal) ". "
+        }
+
+        .lst-kix_p775bewvuqva-5>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-5, decimal) ". "
+        }
+
+        .lst-kix_p775bewvuqva-7>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-7, lower-roman) ". "
+        }
+
+        ol.lst-kix_uw3c72ir26fd-3.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-3 0
+        }
+
+        .lst-kix_voho08zefl8m-7>li:before {
+            content: "" counter(lst-ctn-kix_voho08zefl8m-7, lower-roman) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-5>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-5, lower-roman) ". "
+        }
+
+        .lst-kix_mqhgymcoj1j8-2>li:before {
+            content: "" counter(lst-ctn-kix_mqhgymcoj1j8-2, lower-roman) ". "
+        }
+
+        .lst-kix_p775bewvuqva-8>li:before {
+            content: "" counter(lst-ctn-kix_p775bewvuqva-8, decimal) ". "
+        }
+
+        .lst-kix_sj8bkocoutsd-4>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-4
+        }
+
+        .lst-kix_ouyewh1j19wb-4>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-4
+        }
+
+        .lst-kix_voho08zefl8m-2>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-2
+        }
+
+        ol.lst-kix_2wqeai486r0h-0.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-0 0
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-2.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-2 0
+        }
+
+        .lst-kix_y9yifegkhx4n-0>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-0
+        }
+
+        .lst-kix_jiyo7z5lrv8u-0>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-0
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_p775bewvuqva-3>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-3
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-2.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-2 0
+        }
+
+        ol.lst-kix_2wqeai486r0h-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_2wqeai486r0h-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_ony68fgmran2-5>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-5
+        }
+
+        .lst-kix_sj8bkocoutsd-0>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-0
+        }
+
+        .lst-kix_ony68fgmran2-2>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-2
+        }
+
+        ol.lst-kix_uw3c72ir26fd-8.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-8 0
+        }
+
+        .lst-kix_31sjslr2x5zw-4>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-4
+        }
+
+        .lst-kix_jiyo7z5lrv8u-0>li:before {
+            content: "" counter(lst-ctn-kix_jiyo7z5lrv8u-0, decimal) ". "
+        }
+
+        .lst-kix_3mozpjoy5bzj-1>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_ony68fgmran2-5>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-5, lower-roman) ". "
+        }
+
+        .lst-kix_3mozpjoy5bzj-3>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_p775bewvuqva-7.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-7 0
+        }
+
+        .lst-kix_pc4ac0lz2732-3>li:before {
+            content: "(" counter(lst-ctn-kix_pc4ac0lz2732-3, decimal) ") "
+        }
+
+        .lst-kix_pc4ac0lz2732-5>li:before {
+            content: "(" counter(lst-ctn-kix_pc4ac0lz2732-5, lower-roman) ") "
+        }
+
+        .lst-kix_ony68fgmran2-3>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-3, decimal) ". "
+        }
+
+        .lst-kix_p775bewvuqva-6>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-6
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-3.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-3 0
+        }
+
+        .lst-kix_uw3c72ir26fd-1>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-1
+        }
+
+        .lst-kix_y9yifegkhx4n-8>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-8
+        }
+
+        .lst-kix_mqhgymcoj1j8-5>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-5
+        }
+
+        .lst-kix_78yfyf7b0uy2-6>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-6
+        }
+
+        ol.lst-kix_pc4ac0lz2732-6.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-6 0
+        }
+
+        .lst-kix_sj8bkocoutsd-2>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-2, lower-roman) ". "
+        }
+
+        .lst-kix_sj8bkocoutsd-4>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-4, lower-latin) ". "
+        }
+
+        .lst-kix_sj8bkocoutsd-7>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-7
+        }
+
+        ol.lst-kix_31sjslr2x5zw-1.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-1 0
+        }
+
+        ol.lst-kix_2wqeai486r0h-3.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-3 0
+        }
+
+        ol.lst-kix_pc4ac0lz2732-4.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-4 0
+        }
+
+        .lst-kix_y9yifegkhx4n-1>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-1
+        }
+
+        .lst-kix_ony68fgmran2-1>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-1
+        }
+
+        ol.lst-kix_p775bewvuqva-4.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-4 0
+        }
+
+        .lst-kix_y9yifegkhx4n-7>li {
+            counter-increment: lst-ctn-kix_y9yifegkhx4n-7
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-5.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-5 0
+        }
+
+        ol.lst-kix_p775bewvuqva-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_n4j8wgbotqs4-5>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-5
+        }
+
+        ol.lst-kix_p775bewvuqva-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_n4j8wgbotqs4-1>li:before {
+            content: "" counter(lst-ctn-kix_n4j8wgbotqs4-1, lower-latin) ") "
+        }
+
+        ol.lst-kix_p775bewvuqva-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_vrkopolnd82l-8.start {
+            counter-reset: lst-ctn-kix_vrkopolnd82l-8 0
+        }
+
+        .lst-kix_azisk8adfup-7>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_uw3c72ir26fd-1>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-1, lower-latin) ". "
+        }
+
+        .lst-kix_n4j8wgbotqs4-3>li:before {
+            content: "(" counter(lst-ctn-kix_n4j8wgbotqs4-3, decimal) ") "
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-1.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-1 0
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_uw3c72ir26fd-7>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-7, lower-latin) ". "
+        }
+
+        .lst-kix_voho08zefl8m-6>li {
+            counter-increment: lst-ctn-kix_voho08zefl8m-6
+        }
+
+        .lst-kix_ouyewh1j19wb-5>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-5
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_azisk8adfup-1>li:before {
+            content: "-  "
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3mozpjoy5bzj-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_pc4ac0lz2732-2.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-2 0
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-4.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-4 0
+        }
+
+        ol.lst-kix_2wqeai486r0h-2.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-2 0
+        }
+
+        .lst-kix_31sjslr2x5zw-1>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-1
+        }
+
+        .lst-kix_2wqeai486r0h-2>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-2
+        }
+
+        .lst-kix_ony68fgmran2-8>li {
+            counter-increment: lst-ctn-kix_ony68fgmran2-8
+        }
+
+        .lst-kix_r82hnbaki3uh-4>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_31sjslr2x5zw-8.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-8 0
+        }
+
+        ol.lst-kix_uw3c72ir26fd-6.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-6 0
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-5.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-5 0
+        }
+
+        .lst-kix_r82hnbaki3uh-7>li:before {
+            content: "" counter(lst-ctn-kix_r82hnbaki3uh-7, lower-latin) ". "
+        }
+
+        .lst-kix_p775bewvuqva-2>li {
+            counter-increment: lst-ctn-kix_p775bewvuqva-2
+        }
+
+        .lst-kix_w1mfwnkv1sew-3>li {
+            counter-increment: lst-ctn-kix_w1mfwnkv1sew-3
+        }
+
+        ol.lst-kix_p775bewvuqva-0.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-0 0
+        }
+
+        .lst-kix_mqhgymcoj1j8-8>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-8
+        }
+
+        .lst-kix_d0oxa5cd57e0-0>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_oynlvfpbvber-6>li {
+            counter-increment: lst-ctn-kix_oynlvfpbvber-6
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-4.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-4 0
+        }
+
+        ol.lst-kix_31sjslr2x5zw-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_uw3c72ir26fd-8>li {
+            counter-increment: lst-ctn-kix_uw3c72ir26fd-8
+        }
+
+        ol.lst-kix_31sjslr2x5zw-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-2.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-2 0
+        }
+
+        .lst-kix_oynlvfpbvber-3>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-3, decimal) ". "
+        }
+
+        ol.lst-kix_31sjslr2x5zw-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_y9yifegkhx4n-4>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-4, lower-latin) ". "
+        }
+
+        .lst-kix_jiyo7z5lrv8u-7>li {
+            counter-increment: lst-ctn-kix_jiyo7z5lrv8u-7
+        }
+
+        ol.lst-kix_31sjslr2x5zw-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_p775bewvuqva-1.start {
+            counter-reset: lst-ctn-kix_p775bewvuqva-1 0
+        }
+
+        ol.lst-kix_uw3c72ir26fd-0.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-0 0
+        }
+
+        ol.lst-kix_31sjslr2x5zw-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_bbnp0wjrvkps-8>li {
+            counter-increment: lst-ctn-kix_bbnp0wjrvkps-8
+        }
+
+        ol.lst-kix_uw3c72ir26fd-7.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-7 0
+        }
+
+        .lst-kix_oynlvfpbvber-0>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-0, decimal) ". "
+        }
+
+        .lst-kix_2wqeai486r0h-6>li {
+            counter-increment: lst-ctn-kix_2wqeai486r0h-6
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-3.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-3 0
+        }
+
+        .lst-kix_y9yifegkhx4n-1>li:before {
+            content: "" counter(lst-ctn-kix_y9yifegkhx4n-1, lower-latin) ". "
+        }
+
+        .lst-kix_sj8bkocoutsd-3>li {
+            counter-increment: lst-ctn-kix_sj8bkocoutsd-3
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-3.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-3 0
+        }
+
+        ol.lst-kix_31sjslr2x5zw-3.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-3 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-7>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-7, lower-roman) ". "
+        }
+
+        ol.lst-kix_uw3c72ir26fd-1.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-1 0
+        }
+
+        ol.lst-kix_pc4ac0lz2732-1.start {
+            counter-reset: lst-ctn-kix_pc4ac0lz2732-1 0
+        }
+
+        .lst-kix_cdlnkkvr8shj-2>li:before {
+            content: "" counter(lst-ctn-kix_cdlnkkvr8shj-2, decimal) ". "
+        }
+
+        ol.lst-kix_2wqeai486r0h-1.start {
+            counter-reset: lst-ctn-kix_2wqeai486r0h-1 0
+        }
+
+        .lst-kix_bbnp0wjrvkps-6>li:before {
+            content: "" counter(lst-ctn-kix_bbnp0wjrvkps-6, decimal) ". "
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-4.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-4 0
+        }
+
+        .lst-kix_oynlvfpbvber-8>li:before {
+            content: "" counter(lst-ctn-kix_oynlvfpbvber-8, lower-roman) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-1>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-1
+        }
+
+        ol.lst-kix_uw3c72ir26fd-5.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-5 0
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-8.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-8 0
+        }
+
+        .lst-kix_ony68fgmran2-8>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-8, lower-roman) ". "
+        }
+
+        .lst-kix_pc4ac0lz2732-8>li:before {
+            content: "" counter(lst-ctn-kix_pc4ac0lz2732-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-6.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-6 0
+        }
+
+        .lst-kix_pc4ac0lz2732-0>li:before {
+            content: "" counter(lst-ctn-kix_pc4ac0lz2732-0, decimal) ") "
+        }
+
+        ol.lst-kix_31sjslr2x5zw-7.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-7 0
+        }
+
+        .lst-kix_ony68fgmran2-0>li:before {
+            content: "" counter(lst-ctn-kix_ony68fgmran2-0, decimal) ". "
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-5.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-5 0
+        }
+
+        ol.lst-kix_uw3c72ir26fd-2.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-2 0
+        }
+
+        ol.lst-kix_w1mfwnkv1sew-0.start {
+            counter-reset: lst-ctn-kix_w1mfwnkv1sew-0 0
+        }
+
+        .lst-kix_iodqjgaswcyx-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_sl353p7w81r5-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_rhh1i07qapye-5>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_31sjslr2x5zw-8>li {
+            counter-increment: lst-ctn-kix_31sjslr2x5zw-8
+        }
+
+        .lst-kix_sj8bkocoutsd-7>li:before {
+            content: "" counter(lst-ctn-kix_sj8bkocoutsd-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_voho08zefl8m-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_w1mfwnkv1sew-1>li:before {
+            content: "" counter(lst-ctn-kix_w1mfwnkv1sew-1, lower-roman) ". "
+        }
+
+        ol.lst-kix_voho08zefl8m-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_voho08zefl8m-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_31sjslr2x5zw-4.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-4 0
+        }
+
+        ol.lst-kix_voho08zefl8m-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_3mozpjoy5bzj-6>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_fs0la2q4ryr4-2>li {
+            counter-increment: lst-ctn-kix_fs0la2q4ryr4-2
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-6.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-6 0
+        }
+
+        .lst-kix_vrkopolnd82l-7>li:before {
+            content: "" counter(lst-ctn-kix_vrkopolnd82l-7, lower-latin) ". "
+        }
+
+        .lst-kix_ouyewh1j19wb-5>li:before {
+            content: "" counter(lst-ctn-kix_ouyewh1j19wb-5, lower-roman) ". "
+        }
+
+        .lst-kix_cdlnkkvr8shj-4>li {
+            counter-increment: lst-ctn-kix_cdlnkkvr8shj-4
+        }
+
+        .lst-kix_78yfyf7b0uy2-7>li:before {
+            content: "" counter(lst-ctn-kix_78yfyf7b0uy2-7, lower-latin) ". "
+        }
+
+        .lst-kix_d0oxa5cd57e0-8>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_31sjslr2x5zw-5.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-5 0
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-8.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-8 0
+        }
+
+        .lst-kix_n4j8wgbotqs4-2>li {
+            counter-increment: lst-ctn-kix_n4j8wgbotqs4-2
+        }
+
+        ol.lst-kix_uw3c72ir26fd-4.start {
+            counter-reset: lst-ctn-kix_uw3c72ir26fd-4 0
+        }
+
+        .lst-kix_31sjslr2x5zw-1>li:before {
+            content: "" counter(lst-ctn-kix_31sjslr2x5zw-1, upper-latin) ". "
+        }
+
+        .lst-kix_azisk8adfup-4>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_n4j8wgbotqs4-7.start {
+            counter-reset: lst-ctn-kix_n4j8wgbotqs4-7 0
+        }
+
+        .lst-kix_n4j8wgbotqs4-6>li:before {
+            content: "" counter(lst-ctn-kix_n4j8wgbotqs4-6, decimal) ". "
+        }
+
+        ol.lst-kix_31sjslr2x5zw-6.start {
+            counter-reset: lst-ctn-kix_31sjslr2x5zw-6 0
+        }
+
+        .lst-kix_ouyewh1j19wb-8>li {
+            counter-increment: lst-ctn-kix_ouyewh1j19wb-8
+        }
+
+        .lst-kix_mqhgymcoj1j8-1>li {
+            counter-increment: lst-ctn-kix_mqhgymcoj1j8-1
+        }
+
+        .lst-kix_78yfyf7b0uy2-2>li {
+            counter-increment: lst-ctn-kix_78yfyf7b0uy2-2
+        }
+
+        .lst-kix_fs0la2q4ryr4-2>li:before {
+            content: "" counter(lst-ctn-kix_fs0la2q4ryr4-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_cdlnkkvr8shj-7.start {
+            counter-reset: lst-ctn-kix_cdlnkkvr8shj-7 0
+        }
+
+        .lst-kix_uw3c72ir26fd-4>li:before {
+            content: "" counter(lst-ctn-kix_uw3c72ir26fd-4, lower-latin) ". "
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c24 {
+            margin-left: 108pt;
+            padding-top: 16pt;
+            text-indent: -18pt;
+            padding-bottom: 4pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c18 {
+            margin-left: 36pt;
+            padding-top: 16pt;
+            text-indent: 36pt;
+            padding-bottom: 4pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c11 {
+            margin-left: 36pt;
+            padding-top: 20pt;
+            padding-left: 0pt;
+            padding-bottom: 6pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c20 {
+            margin-left: 108pt;
+            padding-top: 16pt;
+            padding-left: 0pt;
+            padding-bottom: 4pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c29 {
+            margin-left: 36pt;
+            padding-top: 20pt;
+            text-indent: -18pt;
+            padding-bottom: 6pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c34 {
+            margin-left: 36pt;
+            padding-top: 20pt;
+            padding-bottom: 6pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c35 {
+            margin-left: 72pt;
+            padding-top: 16pt;
+            padding-bottom: 4pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c0 {
+            margin-left: 36pt;
+            padding-top: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c8 {
+            margin-left: 36pt;
+            padding-top: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c30 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c6 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 19pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c17 {
+            padding-top: 18pt;
+            padding-bottom: 6pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c25 {
+            padding-top: 18pt;
+            padding-bottom: 6pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c7 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c37 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 8pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c14 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 23pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c33 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 16pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c2 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 14pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c13 {
+            color: #434343;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 17pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c27 {
+            margin-left: 36pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c23 {
+            color: #434343;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 19pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c1 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c15 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c31 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c21 {
+            text-decoration-skip-ink: none;
+            -webkit-text-decoration-skip: none;
+            color: #1155cc;
+            text-decoration: underline
+        }
+
+        .c26 {
+            font-size: 13.5pt;
+            font-style: italic;
+            color: #202122;
+            font-weight: 700
+        }
+
+        .c36 {
+            font-size: 15pt;
+            font-family: "Roboto";
+            font-weight: 400
+        }
+
+        .c22 {
+            width: 33%;
+            height: 1px
+        }
+
+        .c32 {
+            font-size: 13.5pt;
+            color: #202122
+        }
+
+        .c38 {
+            max-width: 451.4pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c4 {
+            font-size: 14pt;
+            font-style: italic
+        }
+
+        .c19 {
+            color: inherit;
+            text-decoration: inherit
+        }
+
+        .c9 {
+            margin-left: 72pt;
+            padding-left: 0pt
+        }
+
+        .c3 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c5 {
+            font-size: 14pt
+        }
+
+        .c16 {
+            background-color: aliceblue
+        }
+
+        .c12 {
+            height: 11pt
+        }
+
+        .c39 {
+            font-size: 8pt
+        }
+
+        .c10 {
+            font-size: 10pt
+        }
+
+        .c28 {
+            font-size: 19pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 23pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 17pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+        body{
+            text-align: center;
+            margin: 0 auto;
+        }
+        .background{
+            width: 100vw;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+</style>
 </head>
-<body>
-    
+
+<body class="c16 c38 doc-content">
+    <div class="backgr"></div>
+    <ol class="c3 lst-kix_fs0la2q4ryr4-0 start" start="1">
+        <li class="c11 li-bullet-0">
+            <h1 id="h.9i74b75j5teu" style="display:inline"><span class="c14">Introduction and overview</span></h1>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">&ldquo;Donne Illustri&rdquo; is a project that aims to develop a system to convert
+            the information stored in a digital book, encoded in epub format, &nbsp;into a source of knowledge[1]. To do
+            so, we used the technologies developed for the Semantic Web (RDF) to describe data stored in the text and
+            enrich them with data coming from the Linked Open Data environment. </span></p>
+    <p class="c1"><span class="c2">The overall concept of this project is:</span></p>
+    <ol class="c3 lst-kix_sj8bkocoutsd-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">Converting the existing text in XML/TEI format;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">Expanding its information with LOD;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">Visualising the converted text and the enriched knowledge.</span>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">It is important to stress that this project does not aim to solve all the issues and
+            aspects that could emerge during the process, but to produce and propose a suitable workflow that could be
+            reused and implemented for future projects. </span></p>
+    <p class="c1"><span class="c2">A second clarification is that this project does not aim to create a structure able
+            to describe all the existing and possible types of book, but it focuses on the development of a process that
+            can be applied to all those monographs used (or potentially used) in education, therefore focusing on
+            scholastic or academic topics. </span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <ol class="c3 lst-kix_fs0la2q4ryr4-1 start" start="1">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.y4ecbgz2czdx" style="display:inline"><span class="c6">Theoretical background</span></h2>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">The research domain in Scholarly Digital Editions (SDE) has been characterised so far
+            by a strongly document-centred approach. Recently a new paradigm is emerging, that is trying to change this
+            perspective. The idea used in projects like &ldquo;Il quaderno di appunti di Paolo
+            Bufalini&rdquo;[1]</span><sup class="c5"><a href="#ftnt1" id="ftnt_ref1">[1]</a></sup><span
+            class="c2">&nbsp;is an evident effort in the direction of opening the SDE to the Semantic Web and the RDF
+            technologies. The idea is to realise &ldquo;knowledge graphs&#39;&#39;, marking interconnections using the
+            graph data structure. The distance taken by the publishing industry from the SDE has been observed for a
+            long time so far[6], therefore it is not a big surprise that even the Semantic Web and the Linked Open Data
+            (LOD), have little to none interest in this industry. </span></p>
+    <p class="c1"><span class="c2">This project was conceived in this direction: producing a model and a workflow that
+            could show a direction to expand the usage of the Semantic Web and LOD technologies in the publishing
+            industry. Here we do not discuss the effective economic opportunity of such a system, we only propose a
+            possible technical approach for publishing houses to deal with these phenomena. </span></p>
+    <p class="c1"><span class="c2">The idea of this project is based on the theoretical division of readers in readers
+            and users[5]: while the first ones are mostly interested in finding a reliable source of the work, the
+            second ones, mostly focused on studying the text, that look at the intertextual context of the text, its
+            correlations. While Rasmussen applies this to the reader of SDE, we try to apply this parameter also to
+            readers to other sources.</span></p>
+    <p class="c1"><span class="c2">Our project looks to those readers that lie in the middle between these two groups,
+            namely all of those readers, mainly students, that read the text as a source of knowledge. Because of this
+            particular characteristic of them, we consider the most suitable technology for this new category the
+            Semantic Web, since it transforms information into knowledge.</span></p>
+    <p class="c1"><span class="c2">Moreover, as our workflow enhances, we believe that the inclusion of such an effort
+            could be very advantageous for the publishing houses, since it could allow the content of their texts to be
+            exploited in the so-called nanopublications[3], offering a higher visibility to the resources. A
+            nanopublication can be defined as &ldquo;a set of annotations that refers to the same statement and contains
+            a minimum set of agreed-upon annotations&rdquo;.</span></p>
+    <ol class="c3 lst-kix_fs0la2q4ryr4-1" start="2">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.j0dpmameb4yd" style="display:inline"><span class="c6">Defining the source</span></h2>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">As anticipated in the Introduction, this project focuses on academic and educational
+            material, starting from epub material. Our decision landed on </span><span class="c4">Vite di artiste
+            eccellenti</span><span class="c5">&nbsp;by Costantino D&rsquo;Orazio. This book explores the lives of many
+            female artists </span><span class="c5">in history</span><span class="c5">, presenting itself as a valid
+            counterpart to the </span><span class="c5">renowned</span><span class="c5">&nbsp;</span><span
+            class="c16 c26">Le vite de&#39; pi&ugrave; eccellenti pittori, scultori, e architettori </span><span
+            class="c16 c32">by Giorgio Vasari. </span><span class="c2">This text represent a valid case study for our
+            work:</span></p>
+    <ul class="c3 lst-kix_3mozpjoy5bzj-0 start">
+        <li class="c0 li-bullet-0"><span class="c2">It focuses on an academic topic but not specific for education;
+                because of this, its level of depth is not too high to be hyper specific, and yet not too shallow to be
+                useless.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">The historical coverage of events is significantly broad, presenting
+                subjects coming from different ages.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">It indicates different types of works of art, texts, and
+                entities.</span></li>
+    </ul>
+    <p class="c1"><span class="c2">Only the central chapters of the resource have been analysed here for reasons that
+            will be further explained.</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <ol class="c3 lst-kix_fs0la2q4ryr4-0" start="2">
+        <li class="c11 li-bullet-0">
+            <h1 id="h.4eueypd4xg8b" style="display:inline"><span class="c14">Modelling the UML</span></h1>
+        </li>
+    </ol>
+    <p class="c12 c27"><span class="c30"></span></p>
+    <ol class="c3 lst-kix_w1mfwnkv1sew-0 start" start="1">
+        <li class="c9 c17 li-bullet-0">
+            <h2 id="h.4fe581a4smck" style="display:inline"><span class="c6">The production of the UML</span></h2>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">Any text, book and bibliographic record can be conceptualised around two dimensions,
+            their structure and their content[8]. A first attempt to develop a model of our data tried to take in
+            consideration both this level and a high-depth level (</span><span class="c4">Figure 1)</span><span
+            class="c2">. We realised that this approach was too broad, resulting in a general translation of both the
+            ontology FaBiO, which is used for describing bibliographic records, and other ontologies common in the field
+            of Digital Humanities (BIBO, CIDOC/CRM). </span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="image"
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.70px; height: 253.33px;"><img
+                alt="figure 1: the general UML describing a book and its references" src="images/image4.png"
+                style="width: 601.70px; height: 253.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c5">A better approach seemed to summarise this first model, focusing on the key aspect of
+            the academic text and its content in the Humanities </span><span class="c4">Figure 2</span><span
+            class="c5">. This graph, way more readable, has two core nodes: fabio:Book and fabio:ScholarlyWork.
+        </span><span class="c5">These</span><span class="c2">&nbsp;two nodes represent respectively the structure of the
+            texts (citations, charts, images, quotes) and the content (subjects, actors, events cited, time-spans).
+        </span></p>
+    <p class="c1"><span class="image"
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.70px; height: 376.00px;"><img
+                alt="" src="images/image5.png"
+                style="width: 601.70px; height: 376.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c1"><span class="c5">Considering our source and similar ones, we noticed that, for the aim of our
+        </span><span class="c5">project, it was</span><span class="c5">&nbsp;not significant to focus on the layer
+            represented by fabio:Book, so we reconceptualised and simplified our reflection, reaching the final UML. In
+            this model, we consider the content of a book as a Work, as it would be conceptualised in FRBR; it is
+            important to notice that Work in this specific case </span><span class="c5">represents</span><span
+            class="c5">&nbsp;any kind of textual entity. The core </span><span class="c5">classes</span><span
+            class="c5">&nbsp;that a Work can refer </span><span class="c5">to</span><span class="c5">&nbsp;are Places,
+            Time-spans, Events and, in the Humanities field, Artistic object, and other texts (as the recursive edge
+            emphasises) </span><span class="c4">Figure 3</span><span class="c5">. The Text can cite other Works, while
+            directly refers to the classes that are included in the work. We consider this model to be a good
+            representation of a generalised model of detecting data stored in a general topic based on Humanities. Of
+            course, if </span><span class="c5">dealing</span><span class="c2">&nbsp;with different branches of
+            knowledge, it should be enriched (because of this, here we provide the previous models).</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="image"
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.70px; height: 316.00px;"><img
+                alt="" src="images/image3.png"
+                style="width: 601.70px; height: 316.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">We consider our modelling process compliant with the three key aspects that where
+            proposed by Elena Pierazzo[2]: </span></p>
+    <ol class="c3 lst-kix_78yfyf7b0uy2-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">We selected our main interest and simplified our model.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">This simplification was guided by the point of view that we were
+                adopting towards our domain.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">Our model deals with both functions of modelling.</span></li>
+    </ol>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <ol class="c3 lst-kix_fs0la2q4ryr4-0" start="3">
+        <li class="c11 li-bullet-0">
+            <h1 id="h.ev0pq09i79bx" style="display:inline"><span class="c14">Workflow</span></h1>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">This paragraph of our documentation is meant to describe the process that we have
+            followed to develop our initial idea and concretize the modelling.</span></p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-0 start" start="1">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.mhfbh5epjhdl" style="display:inline"><span class="c6">From ePub to XML/TEI</span></h2>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">The digital format preferred by publishing houses is the ePub format. It consists of
+            a collection of HTML or XHTML files stored all together. This multi-document structure did not comply with a
+            characteristic that we wanted for our text, to be ODD (One Document Does it all)[2][8]. &nbsp;Said so, the
+            XML/TEI seemed &nbsp;a valid alternative since it can contain the whole text in one document. This
+            translation was facilitated since both documents follow a similar SGML syntax. This correction allowed us to
+            preserve some elements of the text that were already marked in the ePub file (headings, italics) and
+            preserve some significant elements, such as the note&rsquo;s internal references.</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">Here is a list of some of the regular expressions performed in this phase (the
+            characters =&gt; separate the HTML version from the XML one). It is important to stress that the whitespaces
+            are meaningful:</span></p>
+    <ul class="c3 lst-kix_rhh1i07qapye-0 start">
+        <li class="c0 li-bullet-0"><span class="c2">&lt;h2 =&gt;&lt;div type=&quot;paragraph&quot;
+                n=&quot;&quot;&gt;\n\t\t\t&lt;h2 </span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;p =&gt;\t&lt;p </span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/p=&gt;\t&lt;/p</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&nbsp;&lt;/h1&gt;\n=&gt;&lt;/h1&gt;\n\t\t\t&lt;div
+                type=&quot;paragraph&quot; n=&quot;1&quot;&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;div type=&quot;paragraph&quot;=&gt;&lt;/div&gt;\n\t\t&lt;div
+                type=&quot;paragraph&quot;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">p class=&quot;testo&quot;=&gt;p</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">p class=&quot;testo_a_vivo&quot;=&gt;p</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;em&gt;=&gt;&lt;hi rend=&quot;italic&quot;&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/em&gt;=&gt;&lt;/hi&gt;</span></li>
+        <li class="c0 li-bullet-0"><span
+                class="c2">&lt;/body&gt;=&gt;\t\t&lt;/div&gt;\n\t&lt;/div&gt;\n\t&lt;/body&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;br/&gt;=&gt;&lt;/h1&gt;\n\t\t\t&lt;p&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/h1&gt;=&gt;&lt;p&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;br/&gt;=&gt;&lt;/h1&gt;\n\t\t\t&lt;p&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/h1&gt;=&gt;&lt;/p&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;h1=&gt;&lt;head</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/h1=&gt;&gt;/head</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;h2=&gt;&lt;head</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/h2=&gt;&lt;/head</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">p class=&quot;citato&quot;=&gt;q</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">p class=&quot;citato1&quot;=&gt;q</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">p class=&quot;citato1_a_vivo&quot;=&gt;q</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">class=&quot;testo1&quot;=&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;p class=&quot;testo_a_vivo_con_stacco&quot;&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;a&gt;=&gt;&lt;ref&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/a&gt;=&gt;&lt;/ref&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">href=&gt;target</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&nbsp;class=&quot;sc-xref-note&quot;=&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;sup&gt;=&gt;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">&lt;/sup&gt;=&gt;</span></li>
+    </ul>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-0" start="2">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.n55let25sp32" style="display:inline"><span class="c6">Including entity</span></h2>
+        </li>
+    </ol>
+    <h3 class="c18" id="h.yw7qf6fi6ity"><span class="c13">i. &nbsp;Defining describing elements</span></h3>
+    <p class="c1"><span class="c5">The second step of our process was to mark the entities in the XML file. It must be
+            noticed that this was the most time consuming activity. In similar projects like the Bufalini notes [1], a
+            key advantage in the activity was that the</span><span class="c5">&nbsp;entities were already
+            marked.</span><span class="c2">&nbsp;The publishing house did not include it.</span></p>
+    <p class="c1"><span class="c5">Because of this absence, we had to analyse our UML and trying to convert it in
+            XML/TEI</span><sup class="c5"><a href="#ftnt2" id="ftnt_ref2">[2]</a></sup><span class="c2">. Luckily,
+            almost all the entities we were interested in are present in the model of P5 Guidelines. We used
+            &lt;person&gt; and &lt;place&gt;.</span></p>
+    <p class="c1"><span class="c5">&nbsp;A major problem was represented by the codification of the work of art. At the
+            state of the art, there is no such thing as an element to describe works of art. We have decided to create
+            an ad hoc tag &lt;</span><span class="c5">item</span><span class="c5">&gt; to identify our work of art.
+            Infact, our aim was not to use XML/TEI as a model for describing the artistic resource in our
+            text</span><sup class="c5"><a href="#ftnt3" id="ftnt_ref3">[3]</a></sup><span class="c2">. This decision was
+            possible because of the high freedom that the TEI leaves in the definition of new ad hoc tags[2].</span></p>
+    <p class="c1"><span class="c2">A second problem was the differences in the types of works of art contained in our
+            source text. Describing art history from the origins until current days, the types of artworks that may be
+            encountered can differ dramatically. Because of this, we decide to focus on the three main works of art:
+            painting, architecture and sculpture, defined as type attributes of the element. Marking these entities was
+            particularly difficult since the original text sometimes names the works of art with the title and the year,
+            sometimes it just mentions it not explicitly.</span></p>
+    <h3 class="c24" id="h.8v9sygrhlrw"><span class="c23">ii. &nbsp;Identifying entities</span></h3>
+    <p class="c1"><span class="c2">As anticipated before, this phase was the most time consuming of all. Since the text
+            was not marked, we had to do it on our own. To accomplish this process we decide to perform two different
+            strategies, with the aim to identify the most efficient one:</span></p>
+    <ol class="c3 lst-kix_2wqeai486r0h-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">Manually marking the text. The logical process is to:</span></li>
+    </ol>
+    <ol class="c3 lst-kix_2wqeai486r0h-1 start" start="1">
+        <li class="c1 c9 li-bullet-0"><span class="c2">Read the text;</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Individuate the entities and create them;</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Report them in the TEIHeader.</span></li>
+    </ol>
+    <ol class="c3 lst-kix_2wqeai486r0h-0" start="2">
+        <li class="c0 li-bullet-0"><span class="c5">Semi automatic process</span><span class="c2">: </span></li>
+    </ol>
+    <p class="c31"><span class="c2">Facilitated by the spacy NER pipeline this task required only a thorough cleanup and
+            review, the final output was in fact an overly tagged version of the final one, meaning that the algorithm
+            is trained and tuned in order to recognize as many Named Entities as possible, often pushing its chances.
+            This caused some easily recognizable errors, namely capitalised terms at the beginning of the sentence were
+            recognized sometimes as Entities and some random substrings were tagged too. This class of error was the
+            easiest to address, and it made the text, as mentioned before, &ldquo;overly tagged&rdquo;, this means that
+            every real Entity that we wanted to tag (People and Places) was already there. The second class of errors,
+            and the most insidious one, was that related to misconceptions between People and Places,when a person is
+            mentioned using just the surname it was difficult for the ML algorithm to distinguish between an actual
+            surname and was sometimes tagged as a place.</span></p>
+    <p class="c31"><span class="c2">In the end we can affirm that this kind of ML tasks under aware human supervision
+            can facilitate and improve the tagging task for digital texts.</span></p>
+    <p class="c1"><span class="c2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c2">The two strategies performed in similar ways as a matter of time (more or less one
+            day per chapter). In both cases we decided to define the entities only by the name, without adding extra
+            information about occupation or gender for People, or coordinates for Places. This decision will be better
+            explained in the following section. </span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-0" start="3">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.jtoiidhkd99r" style="display:inline"><span class="c6">Expanding data with WikiData</span></h2>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">Once we had the entities in our TEIHeader and marked them in the body, we proceeded
+            &nbsp;with the extraction of the information stored for each entity in Wikidata</span><sup class="c5"><a
+                href="#ftnt4" id="ftnt_ref4">[4]</a></sup><span class="c2">. The decision of using Wikidata is a mere
+            example, and any other similar resource could be used for the same purpose. It is actually strongly
+            suggested to enrich the description in such a way due to some limits that will be analysed further. What we
+            are going to describe in this subparagraph and in the following one can be seen in the GitHub repository in
+            the file rdf.jpynb.</span></p>
+    <h3 class="c18" id="h.5fi3fskac2ow"><span class="c13">i. Defining WikiData Entities and Properties</span></h3>
+    <p class="c1"><span class="c5">The first step for working in WikiData was to convert the UML in Classes and
+            Properties as in Wikidata; this step is fundamental to query the content of WikiData. The result is the one
+            as shown in </span><span class="c4">Figure</span><span class="c5">&nbsp;</span><span
+            class="c4">4</span><span class="c2">. </span></p>
+    <p class="c1"><span class="image"
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.70px; height: 156.00px;"><img
+                alt="" src="images/image2.png"
+                style="width: 601.70px; height: 156.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">While the definition of Work of Art Q838948 and Person Q5 were quite immediate, the
+            retrieving of the Class Geographic location Q2221906 was obtained with a reversed process: we searched for a
+            small set of representative elements of different type of object representing Places (streets, cities,
+            countries, continents) and we queried the superclasses that those objects have. </span></p>
+    <p class="c1"><span class="c2">As the graph above shows, we used Wikidata to retrieve some pieces of information
+            external to those contained in the text, which are:</span></p>
+    <ol class="c3 lst-kix_ouyewh1j19wb-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">For People:</span></li>
+    </ol>
+    <ol class="c3 lst-kix_ouyewh1j19wb-1 start" start="1">
+        <li class="c1 c9 li-bullet-0"><span class="c2">Date of birth.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Date of death.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Date of death.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Place of death.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">The gender.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">The occupation.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Work location (will be better analysed after). </span></li>
+    </ol>
+    <ol class="c3 lst-kix_ouyewh1j19wb-0" start="2">
+        <li class="c0 li-bullet-0"><span class="c2">For Places:</span></li>
+    </ol>
+    <ol class="c3 lst-kix_ouyewh1j19wb-1 start" start="1">
+        <li class="c1 c9 li-bullet-0"><span class="c2">Longitude</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Latitude</span></li>
+    </ol>
+    <ol class="c3 lst-kix_ouyewh1j19wb-0" start="3">
+        <li class="c0 li-bullet-0"><span class="c2">For Works of Art:</span></li>
+    </ol>
+    <ol class="c3 lst-kix_ouyewh1j19wb-1 start" start="1">
+        <li class="c1 c9 li-bullet-0"><span class="c2">Date of creation.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Place of creation.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Place of conservation.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">The subject(s).</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">The genre(s).</span></li>
+    </ol>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">It may be interesting to notice that we retrieve some information that is already in
+            the text or could have been injected by it (gender and occupation of artists). As mentioned before, we
+            decided not to include that information in the TEIHeader element representing the entities due to the
+            unstructured nature of data in the text. This decision was driven to streamline the process, however it
+            opens some possible weaknesses. </span></p>
+    <h3 class="c18" id="h.c6xydsxqfyhx"><span class="c13">ii. Querying WikiData</span></h3>
+    <p class="c1"><span class="c2">Due to the experimental nature of this project, even in this case we used two
+            different strategies for identifying the entity we were interested in and its data. The first one was used
+            for People and Places; it can be summarised as:</span></p>
+    <ol class="c3 lst-kix_r82hnbaki3uh-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">Search for the entities having as label in Italian (the language of
+                our text) the same label contained in the TEIHeader. If not in italian, search it in English</span></li>
+        <li class="c0 li-bullet-0"><span class="c5">If only one </span><span class="c5">return</span><span
+                class="c2">&nbsp;all the data between those selected that you have.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">If none return the label.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">If more than one return the label and all the available entities
+                with that label.</span></li>
+    </ol>
+    <p class="c1"><span class="c5">The main advantage of this method is its automation in the first part, where the
+            labels are queried by the machine. The main disadvantage is that there are many cases in which the entity
+            may be </span><span class="c5">multiple</span><span class="c2">. In this last case, the human operator will
+            have to check manually all the entities returned to choose the correct one, if any.</span></p>
+    <p class="c1"><span class="c5">This approach has a high significance from a methodological method, since it allows
+            to define which are the entities that the text names that are not in </span><span
+            class="c5">WikiData</span><span class="c2">. As we will stress in the Conclusions, this number shows a
+            significant gap between the knowledge owned by the author and the WikiData dataset.</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">The second method was used for detecting the works of art produced by the female
+            artists of our collection. For this type of element, the label would not have been a valid alternative due
+            to many issues: many similar labels i.e. self portrait; &nbsp;high level of discrepancy between the label
+            defined in the text and the one provided by WikiData; the absence of an explicit title in the text. The
+            strategy adopted for accomplish the task can be summarised as follows:</span></p>
+    <ol class="c3 lst-kix_mqhgymcoj1j8-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">Search manually the titles of the work in WikiData if any, otherwise
+                search for the works in Google;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">Insert for those found in WikiData the attribute same as to the
+                element in the TEIHeader;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">Extract the sameAs from the TEIHeader and perform the necessary
+                query.</span></li>
+    </ol>
+    <p class="c1"><span class="c2">While this first method may seem a bit redundant in the first stages, it seems to be
+            the most efficient one, since using a unique identifier has a better result. Of course this approach is way
+            more prone to human error in identifying the resources.</span></p>
+    <p class="c1"><span class="c2">The results of these queries showed us one of the main problems in modelling data in
+            Digital Humanities. In fact, the birth and death dates, when only the year is known, returns the result as
+            the firs of january, which enphasises how fuzzy, as defined by Elena Pierazzo[2], data can be. &nbsp;</span>
+    </p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-0" start="4">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.s0p9z766dbs7" style="display:inline"><span class="c6">From WikiData to RDF</span></h2>
+        </li>
+    </ol>
+    <h3 class="c18" id="h.eco552r6y5tt"><span class="c13">i. Why RDF?</span></h3>
+    <p class="c1"><span class="c2">It must be pointed out strongly and clearly that starting from this point the
+            implementation of our resource is only a placeholder which behaves somehow like the final version, but it is
+            only for displaying. In fact, as shown by the documentation of the Bufalini&rsquo;s Notebooks semantic
+            edition to access a knowledge graph in a website developing a server-side web application and managing the
+            RDF data available on the triplestore which would be stored in a Blazegraph database. Developing an
+            infrastructure such as the one just mentioned would require some expertise and competencies that the authors
+            do not possess. We still have decided to dedicate a portion of our workflow to create this RDF. </span></p>
+    <p class="c1"><span class="c2">This decision is driven by the high heterogeneity of data we will process. Moreover,
+            as we will address in the future developments, new type of data and relationships among them may be defined.
+            Finally, using RDF allows the creation of a limited semantic and structured set of classes and properties
+            that will facilitate the retrieval of the information stored in the graph. &nbsp;</span></p>
+    <h3 class="c18" id="h.86m7mk6qlzcl"><span class="c13">ii. Modelling from Wikidata to other Ontologies </span></h3>
+    <p class="c1"><span class="c2">The first fundamental step to follow is to define the ontology that we will use to
+            describe the three different entities that we have defined. </span></p>
+    <p class="c1"><span class="c5">To do so we have translated the model described by </span><span class="c4">Figure
+            4</span><span class="c5">&nbsp;in the following model (</span><span class="c4">Figure 5).</span><span
+            class="c2">&nbsp;</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="image"
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 601.70px; height: 156.00px;"><img
+                alt="" src="images/image1.png"
+                style="width: 601.70px; height: 156.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c5">This model uses three ontologies: schema.org</span><sup class="c5"><a href="#ftnt5"
+                id="ftnt_ref5">[5]</a></sup><span class="c5">, CIDOC/CRM</span><sup class="c5"><a href="#ftnt6"
+                id="ftnt_ref6">[6]</a></sup><span class="c5">&nbsp;and FOAF</span><sup class="c5"><a href="#ftnt7"
+                id="ftnt_ref7">[7]</a></sup><span class="c5">. The decision of adopting schema.org was moved due to the
+            technical limitations aforementioned. In fact, this ontology allowed us to avoid using similar properties
+            coming from CIDOC/CRM: this ontology is event-based, which means that for each event a new entity event
+            should have been created </span><span class="c5">(</span><span class="c4">Figure 5</span><span
+            class="c5">)</span><span class="c5">. This would have resulted in a very verbose RDF graph. This approach is
+            the one used from some existing resources such as LinkedArt</span><sup class="c5"><a href="#ftnt8"
+                id="ftnt_ref8">[8]</a></sup><span class="c2">.</span></p>
+    <h3 class="c18" id="h.fzf6sbsqny1y"><span class="c13">iii. Encoding RDF graph </span></h3>
+    <p class="c1"><span class="c2">Once defined the ontologies to use, we defined the operations for &nbsp;creating the
+            RDF graph. We used the XML/RDF format, which allowed us to store everything in one file, as said before. The
+            coding process can be found inside the same file as that of the queries. The computational approach followed
+            is:</span></p>
+    <ol class="c3 lst-kix_bbnp0wjrvkps-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">For each entity use the ID in the TEIHeader;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">For each value in the result of the query create the respective
+                triple;</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">If the predicate refers to an entity contained in the TEIHeader, use
+                the TEI ID;</span></li>
+    </ol>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">This allowed the creation of an RDF strongly connected to the TEI which would allow
+            the connection between the text and the RDF. </span></p>
+    <p class="c1"><span class="c2">During this face we performed an interesting pruning which is worth mentioning. We
+            decided to include for the artists subject of our text only the working places that are mentioned in the
+            text. To do so, we decided to retrieve all the places mentioned in the chapters where they are mentioned in
+            the heading. It must be stressed that this approach is strictly connected to the structure used in our
+            source text, and it should not be considered as an abstraction strongly reusable.</span></p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-0" start="5">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.gvui8ok8yc92" style="display:inline"><span class="c28">Including IIIF</span></h2>
+        </li>
+    </ol>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-1 start" start="1">
+        <li class="c20 li-bullet-0">
+            <h3 id="h.d2mbpfgbpl0d" style="display:inline"><span class="c13">Finding IIIF</span></h3>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">IIIF is a standard that has been emerging recently in the Digital Humanities
+            community. It was born from the joint efforts of different institutions</span><sup class="c5"><a
+                href="#ftnt9" id="ftnt_ref9">[9]</a></sup><span class="c2">. Since our work deals with visual items and
+            the original source text does not include a visual reproduction of the images, we thought it would have been
+            interesting using this young technology to see its application in a context as the one we are dealing with.
+            The first objective in this phase is to individuate, if any, the Manifest of any of the works of art we have
+            in our text. Of over sixty one Institutions listed in the IIIF guidelines on how to find a resource, only
+            five are art museums or galleries. Not the most optimistic starting point. Querying all these resources
+            would have been extremely time consuming, luckily there are two of them that can work as aggregators:
+            WIkipedia and Wikidata. Unfortunately the former does not work; likely the latter does. We used the
+            suggested query to retrieve the manifest of a certain author; the query as the one following:</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">#defaultView:ImageGrid{&quot;hide&quot;: [&quot;?image&quot;]}</span></p>
+    <p class="c1"><span class="c2">SELECT ?thingLabel ?image &nbsp;?thing
+            (URI(CONCAT(&#39;https://tools.wmflabs.org/mirador/?manifest=&#39;, STR(?iiif))) AS ?iiiflink) WHERE
+            {</span></p>
+    <p class="c1"><span class="c2">wd:Q120512327 wdt:P6108 ?iiif;</span></p>
+    <p class="c1"><span class="c2">&nbsp; &nbsp;wdt:P170 ?author;. # creator: </span></p>
+    <p class="c1"><span class="c2">OPTIONAL{ ?thing wdt:P18 ?image }</span></p>
+    <p class="c1"><span class="c2">SERVICE wikibase:label { bd:serviceParam wikibase:language
+            &quot;[AUTO_LANGUAGE],en&quot;. }</span></p>
+    <p class="c1"><span class="c2">}</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">We have searched for each of our authors manually and we only found one of our
+            pictures. This result shows how little is the usage of IIIF in the Museums and Galleries ecosystem (the
+            majority of the items we encountered were drawings, probably stored in one of the institutions listed in the
+            IIIF webpage). As much as analysing the benefits and the disadvantages of using IIIF for museums and
+            galleries would be interesting, it would diverge from the topic of this documentation.</span></p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-1" start="2">
+        <li class="c20 li-bullet-0">
+            <h3 id="h.vb63y4c6qtrc" style="display:inline"><span class="c13">Using IIIF with Mirador</span></h3>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">It must be stressed one last time that the content shown here is only a simulation of
+            the final behaviour. As mentioned above, we were able to retrieve only one iiif manifest out of all the
+            works of art that were mentioned in the text. We took the manifest (which is in the form of a JSON file) and
+            decided to use a javascript function to visualise it with Mirador, </span><span class="c5 c16">an
+            open-source, web-based viewer that allows for the exploration and comparison of digital objects. Mirador is
+            a great tool for </span><span class="c5 c16">visualisation</span><span class="c5 c16">&nbsp;because it
+            enables the users to interact with the digital resources, fostering collaborative research and scholarly
+            analysis. We inserted the script in an HTML page and we linked it to the passage of the text in which the
+            painting is mentioned (by doing so we allowed the readers to access the resource through a link and see it
+            firsthand).</span></p>
+    <ol class="c3 lst-kix_cdlnkkvr8shj-1" start="3">
+        <li class="c20 li-bullet-0">
+            <h3 id="h.wtttqyrzbw9p" style="display:inline"><span class="c13">CeTEIcean </span></h3>
+        </li>
+    </ol>
+    <p class="c1"><span class="c5">To visualise the result of our work we used </span><span
+            class="c5">CETEIcean</span><sup class="c5"><a href="#ftnt10" id="ftnt_ref10">[10]</a></sup><span
+            class="c5">, a Javascript library that allows TEI documents to be displayed in a web browser without first
+            transforming them to HTML. It uses the emerging Web Components standards, especially Custom
+            Components</span><sup class="c5"><a href="#ftnt11" id="ftnt_ref11">[11]</a></sup><span class="c5">. The
+            Custom Elements </span><span class="c2 c16">are a type of component that are created from a script and
+            include all of the resources needed in order for the script to work. This allows Lens Creators to bundle
+            together script and resources in a convenient package. </span></p>
+    <p class="c1"><span class="c2 c16">We have integrated the basic tools of the library with some ad hoc functions.
+            This can be found in the vizualizationName.html. What the functions do is to read the Custom Elements loaded
+            by CeTEIcean and dynamically update the content of the sidebar where the information about the piece of text
+            clicked are dynamically shown. &nbsp;</span></p>
+    <p class="c1"><span class="c5 c16">This function shows the content of the RDF graph, but it must be pointed out that
+            the selection of this content is based on html element selectors. In fact, what this function does is not
+            query the graph, but search in the copy stored in the TEIHeader (converted by CeTEIcean but hidden) and
+            display the content of the</span><span class="c16 c36">&nbsp;element.</span></p>
+    <ol class="c3 lst-kix_fs0la2q4ryr4-0" start="4">
+        <li class="c11 li-bullet-0">
+            <h1 id="h.uh9vrj5ykm7c" style="display:inline"><span class="c14">Results</span></h1>
+        </li>
+    </ol>
+    <ol class="c3 lst-kix_p775bewvuqva-0 start" start="1">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.n2hcyhq6gkqv" style="display:inline"><span class="c6">Limits</span></h2>
+        </li>
+    </ol>
+    <ol class="c3 lst-kix_p775bewvuqva-1 start" start="1">
+        <li class="c20 li-bullet-0">
+            <h3 id="h.g55zcp9j052i" style="display:inline"><span class="c13">Technical limits &nbsp;</span></h3>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">As shown in the previous session, our implementation has some strong deficiencies
+            that are evident and have been pointed out throughout this documentation. To summarise them:</span></p>
+    <ol class="c3 lst-kix_uw3c72ir26fd-0 start" start="1">
+        <li class="c0 li-bullet-0"><span class="c2">The absence of an infrastructure to operate over the RDF
+                graph.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">The development of the front-end &nbsp;based on it. </span></li>
+        <li class="c0 li-bullet-0"><span class="c2">Dealing with multiple entities in WikiData.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">CeTEIcean can result as a double-edged sword: in fact even if this
+                technology is getting more visibility in the online community, it still requires a high level of
+                expertise in javascript in order to be used as we did. This could limitate the reuse and the
+                dissemination of it as a cooperative method in the Digital Humanities environment.</span></li>
+        <li class="c0 li-bullet-0"><span class="c2">As indicated before, for our research we decided only to expand our
+                data with those found in Wikidata. This infrastructure, even if it can be considered one of the most
+                efficient in the field, still presents some issues, namely:</span></li>
+    </ol>
+    <ol class="c3 lst-kix_uw3c72ir26fd-1 start" start="1">
+        <li class="c1 c9 li-bullet-0"><span class="c2">Many entities are missing.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">Does not present, as stated before, a unique class Place, which
+                makes the alignment with XML/TEI elements difficult.</span></li>
+        <li class="c1 c9 li-bullet-0"><span class="c2">It has been noticed that there are two different properties for
+                indicating the dc:creator.</span></li>
+    </ol>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <h3 class="c35" id="h.do4slbjsbj5r"><span class="c13">ii. &nbsp; &nbsp;Conceptual limits</span></h3>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">To the nature of our project, the theoretical and conceptual dimension was more
+            significant than the technical one. Because of this, we want to stress more on the limits of the model we
+            have developed. We will first analyse the limits concerning the specific domain of Art History as the focus
+            of our text, and then on the general conceptual description of a book in an educational environment. </span>
+    </p>
+    <p class="c1"><span class="c2">A first problem that might be pointed out is the limitation of our study only to
+            those works of art that are strongly encoded. We missed many types, mostly in the domain of performing arts,
+            which are still debated in the Digital Humanities environment. </span></p>
+    <p class="c1"><span class="c2">Another problem faced in our project is the limited number of classes and entities
+            that have been marked in the XML/TEI text. As said before we wanted to try a semi automatic mark-up system
+            using already existing libraries for parsing a text. This method was already fallacious with a limited
+            number of entities to recognise. To our knowledge, there is no &nbsp;system nowadays that would retrieve
+            more specific entities. Moreover, it would have been interesting to mark in the text some properties to
+            enrich our knowledge graph. </span></p>
+    <ol class="c3 lst-kix_p775bewvuqva-0" start="2">
+        <li class="c17 c9 li-bullet-0">
+            <h2 id="h.258vzidkhw45" style="display:inline"><span class="c6">&nbsp;Future Developments</span></h2>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">Considering the aforementioned limits we encountered in our project, here we can
+            indicate some future developments, we logically divide them in two parts: on one hand these improvements to
+            better implementations of the already developed tools, on the other new tools that could enrich our
+            project.</span></p>
+    <ol class="c3 lst-kix_31sjslr2x5zw-0 start" start="1">
+        <li class="c20 li-bullet-0">
+            <h3 id="h.c9ujutqd7ji0" style="display:inline"><span class="c13">Improvement of existing tools </span></h3>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">A first significant improvement of our XML could be to expand the markup process
+            including new tags for entities (i.e.marking institutions, events) and developing a system to include in it
+            a structure to mark information about relationship between entities (i.e the marriage between two
+            people).</span></p>
+    <p class="c1"><span class="c2">On the LOD side, a better alignment with the CIDOC/CRM entity based model should be
+            pursued. Not only but including also the text mentioned and the cited could open up the published book to a
+            dimension of interconnection similar to the one developed in the open science domain.</span></p>
+    <p class="c1"><span class="c2">Another useful implementation regards the places we tagged in the text. We
+            didn&rsquo;t manage to include maps in the project , which are a powerful tool in the context of education.
+            A future development could concern the addition of maps related to the lives of the artists and their main
+            work locations, useful for study purposes. Adding these elements could really help students to have a
+            spatial configuration of the book and to give them some instruments to carry out a discussion about the
+            importance of quantitative studies in literary analysis. As Moretti said &ldquo;What do literary maps do ...
+            First, they are a good way to prepare a text for analysis. You reduce the text to a few elements, and
+            abstract them from the narrative flow, and construct a new, artificial object like the maps that I have been
+            discussing. And with a little luck, these maps will be more than the sum of their parts: they will possess
+            &#39;emerging&#39; qualities, which were not visible at the lower level. [The map] offers a model of the
+            narrative universe which rearranges its components in a non-trivial way, and may bring some hidden patterns
+            to the surface[7]&rdquo;.</span></p>
+    <ol class="c3 lst-kix_31sjslr2x5zw-0" start="2">
+        <li class="c20 li-bullet-0">
+            <h3 id="h.frepcaw4dpji" style="display:inline"><span class="c13">Development of new tools </span></h3>
+        </li>
+    </ol>
+    <p class="c1"><span class="c2">Here we describe some possible tools that could be developed based on the realisation
+            of an RDF database operable as in the Bufalini&rsquo;s Notebooks. A first tool would be creating a
+            &ldquo;Discover page&rdquo; where the user could query all the entities separately from the text (as
+            developed in Bufalini&rsquo;s Notebook website). Moreover, the information displayed in the navbar in the
+            version implemented so far of the text page, could include not only the data, but clickable links to
+            navigate the aforementioned collection.</span></p>
+    <p class="c1"><span class="c5">A graph database queryable could be used to perform some analysis over the text we
+            are dealing with. We don&rsquo;t think about a specific set of information, but a free possibility to
+            navigate the resource as done in the Polifonia Project</span><sup class="c5"><a href="#ftnt12"
+                id="ftnt_ref12">[12]</a></sup><span class="c2">. Considering our target audience, it could be an
+            interesting tool to retrieve information and create knowledge in their studying process. For example,
+            dealing with the text we proposed, they could be interested in identifying which are the most common
+            subjects for female artists, or the main cities where they worked. This topic would open up to many possible
+            techniques of data and information visualisation as proposed by different scholars[7][2].</span></p>
+    <p class="c1"><span class="c5">Finally, it could be interesting to present our project in an ePub file and study how
+            to translate the web resource in such a file format. It is interesting to point out </span><span
+            class="c5">that a </span><span class="c2">resource like this is meant, as we just said, mainly for students
+            who would be mostly interested in reading the text and then studying. In such a case the paperback effect
+            provided by the ePub format on an eReader device could feel more familiar to the user, more than a web
+            resource. A possible solution, that we just leave as an idea, could be to use for the display in a plain
+            format like the one of the ePub, a solution like the one we proposed here, where all resources are not
+            linked but only data are shown. The web application could be inserted in it.</span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <p class="c1 c12"><span class="c2"></span></p>
+    <h1 class="c34" id="h.oh3hovuz98jv"><span class="c14">5. &nbsp;Conclusions</span></h1>
+    <p class="c1"><span class="c2 c16">The &quot;Donne Illustri&quot; project aims to convert data from digital books,
+            encoded in epub format, into a source of knowledge by utilising Semantic Web technologies (RDF) to enrich
+            them with Linked Open Data. Focusing on education texts, it utilises XML/TEI formats to expand and visualise
+            the enriched data. The project doesn&#39;t aim to cover every aspect of the final application, but presents
+            a reusable workflow for future educational monographs. It strives to address the gap between scholarly
+            editions and Semantic Web technologies, catering to readers seeking in-depth knowledge. Employing RDF
+            modelling, it enriches TEI-encoded texts with WikiData and explores visualisation tools such as Mirador and
+            IIIF. However, technical limitations exist, including incomplete data in WikiData and challenges in RDF
+            implementation. The approach represents a significant step in leveraging Semantic Web for educational texts
+            but faces practical implementation hurdles, highlighted by the need to address data gaps and integration
+            issues between Semantic Web resources and academic texts. The advantages of such a tool for the reader-user
+            would be the possibility of exploring knowledge in one way, to primarily browse the content of a text before
+            even starting to study it. More than this, the digital text enriched in such a manner has the advantage to
+            facilitate the learning process for all of those people struggling with learning. &nbsp;</span></p>
+    <p class="c1"><span class="c5 c16">Moreover, we believe that the methodology proposed by this project might result
+            in an advantage for both the publishing houses and the LOD world. The former could on one hand increase the
+            richness of their data in the single text, on the other connect the complexity of this knowledge graphs in a
+            common one, aiming to create internal (or collaborative) nanopublications[3] at the same time; the latter
+            would see a new injection of data in their stream of knowledge, where the publishing houses would produce
+            resources for those entities missing in the datasets such as WikiData but reported by the texts. An example
+            of such a project is represented by the Edition Open Access</span><sup class="c5 c16"><a href="#ftnt13"
+                id="ftnt_ref13">[13]</a></sup><span class="c2 c16">, with many problematics to overcome[8].</span></p>
+    <p class="c1 c12"><span class="c2 c16"></span></p>
+    <p class="c1 c12"><span class="c2 c16"></span></p>
+    <h1 class="c29" id="h.z26l879ctyw9"><span class="c14">Bibliography</span></h1>
+    <p class="c31 c12"><span class="c30"></span></p>
+    <h2 class="c25" id="h.k14yex3q75wf"><span class="c6">Primary bibliography</span></h2>
+    <ol class="c3 lst-kix_pc4ac0lz2732-0 start" start="1">
+        <li class="c8 li-bullet-0"><span class="c5">D&rsquo;Orazio, Costantino, Vite di artiste eccellenti, Editori
+                &nbsp;Laterza, 2021</span></li>
+    </ol>
+    <h2 class="c25" id="h.9mklhzgcxmyu"><span class="c28">Secondary bibliography</span></h2>
+    <ol class="c3 lst-kix_n4j8wgbotqs4-0 start" start="1">
+        <li class="c8 li-bullet-0"><span class="c2">Daquino, Marilena, Giovannetti, Francesca, Tomasi Francesca. Linked
+                Data per le edizioni scientifiche digitali. Il workflow di pubblicazione dell&#39;edizione semantica del
+                quaderno di appunti di Paolo Bufalini DOI: http://doi.org/10.6092/issn.2532-8816/9091</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Driscoll, Matthew James and Elena Pierazzo. 2016. Digital Scholarly
+                Editing: Theories and Practices. Digital Humanities Series.</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Elena Pierazzo, &Eacute;lise Leclerc, L&rsquo;edizione scientifica
+                al tempo dell&rsquo;editoria digitale, in &quot;Ecdotica&quot; 1/2015, pp. 180-193,
+                https://doi.org/10.7385/99232</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Flanders, Julia, Jannidis, Fotis, The Shape of Data in Digital
+                Humanities, Modelling Texts and Text-based Resources, 2019, Routledge, pp. 99-116.</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Groth Paul, Andrew Gibson, and Jan Velterop. 2010. &ldquo;The
+                Anatomy of a Nanopublication.&rdquo;Information Services &amp; Use 30, 1&ndash;2: 51&ndash;56.
+                https://doi.org/10.3233/ISU-2010-0613</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Lehman, John A, Open E-Book vs. TEI-lite; ebook standards
+                compared.</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Moretti, Franco. Graphs, Maps, Trees: Abstract Models for a Literary
+                History. Kiribati, Verso, 2005.</span></li>
+        <li class="c8 li-bullet-0"><span class="c2">Thoden, Klaus. &quot;Modelling scholarly publications for
+                sustainable workflows.&quot; ELectronic PUBlishing Short Papers (2019).</span></li>
+    </ol>
+    <hr class="c22">
+    <div>
+        <p class="c15"><a href="#ftnt_ref1" id="ftnt1">[1]</a><span class="c21 c10"><a class="c19"
+                    href="https://www.google.com/url?q=https://projects.dharc.unibo.it/bufalini-notebook/specifications&amp;sa=D&amp;source=editors&amp;ust=1701038185186811&amp;usg=AOvVaw2138QtqERPDZf4scWLxD2-">&nbsp;</a></span><span
+                class="c21 c39"><a class="c19"
+                    href="https://www.google.com/url?q=https://projects.dharc.unibo.it/bufalini-notebook/specifications&amp;sa=D&amp;source=editors&amp;ust=1701038185187196&amp;usg=AOvVaw1P1ZBpYqrlKofcfCIGyqli">https://projects.dharc.unibo.it/bufalini-notebook/specifications</a></span>
+        </p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref2" id="ftnt2">[2]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://tei-c.org/guidelines/p5/&amp;sa=D&amp;source=editors&amp;ust=1701038185187578&amp;usg=AOvVaw3LuJS5UUcKI14nYEMhcqdA">https://tei-c.org/guidelines/p5/</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref3" id="ftnt3">[3]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=http://www.ledoux-architecture.fr/articles/2021/10/26/ledoux-ecrivain.html&amp;sa=D&amp;source=editors&amp;ust=1701038185187882&amp;usg=AOvVaw0ZTNC11GsPgqphP2oZ7cuW">http://www.ledoux-architecture.fr/articles/2021/10/26/ledoux-ecrivain.html</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref4" id="ftnt4">[4]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://www.wikidata.org/wiki/Wikidata:Main_Page&amp;sa=D&amp;source=editors&amp;ust=1701038185189388&amp;usg=AOvVaw02Z9RJPnLaATWDAsSWu0ds">https://www.wikidata.org/wiki/Wikidata:Main_Page</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref5" id="ftnt5">[5]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://schema.org/&amp;sa=D&amp;source=editors&amp;ust=1701038185188124&amp;usg=AOvVaw1RgeEPnKqlTcegkNod0dK6">https://schema.org/</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref6" id="ftnt6">[6]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://cidoc-crm.org/sites/default/files/cidoc_crm_version_5.0.4.pdf&amp;sa=D&amp;source=editors&amp;ust=1701038185188391&amp;usg=AOvVaw3trSVhlJo9wS1Yn7liZfhj">https://cidoc-crm.org/sites/default/files/cidoc_crm_version_5.0.4.pdf</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref7" id="ftnt7">[7]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://xmlns.com/foaf/0.1/&amp;sa=D&amp;source=editors&amp;ust=1701038185188622&amp;usg=AOvVaw2pQERvW3u98FQqXcZTK2yT">https://xmlns.com/foaf/0.1/</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref8" id="ftnt8">[8]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://linked.art/&amp;sa=D&amp;source=editors&amp;ust=1701038185188882&amp;usg=AOvVaw1P2Fq_wytcWyQc1kZhwcwH">https://linked.art/</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref9" id="ftnt9">[9]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://iiif.io/&amp;sa=D&amp;source=editors&amp;ust=1701038185189122&amp;usg=AOvVaw27TAy8sh21qjWC5l2i0mrq">https://iiif.io/</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref10" id="ftnt10">[10]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://github.com/TEIC/CETEIcean/tree/master&amp;sa=D&amp;source=editors&amp;ust=1701038185189976&amp;usg=AOvVaw0aP-7BA4pLr2edQ3-BiXCb">https://github.com/TEIC/CETEIcean/tree/master</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref11" id="ftnt11">[11]</a><span class="c10">&nbsp;</span><span class="c10 c21"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements&amp;sa=D&amp;source=editors&amp;ust=1701038185189728&amp;usg=AOvVaw3wYdgrKJi7AvQHN3SJUFhh">https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref12" id="ftnt12">[12]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://polifonia.disi.unibo.it/corpus/&amp;sa=D&amp;source=editors&amp;ust=1701038185190242&amp;usg=AOvVaw0DQnc54qirHbkZMFbd_qz6">https://polifonia.disi.unibo.it/corpus/</a></span><span
+                class="c7">. </span></p>
+    </div>
+    <div>
+        <p class="c15"><a href="#ftnt_ref13" id="ftnt13">[13]</a><span class="c10">&nbsp;</span><span class="c21 c10"><a
+                    class="c19"
+                    href="https://www.google.com/url?q=https://edition-open-access.de/&amp;sa=D&amp;source=editors&amp;ust=1701038185190485&amp;usg=AOvVaw0t6X-T7og60PGnfhGqoKlX">https://edition-open-access.de/</a></span><span
+                class="c7">. </span></p>
+    </div>
 </body>
+
 </html>
