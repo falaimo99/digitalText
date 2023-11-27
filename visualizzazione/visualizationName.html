@@ -66,6 +66,8 @@
           var deathDateContent = descriptionElement.querySelector('ns4-deathdate').textContent;
           var birthPlaceContent = descriptionElement.querySelector('ns4-birthplace').textContent;
           var deathPlaceContent = descriptionElement.querySelector('ns4-deathplace').textContent;
+          var hasOccupation = descriptionElement.querySelectorAll('ns4-hasoccupation');
+          var workLocation = descriptionElement.querySelectorAll('ns4-worklocation');
 
           //correct birth date
           let birthDate = new Date(birthDateContent);
@@ -104,11 +106,31 @@
 
 
           // Display the content in the sidebar
-          sidebarContent.innerText += 'name: ' + labelContent + '\n';
-          sidebarContent.innerText += 'birth date: ' + formattedBirthDate + '\n';
-          sidebarContent.innerText += 'birth place: ' + birthPlaceContent + '\n';
-          sidebarContent.innerText += 'death date: ' + formattedDeathDate + '\n';
-          sidebarContent.innerText += 'death place: ' + deathPlaceContent + '\n';
+          sidebarContent.innerHTML += '<b>name</b>: ' + labelContent + '\n';
+          sidebarContent.innerHTML += '<b>birth date</b>: ' + formattedBirthDate + '\n';
+          sidebarContent.innerHTML += '<b>birth place</b>: ' + birthPlaceContent + '\n';
+          sidebarContent.innerHTML += '<b>death date</b>: ' + formattedDeathDate + '\n';
+          sidebarContent.innerHTML += '<b>death place</b>: ' + deathPlaceContent + '\n';
+          var occupationContent = sidebarContent.innerHTML += '<b>occupazione</b>: ';
+          for (let i = 0; i < hasOccupation.length; i++) {
+              if (i === hasOccupation.length-1) {
+                occupationContent = hasOccupation[i].innerHTML;
+                sidebarContent.innerHTML += occupationContent + '. \n';
+              } else {
+                occupationContent = hasOccupation[i].innerHTML;
+                sidebarContent.innerHTML += occupationContent + ',' + ' ';
+              }
+            }
+          var worklocationContent = sidebarContent.innerHTML += '<b>luoghi di lavoro</b>: ';
+          for (let i = 0; i < workLocation.length; i++) {
+              if (i === workLocation.length-1) {
+                worklocationContent = workLocation[i].innerHTML;
+                sidebarContent.innerHTML += worklocationContent + '. \n';
+              } else {
+                worklocationContent = workLocation[i].innerHTML;
+                sidebarContent.innerHTML += worklocationContent + ',' + ' ';
+              }
+            }
 
         } else {
           sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
@@ -143,9 +165,9 @@
 
 
           // Display the content in the sidebar
-          sidebarContent.innerText += 'nome: ' + labelContent + '\n';
-          sidebarContent.innerText += 'latitudine: ' + latitudeContent + '\n';
-          sidebarContent.innerText += 'longitudine: ' + longitudeContent + '\n';
+          sidebarContent.innerText += '<b>nome</b>: ' + labelContent + '\n';
+          sidebarContent.innerText += '<b>latitudine</b>: ' + latitudeContent + '\n';
+          sidebarContent.innerText += '<b>longitudine</b>: ' + longitudeContent + '\n';
 
         } else {
           sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
