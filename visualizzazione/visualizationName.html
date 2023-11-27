@@ -111,26 +111,30 @@
           sidebarContent.innerHTML += '<b>birth place</b>: ' + birthPlaceContent + '\n';
           sidebarContent.innerHTML += '<b>death date</b>: ' + formattedDeathDate + '\n';
           sidebarContent.innerHTML += '<b>death place</b>: ' + deathPlaceContent + '\n';
-          var occupationContent = sidebarContent.innerHTML += '<b>occupazione</b>: ';
-          for (let i = 0; i < hasOccupation.length; i++) {
-              if (i === hasOccupation.length-1) {
-                occupationContent = hasOccupation[i].innerHTML;
-                sidebarContent.innerHTML += occupationContent + '. \n';
-              } else {
-                occupationContent = hasOccupation[i].innerHTML;
-                sidebarContent.innerHTML += occupationContent + ',' + ' ';
+          if (hasOccupation.length !== 0){
+            var occupationContent = sidebarContent.innerHTML += '<b>occupazione</b>: ';
+            for (let i = 0; i < hasOccupation.length; i++) {
+                if (i === hasOccupation.length-1) {
+                  occupationContent = hasOccupation[i].innerHTML;
+                  sidebarContent.innerHTML += occupationContent + '. \n';
+                } else {
+                  occupationContent = hasOccupation[i].innerHTML;
+                  sidebarContent.innerHTML += occupationContent + ',' + ' ';
+                }
               }
             }
-          var worklocationContent = sidebarContent.innerHTML += '<b>luoghi di lavoro</b>: ';
-          for (let i = 0; i < workLocation.length; i++) {
-              if (i === workLocation.length-1) {
-                worklocationContent = workLocation[i].innerHTML;
-                sidebarContent.innerHTML += worklocationContent + '. \n';
-              } else {
-                worklocationContent = workLocation[i].innerHTML;
-                sidebarContent.innerHTML += worklocationContent + ',' + ' ';
+          if (workLocation.length !== 0){    
+            var worklocationContent = sidebarContent.innerHTML += '<b>luoghi di lavoro</b>: ';
+            for (let i = 0; i < workLocation.length; i++) {
+                if (i === workLocation.length-1) {
+                  worklocationContent = workLocation[i].innerHTML;
+                  sidebarContent.innerHTML += worklocationContent + '. \n';
+                } else {
+                  worklocationContent = workLocation[i].innerHTML;
+                  sidebarContent.innerHTML += worklocationContent + ',' + ' ';
+                }
               }
-            }
+          }
 
         } else {
           sidebarContent.innerText = "We are sorry, this entity has not been defined yet"
